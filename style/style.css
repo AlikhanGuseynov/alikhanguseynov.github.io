@@ -132,8 +132,9 @@ li{list-style: none;}
 	border: 5px solid #02a8f4;
 	border-radius: 7px;
 	width: 70%;
-	height: 70%;
-	bottom: 35%;
+	height: 450px;
+	left: 3%;
+	bottom: 230px;
 	z-index: 2;
 
 }
@@ -143,8 +144,8 @@ li{list-style: none;}
 	border: 5px solid yellow;
 	border-radius: 7px;
 	width: 30%;
-	height: 30%;
-	bottom:57%;
+	height: 180px;
+	bottom:360px;
 	left:64%;
 	z-index: 1;
 }
