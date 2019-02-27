@@ -131,10 +131,9 @@ li{list-style: none;}
 	background-color: transparent;
 	border: 5px solid #02a8f4;
 	border-radius: 7px;
-	width: 70%;
-	height: 450px;
-	left: 3%;
-	bottom: 230px;
+	width: 65%;
+	height: 65%;
+	bottom: 35%;
 	z-index: 2;
 
 }
@@ -143,10 +142,10 @@ li{list-style: none;}
 	background-color: transparent;
 	border: 5px solid yellow;
 	border-radius: 7px;
-	width: 30%;
-	height: 180px;
-	bottom:360px;
-	left:64%;
+	width: 25%;
+	height: 27%;
+	bottom:54%;
+	left:60%;
 	z-index: 1;
 }
 
