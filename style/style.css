@@ -1,27 +1,20 @@
-	/*{color: #02a8f4;}*/
+	/*color:#02a8f4;*/
 
 *{
 	padding: 0;
 	margin: 0;
-	box-sizing: content-box;
-	overflow-x: hidden;
+	box-sizing: border-box;
+	overflow: hidden;
 }
-
-
-body{background: url(../img/b_g_img.jpg) no-repeat center center fixed;
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-	background-size:cover
-}
-.page{
-	height: 625px;
-	width: 1366px;
-	overflow-x: hidden;
-}
-
 .center{
-	margin:0 auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style-type: none;
 }
 .d_f{
 	display: -webkit-flex;
@@ -31,133 +24,117 @@ body{background: url(../img/b_g_img.jpg) no-repeat center center fixed;
 	display: flex;
 }
 .j_c{
-	justify-content: center
-}
-a{text-decoration: none; outline: none;}
-li{list-style: none;}
-
-
-.f_page{
-	background-color: rgba(0, 0, 0, 0.4);
-	overflow: hidden;
-}
-.menu{
-	margin:1% 0;
-	font-family: 'Source Sans Pro', sans-serif;
-	width: 500px;
-	font-size: 1.2em;
-	justify-content: space-around;
-	
-}
-.menu a{
-	color: #02a8f4;
-	font-weight: 500;
-}
-/*Эффект при наведении на меню*/
-.menu a:hover::before{
-	margin-left: 3px;
-	transform: translateY(3px);
-
-}
-#home::before{
-	content: "Home";
-	color: #fff;
-	position: absolute;
-	
-}
-#about::before{
-	content: "About me";
-	color: #fff;
-	position: absolute;
-}
-#project::before{
-	content: "My project";
-	color: #fff;
-	position: absolute;
-}
-#contact::before{
-	content: "Contact me";
-	color: #fff;
-	position: absolute;
-}
-.header{
-	/*background-color: rgba(0, 0, 0, 0.7);*/
-	position:fixed;
-	width: 100vw;
 	justify-content: center;
 }
+.j_e{
+	justify-content: flex-end;
+}
+.a_i{ 
+align-items: center;
+}
 
-
-
-.middle{
+.home{
+	background-image: url(../img/bgi.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100vw;
+	height: 100vh;
+}
+.header{
+	width: 100%;
+	cursor: pointer;
+	position: fixed;
+	top: 20px;
+	z-index: 10;
+}
+.header a{
+	padding: 0;
+	margin-left: 15px;
+	margin-right: 15px;
+	flex-direction: column;
+	color: 	#fc645f;
+	width: 50px;
+	font-weight: 500;
+	font-size: 20px;
+	font-family: 'Inconsolata', monospace;
+}
+.header a:hover{
 	color: #fff;
-	position: relative;
+	text-decoration:  line-through #fc645f ;
+}
+.home ul{
+	margin-left: 7%;
+}
+
+/*изображения в HOME*/
+
+img{
+	z-index: 0;
+	filter: blur(2px);
+	position: absolute;
+}
+#i_1{
+	top: 75%;
+	left:15%;
+	width: 15vh;
+	height: 15vh;
+	transform: rotate(15deg);
+}
+#i_2{
+	top: 15%;
+	left: 75%;
+	width: 10vh;
+	height: 10vh;
+	transform: rotate(20deg);
+}
+#i_3{
+	top: 65%;
+	left: 35%;
+	width: 7vh;
+	height: 7vh;
+	transform: rotate(-15deg);
+}
+#i_4{
+	top: 85%;
+	left: 85%;
+	width: 10vh;
+	height: 10vh;
+	transform: rotate(20deg);
+}
+#i_5{
 	top: 25%;
-	height: 50%;
-	align-items: center;
+	left: 12%;
+	width: 10vh;
+	height: 10vh;
+	transform: rotate(20deg);
 }
-.middle h1{
-	position: relative;
-	left: 5%;
-	width: 50%;
-	height: 50%;
-	overflow-y: hidden;
+#i_6{
+	top: 75%;
+	left: 62%;
+	width: 15vh;
+	height: 15vh;
+	transform: rotate(20deg);
+}
 
+#i_7{
+	top: 25%;
+	left: 42%;
+	width: 10vh;
+	height: 10vh;
+	transform: rotate(20deg);
 }
-.middle span{
-	font-size: 70px;
-	font-family: 'Open Sans', sans-serif;
-	z-index: 5;
-	color: #02a8f4;
 
-}
-.middle span::before{
-	content: 'Alikhan Guseynov';
+
+h1{
 	position: absolute;
-	transform: translate(3px, 3px);
-	color:  #fff;
-	z-index: 1;
+	top:25%;
+	left: 60%;
+	font-family: 'Poppins', sans-serif;
+	color: #fff;
+	font-size: 100px;
+	line-height: 120px;
 }
-.middle span::after{
-	content: 'Alikhan Guseynov';
-	display: block;
-	position: absolute;
-	transform: translate(6px, -74px);
-	color:  red;
+.home span{
+	color:#fc645f; 
 }
-
-.round_1{
-	position: relative;
-	background-color: transparent;
-	border: 5px solid #02a8f4;
-	border-radius: 7px;
-	width: 65%;
-	height: 65%;
-	bottom: 35%;
-	z-index: 2;
-
-}
-.round_2{
-	position: relative;
-	background-color: transparent;
-	border: 5px solid yellow;
-	border-radius: 7px;
-	width: 25%;
-	height: 27%;
-	bottom:54%;
-	left:60%;
-	z-index: 1;
-}
-
-.box{
-	width: 50%;
-	height: 50%;
-	background-color: yellow;
-}
-
-.aboutus{
-	background-color: red;
-}
-
-
-
