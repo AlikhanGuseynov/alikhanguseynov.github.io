@@ -77,51 +77,51 @@ img{
 #i_1{
 	top: 75%;
 	left:15%;
-	width: 15vh;
-	height: 15vh;
+	width: 7vw;
+	height: 7vw;
 	transform: rotate(15deg);
 }
 #i_2{
 	top: 15%;
 	left: 75%;
-	width: 10vh;
-	height: 10vh;
+	width: 5vw;
+	height: 5vw;
 	transform: rotate(20deg);
 }
 #i_3{
 	top: 65%;
 	left: 35%;
-	width: 7vh;
-	height: 7vh;
+	width: 3.5vw;
+	height: 3.5vw;
 	transform: rotate(-15deg);
 }
 #i_4{
 	top: 85%;
 	left: 85%;
-	width: 10vh;
-	height: 10vh;
+	width: 5vw;
+	height: 5vw;
 	transform: rotate(20deg);
 }
 #i_5{
 	top: 25%;
 	left: 12%;
-	width: 10vh;
-	height: 10vh;
+	width: 5vw;
+	height: 5vw;
 	transform: rotate(20deg);
 }
 #i_6{
 	top: 75%;
 	left: 62%;
-	width: 15vh;
-	height: 15vh;
+	width: 7.5vw;
+	height: 7.5vw;
 	transform: rotate(20deg);
 }
 
 #i_7{
 	top: 25%;
 	left: 42%;
-	width: 10vh;
-	height: 10vh;
+	width: 5vw;
+	height: 5vw;
 	transform: rotate(20deg);
 }
 
