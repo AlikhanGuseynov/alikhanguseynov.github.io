@@ -11,7 +11,7 @@ $(window).ready(function(b){
         elem.animate({
         left: elem_left-(X*factor) + "px",
         top: elem_top-(Y*factor) + "px",
-        position: "absolute",
+        position: "reliative",
         }, 1);
       } else {
       };
@@ -31,7 +31,7 @@ $(window).ready(function(b){
         elem.animate({
         left: elem_left-(X*factor) + "px",
         top: elem_top-(Y*factor) + "px",
-        position: "absolute",
+        position: "reliative",
         }, 1);
       } else {
       };
@@ -51,7 +51,7 @@ $(window).ready(function(b){
         elem.animate({
         left: elem_left-(X*factor) + "px",
         top: elem_top-(Y*factor) + "px",
-        position: "absolute",
+        position: "reliative",
         }, 1);
       } else {
       };
@@ -71,7 +71,7 @@ $(window).ready(function(b){
         elem.animate({
         left: elem_left-(X*factor) + "px",
         top: elem_top-(Y*factor) + "px",
-        position: "absolute",
+        position: "reliative",
         }, 1);
       } else {
       };
@@ -91,7 +91,7 @@ $(window).ready(function(b){
         elem.animate({
         left: elem_left-(X*factor) + "px",
         top: elem_top-(Y*factor) + "px",
-        position: "absolute",
+        position: "reliative",
         }, 1);
       } else {
       };
@@ -111,7 +111,7 @@ $(window).ready(function(b){
         elem.animate({
         left: elem_left-(X*factor) + "px",
         top: elem_top-(Y*factor) + "px",
-        position: "absolute",
+        position: "reliative",
         }, 1);
       } else {
       };
@@ -131,7 +131,7 @@ $(window).ready(function(b){
         elem.animate({
         left: elem_left-(X*factor) + "px",
         top: elem_top-(Y*factor) + "px",
-        position: "absolute",
+        position: "reliative",
         }, 1);
       } else {
       };
