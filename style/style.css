@@ -77,6 +77,44 @@ header ul{
 	left: 4%;
 	height: 40vh;
 }
+.circle_box{
+	padding-right: 5px;
+}
+.vertical_line{
+	height: 48vh;
+	width: 2px;
+	background-color:#e5322d;
+	transform: translateY(-4vh);
+}
+
+.move_right {
+  animation-name: move_right;
+  transform: translate3d(0, 0, 0);
+  animation-fill-mode: forwards;
+}
+@keyframes move_right {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+  transform: translate3d(+160%, 0, 0);
+  }
+}
+.move_left {
+  animation-name: move_left;
+  transform: translate3d(0, 0, 0);
+  animation-fill-mode: forwards;
+}
+@keyframes move_left {
+  from {
+    transform: translate3d(160%, 0, 0);
+  }
+
+  to {
+  transform: translate3d(0%, 0, 0);
+  }
+}
 .circle{
 	width: 20px;
 	height: 20px;
@@ -89,7 +127,7 @@ header ul{
 	height: 12px;
 	background-color: #fff;
 	border-radius: 50%;
-	box-shadow: 0 0 25px #fff ;
+	box-shadow: 0 0 25px 1px #fff ;
 }
 .content{
 	position: relative;
@@ -119,6 +157,7 @@ header ul{
 	-webkit-background-size: cover;
 	background-size: cover;
 	width: 100%;
+	height: 100vh;
 }
 .block{
 	width: 88vw;
@@ -212,6 +251,9 @@ h2{
 	position: relative;
 	top: 5vh;
 }
+.circle{
+	position: relative;
+}
 .progect_container{
 	width: 85vw;
 	height: 30vw;
@@ -243,6 +285,7 @@ h2{
 }
 .contact{
 	width: 100%;	
+	height: 60vh;
 	background-image: url(../img/footer.png);
 	background-size: 10%;
 	background-repeat: repeat;
@@ -283,21 +326,69 @@ h2{
 	flex-direction: column;
 }
 .contact_content{
-	color: 	red;
+	color: 	#fff;
 	margin-top: 5vh;
 	height: 40vh;
 	width: 	100%;		
 }
+.contact_block{
+	width: 30vw;
+}
+.contact_link{
+	width: 30vw;
+}
+.contact_link li{
+	padding: 3vh 0;
+	width: 30vw;
+}
+.contact_block li{
+	padding: 2vh 0;
+	width: 30vw;
+}
+.contact_block p{
+	margin-left: 3vw;	
+}
+.footer{
+	background-color: #313131;
+	width: 100%;
+	height: 40vh;
+}
+footer .navigation li{
+	margin-left: 10vw;	
+	color:#fff;
+	font-size: 20px;
+	font-family: 'Inconsolata', monospace;
+	/*text-transform: uppercase;*/
+
+}
+
+footer a{
+	font-family: 'Inconsolata', monospace;
+	color:#e5322d;
+	font-size: 20px
+
+}
+.footer ul li{
+	font-size: 25px;
+	margin-bottom: 2vh;
+}
+.footer ul{
+	padding-top: 4vh;
+}
 
 
+/*.home .header .spa{
+	background-color: #e5322d;
+	height: 5px;
+	width: 25%;
+}
+.home .header li:hover .spa{
+	background-color: #e5322d;
+	height: 5px;
+	width: 25%;
+}
 
-
-
-
-
-
-
-
+*/
 
 
 
