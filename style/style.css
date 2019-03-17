@@ -230,8 +230,9 @@ h2{
 .box strong{
 	color:#e5322d;
 }
-.resume button img{
-	/*margin: 0;*/
+.resume  a img{
+	position: relative;
+	top:-15px;
 	width: 64px;
 	height: auto;
 }

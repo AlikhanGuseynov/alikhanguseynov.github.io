@@ -41,7 +41,7 @@
 	height: 50px;	
 	min-height:25vh; 
 }
-.box button img{
+.box a img{
 	width: 20px;
 	position: relative;
 	top:-15px;
