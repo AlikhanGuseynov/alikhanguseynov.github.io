@@ -13,7 +13,6 @@ button{
 	border: none;
 	outline: none;
 	cursor: pointer;
-	
 }
 a{
 	text-decoration: none;
@@ -36,9 +35,6 @@ ul{
 .s_a{justify-content: space-around;}
 .t_a{text-align: center;}
 .v_a{vertical-align: center;}
-body{
-	background-color: #aeaeae;
-}
 .bsr{
 	border: 2px solid red;
 }
@@ -64,9 +60,7 @@ header ul{
 /*ГЛАВНАЯ*/
 .home{
 	background-image: url(../img/bgi.png);
-	-webkit-background-size: 100% 100vh;
-	background-size: 100% 100vh;
-	width: 100%;
+	background-size: 100% ;
 	height: 100vh;
 }
 /*паралакс*/
@@ -77,7 +71,7 @@ header ul{
 .effect{
 	position: absolute;
 	width: 100%;
-	height: 100vh;
+	height: 100%;
 }
 
 .effect .e_1{
@@ -125,44 +119,6 @@ header ul{
 	left: 4%;
 	height: 40vh;
 }
-.circle_box{
-	padding-right: 5px;
-}
-.vertical_line{
-	height: 48vh;
-	width: 2px;
-	background-color:#e5322d;
-	transform: translateY(-4vh);
-}
-
-.move_right {
-  animation-name: move_right;
-  transform: translate3d(0, 0, 0);
-  animation-fill-mode: forwards;
-}
-@keyframes move_right {
-  from {
-    transform: translate3d(0, 0, 0);
-  }
-
-  to {
-  transform: translate3d(+160%, 0, 0);
-  }
-}
-.move_left {
-  animation-name: move_left;
-  transform: translate3d(0, 0, 0);
-  animation-fill-mode: forwards;
-}
-@keyframes move_left {
-  from {
-    transform: translate3d(160%, 0, 0);
-  }
-
-  to {
-  transform: translate3d(0%, 0, 0);
-  }
-}
 .circle{
 	width: 20px;
 	height: 20px;
@@ -182,8 +138,10 @@ a{
 }
 
 .content h1{
-	margin-top: 12vh;
-	margin-left: 65vw;
+	margin-top: 10vh;
+	margin-right: 1vw;
+	margin-left: auto;
+	width: 7ch;
 	/*font-family: 'Poppins', sans-serif;*/
 	font-family: 'Indie Flower', cursive;
 	font-size: 150px;
@@ -193,14 +151,10 @@ a{
 	position: relative;
 }
 .content span{
+	display: block;
 	color: #e5322d;
+	width: 7ch;
 }
-.down{
-	width: 98vw;
-	/*margin-top: 2vh;*/
-	padding: 0 0 5vh 0;
-}
-
 
 /*ВТОРАЯ СТРАНИЦА (ABOUT ME)*/
 
@@ -230,6 +184,24 @@ a{
 	background-color: #fff;
 	border-radius: 15px;
 	box-shadow: 0 0 25px 5px  #313131;
+}
+.about .line{
+	width:25% ;
+	background-color:#313131; 
+}
+#l_2{
+	margin-left: auto;
+}
+.about_title{
+	width: 20vw;
+	position: relative;
+	top: 5vh;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
 }
 h2{
 	font-family: 'Alegreya Sans', sans-serif;
@@ -266,25 +238,7 @@ h2{
 	height: auto;
 }
 
-.about .line{
-	height: 3px;
-	width:25% ;
-	background-color:#313131; 
-}
-.about_title{
-	width: 20vw;
-	position: relative;
-	top: 5vh;
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
-	flex-direction: column;
-}
-#l_2{
-	margin-left: auto;
-}
+
 
 .progect{
 	background-image: url(../img/progect.png);
@@ -316,7 +270,6 @@ h2{
 .progect_container .img_progect{
 	width: 23vw;
 	cursor:	pointer;
-	/*z-index: 85;*/
 }
 .progect_container .img_progect:hover{
 	filter: blur(1px);
@@ -325,7 +278,7 @@ h2{
 	box-shadow: 0 0 25px 5px  #313131;
 
 }
-.progect_block{
+.pr_block{
 	background-color: #aeaeae;
 	background-image: url(../img/magnifier.png);
 	-webkit-background-size: 20%;
@@ -394,9 +347,9 @@ h2{
 	width: 30vw;
 }
 .contact_block li{
-	padding: 2vh 0;
-	width: 30vw;
-}
+ 	padding: 2vh 0;
+ 	width: 30vw;
+} 
 .contact_block p{
 	margin-left: 3vw;	
 }
@@ -411,7 +364,6 @@ footer .navigation li{
 	font-size: 20px;
 	font-family: 'Inconsolata', monospace;
 }
-
 footer a{
 	font-family: 'Inconsolata', monospace;
 	color:#e5322d;

@@ -1,0 +1,114 @@
+@media only screen and (max-width: 576px) {
+  .effect, .menu_slider, .pr_block0, .home, .about, .progect{
+  	display: none;
+  }
+.header ul{
+	flex-direction: column;
+}
+.home .content h1{
+	font-size: 100px;
+	line-height: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+.down{
+	margin-top: 27.5vh;
+}
+.about h2{
+	font-size: 25px;
+	margin-bottom: 	2vh;
+}
+.about .block{
+	margin-top: 5vh;		
+}
+.about_title{
+	width: 30vw;
+}
+.block{
+	flex-direction: column;
+}
+.box{
+	width: 80vw;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3vh;
+	margin-bottom: 0;
+	height: 50px;	
+	min-height:25vh; 
+}
+.box button img{
+	width: 28px;
+}
+.box img{
+	width: 28px;
+	margin-top: 5%;
+	background-color: #fff;
+}
+.box span{
+	margin-top: 5%;
+	text-transform: uppercase;
+	font-size: 17px;
+	font-weight: 600;
+	font-family: 'Averia Serif Libre', cursive;
+}
+.box p{
+	font-family: 'Prompt', sans-serif;
+	width: 90%;
+	font-size: 15px;
+	text-align: center;
+	margin-bottom: 10%;
+}
+.box p{
+	font-size: 12px;
+	margin-bottom: 10%;
+}
+.progect_title{
+	font-size: 40px;
+	width: 7ch;
+	top: 5vh;
+}
+.progect_container{
+	margin-top: 6vh;
+	flex-direction: column;
+	height: 80vh;
+}
+.progect_container .img_progect{
+	width: 80vw;
+	cursor:	pointer;
+}
+.contact img{
+	filter: grayscale(0);
+	cursor: pointer;
+	width: 5vw;	
+	height: auto;	
+}
+.contact{
+	height: 60vh;
+}
+.contact_content{
+	flex-direction: column;
+	margin-top: 0vh;
+	margin-left: auto;
+	margin-right: auto;
+	width: 	80%;		
+}
+.contact_block li{
+ 	padding: 2vh 0;
+ 	width: 55vw;
+} 
+.contact_link ul{
+	flex-direction: row;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80vw;	
+}
+.contact_link li{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;	
+}
+}
