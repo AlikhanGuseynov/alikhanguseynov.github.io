@@ -132,3 +132,80 @@
 
 }
 }
+
+
+
+/*(1200px)*/
+@media only screen and (max-width: 1200px) {
+  .effect{
+  	display: none;
+  }
+.header ul{
+	flex-direction: row;
+}
+.home .content h1{
+	font-size: 100px;
+	line-height: 100px;
+	margin-left: auto;
+	
+}
+.down{
+	margin-top: 15vh;
+}
+.about_title{
+	width: 30vw;
+}
+.about h2{
+	font-size: 35px;
+	margin-bottom: 	2vh;
+}
+.about .block{
+	margin-top: 5vh;		
+}
+.block{
+	flex-direction: column;
+}
+.box{
+	width: 80vw;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3vh;
+	margin-bottom: 0;
+	height: 50px;	
+	min-height:25vh; 
+}
+.box img{
+	width: 28px;
+	margin-top: 2%;
+	background-color: #fff;
+}
+.box a img{
+	width: 20px;
+	position: relative;
+	top:-85px;
+}
+.box p{
+	font-family: 'Prompt', sans-serif;
+	font-size: 13px;
+}
+.box span{
+	margin-top: 2%;
+	text-transform: uppercase;
+	font-size: 17px;
+	font-weight: 600;
+	font-family: 'Averia Serif Libre', cursive;
+}
+.progect_container{
+	margin-top: 10vh;
+}
+.contact_content{
+	margin-top: 2vh;
+	margin-left: auto;
+	margin-right: auto;
+	width: 	80%;		
+}
+.contact_block li{
+ 	padding: 2vh 0;
+ 	width: 55vw;
+} 
+}

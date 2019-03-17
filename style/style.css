@@ -232,7 +232,7 @@ h2{
 }
 .resume  a img{
 	position: relative;
-	top:-15px;
+	/*top:-15px;*/
 	width: 64px;
 	height: auto;
 }
