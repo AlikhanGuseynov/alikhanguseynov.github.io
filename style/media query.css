@@ -1,5 +1,5 @@
 @media only screen and (max-width: 576px) {
-  .effect, .menu_slider, .pr_block0, .home, .about, .progect{
+  .effect, .menu_slider, .pr_block0, .home, .about{
   	display: none;
   }
 .header ul{
@@ -68,10 +68,19 @@
 	width: 7ch;
 	top: 5vh;
 }
+.progect_container .img_progect{
+	width: 100%;
+	cursor:	pointer;
+}
+
 .progect_container{
 	margin-top: 6vh;
 	flex-direction: column;
 	height: 80vh;
+	overflow-y: scroll;
+}
+.pr_block{
+	margin: 2vh 0 2vh 0;
 }
 .progect_container .img_progect{
 	width: 80vw;
@@ -88,7 +97,7 @@
 }
 .contact_content{
 	flex-direction: column;
-	margin-top: 0vh;
+	margin-top: 2vh;
 	margin-left: auto;
 	margin-right: auto;
 	width: 	80%;		
@@ -110,5 +119,9 @@
 	display: -o-flex;
 	display: flex;
 	justify-content: center;	
+}
+.navigation .nov{
+	color: #02a8f4;
+
 }
 }

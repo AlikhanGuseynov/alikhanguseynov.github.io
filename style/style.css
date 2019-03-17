@@ -142,7 +142,6 @@ a{
 	margin-right: 1vw;
 	margin-left: auto;
 	width: 7ch;
-	/*font-family: 'Poppins', sans-serif;*/
 	font-family: 'Indie Flower', cursive;
 	font-size: 150px;
 	line-height: 150px;
@@ -238,7 +237,7 @@ h2{
 	height: auto;
 }
 
-
+/*Progect*/
 
 .progect{
 	background-image: url(../img/progect.png);
@@ -263,7 +262,7 @@ h2{
 .progect_container{
 	width: 85vw;
 	height: 30vw;
-	margin-top: 15vh;
+	margin-top: 10vh;
 	flex-wrap: wrap;
 	flex-direction: row;
 }
@@ -278,15 +277,15 @@ h2{
 	box-shadow: 0 0 25px 5px  #313131;
 
 }
-.pr_block{
-	background-color: #aeaeae;
-	background-image: url(../img/magnifier.png);
-	-webkit-background-size: 20%;
-	background-size: 20%;
-	background-repeat: no-repeat;
-	background-position: center;
-	width: 23vw;
-	height: 10.5vw;
+.pr_block {
+	margin: 0;
+}
+.pr_block:hover .magnifier{
+	display: block;
+}
+.magnifier{
+	position: absolute;
+	display: none
 }
 .contact{
 	width: 100%;	
