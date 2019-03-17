@@ -15,35 +15,12 @@ $(document).ready(function(){
 });
 
 
-// $(window).scroll(function() {
-// 	var target = $(this).scrollTop();
-// 	var circle_min = $(".about").offset().top/2.3;
-// 	var circle_max = $(".about").offset().top*1.5;
-// // console.log(target);
-// // console.log(circle_black);
-// if((target > circle_min)&& (target < circle_max)){
-//   $( ".circle" ).css('border',"2px solid #fff");
-//   $( ".ball" ).css( "background-color", "#000" );
-//   $( ".ball" ).css( "box-shadow", "0 0 25px 1px #000" )
-// } else {
-//   $( ".circle" ).css('border',"2px solid #e5322d");
-//   $( ".ball" ).css( "background-color", "#fff" )
-
-//   $( ".ball" ).css( "box-shadow", "0 0 25px 1px #fff" )
-// }
-// });
-
-	var home = $("#home").offset().top;
-	var about = $("#about").offset().top;
-	var progect = $("#progect").offset().top;
-	var contact = $("#contact").offset().top;
-
-
 
 // МЕНЮ СЛАЙДЕРА
-
-
-
+  var home = $("#home").offset().top;
+  var about = $("#about").offset().top;
+  var progect = $("#progect").offset().top;
+  var contact = $("#contact").offset().top;
 $(window).scroll(function() {
 	var target = $(this).scrollTop();
 		console.log(target);
@@ -80,12 +57,122 @@ if(target > contact-about/3){
 
 // ПАРАЛАКС ЭФФЕКТ
 $(window).ready(function(b){
-     var elem=$('.ball');                         //movement element
+     var elem=$('.e_1');                         //movement element
     var factor = 0.02;                          //movement coefficient
     var elem_left = elem.offset().left;
     var elem_top = elem.offset().top;
     console.log(elem_left, elem_top );
-    $('.container').mousemove(function(e) {           //the area in which the mouse is moving 
+    $('.home').mousemove(function(e) {           //the area in which the mouse is moving 
+      var X = e.pageX;                          //X axis position
+      var Y = e.pageY;                          //Y axis position
+      if (X > 0) {
+        elem.animate({
+        left: elem_left-(X*factor) + "px",
+        top: elem_top-(Y*factor) + "px",
+        position: "absolute",
+        }, 1);
+
+        console.log(X, elem_left, elem_left-X*factor + "px" );
+
+      } else {
+      };
+    });
+});
+$(window).ready(function(b){
+     var elem=$('.e_2');                         //movement element
+    var factor = 0.02;                          //movement coefficient
+    var elem_left = elem.offset().left;
+    var elem_top = elem.offset().top;
+    console.log(elem_left, elem_top );
+    $('.home').mousemove(function(e) {           //the area in which the mouse is moving 
+      var X = e.pageX;                          //X axis position
+      var Y = e.pageY;                          //Y axis position
+      if (X > 0) {
+        elem.animate({
+        left: elem_left-(X*factor) + "px",
+        top: elem_top-(Y*factor) + "px",
+        position: "absolute",
+        }, 1);
+
+        console.log(X, elem_left, elem_left-X*factor + "px" );
+
+      } else {
+      };
+    });
+});
+$(window).ready(function(b){
+     var elem=$('.e_3');                         //movement element
+    var factor = -0.02;                          //movement coefficient
+    var elem_left = elem.offset().left;
+    var elem_top = elem.offset().top;
+    console.log(elem_left, elem_top );
+    $('.home').mousemove(function(e) {           //the area in which the mouse is moving 
+      var X = e.pageX;                          //X axis position
+      var Y = e.pageY;                          //Y axis position
+      if (X > 0) {
+        elem.animate({
+        left: elem_left-(X*factor) + "px",
+        top: elem_top-(Y*factor) + "px",
+        position: "absolute",
+        }, 1);
+
+        console.log(X, elem_left, elem_left-X*factor + "px" );
+
+      } else {
+      };
+    });
+});
+$(window).ready(function(b){
+     var elem=$('.e_4');                         //movement element
+    var factor = 0.05;                          //movement coefficient
+    var elem_left = elem.offset().left;
+    var elem_top = elem.offset().top;
+    console.log(elem_left, elem_top );
+    $('.home').mousemove(function(e) {           //the area in which the mouse is moving 
+      var X = e.pageX;                          //X axis position
+      var Y = e.pageY;                          //Y axis position
+      if (X > 0) {
+        elem.animate({
+        left: elem_left-(X*factor) + "px",
+        top: elem_top-(Y*factor) + "px",
+        position: "absolute",
+        }, 1);
+
+        console.log(X, elem_left, elem_left-X*factor + "px" );
+
+      } else {
+      };
+    });
+});
+$(window).ready(function(b){
+     var elem=$('.e_5');                         //movement element
+    var factor = 0.05;                          //movement coefficient
+    var elem_left = elem.offset().left;
+    var elem_top = elem.offset().top;
+    console.log(elem_left, elem_top );
+    $('.home').mousemove(function(e) {           //the area in which the mouse is moving 
+      var X = e.pageX;                          //X axis position
+      var Y = e.pageY;                          //Y axis position
+      if (X > 0) {
+        elem.animate({
+        left: elem_left-(X*factor) + "px",
+        top: elem_top-(Y*factor) + "px",
+        position: "absolute",
+        }, 1);
+
+        console.log(X, elem_left, elem_left-X*factor + "px" );
+
+      } else {
+      };
+    });
+});
+$(window).ready(function(b){
+     var elem=$('.e_6');                         //movement element
+    var factor = -0.12;                          //movement coefficient
+    var elem_left = elem.offset().left;
+    var elem_top = elem.offset().top;
+    console.log(elem_left, elem_top );
+    $('.home').mousemove(function(e) {           //the area in which the mouse is moving 
       var X = e.pageX;                          //X axis position
       var Y = e.pageY;                          //Y axis position
       if (X > 0) {
@@ -102,6 +189,35 @@ $(window).ready(function(b){
     });
 });
 
+// ИЗМЕНЕНИЕ ЦВЕТА
 
+
+$(window).ready(function(b){
+     var elem=$('.content h1');                         //movement element
+    var factor = 1;                          //movement coefficient
+    var elem_left = elem.offset().left;
+    var elem_top = elem.offset().top;
+    console.log(elem_left, elem_top );
+    $('.home').mousemove(function(e) {           //the area in which the mouse is moving 
+      var X = e.pageX;                          //X axis position
+      var Y = e.pageY;                          //Y axis position
+      if (X > 0) {
+        elem.animate({
+        // left: elem_left-(X*factor) + "px",
+
+        // filter: hue-rotate(X*Y + "deg"),
+        filter: blur(X*Y + "deg"),
+
+
+
+
+        }, 1);
+
+        console.log(X, elem_left, elem_left-X*factor + "px" );
+
+      } else {
+      };
+    });
+});
 
 

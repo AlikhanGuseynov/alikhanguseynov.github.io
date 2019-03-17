@@ -43,7 +43,7 @@ body{
 	border: 2px solid red;
 }
 .header{
-	position: static;
+	position: relative;
 	padding-top: 2%;
 	padding-left: 3%;
 }
@@ -61,28 +61,29 @@ header ul{
 	color:#fff;
 }
 
-
 /*ГЛАВНАЯ*/
 .home{
 	background-image: url(../img/bgi.png);
 	-webkit-background-size: 100% 100vh;
 	background-size: 100% 100vh;
+	width: 100%;
+	height: 100vh;
 }
 /*паралакс*/
+.effect img{
+	filter: blur(2px) hue-rotate(0deg);
+	position: absolute;
+}
 .effect{
 	position: absolute;
 	width: 100%;
 	height: 100vh;
 }
-.effect img{
 
-	position: absolute;
-}
-.effect .e_5{
-
+.effect .e_1{
 	width: 6vw;
 	top: 20vh;
-	left: 15vw;
+	left: 65vw;
 	transform: rotate(20deg);
 }
 .effect .e_2{
@@ -97,26 +98,24 @@ header ul{
 	left: 5vw;
 	transform: rotate(20deg);
 }
-.effect .e_6{
-	width: 6vw;
-	top: 50vh;
-	left: 55vw;
-	transform: rotate(20deg);
-
-}
-.effect .e_1{
-	width: 6vw;
-	top: 20vh;
-	left: 65vw;
-	transform: rotate(20deg);
-}
 .effect .e_4{
 	width: 6vw;
 	top: 70vh;
 	left: 75vw;
 	transform: rotate(20deg);
 	z-index: 0;
-	
+}
+.effect .e_5{
+	width: 6vw;
+	top: 20vh;
+	left: 15vw;
+	transform: rotate(20deg);
+}
+.effect .e_6{
+	width: 6vw;
+	top: 50vh;
+	left: 55vw;
+	transform: rotate(20deg);
 }
 
 /*МЕНЮ СЛАЙДЕР*/
@@ -181,21 +180,24 @@ header ul{
 a{
 	cursor: pointer;
 }
+
 .content h1{
-	margin-top: 20vh;
+	margin-top: 12vh;
 	margin-left: 65vw;
-	font-family: 'Poppins', sans-serif;
-	font-size: 90px;
-	line-height: 100px;
+	/*font-family: 'Poppins', sans-serif;*/
+	font-family: 'Indie Flower', cursive;
+	font-size: 150px;
+	line-height: 150px;
 	color: #fff;
-	z-index: 10;
+	z-index: 1;
+	position: relative;
 }
 .content span{
 	color: #e5322d;
 }
 .down{
 	width: 98vw;
-	margin-top: 10vh;
+	/*margin-top: 2vh;*/
 	padding: 0 0 5vh 0;
 }
 
