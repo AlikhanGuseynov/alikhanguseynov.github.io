@@ -231,8 +231,7 @@ h2{
 	color:#e5322d;
 }
 .resume button img{
-	margin: 0;
-	top:25px;
+	/*margin: 0;*/
 	width: 64px;
 	height: auto;
 }

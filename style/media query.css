@@ -43,10 +43,12 @@
 }
 .box button img{
 	width: 20px;
+	position: relative;
+	top:-15px;
 }
 .box img{
 	width: 28px;
-	margin-top: 5%;
+	margin-top: 0%;
 	background-color: #fff;
 }
 .box span{
