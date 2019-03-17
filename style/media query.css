@@ -17,7 +17,7 @@
 	
 }
 .down{
-	margin-top: 27.5vh;
+	margin-top: 1vh;
 }
 .about h2{
 	font-size: 25px;
@@ -42,7 +42,7 @@
 	min-height:25vh; 
 }
 .box button img{
-	width: 28px;
+	width: 20px;
 }
 .box img{
 	width: 28px;
@@ -64,7 +64,7 @@
 	margin-bottom: 10%;
 }
 .box p{
-	font-size: 12px;
+	font-size: 10px;
 	margin-bottom: 10%;
 }
 .progect_title{
