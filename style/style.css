@@ -267,6 +267,7 @@ h2{
 	flex-direction: row;
 }
 .progect_container .img_progect{
+	margin: 0;
 	width: 23vw;
 	cursor:	pointer;
 }
