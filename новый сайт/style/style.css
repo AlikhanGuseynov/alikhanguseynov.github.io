@@ -1,0 +1,242 @@
+	/*color:#fff;*/
+	/*#fff*/
+	/*color: #e5d817;*/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.row a{
+	text-decoration: none;
+}
+ul{
+	list-style-type: none;
+}
+.bsr{
+	border: 1px solid red;
+}
+
+/*СОЦИАЛЬНЫЕ СЕТИ*/
+
+.media_link ul{
+	height: 50vh;
+}
+.media_link li{
+	cursor: pointer;
+}
+.media_link img{
+	width: 22px;	
+}
+.media_link{
+	height: 100vh;
+	position: fixed;
+	background-color: transparent;
+	width: 5vw;
+}
+
+/*PAGE_SLIDE*/
+
+.page_slide {
+	height: 100vh;
+	position: fixed;
+	background-color: transparent;
+	width: 5vw;
+	color: #fff;
+	font-size: 30px;
+	font-family: Martel;
+}
+.slide_line{
+	background-color: #fff;
+	width: 30px;
+	height: 2px;
+}
+.page_slide ul{
+	height: 25vh;
+}
+.all_page p{
+	writing-mode: vertical-lr;
+	margin-top: 12px;
+}
+.slide_ball{
+	width: 5px;
+	height: 5px;
+	background-color: #fff;
+	border-radius: 50%;
+}
+.slide_ball1{
+	width: 7px;
+	height: 7px;
+	background-color: #fff;
+	border-radius: 50%;
+}
+.slide_ball2{
+	width: 10px;
+	height: 10px;
+	background-color: #fff;
+	border-radius: 50%;
+}
+.page p{
+	margin: 0;
+}
+
+
+/*	МЕНЮ*/
+
+
+.menu ul{
+	width: 100%;
+}
+.menu a{
+	color:#fff;
+	font-family: Inconsolata;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+.header li{
+	border: 1px solid transparent;
+	border-radius: 35px;
+	height: 5vh;
+	width: 90px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-content:  middle;
+	align-items:center;
+	cursor: pointer;
+}
+.header li:hover{
+	border: 1px solid #fff;
+}
+.header li:hover a{
+color: #fff;
+}
+
+
+/*ПЕРВАЯ СТРАНИЦА*/
+
+
+.home{
+	background-image: url(../img/home.jpg);
+	/*height: 100vh;*/
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-y: 70%;
+}
+h1{
+	font-size: 75px;
+	width: 10ch;
+	color: #fff;
+	font-family: Limelight;
+	text-transform: uppercase;
+
+}
+.middle_text{
+	position: relative;
+	top: 30vh;
+}
+.home .container-fluid{
+	background-color: rgba(0,0,0,0.8)
+}
+.button{
+	color: #fff;
+	font-size: 20px;
+	text-transform: uppercase;
+	border: 1px solid #fff;
+	padding:1vh 4vw;
+	font-family: Lato;
+	cursor: pointer;
+}
+.button_order{
+	margin-top:35vh;
+}
+.case{
+	width: 20px;
+}
+.mous img{
+	width: 25px;
+	margin-top: 6vh;
+}
+.text_scroll{
+	writing-mode: vertical-lr;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: Martel;
+	font-size: 12px;
+	width: 18px;
+	padding-top: 1ch;
+	height: 8ch;
+	margin-top: 4vh;
+	margin-bottom: 20.5vh;
+}
+.web_design{
+	top: 30vh;
+	writing-mode: vertical-rl;
+}
+.web_design p{
+	text-transform: uppercase;
+	font-family: Martel;
+	font-size: 10px;
+	color: #aeaeae;
+	width: 25px;
+	height: 14ch;
+	padding-top: 2ch	
+}
+.about{
+	height: 100vh;
+	/*background-color: #000;*/
+	background-image: url(../img/toa-heftiba-553978-unsplash.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.about .container{
+	
+}
+
+
+/*ВТОРАЯ СТРАНИЦА*/
+
+.cover{
+	position: absolute;
+	border: 4px solid #fff;
+	width: 80vw;
+	height: 80vh;
+	margin-top: 10vh;
+	font-family: 'Caudex', serif;
+	color: #e5d817;
+	text-transform: uppercase;
+}
+.horizontal_line{
+	height: 100px;
+	width: 3px;
+	background-color: #fff;
+	position: absolute;
+}
+.frontend_text p{
+	height:3ch ;
+	transform: rotate(-90deg);
+	width: 10ch;	
+	padding: 0;
+	margin: 0;
+	right:-5vh;
+	top: 6vh; 
+	position: absolute;
+	text-decoration: line-through;
+}
+.project_text p{
+	height:3ch ;
+	transform: rotate(-90deg);
+	width: 10ch;	
+	padding: 0;
+	margin: 0;
+	left:-4vh;
+	bottom: 6vh; 
+	position: absolute;
+	text-decoration: line-through;
+}
+
+
+
