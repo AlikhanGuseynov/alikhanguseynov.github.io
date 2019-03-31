@@ -8,111 +8,126 @@
 	<link rel="stylesheet" href="style/style.css">
 	<link rel="stylesheet" href="library/animate.css">
 	<!-- ШРИФТЫ	 -->
-	<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Martel" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"><!-- 2 -->
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet"><!-- 1 -->
+	<link href="https://fonts.googleapis.com/css?family=Martel" rel="stylesheet"><!-- 1 -->
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"><!-- 1 -->
 	<link href="https://fonts.googleapis.com/css?family=Limelight" rel="stylesheet"><!-- 1 -->
+	<link href="https://fonts.googleapis.com/css?family=Averia+Serif+Libre" rel="stylesheet"><!-- 1 -->
 	<link href="https://fonts.googleapis.com/css?family=Macondo" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Caudex" rel="stylesheet">
 
 </head>
 <body>
-
-	<div class="col-md-1 media_link d-flex align-items-center">
-		<div class="nav">
-			<ul class="d-flex ml-4 flex-column justify-content-between">
-				<li><div href="#"><img src="img/facebook.png" alt="#"></div></li>
-				<li><div href="#"><img src="img/instagram.png" alt="#"></div></li>
-				<li><div href="#"><img src="img/vk.png" alt="#"></div></li>
-				<li><div href="#"><img src="img/li.png" alt="#"></div></li>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-1 position-fixed d-flex align-items-center">
+			<ul class="media_link d-flex mx-auto p-0 justify-content-between  flex-column">
+				<li><a href=""><img src="img/instagram.png" alt="#"></a></li>
+				<li><a href=""><img src="img/facebook.png" alt="#"></a></li>
+				<li><a href=""><img src="img/li.png" alt="#"></a></li>
+				<li><a href=""><img src="img/vk.png" alt="#"></a></li>
 			</ul>
 		</div>
 	</div>
-			<!-- PAGE_PAGIN -->
-	<div class="col-md-1 offset-md-11 page_slide d-flex align-items-center">
-		<ul class="d-flex flex-column justify-content-between align-items-center">
-			<div class="page mx-auto" id="page"><p>1</p></div>
-			<li class="slide_line"></li>
-			<li class="all_page mx-auto"><p>4</p></li>
-			<div class="slide_ball2"></div>
-			<div class="slide_ball1"></div>
-			<div class="slide_ball"></div>
-		</ul>
+</div>	
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-1 offset-11 position-fixed">
+			<div class="pagination d-flex justify-content-between flex-column align-items-center">
+				<div class="page" id="page">1</div>
+				<div class="line"></div>
+				<div class="all_page">4</div>
+				<div class="ball ball_firsr"></div>
+				<div class="ball ball_second"></div>
+				<div class="ball ball_third"></div>
+			</div>
+		</div>
 	</div>
-
-	<header class="header " id="header">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4 offset-md-6 col-10 position-fixed pt-3">
-					<div class="nav menu ">
-						<ul class="d-flex justify-content-between ">
-							<li><a href="#home">Home</a></li>
-							<li><a href="#about">About</a></li>
-							<li><a href="#project">project</a></li>
-							<li><a href="#project">Contact</a></li>
-						</ul>
-					</div>
-				</div>
+</div>	
+<header class="header" id="header">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-4 offset-md-7 col-8 offset-2 position-fixed">
+				<nav>
+					<ul class="d-flex justify-content-between pt-3 ">
+						<li><a href="">home</a></li>
+						<li><a href="">about</a></li>
+						<li><a href="">project</a></li>
+						<li><a href="">contact</a></li>
+					</ul>
+				</nav>			
 			</div>
-		</div>
-	</header>
-	<section class="home " id="home">
+		</div>	
+	</div>
+</header>
+<section class="home" id="home">
+	<div class="cover_home">
 		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-6 offset-md-3 offset-2 col-8 middle_text">
-					<h1 class="mx-au">devoloper</h1>
+			<div class="row devoloper">
+				<div class="col-md-4 col-8 offset-md-3 offset-2 ">
+					<p class="">devoloper</p>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-3 offset-md-3 offset-2 button_order col-8">
-					<buttun class="button">order➝</buttun>
+				<div class="col-md-2 col-3 offset-md-3 offset-2">
+					<button class="button button_order">
+						order➝
+					</button>
 				</div>
-				<div class="col-md-3  web_design col-8">
-					<p>web_design</p>
+				<div class="col-1  offset-1 offset-md-4">
+					<p class="web_design">
+						web-design
+					</p>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-1 offset-md-3 mous ">
-					<div class="case p-0 m-0 d-flex flex-column align-items-center">
-						<img src="img/mouse.png" class="animated fadeInDown infinite " alt="">
-						<p class="text_scroll">scroll</p>
+				<div class="col-md-1 scroll col-3 offset-md-3 offset-2 d-flex align-items-start flex-column">
+					<img class="animated fadeInDown infinite " src="img/mouse.png" alt="#">
+					<p class="d-flex align-items-center">scroll</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+	<section class="about" id="about">
+		<div class="cover_about">
+			<div class="container-fluid">
+				<div class="border_about"></div>
+				<div class="row row_about">
+					<div class="col-md-5 col-8 offset-md-1 block d-flex	align-items-center ">
+						<div class="pental_block d-flex flex-column">
+							<div class="petal petal_information d-flex"><p class="">information</p></div>
+							<div class="petal petal_knowledge d-flex"><p class="">knowledge</p></div>
+							<div class="petal petal_resume d-flex"><p class="">resume</p></div>
+						</div>
+						<div class="text_block">
+							<div class="text  text_information">
+								<img src="img/about_me.png" alt="">
+								Hello! My name is <span>Alikhan</span>
+								I am 22 years old. Engaged in the layout of sites. I can create a 
+								PSD layout, as well as edit ready-made projects at the request of the 
+								customer. Orders taken surrender strictly in the promised time.</div>
+							<div class="text text_knowledge">
+								<img src="img/study.png" alt="">
+								Knowledge of HTML, CSS, as well as programming 
+								languages such as Javascript (+ J-Query), PHP, as well as MySQL. 
+								Ability to work with Bootstrap framewBox ork and Flex technology. 
+							Experience working with photo editor PhotoShop CC.</div>
+							<div class="text text_resume ">
+								<img src="img/resume.png" alt="">
+								With more information about me, you can read in my resume by downloading it.
+								<button><a href="" download></a><img src="img/save.png" alt=""></button>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-5">
+						<img class="bear" src="img/bear.jpeg" alt="">
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<section class="about" id="about">
-		<div class="container">
-			<div class="cover">
-				<div class="frontend_text"><p>frontend</p></div>
-				<div class="project_text"><p>project</p></div>
-			</div>
-
-		</div>
-	</section>
-	<section class="project" id="project">
-		<div class="container">
-			
-		</div>
-	</section>
-	<section class="contact" id="contact">
-		<div class="container">
-			
-		</div>
-	</section>
-	<footer class="footer" id="footer">
-		<div class="container">
-			
-		</div>
-	</footer>	
-
-
-
-	
-
-	
-
 
 
 

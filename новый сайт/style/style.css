@@ -1,242 +1,214 @@
-	/*color:#fff;*/
-	/*#fff*/
-	/*color: #e5d817;*/
 *{
-	padding: 0;
-	margin: 0;
 	box-sizing: border-box;
+	color: #fff;
+}
+body{
+	background-color: #aeaeae;
+}
+ul, li{
+	text-decoration: none;
+	list-style: none;
 }
 .row a{
 	text-decoration: none;
 }
-ul{
-	list-style-type: none;
-}
 .bsr{
 	border: 1px solid red;
 }
-
-/*СОЦИАЛЬНЫЕ СЕТИ*/
-
-.media_link ul{
-	height: 50vh;
+.row button{
+	outline:none;
+	background-color: transparent;
+	border: none;
 }
-.media_link li{
-	cursor: pointer;
+
+
+/*МЕДИА ССЫЛКИ*/
+
+.media_link{
+	height: 40vh;
+	margin-top: 30vh;
 }
 .media_link img{
-	width: 22px;	
+	width: 25px;
 }
-.media_link{
-	height: 100vh;
-	position: fixed;
-	background-color: transparent;
-	width: 5vw;
-}
+/*PAGINATION*/
 
-/*PAGE_SLIDE*/
-
-.page_slide {
-	height: 100vh;
-	position: fixed;
-	background-color: transparent;
-	width: 5vw;
-	color: #fff;
-	font-size: 30px;
+.pagination{
+	height: 20vh;
+	margin-top: 40vh;
 	font-family: Martel;
+	font-size: 30px;
+	width: 5vw;
 }
-.slide_line{
-	background-color: #fff;
-	width: 30px;
+.pagination .line{
+	width: 35px;
 	height: 2px;
+	background-color: #fff;
 }
-.page_slide ul{
-	height: 25vh;
-}
-.all_page p{
+.all_page{
 	writing-mode: vertical-lr;
-	margin-top: 12px;
-}
-.slide_ball{
-	width: 5px;
-	height: 5px;
-	background-color: #fff;
-	border-radius: 50%;
-}
-.slide_ball1{
-	width: 7px;
-	height: 7px;
-	background-color: #fff;
-	border-radius: 50%;
-}
-.slide_ball2{
-	width: 10px;
-	height: 10px;
-	background-color: #fff;
-	border-radius: 50%;
-}
-.page p{
-	margin: 0;
 }
 
+/*HEADER*/
 
-/*	МЕНЮ*/
-
-
-.menu ul{
-	width: 100%;
-}
-.menu a{
-	color:#fff;
-	font-family: Inconsolata;
-	font-size: 15px;
+.header a{
+	display: block;
 	text-transform: uppercase;
+	color: #fff;
+	font-size:15px;
+	margin: 5px 15px;
+	font-family: Inconsolata
 }
 .header li{
-	border: 1px solid transparent;
-	border-radius: 35px;
-	height: 5vh;
-	width: 90px;
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
-	justify-content: center;
-	align-content:  middle;
-	align-items:center;
+	border: 2px solid transparent;
 	cursor: pointer;
 }
 .header li:hover{
-	border: 1px solid #fff;
+	border: 2px solid ;
 }
-.header li:hover a{
-color: #fff;
+.cover_home{
+	background-color: rgba(0,0,0,0.8);
+	height: 100vh;
 }
-
-
-/*ПЕРВАЯ СТРАНИЦА*/
-
-
 .home{
 	background-image: url(../img/home.jpg);
-	/*height: 100vh;*/
 	-webkit-background-size: cover;
 	background-size: cover;
-	background-repeat: no-repeat;
 	background-position-y: 70%;
+	overflow-y:hidden;
+	/*height: 100vh;*/
 }
-h1{
+.home .devoloper p{
+	padding-top:30vh;
 	font-size: 75px;
-	width: 10ch;
 	color: #fff;
 	font-family: Limelight;
 	text-transform: uppercase;
-
-}
-.middle_text{
-	position: relative;
-	top: 30vh;
-}
-.home .container-fluid{
-	background-color: rgba(0,0,0,0.8)
-}
-.button{
-	color: #fff;
-	font-size: 20px;
-	text-transform: uppercase;
-	border: 1px solid #fff;
-	padding:1vh 4vw;
-	font-family: Lato;
-	cursor: pointer;
 }
 .button_order{
-	margin-top:35vh;
-}
-.case{
-	width: 20px;
-}
-.mous img{
-	width: 25px;
-	margin-top: 6vh;
-}
-.text_scroll{
-	writing-mode: vertical-lr;
-	color: #fff;
+	background-color: transparent;
+	border: 1px solid #fff;
+	padding: .5vh 4vw;
+	font-family: Lato;
+	font-size: 20px;
 	text-transform: uppercase;
-	font-family: Martel;
-	font-size: 12px;
-	width: 18px;
-	padding-top: 1ch;
-	height: 8ch;
-	margin-top: 4vh;
-	margin-bottom: 20.5vh;
+	margin-top: 5vh;	
 }
 .web_design{
-	top: 30vh;
-	writing-mode: vertical-rl;
-}
-.web_design p{
-	text-transform: uppercase;
-	font-family: Martel;
+	writing-mode: vertical-lr;
+	height: 12ch;
 	font-size: 10px;
+	font-family: Martel;
 	color: #aeaeae;
-	width: 25px;
-	height: 14ch;
-	padding-top: 2ch	
+	text-transform: uppercase;
 }
+.scroll{
+	margin-top: 5vh;
+}
+.scroll img{
+	width: 32px;
+}
+.scroll p{
+	writing-mode: vertical-lr;
+	width:  32px;
+	display: block;
+	margin: 0;
+	margin-top: 5vh;
+	margin-bottom: 12vh;
+	padding: auto;
+	font-size: 12px;
+	font-family: Martel;
+	text-transform: uppercase;
+}
+
+
+
+/*ABOUT*/
+
 .about{
-	height: 100vh;
-	/*background-color: #000;*/
 	background-image: url(../img/toa-heftiba-553978-unsplash.jpg);
 	-webkit-background-size: cover;
 	background-size: cover;
+	height: 100vh;
 }
-.about .container{
-	
+.cover_about{
+	background-color: rgba(0,0,0,0.5);
+	height: 100vh;
 }
-
-
-/*ВТОРАЯ СТРАНИЦА*/
-
-.cover{
-	position: absolute;
-	border: 4px solid #fff;
-	width: 80vw;
+.border_about{
 	height: 80vh;
+	width: 86vw;
+	position: absolute;
+	border: 2px solid #fff;
+	margin-left: 5vw;
 	margin-top: 10vh;
-	font-family: 'Caudex', serif;
-	color: #e5d817;
+}
+.row_about{
+	padding-top: 20vh;	
+}
+.about .block{
+	height: 60vh;
+}
+
+/*PETAL*/
+
+.text_block{
+	background-color: #071421;
+	width: 20vw;
+	height: 60vh;
+
+}
+.text_block img{
+	display: block;
+	margin: 0 auto;
+}
+.text_information{
+	display: flex;
+}
+.text_resume{
+	display: none;
+}
+.text_knowledge{
+	display: none;
+}
+.text_information span{
+	color: #e5322d;
+	font-weight: 800;
 	text-transform: uppercase;
+    font-family: 'Averia Serif Libre', cursive;
 }
-.horizontal_line{
-	height: 100px;
-	width: 3px;
-	background-color: #fff;
-	position: absolute;
+.text{
+	height: 60vh;
+	text-align: center;
+	flex-direction: column;;
+	justify-content: center;
 }
-.frontend_text p{
-	height:3ch ;
-	transform: rotate(-90deg);
-	width: 10ch;	
-	padding: 0;
-	margin: 0;
-	right:-5vh;
-	top: 6vh; 
-	position: absolute;
-	text-decoration: line-through;
+.petal p{
+	color:#fff;
+	writing-mode: vertical-lr;
+	font-size: 13px;
+    font-family: 'Averia Serif Libre', cursive;
+	margin: auto;
 }
-.project_text p{
-	height:3ch ;
-	transform: rotate(-90deg);
-	width: 10ch;	
-	padding: 0;
-	margin: 0;
-	left:-4vh;
-	bottom: 6vh; 
-	position: absolute;
-	text-decoration: line-through;
+.petal{
+	cursor: pointer;
+	display: inline-block;
+	background-color: #071421;
+	border-bottom-left-radius: 25px;
+	border-top-left-radius: 25px;
+	text-transform: uppercase;
+	width: 40px;
+	height: 20vh;
 }
-
-
-
+.petal_information{
+	border-right: none;
+}
+.text button{
+	display: block;
+	justify-content: center;
+	margin: 0 auto;
+}
+.bear{
+	height: 80vh;
+	padding-bottom: 7vh;
+}
