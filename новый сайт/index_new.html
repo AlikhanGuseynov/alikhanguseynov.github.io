@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="library/bootstrap.min.css">
 	<link rel="stylesheet" href="style/style.css">
+	<link rel="stylesheet" href="style/media query.css">
 	<link rel="stylesheet" href="library/animate.css">
 	<!-- ШРИФТЫ	 -->
 	<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet"><!-- 1 -->
@@ -21,7 +22,7 @@
 <body>
 <div class="container-fluid">
 	<div class="row">
-		<div class="col-1 position-fixed d-flex align-items-center">
+		<div class="col-1 d-none  position-fixed d-md-flex align-items-center">
 			<ul class="media_link d-flex mx-auto p-0 justify-content-between  flex-column">
 				<li><a href=""><img src="img/instagram.png" alt="#"></a></li>
 				<li><a href=""><img src="img/facebook.png" alt="#"></a></li>
@@ -33,7 +34,7 @@
 </div>	
 <div class="container-fluid">
 	<div class="row">
-		<div class="col-1 offset-11 position-fixed">
+		<div class="col-1 offset-11 d-none d-md-block position-fixed">
 			<div class="pagination d-flex justify-content-between flex-column align-items-center">
 				<div class="page" id="page">1</div>
 				<div class="line"></div>
@@ -48,13 +49,13 @@
 <header class="header" id="header">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-4 offset-md-7 col-8 offset-2 position-fixed">
+			<div class="col-md-4 offset-md-7 col-4 position-fixed">
 				<nav>
 					<ul class="d-flex justify-content-between pt-3 ">
-						<li><a href="">home</a></li>
-						<li><a href="">about</a></li>
-						<li><a href="">project</a></li>
-						<li><a href="">contact</a></li>
+						<li><a href="#home">home</a></li>
+						<li><a href="#about">about</a></li>
+						<li><a href="#project">project</a></li>
+						<li><a href="#contact">contact</a></li>
 					</ul>
 				</nav>			
 			</div>
@@ -62,30 +63,28 @@
 	</div>
 </header>
 <section class="home" id="home">
-	<div class="cover_home">
-		<div class="container-fluid">
-			<div class="row devoloper">
-				<div class="col-md-4 col-8 offset-md-3 offset-2 ">
-					<p class="">devoloper</p>
-				</div>
+	<div class="container-fluid">
+		<div class="row devoloper">
+			<div class="col-md-4 col-8 offset-md-3 offset-1 offset- ">
+				<p class="">devoloper</p>
 			</div>
-			<div class="row">
-				<div class="col-md-2 col-3 offset-md-3 offset-2">
-					<button class="button button_order">
-						order➝
-					</button>
-				</div>
-				<div class="col-1  offset-1 offset-md-4">
-					<p class="web_design">
-						web-design
-					</p>
-				</div>
+		</div>
+		<div class="row">
+			<div class="col-md-2 col-3 offset-md-3 offset-2">
+				<button class="button button_order">
+					order➝
+				</button>
 			</div>
-			<div class="row">
-				<div class="col-md-1 scroll col-3 offset-md-3 offset-2 d-flex align-items-start flex-column">
-					<img class="animated fadeInDown infinite " src="img/mouse.png" alt="#">
-					<p class="d-flex align-items-center">scroll</p>
-				</div>
+			<div class="col-1  offset-1 offset-md-4">
+				<p class="web_design">
+					web-design
+				</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-1 scroll col-3 offset-md-3 offset-2 d-flex align-items-start flex-column">
+				<img class="animated fadeInDown infinite " src="img/mouse.png" alt="#">
+				<p class="d-flex align-items-center">scroll</p>
 			</div>
 		</div>
 	</div>
@@ -93,21 +92,22 @@
 	<section class="about" id="about">
 		<div class="cover_about">
 			<div class="container-fluid">
-				<div class="border_about"></div>
+				<div class="border_about d-none d-md-block"></div>
 				<div class="row row_about">
-					<div class="col-md-5 col-8 offset-md-1 block d-flex	align-items-center ">
-						<div class="pental_block d-flex flex-column">
+					<div class="col-md-5 col-10 offset-1 offset-md-1 block d-flex align-items-center">
+						<div class="pental_block d-none d-md-flex flex-column">
 							<div class="petal petal_information d-flex"><p class="">information</p></div>
 							<div class="petal petal_knowledge d-flex"><p class="">knowledge</p></div>
 							<div class="petal petal_resume d-flex"><p class="">resume</p></div>
 						</div>
-						<div class="text_block">
+						<div class="text_block ">
 							<div class="text  text_information">
 								<img src="img/about_me.png" alt="">
 								Hello! My name is <span>Alikhan</span>
 								I am 22 years old. Engaged in the layout of sites. I can create a 
 								PSD layout, as well as edit ready-made projects at the request of the 
-								customer. Orders taken surrender strictly in the promised time.</div>
+								customer. Orders taken surrender strictly in the promised time.
+							</div>
 							<div class="text text_knowledge">
 								<img src="img/study.png" alt="">
 								Knowledge of HTML, CSS, as well as programming 
@@ -121,11 +121,16 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-5">
+					<div class="col-md-5 d-none d-md-block">
 						<img class="bear" src="img/bear.jpeg" alt="">
 					</div>
 				</div>
 			</div>
+		</div>
+	</section>
+	<section class="project" id="progect">
+		<div class="container-fluid p-0 m-0">
+			<div class="cover_about p-0 m-0"></div>
 		</div>
 	</section>
 

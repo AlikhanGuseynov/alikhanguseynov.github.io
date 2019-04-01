@@ -18,7 +18,6 @@ ul, li{
 .row button{
 	outline:none;
 	background-color: transparent;
-	border: none;
 }
 
 
@@ -66,20 +65,17 @@ ul, li{
 .header li:hover{
 	border: 2px solid ;
 }
-.cover_home{
-	background-color: rgba(0,0,0,0.8);
-	height: 100vh;
-}
 .home{
 	background-image: url(../img/home.jpg);
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position-y: 70%;
 	overflow-y:hidden;
-	/*height: 100vh;*/
+}
+.devoloper{
+	margin-top:30vh;
 }
 .home .devoloper p{
-	padding-top:30vh;
 	font-size: 75px;
 	color: #fff;
 	font-family: Limelight;
@@ -130,6 +126,7 @@ ul, li{
 	-webkit-background-size: cover;
 	background-size: cover;
 	height: 100vh;
+	overflow-y: hidden;
 }
 .cover_about{
 	background-color: rgba(0,0,0,0.5);
@@ -156,7 +153,6 @@ ul, li{
 	background-color: #071421;
 	width: 20vw;
 	height: 60vh;
-
 }
 .text_block img{
 	display: block;
@@ -207,8 +203,23 @@ ul, li{
 	display: block;
 	justify-content: center;
 	margin: 0 auto;
+	border: none;
 }
 .bear{
 	width: 35vw;	
-	padding-bottom: 7vh;
+	margin-bottom: 7vh;
+}
+
+
+
+/*PROJECT*/
+
+
+.project{
+	background-image: url(../img/21.png);
+	/*background-color: #C3CBF3;*/
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 100vh;
+	overflow-y: hidden;
 }
