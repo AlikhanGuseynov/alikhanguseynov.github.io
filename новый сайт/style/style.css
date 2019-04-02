@@ -1,8 +1,8 @@
 *{
 	box-sizing: border-box;
-	color: #fff;
 }
 body{
+	color: #fff;
 	background-color: #aeaeae;
 }
 ul, li{
@@ -77,11 +77,12 @@ ul, li{
 }
 .home .devoloper p{
 	font-size: 75px;
-	color: #fff;
+	/*color: #fff;*/
 	font-family: Limelight;
 	text-transform: uppercase;
 }
 .button_order{
+	color: #fff;
 	background-color: transparent;
 	border: 1px solid #fff;
 	padding: .5vh 4vw;
@@ -122,104 +123,82 @@ ul, li{
 /*ABOUT*/
 
 .about{
-	background-image: url(../img/toa-heftiba-553978-unsplash.jpg);
-	-webkit-background-size: cover;
-	background-size: cover;
-	height: 100vh;
+	background-color: #464d57;
+	width: 100%;
 	overflow-y: hidden;
 }
-.cover_about{
-	background-color: rgba(0,0,0,0.5);
-	height: 100vh;
+.about_title {
+	font-size: 5vh;
+	font-family: 'Fugaz One', cursive;
+	position: relative;
+	z-index: 1;
 }
-.border_about{
-	height: 80vh;
-	width: 86vw;
+.tree{
 	position: absolute;
-	border: 2px solid #fff;
-	margin-left: 5vw;
-	margin-top: 10vh;
+	margin-top: 5vh;
+	margin-left: 16vw;
+	height: 90vh;
+	box-shadow: -7px -3px 20px 2px #fff;
 }
-.row_about{
-	padding-top: 20vh;	
+.about_title{
+	font-size: 22vh;
+	font-family: Times new roman;
+	font-weight: 800;
+	margin-top: 12vh;
+	color: #04052e;
 }
-.about .block{
-	height: 60vh;
+.topic_information{
+	position: relative;
+	margin-top: 18vh;
+	color: #a3a1a1;
+	font-size: 3.2vh;
+	text-transform: uppercase;
+	font-family: Times new roman;
+	z-index: 0;
+	padding-bottom: 0;
+	overflow-y: hidden;
 }
-
-/*PETAL*/
-
-.text_block{
-	background-color: #071421;
-	width: 20vw;
-	height: 60vh;
-}
-.text_block img{
+.topic_information span{
+	margin-top: 1.2ch;
 	display: block;
-	margin: 0 auto;
+	position: absolute;
+	top: 0.2ch;
+	left: -.5ch;
+	width: 8ch;
+	height: 1.2ch;
+	background-color: #e13d38;
+	z-index: -1;
 }
-.text_information{
-	display: flex;
+.text_informayion{
+	font-size: 2.5vh;
 }
-.text_resume{
-	display: none;
+.row_knowledge{
+	margin-top: 18vh;
+}
+.block_knowledge{
+	background-color: #b09999;
+	margin-top: 20vh;
+	height:39vh;
+	width: 98%;
+	padding: 0;
+	margin: 0;
+	font-family: Times new roman;
+}
+.topic_knowledge{
+	font-size: 6.4vh;
+	text-transform: uppercase;
+	position: relative;
+	top: -5vh;
+	left: 6vh;
+	width: 80%;
+	color: #000;
+	font-weight: 800;
 }
 .text_knowledge{
-	display: none;
-}
-.text_information span{
-	color: #e5322d;
-	font-weight: 800;
-	text-transform: uppercase;
-    font-family: 'Averia Serif Libre', cursive;
-}
-.text{
-	height: 60vh;
-	text-align: center;
-	flex-direction: column;;
-	justify-content: center;
-}
-.petal p{
-	color:#fff;
-	writing-mode: vertical-lr;
-	font-size: 13px;
-    font-family: 'Averia Serif Libre', cursive;
-	margin: auto;
-}
-.petal{
-	cursor: pointer;
-	display: inline-block;
-	background-color: #071421;
-	border-bottom-left-radius: 25px;
-	border-top-left-radius: 25px;
-	text-transform: uppercase;
-	width: 40px;
-	height: 20vh;
-}
-.petal_information{
-	border-right: none;
-}
-.text button{
-	display: block;
-	justify-content: center;
-	margin: 0 auto;
-	border: none;
-}
-.bear{
-	width: 35vw;	
-	margin-bottom: 7vh;
-}
-
-
-
-/*PROJECT*/
-
-
-.project{
-	background-image: url(../img/21.png);
-	/*background-color: #C3CBF3;*/
-	-webkit-background-size: cover;
-	background-size: cover;
-	height: 100vh;
-	overflow-y: hidden;
+	position: relative;
+	top: -5vh;
+	left: 5.5vh;
+	font-size: 3vh;
+	width: 40vw;
+	height: 35vh;
 }

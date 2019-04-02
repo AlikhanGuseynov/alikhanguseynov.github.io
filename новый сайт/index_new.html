@@ -5,24 +5,24 @@
 	<title>new_portfolio...</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="library/bootstrap.min.css">
-	<link rel="stylesheet" href="style/style.css">
 	<link rel="stylesheet" href="style/media query.css">
 	<link rel="stylesheet" href="library/animate.css">
+	<link rel="stylesheet" href="style/style.css">
 	<!-- ШРИФТЫ	 -->
-	<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet"><!-- 1 -->
-	<link href="https://fonts.googleapis.com/css?family=Martel" rel="stylesheet"><!-- 1 -->
-	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"><!-- 1 -->
-	<link href="https://fonts.googleapis.com/css?family=Limelight" rel="stylesheet"><!-- 1 -->
-	<link href="https://fonts.googleapis.com/css?family=Averia+Serif+Libre" rel="stylesheet"><!-- 1 -->
-	<link href="https://fonts.googleapis.com/css?family=Macondo" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Caudex" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Martel" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Limelight" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Fugaz+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Averia+Serif+Libre" rel="stylesheet">
+
+
+
 
 </head>
 <body>
 <div class="container-fluid">
 	<div class="row">
-		<div class="col-1 d-none  position-fixed d-md-flex align-items-center">
+		<div class="col-1 d-none position-fixed d-md-flex align-items-center">
 			<ul class="media_link d-flex mx-auto p-0 justify-content-between  flex-column">
 				<li><a href=""><img src="img/instagram.png" alt="#"></a></li>
 				<li><a href=""><img src="img/facebook.png" alt="#"></a></li>
@@ -35,7 +35,7 @@
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-1 offset-11 d-none d-md-block position-fixed">
-			<div class="pagination d-flex justify-content-between flex-column align-items-center">
+			<div class="pagination d-flex justify-content-between z-index-2 flex-column align-items-center">
 				<div class="page" id="page">1</div>
 				<div class="line"></div>
 				<div class="all_page">4</div>
@@ -90,47 +90,81 @@
 	</div>
 </section>
 	<section class="about" id="about">
-		<div class="cover_about">
-			<div class="container-fluid">
-				<div class="border_about d-none d-md-block"></div>
-				<div class="row row_about">
-					<div class="col-md-5 col-10 offset-1 offset-md-1 block d-flex align-items-center">
-						<div class="pental_block d-none d-md-flex flex-column">
-							<div class="petal petal_information d-flex"><p class="">information</p></div>
-							<div class="petal petal_knowledge d-flex"><p class="">knowledge</p></div>
-							<div class="petal petal_resume d-flex"><p class="">resume</p></div>
-						</div>
-						<div class="text_block ">
-							<div class="text  text_information">
-								<img src="img/about_me.png" alt="">
-								Hello! My name is <span>Alikhan</span>
-								I am 22 years old. Engaged in the layout of sites. I can create a 
-								PSD layout, as well as edit ready-made projects at the request of the 
-								customer. Orders taken surrender strictly in the promised time.
-							</div>
-							<div class="text text_knowledge">
-								<img src="img/study.png" alt="">
-								Knowledge of HTML, CSS, as well as programming 
-								languages such as Javascript (+ J-Query), PHP, as well as MySQL. 
-								Ability to work with Bootstrap framewBox ork and Flex technology. 
-							Experience working with photo editor PhotoShop CC.</div>
-							<div class="text text_resume ">
-								<img src="img/resume.png" alt="">
-								With more information about me, you can read in my resume by downloading it.
-								<button><a href="" download></a><img src="img/save.png" alt=""></button>
-							</div>
-						</div>
+		<div class="container-fluid">
+			<img src="img/tree.png" alt="#" class="tree">
+			<div class="row">
+				<div class="col-10 col-md-2 offset-md-1 about_title">
+					about
+				</div>
+				<div class="col-10 offset-1 col-md-5 offset-md-4" >
+					<div class="topic_information">
+						<span></span><p class="m-0">Personal information</p>
 					</div>
-					<div class="col-md-5 d-none d-md-block">
-						<img class="bear" src="img/bear.jpeg" alt="">
+					<p class="text_informayion">
+						Hello! My name is <span>Alikhan</span>. 
+						I am 22 years old. Engaged in the layout of sites. I can create a 
+						PSD layout, as well as edit ready-made projects at the request of the 
+						customer. Orders taken surrender strictly in the promised time.
+					</p>
+				</div>
+			</div>
+			<div class="row row_knowledge">
+				<div class="col-10 offset-1 col-md-7 offset-md-5 p-0" >
+					<div class="block_knowledge">
+						<div class="topic_knowledge">
+							Knowledge
+						</div>
+						<p class="text_knowledge">
+							Knowledge of HTML, CSS, as well as programming languages such as 
+							Javascript (+ J-Query), PHP, as well as MySQL. Ability to work with 
+							Bootstrap framewBox ork and Flex technology. Experience working with 
+							photo editor PhotoShop CC.
+						</p>
 					</div>
 				</div>
 			</div>
+		
 		</div>
 	</section>
+
+
+
+
+
+
+
+
+<!-- 	<div class="text_information  text">
+							<img src="img/about_me.png" alt="">
+							<p>
+							Hello! My name is <span>Alikhan</span>. 
+							I am 22 years old. Engaged in the layout of sites. I can create a 
+							PSD layout, as well as edit ready-made projects at the request of the 
+							customer. Orders taken surrender strictly in the promised time.
+							</p>
+						</div>						
+						<div class="text_knowledge text">
+							<img src="img/study.png" alt="">
+							<p>
+							Knowledge of HTML, CSS, as well as programming languages such as 
+							Javascript (+ J-Query), PHP, as well as MySQL. Ability to work with 
+							Bootstrap framewBox ork and Flex technology. Experience working with 
+							photo editor PhotoShop CC.
+							</p>
+						</div>						
+						<div class="text_resume text">
+							<img src="img/resume.png" alt="">
+							<p>
+							With more information about me, you can read in my resume by downloading it.
+							</p>
+							<a href="style/media query.css" download=""><img src="img/save.png" alt=""></a>
+						</div>
+
+ -->
+
+
 	<section class="project" id="progect">
 		<div class="container-fluid p-0 m-0">
-			<div class="cover_about p-0 m-0"></div>
 		</div>
 	</section>
 

@@ -30,34 +30,34 @@ if ( scrollTop > project_top-about_top/2) {
 
 
 // PETAL BLOCK
-$(".petal_information").click(function() {
+$(".topic_information").click(function() {
 	 $( ".text_information" ).css( "display", "flex" );
 	 $( ".text_knowledge" ).css( "display", "none" );
  	 $( ".text_resume" ).css( "display", "none" );
- 	 $( ".petal_information" ).css( "border-right", "none" );
+ 	 // $( ".petal_information" ).css( "border-right", "none" );
  	 // $( ".petal_knowledge" ).css( "border-right", "2px solid #96A6C0" );
  	 // $( ".petal_resume" ).css( "border-right", "2px solid #96A6C0" );
 	 $( ".text_information" ).addClass( "animated fadeIn " );
 
 });
-$(".petal_knowledge").click(function() {
+$(".topic_knowledge").click(function() {
 	 $( ".text_information" ).css( "display", "none" );
 	 $( ".text_knowledge" ).css( "display", "flex" );
  	 $( ".text_resume" ).css( "display", "none" );
  	 // $( ".petal_information" ).css( "border-right", "2px solid #96A6C0" );
- 	 $( ".petal_knowledge" ).css( "border-right", "none" );
+ 	 // $( ".petal_knowledge" ).css( "border-right", "none" );
  	 // $( ".petal_resume" ).css( "border-right", "2px solid #96A6C0" );
 	 $( ".text_knowledge" ).addClass( "animated fadeIn " );
 
 
 });
-$(".petal_resume").click(function() {
+$(".topic_resume").click(function() {
 	 $( ".text_information" ).css( "display", "none" );
 	 $( ".text_knowledge" ).css( "display", "none" );
  	 $( ".text_resume" ).css( "display", "flex" );
  	 // $( ".petal_information" ).css( "border-right", "2px solid #96A6C0" );
  	 // $( ".petal_knowledge" ).css( "border-right", "2px solid #96A6C0" );
- 	 $( ".petal_resume" ).css( "border-right", "none" );
+ 	 // $( ".petal_resume" ).css( "border-right", "none" );
 	 $( ".text_resume" ).addClass( "animated fadeIn " );
  	 
 });
