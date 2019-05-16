@@ -1,39 +1,3 @@
-@media only screen and (max-width: 910px) {
-	
-.home .middle_text{
-	font-size: 120px;
-	text-transform: uppercase;
-	font-family: "Times new roman";
-	color: #00405e;
-	margin-top: 5vh;
-
-	
-}
-
-}
 @media only screen and (max-width: 768px) {
-	
-.home .middle_text{
-	font-size: 90px;
-	margin-top: 15vh;
-}
 
-}
-@media only screen and (max-width: 576px) {
-	
-	.home .middle_text{
-		font-size: 60px;
-	}
-	.home .md-nav-menu{
-	width: 100%;
-	height: 100%;
-	margin: 0;
-	text-align: center;
-	}
-	.home .md-nav-menu ul{
-	height: 80vh;
-}
-	.home .md-nav-menu ul a{
-	font-size: 20px;
-	}
 }

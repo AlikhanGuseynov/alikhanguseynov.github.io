@@ -11,94 +11,194 @@
 	<link rel="stylesheet" href="library/owlcarousel/assets/owl.carousel.css">
 	<link rel="stylesheet" href="library/owlcarousel/assets/owl.theme.default.css">
 	<!-- ШРИФТЫ	 -->
-	
-
-
-
-
+	<link href="https://fonts.googleapis.com/css?family=Nova+Round" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Arima+Madurai" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
 </head>
 <body>
 
-<section class="home" id="home">
-	<div class="container-fluid">
-		<div class="header">
-			<div class="row">
-				<div class="col-lg-7 offset-lg-5 d-none d-lg-block nav-menu">
-					<ul class="menu">
-						<li><a href="#home">home</a></li>
-						<li><a href="#about">about</a></li>
-						<li><a href="#project">project</a></li>
-						<li><a href="#technologies">technologies</a></li>
-						<li><a href="#contact">contact</a></li>
-					</ul>
-				</div>
-				<div class="col-1 offset-10 col-sm-1 offset-sm-11 burger d-lg-none">
-					<button><img src="img/home/burger.png" alt=""></button>
-				</div>
-				<div class="col-12 offset-6 d-lg-none  p-0 md-nav-menu">
-					<div class="col0-4 offset-4 line d-none d-sm-none"></div>
-					<div class="col0-4 offset-8 line d-none d-sm-none"></div>
-					<button class="close"><img src="img/home/cancel-music.png" alt=""></button>
-					<div class="menu">
-						<nav>
-							<ul>
-								<li><a href="#home">home</a></li>
-								<li><a href="#about">about</a></li>
-								<li><a href="#project">project</a></li>
-								<li><a href="#technologies">technologies</a></li>
-								<li><a href="#contact">contact</a></li>
-							</ul>
-						</nav>
-					</div>
-				</div>
-			</div>
+<!------------------------------------------- HEADER ------------------------------------------->
+
+<div class="header">
+	<div class="row m-0">
+		<div class="col-lg-6 offset-lg-6  d-none d-lg-block ml-auto">
+			<ul class="nav_menu position-absolute mt-2">
+				<li><a href="#home">home</a></li>
+				<li><a href="#about">about</a></li>
+				<li><a href="#progect">progect</a></li>
+				<li><a href="#pro">pro</a></li>
+				<li><a href="#contact">contact</a></li>
+			</ul>
+		</div>
+		<div class="col-1 offset-10 col-md-1 position-absolute offset-md-11 d-lg-none">
+			<button class="burger_menu">
+				<img src="img/home/burger.png" alt="">
+			</button>
+			<button class="close d-none">
+				<img src="img/home/cancel-music.png" alt="">
+			</button>
+		</div>
+		<div class="col-12 d-none">
+			<ul class="nav-md-menu">
+				<li><a href="#home">home</a></li>
+				<li><a href="#about">about</a></li>
+				<li><a href="#progect">progect</a></li>
+				<li><a href="#pro">pro</a></li>
+				<li><a href="#contact">ccontact</a></li>
+			</ul>
 		</div>
 	</div>
+</div>
+
+<!-------------------------------------------- HOME -------------------------------------------->
+<!-- 
+<section class="home" id="home">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-1 d-none d-sm-block col-sm-1 media-link">
-				<ul class="media">
-					<li><a href=""><img src="img/media/facebook.png" alt=""></a></li>
-					<li><a href=""><img src="img/media/instagram.png" alt=""></a></li>
-					<li><a href=""><img src="img/media/li.png" alt=""></a></li>	
-					<li><a href=""><img src="img/media/vk.png" alt=""></a></li>
-				</ul>
-			</div>
-			<div class="col-lg-8 offset-lg-1 col-md-10 offset-md-0 col-sm-10 offset-sm-1 middle_text">
-				<p>web <br> <span>studio...</span></p>
+			<div class="col-md-5 offset-2">
+				<h1>High_quality <br> layout of sites</h1>
 			</div>
 		</div>
-		<div class="row button">
-			<div class="col-lg-2 col-sm-4 button-order">
-				<button class="order">ORDER</button>
+		<div class="row">
+			<div class="col-md-5 offset-2 home_input">
+				<input type="text" placeholder="name" color="red" class="name">
+				<input type="text" placeholder="e-mail" class="mail">
 			</div>
-			<div class="col-lg-2 col-sm-2 d-none d-sm-block">
-				<button class="button-circle"></button>
+			<div class="col-md-3">
+				<button class="order">
+					send a request
+				</button>
 			</div>
+		</div>
+		
+	</div>
+</section> -->
+<!----------------------------------------- PAGINATION ----------------------------------------->
+<section>
+	<div class="row nav_arrow_row">
+	<div class="col-md-1 ml-auto pagination">
+		<div class="page">01</div>
+		<div class="all_page">/05</div>
+		
+	</div>
+	<div class="col-md-2">
+		<div class="nav_arrow">
+			<button class="left"></button>
+			<button class="right"></button>
+		</div>
+	</div>
 	</div>
 </section>
 
 
 
+<!------------------------------------------- ABOUT ------------------------------------------->
+<!-- 
+<section class="about">
+	<div class="container-fluid">
+		<div class="row pt-4">
+			<h2>A few words about us</h2>
+		</div>
+		<div class="row mt-4">
+			<div class="col-md-3 col-10 offset-1 about_block">
+				<img src="img/about/coffee.png" alt="">
+				<h3>
+					Простое общение
+				</h3>
+				<p>
+					Нам важно максимально точно <br>
+					все ваши потребности, <br> 
+					идеи и сомнения
+				</p>
+			</div>
+			<div class="col-md-3 col-10 offset-1 about_block">
+				<img src="img/about/wallet.png" alt="">
+				<h3>
+					Доступная стоимость
+				</h3>
+				<p>
+					Идем навстречу стартапам и <br>
+					начинающим предпринимателям. <br>
+					Не стесняйтесь, пишите
+				</p>
+			</div>
+			<div class="col-md-3 col-10 offset-1 about_block">
+				<img src="img/about/clock.png" alt="">
+				<h3>
+					Сроки
+				</h3>
+				<p>
+					Соблюдаем договоренности <br>
+					и найдем выход из форс-мажора <br>
+					потомму что знаем секрет
+				</p>
+			</div>
+		</div>
+		<div class="row mt-4">
+			<div class="col-md-3 col-10 offset-1 about_block">
+				<img src="img/about/target.png" alt="">
+				<h3>
+					Результат
+				</h3>
+				<p>
+					К которому мы также стримимся, <br>
+					ведь хорошее портфолио, это <br>
+					отличная валюта для нас
+				</p>
+			</div>
+			<div class="col-md-3 col-10 offset-1 about_block">
+				<img src="img/about/calendar.png" alt="">
+				<h3>
+					Работа нарямую 
+				</h3>
+				<p>
+					Без посредников и постоянная <br>
+					возможность связаться <br>
+					с любым нашим специалистом
+				</p>
+			</div>
+			<div class="col-md-3 col-10 offset-1 about_block">
+				<img src="img/about/protection.png" alt="">
+				<h3>
+					Поддержка
+				</h3>
+				<p>
+					Консультируем, советуем <br>
+					и не оставляем в беде, даже <br>
+					если заказ давно закрыт
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
 
 
+ -->
 
 
+<!------------------------------------------- TECHNOLOGIES -------------------------------------->
+
+<section class="project" id="project">
+	<div class="container-fluid">
+		<div class="row pt-5">
+			<div class="col-md-3 offset-md-1 col-10 offset-1">
+				<p class="project_title">
+					Progect
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!-- 
+		<div class="project_svg ">
+			<object
+			  type="image/svg+xml"
+			  data="img/project/svg/index.html">
+			  <img src="img/project/svg/index.html">
+			</object>
+		</div> -->
 
 <script src="library/jQuery.js"></script>
 <script src="library/wow_js.js"></script>
@@ -107,7 +207,7 @@
 <script src="library/bootstrap.min.js"></script>
 <script src="library/owlcarousel/owl.carousel.min.js"></script>
 
-
+<script src="img/tec/svg/lazy-line-painter-1.9.6.min.js"></script>
 
 
 

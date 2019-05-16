@@ -1,10 +1,9 @@
 body{
-	background-color: #caeefe;
 	box-sizing: border-box;
 }
 ul, li{
 	text-decoration: none;
-	list-style: none; 
+	list-style: none;
 }
 .row a{
 	text-decoration: none;
@@ -12,148 +11,220 @@ ul, li{
 .bsr{
 	border: 1px solid red;
 }
-.row button{
+button{
 	outline:none;
+	background-color: transparent;
 }
 
-/*HEADER-----------------------------------------------------------------------------------------*/
-.header ul{
+/*HEADER-------------------------------------------------------------------------------------------*/
+.nav_menu{
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
 	justify-content: space-around;
-	margin-top: 2vh;
-}
-.header a{
-	color: #00405e;
-	font-size: 18px;
-	text-transform: uppercase;
-	font-family: "Times new roman";
-	font-weight: 550;
+	width: 95%;
+	padding: 0;
 }
 
-/*HOME-------------------------------------------------------------------------------------------*/
-.home{
-	background-image: url(../img/home/home.png);
-	height: 100vh;
-	background-position: cover;
-	position: relative;
-	z-index: 0;
+.nav_menu a{
+	width: 100%;
+	font-size: 15px;
+	text-transform: uppercase;	
+	color: #fff;
 }
-.home .media{
+.nav_menu a:hover{
+	color: #45d8e8;
+}
+.burger_menu{
+	border: none;
+}
+.nav-md-menu{
+	background-color: rgba(174,174,174,.5);
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
 	flex-direction: column;
-	height: 50vh;
 	justify-content: space-around;
-	margin-top: 15vh;
+	height: 100vh;
+	width: 100vw;
+	position: fixed;
+	top: 0;
+	left: 0;
+	align-items: center;
 }
-.home .media{
-	padding-left: 10px;
+.nav-md-menu a{
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #03151f;
+	font-weight: 600;
 }
-.home .media a img{
-	width: 25px;
+.nav-md-menu a:hover{
+    text-decoration: line-through;
+    text-decoration-color: #fff;
 }
 
-.middle_text{
-	font-size: 150px;
-	text-transform: uppercase;
-	font-family: "Times new roman";
-	color: #00405e;
-	margin-top: 5vh;
-	line-height: 150px;
-}
-.middle_text span{
-		padding-left: 2ch;
-}
-.order{
-	border: none;
-	background-color: #fff;
+/*PAGINATION--------------------------------------------------------------------------------------*/
+.nav_arrow_row{
+	position: fixed;
 	width: 100%;
-	height: 50px;
-	padding: 0;
-	margin: 0;
-	border-radius: 30px;
-	font-size: 30px;
-	cursor: pointer;
-	color: #00405e;
+	bottom: 5vh;
 }
-.button-circle{
-	background-image: url(../img/home/left-arrow.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	width: 50px;
-	background-color: transparent;
-	height: 50px;
-	border-radius: 50px;
-	cursor: pointer;
+.nav_arrow button{
 	border: none;
+	height: 40px;
+	width: 40px;
 }
-.home .button{
+.nav_arrow button.left{
+	background-image: url(../img/home/arrow-prev.png);
+	background-size: cover;
+}
+.nav_arrow button.right{
+	background-image: url(../img/home/arrow-next.png);
+	background-size: cover;
+}
+.pagination .page{
+	font-size: 30px;
+	color: #fff;
+}
+.pagination .all_page{
+	font-size: 18px;
+	color: rgba(255,255,255,.5);
+}
+.pagination {
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
+	align-items: baseline;
 	justify-content: center;
 }
-.md-nav-menu{
-	background-color: rgba(66,135,165,.8);
-	width: 50%;
-	height: 100%;
-	position: absolute;
-	z-index: 1;
-	display: none;
+
+
+
+/*HOME--------------------------------------------------------------------------------------------*/
+section.home{
+	background-image: url(../img/home/ice.jpg);
+	width: 100%;
+	height: auto;
+	overflow-x: hidden;
 }
-.md-nav-menu .line{
+.home .container-fluid{
+	background-color: rgba(174,174,174,.2);
 	height: 100vh;
-	width: 2px;
-	background-color: #caeefe;
-	position:absolute;
-	z-index: 0;
-	padding: 0;
 }
 
-.md-nav-menu ul{
+.home h1{
+	color: #fff;
+	font-size: 60px;
+	font-family: 'Nova Round', cursive;
+	margin-top: 22vh;
+	text-transform: uppercase;
+}
+.home input{
+	background-color: transparent;
+	border-bottom: 2px solid #fff;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	margin-right: 40px;
+	width: 40%;
+	outline:none;
+	color: #fff;
+	font-size: 20px;
+
+}
+.home input::-webkit-input-placeholder {
+    color: #fff;
+} 
+.home input::-moz-placeholder {
+    color: #fff;
+}
+.home .order{
+	background-size: cover;
+	background-color: #45d8e8;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 600;
+	height: 35px;
+	border-radius: 20px;
+	border: none;
+	width: 60%;
+}
+
+/*ABOUT--------------------------------------------------------------------------------------------*/
+.about{
+	min-height: 100vh;
+	background-image: url(../img/about/3c90f975773349.5c5624f975163.png);
+	/*-webkit-background-size: cover;*/
+	background-size: cover;
+}
+.about .container-fluid{
+	background-color: rgba(0,0,0,.8);
+	height: 100vh;
+
+}
+.about h2{
+	font-family: 'Arima Madurai', cursive;
+	color: #fff;
+	font-size: 50px;
+	margin: 0 auto;
+	margin-top: 5vh;
+}
+
+.about img{
+	width: 32px;
+}
+.about h3{
+	color: #fff;
+	font-size: 22px
+}
+.about p{
+	color: #585858;
+	font-size: 15px
+}
+.about_block{
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
-	-webkit-flex-direction: column;
-	-moz-flex-direction: column;
-	-ms-flex-direction: column;
-	-o-flex-direction: column;
 	flex-direction: column;
-	justify-content: space-around;
+	height: 28vh;
+}
+.about h3, .about p{
+	margin-top: 10px;
+	margin-bottom: 0;
+	padding: 0;
+}
+.about .row{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+
+
+/*TECHNOLOGIES--------------------------------------------------------------------------------------*/
+
+.project{
+	background-image: url(../img/project/project.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
 	height: 100vh;
-	position:relative;
-	z-index: 0;
-	margin: 0;
 }
-.md-nav-menu ul a{
-	color:#fff;
-	font-size: 35px;
-	cursor: pointer;
-}
-.md-nav-menu ul a:hover{
-	text-decoration: line-through;
-	text-decoration-color: #00405e;
-}
-.burger button{
-	position: fixed;
-	border:none;
-	background-color: transparent;
-	margin-top: 8px;
-	width: 32px;
-	height: 32px;
-}
-.home .close{
-	padding-top: 2vh;
-	padding-right:5vh;
+
+.project_title{
+	-webkit-text-stroke: 2px #fff;
+	color: transparent;
+	font-size: 10vw;
+	font-family: 'Josefin Sans', sans-serif;
+	margin-top: 10vh;
+	
 }
