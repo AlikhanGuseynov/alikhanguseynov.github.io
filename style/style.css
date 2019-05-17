@@ -229,21 +229,6 @@ p.project_title{
 	height: 22vh;
 }
 
-/*.project_block img{
-	width: 80%;
-	height: auto;
-}
-.project_block{
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin: 10px;
-}
-*/
 .project_block{
 	width: 100%;
 	display: -webkit-flex;
@@ -260,3 +245,18 @@ p.project_title{
 	width: calc(100%/4);
 	margin: 20px 20px
 }
+/*.project_block img{
+	width: 80%;
+	height: auto;
+}
+.project_block{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 10px;
+}
+*/
