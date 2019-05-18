@@ -1,0 +1,392 @@
+	/*color:#02a8f4;*/
+	/*#e5322d*/
+.center{
+	margin-left: auto;
+	margin-right: auto;
+}
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+button{
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style-type: none;
+}
+.d_f{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.j_c{justify-content: center;}
+.f_e{justify-content: flex-end;}
+.a_i{align-items: center;}
+.f_d{flex-direction:column;}
+.s_b{justify-content: space-between;}
+.s_a{justify-content: space-around;}
+.t_a{text-align: center;}
+.v_a{vertical-align: center;}
+.bsr{
+	border: 2px solid red;
+}
+.header{
+	position: relative;
+	padding-top: 2%;
+	padding-left: 3%;
+}
+header ul{
+	width: 30vw;
+	padding:0;
+	/*margin: 0;*/
+}
+.header a{
+	color:#e5322d;
+	font-family: 'Inconsolata', monospace;
+	font-weight: 600;
+}
+.header a:hover{
+	color:#fff;
+}
+
+/*ГЛАВНАЯ*/
+.home{
+	background-image: url(../img/bgi.png);
+	background-size: 100% ;
+	height: 100vh;
+}
+/*паралакс*/
+.effect img{
+	filter: blur(2px) hue-rotate(0deg);
+	position: absolute;
+}
+.effect{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.effect .e_1{
+	width: 6vw;
+	top: 20vh;
+	left: 65vw;
+	transform: rotate(20deg);
+}
+.effect .e_2{
+	width: 6vw;
+	top: 70vh;
+	left: 35vw;
+	transform: rotate(60deg);
+}
+.effect .e_3{
+	width: 6vw;
+	top: 80vh;
+	left: 5vw;
+	transform: rotate(20deg);
+}
+.effect .e_4{
+	width: 6vw;
+	top: 70vh;
+	left: 75vw;
+	transform: rotate(20deg);
+	z-index: 0;
+}
+.effect .e_5{
+	width: 6vw;
+	top: 20vh;
+	left: 15vw;
+	transform: rotate(20deg);
+}
+.effect .e_6{
+	width: 6vw;
+	top: 50vh;
+	left: 55vw;
+	transform: rotate(20deg);
+}
+
+/*МЕНЮ СЛАЙДЕР*/
+.menu_slider{
+	position: fixed;
+	top: 37vh;
+	left: 4%;
+	height: 40vh;
+}
+.circle{
+	width: 20px;
+	height: 20px;
+	background-color: transparent;
+	border-radius: 50%;
+	border: 2px solid #e5322d;
+}
+.ball{
+	width: 12px;
+	height: 12px;
+	background-color: #fff;
+	border-radius: 50%;
+	box-shadow: 0 0 25px 1px #fff ;
+}
+a{
+	cursor: pointer;
+}
+
+.content h1{
+	margin-top: 10vh;
+	margin-right: 1vw;
+	margin-left: auto;
+	width: 7ch;
+	font-family: 'Indie Flower', cursive;
+	font-size: 150px;
+	line-height: 150px;
+	color: #fff;
+	z-index: 1;
+	position: relative;
+}
+.content span{
+	display: block;
+	color: #e5322d;
+	width: 7ch;
+}
+
+/*ВТОРАЯ СТРАНИЦА (ABOUT ME)*/
+
+.about{
+	background-image: url(../img/about1.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+}
+.block{
+	width: 88vw;
+	margin-bottom: 3vh;
+}
+.box{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 15vh;
+	margin-bottom: 15vh;
+	width: 20vw;
+	height: 60vh;
+	background-color: #fff;
+	border-radius: 15px;
+	box-shadow: 0 0 25px 5px  #313131;
+}
+.about .line{
+	width:25% ;
+	background-color:#313131; 
+}
+#l_2{
+	margin-left: auto;
+}
+.about_title{
+	width: 20vw;
+	position: relative;
+	top: 5vh;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+}
+h2{
+	font-family: 'Alegreya Sans', sans-serif;
+	color: #313131;
+	font-size: 40px;
+}
+.box img{
+	width: 128px;
+	margin-top: 5%;
+	background-color: #fff;
+}
+.box span{
+	margin-top: 5%;
+	text-transform: uppercase;
+	font-size: 17px;
+	font-weight: 600;
+	font-family: 'Averia Serif Libre', cursive;
+}
+.box p{
+	font-family: 'Prompt', sans-serif;
+	width: 90%;
+	font-size: 15px;
+	text-align: center;
+	margin-bottom: 10%;
+}
+
+.box strong{
+	color:#e5322d;
+}
+.resume  a img{
+	position: relative;
+	/*top:-15px;*/
+	width: 64px;
+	height: auto;
+}
+
+/*Progect*/
+
+.progect{
+	background-image: url(../img/progect.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+}
+
+.progect_title{
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 60px;
+	color: #fff;
+	width: 30vw;
+	overflow-x: hidden;
+	position: relative;
+	top: 5vh;
+}
+.circle{
+	position: relative;
+}
+.progect_container{
+	width: 85vw;
+	height: 30vw;
+	margin-top: 10vh;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.progect_container .img_progect{
+	margin: 0;
+	width: 23vw;
+	cursor:	pointer;
+}
+.progect_container .img_progect:hover{
+	filter: blur(1px);
+	background-color: 	rgba(2,168,244, 0.5);
+	opacity: 0.5;
+	box-shadow: 0 0 25px 5px  #313131;
+
+}
+.pr_block {
+	margin: 0;
+}
+.pr_block:hover .magnifier{
+	display: block;
+}
+.magnifier{
+	position: absolute;
+	display: none
+}
+.contact{
+	width: 100%;	
+	height: 60vh;
+	background-image: url(../img/footer.png);
+	background-size: 10%;
+	background-repeat: repeat;
+}
+.contact_title{
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 47px;
+	color: #e5322d;
+	width: 100%;	
+	padding-top: 5vh;
+}
+.contact_title p{
+	width: 7ch;	
+}
+.contact img{
+	filter: grayscale(1);
+	cursor: pointer;
+	width: 2.5vw;	
+	height: 2.5vw;	
+}
+.contact img:hover{
+	filter: grayscale(0);
+}
+.contact li{
+	display: -webkit-inline-flex;
+	display: -moz-inline-flex;
+	display: -ms-inline-flex;
+	display: -o-inline-flex;
+	display: inline-flex;	
+	align-items: center;	
+}
+.contact ul{
+	display: -webkit-inline-flex;
+	display: -moz-inline-flex;
+	display: -ms-inline-flex;
+	display: -o-inline-flex;
+	display: inline-flex;	
+	flex-direction: column;
+}
+.contact_content{
+	color: 	#fff;
+	margin-top: 5vh;
+	height: 40vh;
+	width: 	100%;		
+}
+.contact_block{
+	width: 30vw;
+}
+.contact_link{
+	width: 30vw;
+}
+.contact_link li{
+	padding: 3vh 0;
+	width: 30vw;
+}
+.contact_block li{
+ 	padding: 2vh 0;
+ 	width: 30vw;
+} 
+.contact_block p{
+	margin-left: 3vw;	
+}
+.footer{
+	background-color: #313131;
+	width: 100%;
+	height: 40vh;
+}
+footer .navigation li{
+	margin-left: 10vw;	
+	color:#fff;
+	font-size: 20px;
+	font-family: 'Inconsolata', monospace;
+}
+footer a{
+	font-family: 'Inconsolata', monospace;
+	color:#e5322d;
+	font-size: 20px
+
+}
+.footer ul li{
+	font-size: 25px;
+	margin-bottom: 2vh;
+}
+.footer ul{
+	padding-top: 4vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

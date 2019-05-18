@@ -10,7 +10,9 @@
 	<link rel="stylesheet" href="style/style.css">
 	<link rel="stylesheet" href="library/owlcarousel/assets/owl.carousel.css">
 	<link rel="stylesheet" href="library/owlcarousel/assets/owl.theme.default.css">
-	<!-- ШРИФТЫ	 -->
+	<!-- ICONS -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<!-- FONTS	 -->
 	<link href="https://fonts.googleapis.com/css?family=Nova+Round" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Arima+Madurai" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
@@ -23,11 +25,11 @@
 	<div class="row m-0">
 		<div class="col-lg-6 offset-lg-6  d-none d-lg-block ml-auto">
 			<ul class="nav_menu position-absolute mt-2">
-				<li><a href="#home">home</a></li>
-				<li><a href="#about">about</a></li>
-				<li><a href="#project">progect</a></li>
-				<li><a href="#pro">pro</a></li>
-				<li><a href="#contact">contact</a></li>
+				<li><a href="">home</a></li>
+				<li><a href="">about</a></li>
+				<li><a href="">progect</a></li>
+				<li><a href="">technologies</a></li>
+				<li><a href="">contact</a></li>
 			</ul>
 		</div>
 		<div class="col-1 offset-10 col-md-1 position-absolute offset-md-11 d-lg-none">
@@ -43,28 +45,30 @@
 				<li><a href="#home">home</a></li>
 				<li><a href="#about">about</a></li>
 				<li><a href="#project">progect</a></li>
-				<li><a href="#pro">pro</a></li>
+				<li><a href="#technologies">technologies</a></li>
 				<li><a href="#contact">ccontact</a></li>
 			</ul>
 		</div>
 	</div>
 </div>
 
+
 <!-------------------------------------------- HOME -------------------------------------------->
-<!-- 
-<section class="home" id="home">
+ 
+
+<section class="home block" id="home">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-5 offset-2">
+			<div class="col-md-5 offset-2 mt-2 animated fadeIn">
 				<h1>High_quality <br> layout of sites</h1>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-md-5 offset-2 home_input">
+		<div class="row mt-5">
+			<div class="col-md-5 offset-2 home_input animated fadeIn">
 				<input type="text" placeholder="name" color="red" class="name">
 				<input type="text" placeholder="e-mail" class="mail">
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 animated fadeIn">
 				<button class="order">
 					send a request
 				</button>
@@ -72,35 +76,40 @@
 		</div>
 		
 	</div>
-</section> -->
+</section> 
+
+
 <!----------------------------------------- PAGINATION ----------------------------------------->
-<section>
+
+
+<div>
 	<div class="row nav_arrow_row">
-	<div class="col-md-1 ml-auto pagination">
-		<div class="page">01</div>
-		<div class="all_page">/05</div>
-		
-	</div>
-	<div class="col-md-2">
-		<div class="nav_arrow">
-			<button class="left"></button>
-			<button class="right"></button>
+		<div class="col-md-1 ml-auto pagination">
+			<div class="page">01</div>
+			<div class="all_page">/05</div>
+			
+		</div>
+		<div class="col-md-2">
+			<div class="nav_arrow">
+				<button class="left"></button>
+				<button class="right"></button>
+			</div>
 		</div>
 	</div>
-	</div>
-</section>
+</div>
 
 
 
 <!------------------------------------------- ABOUT ------------------------------------------->
-<!-- 
-<section class="about">
+
+
+<section class="about none">
 	<div class="container-fluid">
-		<div class="row pt-4">
+		<div class="row pt-4 animated bounceInDown">
 			<h2>A few words about us</h2>
 		</div>
-		<div class="row mt-4">
-			<div class="col-md-3 col-10 offset-1 about_block">
+		<div class="row mt-4 ">
+			<div class="col-md-3 col-10 offset-1 about_block about_block_1 animated bounceIn">
 				<img src="img/about/coffee.png" alt="">
 				<h3>
 					Простое общение
@@ -111,7 +120,7 @@
 					идеи и сомнения
 				</p>
 			</div>
-			<div class="col-md-3 col-10 offset-1 about_block">
+			<div class="col-md-3 col-10 offset-1 about_block about_block_2 animated bounceIn">
 				<img src="img/about/wallet.png" alt="">
 				<h3>
 					Доступная стоимость
@@ -122,7 +131,7 @@
 					Не стесняйтесь, пишите
 				</p>
 			</div>
-			<div class="col-md-3 col-10 offset-1 about_block">
+			<div class="col-md-3 col-10 offset-1 about_block about_block_3 animated bounceIn">
 				<img src="img/about/clock.png" alt="">
 				<h3>
 					Сроки
@@ -135,7 +144,7 @@
 			</div>
 		</div>
 		<div class="row mt-4">
-			<div class="col-md-3 col-10 offset-1 about_block">
+			<div class="col-md-3 col-10 offset-1 about_block about_block_4 animated bounceIn">
 				<img src="img/about/target.png" alt="">
 				<h3>
 					Результат
@@ -146,7 +155,7 @@
 					отличная валюта для нас
 				</p>
 			</div>
-			<div class="col-md-3 col-10 offset-1 about_block">
+			<div class="col-md-3 col-10 offset-1 about_block about_block_5 animated bounceIn">
 				<img src="img/about/calendar.png" alt="">
 				<h3>
 					Работа нарямую 
@@ -157,7 +166,7 @@
 					с любым нашим специалистом
 				</p>
 			</div>
-			<div class="col-md-3 col-10 offset-1 about_block">
+			<div class="col-md-3 col-10 offset-1 about_block about_block_6 animated bounceIn">
 				<img src="img/about/protection.png" alt="">
 				<h3>
 					Поддержка
@@ -173,81 +182,178 @@
 </section>
 
 
- -->
+<!------------------------------------------------ PROJECT ------------------------------------------->
 
 
-<!------------------------------------------- TECHNOLOGIES -------------------------------------->
-
-<section class="project" id="project">
+<section class="project none" id="project">
 	<div class="container-fluid">
 		<div class="row pt-5">
 			<div class="col-md-5 offset-md-3 col-10 offset-1">
-				<p class="project_title">
+				<p class="project_title animated flipInY">
 					Project
 				</p>
 			</div>
 		</div>
-		<!-- 
-		<div class="row mt-3 d-flex justify-content-around">
-			<div class="col-md-3 offset-md-0 col-10 offset-1 p-0">
-				<div class="project_block">
-					<img src="img/project/mountain.png" alt="">
-				</div>
-			</div>
-			<div class="col-md-3 offset-md-0 col-10 offset-1 p-0">
-				<div class="project_block">
-					<img src="img/project/mountain.png" alt="">
-				</div>
-			</div>
-			<div class="col-md-3 offset-md-0 col-10 offset-1 p-0">
-				<div class="project_block">
-					<img src="img/project/mountain.png" alt="">
-				</div>
-			</div>
-		</div>
-		<div class="row  d-flex justify-content-around">
-			<div class="col-md-3 offset-md-0 col-10 offset-1 p-0">
-				<div class="project_block">
-					<img src="img/project/mountain.png" alt="">
-				</div>
-			</div>
-			<div class="col-md-3 offset-md-0 col-10 offset-1 p-0">
-				<div class="project_block">
-					<img src="img/project/mountain.png" alt="">
-				</div>
-			</div>
-			<div class="col-md-3 offset-md-0 col-10 offset-1 p-0">
-				<div class="project_block">
-					<img src="img/project/mountain.png" alt="">
-				</div>
-			</div> -->
 		<div class="row">
-			
-		<div class="col-md-9 mx-auto">
-			<div class="project_block">
-				<img src="img/project/mountain.png" alt="">
-				<img src="img/project/mountain.png" alt="">
-				<img src="img/project/mountain.png" alt="">
-				<img src="img/project/mountain.png" alt="">
-				<img src="img/project/mountain.png" alt="">
-				<img src="img/project/mountain.png" alt="">
+			<div class="col-md-9 mx-auto">
+				<div class="project_block">
+					<a class="animated fadeIn project_block_1" href="project/order/index_order.html"><img src="img/project/mountain.png" alt=""></a>
+					<a class="animated fadeIn project_block_2" href="project/daysi/index_daysi.html"><img src="img/project/daisy.png" alt=""></a>
+					<a class="animated fadeIn project_block_3" href="project/hello/index_hello.html"><img src="img/project/alikha.png" alt=""></a>
+					<a class="animated fadeIn project_block_4" href="project/order/index_order.html"><img src="img/project/mountain.png" alt=""></a>
+					<a class="animated fadeIn project_block_5" href="project/daysi/index_daysi.html"><img src="img/project/daisy.png" alt=""></a>
+					<a class="animated fadeIn project_block_6" href="project/hello/index_hello.html"><img src="img/project/alikha.png" alt=""></a>
+				</div>
 			</div>
-			
-		</div>
-			
 		</div>
 	</div>
 </section>
 
 
+<!---------------------------------------------- TECHNOLOGIES ----------------------------------------->
+
+
+<section class="technologies none" id="technologies">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-10 mx-auto">
+				<div class="technologies_container mx-auto">
+					<div class="technologies_items">
+						<img src="img/technologies/html.png" alt="">
+						<span>
+							HTNL5+CSS3
+						</span>
+						<p>
+							Modern layout using <br> Jade + Sass preprocessors
+						</p>
+					</div>
+					<div class="technologies_items">
+						<img src="img/technologies/smartphone.png" alt="">
+						<span>
+							BOOTSTRAP
+						</span>
+						<p>
+							Adaptive layout using <br> bootstrap framework
+						</p>
+					</div>
+					<div class="technologies_items">
+						<img src="img/technologies/cros.png" alt="">
+						<span>
+							COMPATIBILITY
+						</span>
+						<p>
+                            IE9+, Microsoft edge, Firefox, <br>
+                            Chrome, Opera...
+					</div>
+					<div class="technologies_items">
+						<img src="img/technologies/val.png" alt="">
+						<span>
+							VALIDITY
+						</span>
+						<p>
+                             Adaptive layout using <br> bootstrap framework
+						</p>
+					</div>
+					<div class="technologies_items">
+						<img src="img/technologies/diana.png" alt="">
+						<span>
+							PIXEL PERFECT
+						</span>
+						<p>
+							Using Pixel Perfect <br> (exact layout on the layout)
+						</p>
+					</div>
+					<div class="technologies_items">
+						<img src="img/technologies/html-coding.png" alt="">
+						<span>
+							NET CODE
+						</span>
+						<p>
+							Clean, commented code, <br> understandable to any programmer.
+						</p>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="contact none" id="contact">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-3 offset-lg-1 col-10 offset-1 col-md-8 offset-md-2">
+				<ul>
+					<li><a href="https://wa.me/994515130696">
+						<img src="img/contact/whatsapp.png" alt="">
+						<div class="circle"></div>
+						<span>
+							+994(50) 513 06 96
+						</span>
+					</a></li>
+					<li><a href="https://www.instagram.com/alixan.96/">
+						<img src="img/contact/instagram (5).png" alt="instagram">
+						<div class="circle"></div>
+						<span>
+							@alixan.96
+						</span>
+					</a></li>
+					<li><a href="mailto:alikhan-gusejjnv@list.ru">
+						<img src="img/contact/mail.png" alt="mail">
+						<div class="circle"></div>
+						<span>
+							alikhan-gusejjnv@list.ru
+						</span>
+					</a></li>
+					<li><a href="https://vk.com/96alikhan">
+						<img src="img/contact/vk (1).png" alt="vk">
+						<div class="circle"></div>
+						<span>
+							#96alikhan
+						</span>
+					</a></li>
+					<li><a href="https://www.facebook.com/alikhan.gusejjnv?ref=bookmarks">
+						<img src="img/contact/facebook.png" alt="vk">
+						<div class="circle"></div>
+						<span>
+							Алихан Гусейнов
+						</span>
+					</a></li>
+				</ul>
+			</div>
+			<div class="col-10 offser-1 col-md-8 offset-md-2 col-lg-3 contact_order">
+				<input type="text" placeholder="name" color="red" class="name">
+				<input type="text" placeholder="e-mail" class="mail">
+				<button>ORDER</button>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+
+
+
 <!-- 
-		<div class="project_svg ">
-			<object
-			  type="image/svg+xml"
-			  data="img/project/svg/index.html">
-			  <img src="img/project/svg/index.html">
-			</object>
-		</div> -->
+
+<li><a href="https://www.facebook.com/alikhan.gusejjnv">
+						<img src="img/contact/facebook.png" alt="facebook">
+						<span>
+							Алихан Гусейнов
+						</span>
+					</a></li>
+					<li><a href="https://www.linkedin.com/in/%D0%B0%D0%BB%D0%B8%D1%85%D0%B0%D0%BD-%D0%B3%D1%83%D1%81%D0%B5%D0%B9%D0%BD%D0%BE%D0%B2-384111170/">
+						<img src="img/contact/linkedin (3).png" alt="lin_edin">
+						<span>
+							Алихан Гусейнов
+						</span>
+					</a></li>
+
+
+ -->
 
 <script src="library/jQuery.js"></script>
 <script src="library/wow_js.js"></script>
