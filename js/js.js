@@ -5,6 +5,8 @@ $(".project_block img").hover(function() {
 
 });
 
+$("div.header .nav_menu a").eq(0).css("color", '#45d8e8');
+
 
 
 
@@ -17,7 +19,10 @@ $("button.right").click(function(event) {
 		i=child_lenght-2;
 	};
 	$("body section").eq(i).removeClass("block").addClass("none");
+
 	i++;
+	$("div.header .nav_menu a").eq(i).css("color", '#45d8e8');
+	$("div.header .nav_menu a").eq(i-1).css("color", '#fff');
 	$("body section").eq(i).addClass("block");
 });
 
@@ -30,6 +35,8 @@ $("button.left").click(function(event) {
 		console.log(i)
 	$("body section").eq(i).removeClass("block").addClass("none");
 	i--;
+	$("div.header .nav_menu a").eq(i).css("color", '#45d8e8');
+	$("div.header .nav_menu a").eq(i+1).css("color", '#fff');
 	$("body section").eq(i).addClass("block");
 });
 

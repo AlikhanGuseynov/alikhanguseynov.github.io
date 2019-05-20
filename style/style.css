@@ -38,15 +38,19 @@ ul, li{
 	padding: 0;
 }
 
+.nav_menu:first-child{
+	color: red;
+}
 .nav_menu a{
+	color: #fff;
 	width: 100%;
 	font-size: 15px;
 	text-transform: uppercase;	
-	color: #fff;
 }
 .nav_menu a:hover{
 	color: #45d8e8;
 }
+
 .burger_menu{
 	border: none;
 }
@@ -132,7 +136,9 @@ section.home{
 	color: #fff;
 	font-size: 60px;
 	font-family: 'Nova Round', cursive;
-	margin-top: 22vh;
+	position: relative;
+	top: 22vh;
+	/*padding-top: 22vh;*/
 	text-transform: uppercase;
 }
 .home input{
@@ -181,8 +187,8 @@ section.home{
 
 }
 .about h2{
-	font-family: 'Arima Madurai', cursive;
 	color: #fff;
+	font-family: 'Poppins', sans-serif;
 	font-size: 50px;
 	margin: 0 auto;
 	margin-top: 5vh;
@@ -234,8 +240,7 @@ section.home{
 }
 
 p.project_title{
-	-webkit-text-stroke: 2px #fff;
-	color: transparent;
+	color: #fff;
 	font-size: 8vw;
 	font-family: 'Josefin Sans', sans-serif;
 	margin:0;
@@ -254,6 +259,7 @@ p.project_title{
 	align-items: center;
 
 }
+
 .project_block a{
 	display: block;
 	width: calc(100%/4);
@@ -424,7 +430,7 @@ p.project_title{
 
 /*------------------------------------------- ANIMATED -------------------------------------------*/
 
-
+/*ANIMATED_DELAY_ABOUT*/
 .about .about_block_1 {
   animation-delay: .1s;
 }
@@ -443,6 +449,9 @@ p.project_title{
 .about .about_block_6 {
   animation-delay: .6s;
 }
+
+/*ANIMATED_DELAY_PROJECT*/
+
 .project_block_1 {
   animation-delay: .1s;
 }
@@ -460,4 +469,52 @@ p.project_title{
 }
 .project_block_6 {
   animation-delay: .6s;
+}
+
+/*ANIMATED_DELAY_TECHNOLOGIES*/
+
+.technologies_items_1 {
+  animation-delay: .1s;
+}
+.technologies_items_2 {
+  animation-delay: .2s;
+}
+.technologies_items_3 {
+  animation-delay: .3s;
+}
+.technologies_items_4 {
+  animation-delay: .4s;
+}
+.technologies_items_5 {
+  animation-delay: .5s;
+}
+.technologies_items_6 {
+  animation-delay: .6s;
+}
+
+/*ANIMATED_DELAY_CONTACT*/
+
+.contact_link_1 {
+  animation-delay: .1s;
+}
+.contact_link_2 {
+  animation-delay: .2s;
+}
+.contact_link_3 {
+  animation-delay: .3s;
+}
+.contact_link_4 {
+  animation-delay: .4s;
+}
+.contact_link_5 {
+  animation-delay: .5s;
+}
+.contact_animated_1 {
+  animation-delay: .1s;
+}
+.contact_animated_2 {
+  animation-delay: .2s;
+}
+.contact_animated_3 {
+  animation-delay: .3s;
 }
