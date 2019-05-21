@@ -5,9 +5,9 @@
 	<title>new_portfolio...</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="library/bootstrap.min.css">
-	<link rel="stylesheet" href="style/media query.css">
 	<link rel="stylesheet" href="library/animate.css">
 	<link rel="stylesheet" href="style/style.css">
+	<link rel="stylesheet" href="style/media query.css">
 	<link rel="stylesheet" href="library/owlcarousel/assets/owl.carousel.css">
 	<link rel="stylesheet" href="library/owlcarousel/assets/owl.theme.default.css">
 	<!-- ICONS -->
@@ -21,18 +21,18 @@
 
 <!------------------------------------------- HEADER ------------------------------------------->
 
-<div class="header">
-	<div class="row m-0">
+<div class="header position-fixed "  id="header">
+	<div class="row m-0 ">
 		<div class="col-lg-6 offset-lg-6  d-none d-lg-block ml-auto">
 			<ul class="nav_menu position-absolute pt-2">
-				<a class="" href="">home</a>
-				<a class="" href="">about</a>
-				<a class="" href="">progect</a>
-				<a class="" href="">technologies</a>
-				<a class="" href="">contact</a>
+				<li class="">home</li>
+				<li class="">about</li>
+				<li class="">project</li>
+				<li class="">technologies</li>
+				<li class="">contact</li>
 			</ul>
 		</div>
-		<div class="col-1 offset-10 col-md-1 position-absolute offset-md-11 d-lg-none">
+		<div class="col-1 offset-10 col-md-1 position-absolute offset-md-11 d-block d-lg-none">
 			<button class="burger_menu">
 				<img src="img/home/burger.png" alt="">
 			</button>
@@ -68,7 +68,7 @@
 				<input type="text" placeholder="name" color="red" class="name">
 				<input type="text" placeholder="e-mail" class="mail">
 			</div>
-			<div class="col-md-3 animated fadeIn">
+			<div class="col-md-3 offset-2 animated fadeIn">
 				<button class="order">
 					send a request
 				</button>
@@ -83,7 +83,7 @@
 
 
 <div>
-	<div class="row nav_arrow_row ">
+	<div class="row nav_arrow_row d-none ">
 		<div class="col-md-1 ml-auto pagination d-none d-lg-flex">
 			<div class="page">01</div>
 			<div class="all_page">/05</div>
@@ -103,7 +103,7 @@
 <!------------------------------------------- ABOUT ------------------------------------------->
 
 
-<section class="about none">
+<section class="about none" id="about">
 	<div class="container-fluid">
 		<div class="row pt-4 animated bounceInDown">
 			<h2>A few words about us</h2>
@@ -282,6 +282,11 @@
 
 <section class="contact none" id="contact">
 	<div class="container-fluid">
+		<div class="col-10 offset-1 col-md-5 mx-auto">
+			<p class="contact_title">
+				Contact
+			</p>
+		</div>
 		<div class="row">
 			<div class="col-lg-3 offset-lg-1 col-10 offset-1 col-md-8 offset-md-2">
 				<ul>
@@ -322,7 +327,7 @@
 					</a></li>
 				</ul>
 			</div>
-			<div class="col-10 offser-1 col-md-8 offset-md-2 col-lg-3 contact_order">
+			<div class="col-10 offset-1 col-md-8 offset-md-2 col-lg-3 contact_order">
 				<input class="animated  contact_animated_1 fadeInRight" type="text" placeholder="name" color="red" class="name">
 				<input class="animated  contact_animated_2 fadeInRight" type="text" placeholder="e-mail" class="mail">
 				<button class="animated  contact_animated_3 fadeInRight">ORDER</button>
@@ -346,3 +351,5 @@
 <script src="library/owlcarousel/owl.carousel.min.js"></script>
 
 
+
+</body>

@@ -1,3 +1,132 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
+
+
+/*--------------------------------- HOME ---------------------------------*/
+
+
+.home h1{
+	font-size: 30px;
+}
+.home input{
+	margin-top: 50px;
+	width: 80%;
+}
+.home button.order{
+	width: 60%;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/*---------------------------------- ABOUT ----------------------------------*/
+
+
+.about{
+	height: auto;
+}
+.about .container-fluid{
+	height: auto;
+}
+
+.about h2{
+	font-size: 25px;
+	margin: 0 auto;
+	margin-top: 5vh;
+}
+.about_block{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	height: 28vh;
+	align-items: center;
+}
+
+
+/*----------------------------------- PRPJECT -----------------------------------*/
+
+
+.project{
+	height: auto;
+	padding-bottom: 30px;
+}
+p.project_title{
+	display: block;
+	color: #fff;
+	font-size: 50px;
+	width: 5ch;
+	margin: 0 auto;
+	font-family: 'Josefin Sans', sans-serif;
+	height: 60px;
+}
+.project_block{
+	flex-direction: column;
+	margin-top: 20px
+
+
+}
+.project_block a{
+	display: block;
+	width: 80%;
+	height: auto;
+	margin: 2%;
+}
+
+
+/*------------------------------ TECHNOLOGIES ------------------------------*/
+
+
+.technologies{
+	height: auto;
+}
+.technologies .container-fluid{
+	height: auto;
+	padding-bottom: 20px;
+
+}
+.technologies .technologies_items{
+	margin-left: auto;
+	margin-right: auto;
+}
+.technologies .technologies_container{
+	height: auto;
+}
+
+
+/*--------------------------------- CONTACT ---------------------------------*/
+
+
+.contact p.contact_title{
+	font-size: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 7ch;
+}
+.contact{
+	height: auto;
+}
+.contact_order input{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.contact_order button{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*END for 660px //////////////////////////////////////////////////////////////////////////////////////*/
+
+@media only screen and (min-width: 768px ) { 
+
+.home h1{
+	color: red;
+}
+
+
 
 }

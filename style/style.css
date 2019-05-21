@@ -26,7 +26,15 @@ ul, li{
 	display: block;
 }
 
+section{
+	position: relative;
+	z-index: 1;
+}
 /*HEADER-------------------------------------------------------------------------------------------*/
+.header{
+	position: relative;
+	z-index: 99;
+}
 .nav_menu{
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -34,25 +42,28 @@ ul, li{
 	display: -o-flex;
 	display: flex;
 	justify-content: space-around;
-	width: 95%;
+	width: 50vw;
+	margin-left: 50vw;
 	padding: 0;
-}
 
-.nav_menu:first-child{
-	color: red;
 }
-.nav_menu a{
+.nav_menu li{
+	display: block;
+	margin: 0 10px;
 	color: #fff;
 	width: 100%;
 	font-size: 15px;
-	text-transform: uppercase;	
+	text-transform: uppercase;
+	cursor: pointer;	
 }
-.nav_menu a:hover{
+.nav_menu li:hover{
 	color: #45d8e8;
 }
 
 .burger_menu{
 	border: none;
+	width: 15vw;
+	margin-left: 75vw
 }
 .nav-md-menu{
 	background-color: rgba(174,174,174,.5);
@@ -86,6 +97,7 @@ ul, li{
 	position: fixed;
 	width: 100%;
 	bottom: 5vh;
+	z-index: 99;
 }
 .nav_arrow button{
 	border: none;
@@ -137,8 +149,8 @@ section.home{
 	font-size: 60px;
 	font-family: 'Nova Round', cursive;
 	position: relative;
-	top: 22vh;
-	/*padding-top: 22vh;*/
+	/*top: 22vh;*/
+	padding-top: 22vh;
 	text-transform: uppercase;
 }
 .home input{
@@ -161,7 +173,6 @@ section.home{
     color: #fff;
 }
 .home .order{
-	background-size: cover;
 	background-color: #45d8e8;
 	text-transform: uppercase;
 	color: #fff;
@@ -176,7 +187,6 @@ section.home{
 .about{
 	min-height: 100vh;
 	background-image: url(../img/about/3c90f975773349.5c5624f975163.png);
-	/*-webkit-background-size: cover;*/
 	background-size: cover;
 	background-repeat: no-repeat;
 	overflow-x: hidden;
@@ -287,7 +297,8 @@ p.project_title{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	width: 100vw;
+	width: 100%;
+	height: 100vh;
 }
 .technologies .container-fluid{
 	background-color: rgba(0,0,0,.8);
@@ -347,6 +358,11 @@ p.project_title{
 	background-repeat: no-repeat;
 	height: 100vh;
 }
+.contact p.contact_title{
+	color: #fff;
+	font-size: 70px;
+	padding-top: 50px
+}
 .contact a img{
 	width: 28px;
 	filter: grayscale(1);
@@ -380,7 +396,7 @@ p.project_title{
 }
 .contact ul{
 	height: 50vh;
-	margin-top: 25vh;
+	margin-top: 1vh;
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -391,7 +407,7 @@ p.project_title{
 }
 .contact_order{
 	height: 50vh;
-	margin-top: 25vh;
+	margin-top: 1vh;
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
