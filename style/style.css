@@ -45,13 +45,12 @@ section{
 	width: 50vw;
 	margin-left: 50vw;
 	padding: 0;
-
 }
 .nav_menu li{
 	display: block;
 	margin: 0 10px;
 	color: #fff;
-	width: 100%;
+	width: auto;
 	font-size: 15px;
 	text-transform: uppercase;
 	cursor: pointer;	
@@ -135,6 +134,9 @@ section{
 /*HOME--------------------------------------------------------------------------------------------*/
 section.home{
 	background-image: url(../img/home/ice.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
 	width: 100%;
 	height: auto;
 	overflow-x: hidden;
@@ -149,7 +151,6 @@ section.home{
 	font-size: 60px;
 	font-family: 'Nova Round', cursive;
 	position: relative;
-	/*top: 22vh;*/
 	padding-top: 22vh;
 	text-transform: uppercase;
 }
@@ -164,7 +165,6 @@ section.home{
 	outline:none;
 	color: #fff;
 	font-size: 20px;
-
 }
 .home input::-webkit-input-placeholder {
     color: #fff;
@@ -180,7 +180,7 @@ section.home{
 	height: 35px;
 	border-radius: 20px;
 	border: none;
-	width: 60%;
+	width: 70%;
 }
 
 /*ABOUT--------------------------------------------------------------------------------------------*/
@@ -194,16 +194,15 @@ section.home{
 .about .container-fluid{
 	background-color: rgba(0,0,0,.8);
 	height: 100vh;
-
 }
 .about h2{
 	color: #fff;
 	font-family: 'Poppins', sans-serif;
 	font-size: 50px;
 	margin: 0 auto;
-	margin-top: 5vh;
+	margin-top: 8vh;
+	margin-bottom: 2vh;
 }
-
 .about img{
 	width: 32px;
 }
@@ -222,7 +221,7 @@ section.home{
 	display: -o-flex;
 	display: flex;
 	flex-direction: column;
-	height: 28vh;
+	height: 30vh;
 }
 .about h3, .about p{
 	margin-top: 10px;
@@ -267,9 +266,7 @@ p.project_title{
 	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: center;
-
 }
-
 .project_block a{
 	display: block;
 	width: calc(100%/4);
@@ -279,9 +276,6 @@ p.project_title{
 .project_block img{
 	display: block;
 	width: 100%;
-}
-.project_block a:hover{
-	
 }
 .project_block img:hover{
 	filter: grayscale(1);
@@ -347,7 +341,7 @@ p.project_title{
 	color: #fff;
 }
 .technologies_items:hover span{
-	color:#45de8e;
+	color: #45d8e8;
 }
 
 /*------------------------------------------- CONTACT -------------------------------------------*/
@@ -359,14 +353,13 @@ p.project_title{
 	height: 100vh;
 }
 .contact p.contact_title{
-	color: #fff;
+	color: #45d8e8;
 	font-size: 70px;
 	padding-top: 50px
 }
 .contact a img{
 	width: 28px;
 	filter: grayscale(1);
-
 }
 .contact span{
 	color: #fff;
@@ -388,7 +381,7 @@ p.project_title{
 	margin: 0 15px
 }
 .contact a:hover .circle{
-	background-color: #45de8e;
+	background-color: #45d8e8;
 	margin-left: 25px;
 }
 .contact a:hover img{
@@ -422,7 +415,7 @@ p.project_title{
 }
 .contact_order input{
 	border: none;
-	border-bottom: 1px solid #45de8e;
+	border-bottom: 1px solid #45d8e8;
 	background-color: transparent;
 	color: #fff;
 }
@@ -435,11 +428,17 @@ p.project_title{
     font-size: 18px;
 }
 .contact_order button{
-	border: 2px solid #45de8e;
+	border: 1px solid #45d8e8;
 	border-radius: 25px;
 	height: 40px;
 	font-size: 20px;
 	color: #fff;
+	font-weight: 400;
+}
+.contact_order button:hover{
+	background-color: #45d8e8;
+	font-weight: 700;
+	color: #000;
 }
 
 

@@ -18,18 +18,11 @@ $(".project_block img").hover(function() {
 // // 	var link_href = document.getElementById(link_a);
 // // 	link_href.classList.remove("none");
 // // 	link_href.classList.add("block");
-
 // // }, function() {
-
-
-
-
-
-
 // // });
 
 
-
+//--------------------------------- 	TERN THE LIST ---------------------------------
 $("div.header .nav_menu li").click(function(event) {
 	$(".block").addClass("none");
 	$(".block").removeClass("block");
@@ -38,9 +31,22 @@ $("div.header .nav_menu li").click(function(event) {
 	var link_href = document.getElementById(link_a);
 	link_href.classList.remove("none");
 	link_href.classList.add("block");
-
-
 });
+
+//--------------------------------------------- HEADER_COLOR ---------------------------------------------
+
+// if( $(".about").css("margin-top") > "20px" ){
+	// alert($(".about").css("margin-top")	)
+// }
+
+$("div.header .nav_menu").click(function(event) {
+	if( $(".about").css("margin-top")> '10px'  ){
+		alert(123);
+		console.log($(".about").css("margin-top"))
+	}
+});
+
+
 // //------------------------------------------ PAGINATION ------------------------------------------
 // var i=0;
 // var child_lenght=$("body section").length;
