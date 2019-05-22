@@ -1,4 +1,4 @@
-$(".project_block img").hover(function() {
+		$(".project_block img").hover(function() {
 	$(this).addClass("animated pulse")
 }, function() {
 	$(this).removeClass("animated pulse")
@@ -39,12 +39,12 @@ $("div.header .nav_menu li").click(function(event) {
 	// alert($(".about").css("margin-top")	)
 // }
 
-$("div.header .nav_menu").click(function(event) {
-	if( $(".about").css("margin-top")> '10px'  ){
-		alert(123);
-		console.log($(".about").css("margin-top"))
-	}
-});
+// $("div.header .nav_menu").click(function(event) {
+// 	if( $(".about").css("margin-top")> '10px'  ){
+// 		alert(123);
+// 		console.log($(".about").css("margin-top"))
+// 	}
+// });
 
 
 // //------------------------------------------ PAGINATION ------------------------------------------
