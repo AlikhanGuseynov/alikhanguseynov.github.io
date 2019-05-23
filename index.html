@@ -5,204 +5,233 @@
 	<title>new_portfolio...</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="library/bootstrap.min.css">
+	<link rel="stylesheet" href="style/media query.css">
 	<link rel="stylesheet" href="library/animate.css">
 	<link rel="stylesheet" href="style/style.css">
-	<link rel="stylesheet" href="style/media query.css">
 	<link rel="stylesheet" href="library/owlcarousel/assets/owl.carousel.css">
 	<link rel="stylesheet" href="library/owlcarousel/assets/owl.theme.default.css">
-	<!-- ICONS -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-	<!-- FONTS	 -->
-	<link href="https://fonts.googleapis.com/css?family=Nova+Round" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+	<!-- ШРИФТЫ	 -->
+	<link href="https://fonts.googleapis.com/css?family=Merriweather:700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:500&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
-<!------------------------------------------- HEADER ------------------------------------------->
-
-<div class="header position-fixed "  id="header">
-	<div class="row m-0 ">
-		<div class="col-lg-6 offset-lg-6  d-none d-lg-block ml-auto">
-			<ul class="nav_menu position-absolute pt-2">
-				<li class="">home</li>
-				<li class="">about</li>
-				<li class="">project</li>
-				<li class="">technologies</li>
-				<li class="">contact</li>
-			</ul>
-		</div>
-		<div class="col-1 offset-11 col-md-1 position-absolute offset-md-11 d-block d-lg-none">
-			<button class="burger_menu">
-				<img src="img/home/burger.png" alt="">
-			</button>
-			<button class="close d-none">
-				<img src="img/home/cancel-music.png" alt="">
-			</button>
-		</div>
-		<div class="col-12 d-none">
-			<ul class="nav-md-menu">
-				<li><a href="#home">home</a></li>
-				<li><a href="#about">about</a></li>
-				<li><a href="#project">progect</a></li>
-				<li><a href="#technologies">technologies</a></li>
-				<li><a href="#contact">ccontact</a></li>
-			</ul>
+<!----------------------------------------- HEADER ----------------------------------------->
+<header class="header" id="header">
+	<div class="container-fluid position-fixed">
+		<div class="row">
+			<div class="col-1 offset-1">
+				<img src="img/logo.png" alt="" class="logo d-none d-md-block">
+			</div>
+			<div class="col-md-6 offset-md-4">
+				<ul class=""></li>
+					<li><a href="#home">home</a></li>
+					<li><a href="#process">process</a></li>
+					<li><a href="#features">features</a></li>
+					<li><a href="#pricing">pricing</a></li>
+					<li><a href="#faq">faq</a></li>
+					<li><a href="#sing_up">sing up</a></li>
+				</ul>
+			</div>
 		</div>
 	</div>
-</div>
+</header>
 
+<!----------------------------------------- HOME ----------------------------------------->
 
-<!-------------------------------------------- HOME -------------------------------------------->
- 
-
-<section class="home block" id="home">
-	<div class="container-fluid">
+<section class="home" id="home">
+	<div class="container">
 		<div class="row">
-			<div class="col-md-5 offset-3 offset-md-3 animated fadeIn">
-				<h1>High_quality <br> layout of sites</h1>
-			</div>
-		</div>
-		<div class="row pt-5">
-			<div class="col-md-5 offset-3 home_input animated fadeIn">
-				<input type="text" placeholder="name" color="red" class="name">
-				<input type="text" placeholder="e-mail" class="mail">
-			</div>
-			<div class="col-md-5 offset-3 offset-md-3 col-lg-3 offset-lg-0 animated fadeIn">
-				<button class="order">
-					send a request
+			<div class="col-md-1 mx-auto p-0 d-flex">
+				<button class="play_button d-none d-md-block mx-auto">
 				</button>
 			</div>
 		</div>
-		
-	</div>
-</section> 
-
-
-<!----------------------------------------- PAGINATION ----------------------------------------->
-
-
-<div>
-	<div class="row nav_arrow_row d-none ">
-		<div class="col-md-1 ml-auto pagination d-none d-lg-flex">
-			<div class="page">01</div>
-			<div class="all_page">/05</div>
-			
-		</div>
-		<div class="col-md-2 d-none d-lg-block">
-			<div class="nav_arrow">
-				<button class="left"></button>
-				<button class="right"></button>
+		<div class="row">
+			<div class="col-11 col-md-5 col-lg-5 mx-auto">
+				<h1>HELLO WELCOME TO LHANDER.</h1>
 			</div>
 		</div>
-	</div>
-</div>
-
-
-
-<!------------------------------------------- ABOUT ------------------------------------------->
-
-
-<section class="about none" id="about">
-	<div class="container-fluid">
-		<div class="row pt-4 animated bounceInDown">
-			<h2>A few words about us</h2>
+		<div class="row">
+			<div class="col-12 col-md-10 mx-auto align-items-center;">
+				<p>Our awesome app will make <br> your life a lot easier.</p>
+			</div>
 		</div>
-		<div class="row pt-4 about_row">
-			<div class="col-md-3 col-10  col-sm-5 offset-1 about_block about_block_1 animated bounceIn">
-				<img src="img/about/coffee.png" alt="">
-				<h3>
-					Простое общение
-				</h3>
-				<p>
-					Нам важно максимально точно <br>
-					все ваши потребности, <br> 
-					идеи и сомнения
-				</p>
-			</div>
-			<div class="col-md-3 col-10 col-sm-5 offset-1 about_block about_block_2 animated bounceIn">
-				<img src="img/about/wallet.png" alt="">
-				<h3>
-					Доступная стоимость
-				</h3>
-				<p>
-					Идем навстречу стартапам и <br>
-					начинающим предпринимателям. <br>
-					Не стесняйтесь, пишите
-				</p>
-			</div>
-			<div class="col-md-3 col-10 col-sm-5 offset-1 about_block about_block_3 animated bounceIn">
-				<img src="img/about/clock.png" alt="">
-				<h3>
-					Сроки
-				</h3>
-				<p>
-					Соблюдаем договоренности <br>
-					и найдем выход из форс-мажора <br>
-					потомму что знаем секрет
-				</p>
-			</div>
-		<!-- </div> -->
-		<!-- <div class="row pt-4"> -->
-			<div class="col-md-3 col-10 col-sm-5 offset-1 about_block about_block_4 animated bounceIn">
-				<img src="img/about/target.png" alt="">
-				<h3>
-					Результат
-				</h3>
-				<p>
-					К которому мы также стримимся, <br>
-					ведь хорошее портфолио, это <br>
-					отличная валюта для нас
-				</p>
-			</div>
-			<div class="col-md-3 col-10 col-sm-5 offset-1 about_block about_block_5 animated bounceIn">
-				<img src="img/about/calendar.png" alt="">
-				<h3>
-					Работа нарямую 
-				</h3>
-				<p>
-					Без посредников и постоянная <br>
-					возможность связаться <br>
-					с любым нашим специалистом
-				</p>
-			</div>
-			<div class="col-md-3 col-10 col-sm-5 offset-1 about_block about_block_6 animated bounceIn">
-				<img src="img/about/protection.png" alt="">
-				<h3>
-					Поддержка
-				</h3>
-				<p>
-					Консультируем, советуем <br>
-					и не оставляем в беде, даже <br>
-					если заказ давно закрыт
-				</p>
+		<div class="row">
+			<div class="col-10 col-md-6 col-lg-2 mx-auto p-0">
+				<button class="learn_more">
+					Learn more
+				</button>
 			</div>
 		</div>
 	</div>
 </section>
 
+<!---------------------------------------- PROCESS ---------------------------------------->
 
-<!------------------------------------------------ PROJECT ------------------------------------------->
-
-
-<section class="project none" id="project">
-	<div class="container-fluid">
-		<div class="row pt-5">
-			<div class="col-md-5 offset-md-3 col-10 offset-1">
-				<p class="project_title animated flipInY">
-					Project
+<section class="process" id="process">
+	<div class="container">
+		<div class="row">
+			<div class="col-10 col-md-3 mx-auto">
+				<h2 class="process_title">
+					Process
+				</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-10 col-md-6 mx-auto">
+				<p class="process_subtitle">
+					How it works?
 				</p>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-10 mx-auto">
-				<div class="project_block">
-					<a class="animated fadeIn project_block_1" href="project/order/index_order.html"><img src="img/project/mountain.png" alt=""></a>
-					<a class="animated fadeIn project_block_2" href="project/daysi/index_daysi.html"><img src="img/project/daisy.png" alt=""></a>
-					<a class="animated fadeIn project_block_3" href="project/hello/index_hello.html"><img src="img/project/alikha.png" alt=""></a>
-					<a class="animated fadeIn project_block_4" href="project/order/index_order.html"><img src="img/project/mountain.png" alt=""></a>
-					<a class="animated fadeIn project_block_5" href="project/daysi/index_daysi.html"><img src="img/project/daisy.png" alt=""></a>
-					<a class="animated fadeIn project_block_6" href="project/hello/index_hello.html"><img src="img/project/alikha.png" alt=""></a>
+			<div class="col-10 col-md-8 mx-auto">
+				<p class="process_middle_text">
+					Lorem ipsum Do commodo in proident enim in dolor cupidatat <br> adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum <br>Consectetur ut in in eu do.
+				</p>
+				<div class="process_line"></div>
+			</div>
+		</div>
+		<div class="row process_block">
+			<div class="col-12 p-0 col-md-4">
+				<div class="process_item">
+					<div class="number">1</div>
+					<p class="process_item-title">
+						SIGN UP 
+					</p>
+					<p class="process_item-subtitle">
+						Lorem ipsum Cupidatat nostrud non cupidatat ut dolor id eiusmod non minim aute consectetur incididunt tempor irure aute consequat quis voluptate.
+					</p>
+				</div>
+				<div class="process_item">
+					<div class="number">2</div>
+					<p class="process_item-title">
+						UPLOAD
+					</p>
+					<p class="process_item-subtitle">
+						Lorem ipsum Cupidatat nostrud non cupidatat ut dolor id eiusmod non minim aute consectetur incididunt tempor irure aute consequat quis voluptate.
+					</p>
+				</div>
+			</div>
+			<div class="col-md-4 d-none d-md-block">
+				<img class="process_img" src="img/appdesign.jpg" alt="">
+			</div>
+			<div class="col-12 p-0 col-md-4">
+				<div class="process_item">
+					<div class="number">3</div>
+					<p class="process_item-title">
+						CREATE
+					</p>
+					<p class="process_item-subtitle">
+						Lorem ipsum Cupidatat nostrud non cupidatat ut dolor id eiusmod non minim aute consectetur incididunt tempor irure aute consequat quis voluptate.
+					</p>
+				</div>
+				<div class="process_item">
+					<div class="number">4</div>
+					<p class="process_item-title">
+						PUBLISH
+					</p>
+					<p class="process_item-subtitle">
+						Lorem ipsum Cupidatat nostrud non cupidatat ut dolor id eiusmod non minim aute consectetur incididunt tempor irure aute consequat quis voluptate.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--------------------------------------- FEATURES --------------------------------------->
+
+<section class="features" id="features">
+	<div class="container">
+		<div class="row">
+			<div class="col-10 col-md-3 mx-auto">
+				<div class="features_title">features</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-10 col-md-8 mx-auto">
+				<div class="features_subtitle">Great features you'll love.</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-10 col-md-7 mx-auto">
+				<div class="features_middle_text">
+					Lorem ipsum Do commodo in proident enim in dolor cupidatat <br>
+					adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum <br> 
+					Consectetur ut in in eu do.
+				</div>
+				<div class="features_line"></div>
+			</div>
+		</div>
+		<div class="row features_block">
+			<div class="col-10 offset-1 offset-md-0 col-md-6 col-lg-4 ">
+				<div class="features_block_item">
+					<img src="img/features/website-optimization (1).png" alt="">
+					<p class="features_block_titles">
+						FULLY RESPOSIVE
+					</p>
+					<p class="features_block_text">
+						Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+					</p>
+				</div>
+			</div>
+			<div class="col-10 offset-1 offset-md-0 col-md-6 col-lg-4 ">
+				<div class="features_block_item">
+					<img src="img/features/view.png" alt="">
+					<p class="features_block_titles">
+						RETINA READY
+					</p>
+					<p class="features_block_text">
+						Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+					</p>
+				</div>
+			</div>
+			<div class="col-10 offset-1 offset-md-0 col-md-6 col-lg-4 ">
+				<div class="features_block_item">
+					<img src="img/features/brush.png" alt="">
+					<p class="features_block_titles">
+						STYLISH DESIGN
+					</p>
+					<p class="features_block_text">
+						Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+					</p>
+				</div>
+			</div>
+			<div class="col-10 offset-1 offset-md-0 col-md-6 col-lg-4 ">
+				<div class="features_block_item">
+					<img src="img/features/code.png" alt="">
+					<p class="features_block_titles">
+						CLEAN CODE
+					</p>
+					<p class="features_block_text">
+						Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+					</p>
+				</div>
+			</div>
+			<div class="col-10 offset-1 offset-md-0 col-md-6 col-lg-4 ">
+				<div class="features_block_item">
+					<img src="img/features/layers.png" alt="">
+					<p class="features_block_titles">
+						EASY TO CUSTOMIZE
+					</p>
+					<p class="features_block_text">
+						Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+					</p>
+				</div>
+			</div>
+			<div class="col-10 offset-1 offset-md-0 col-md-6 col-lg-4 ">
+				<div class="features_block_item">
+					<img src="img/features/gift.png" alt="">
+					<p class="features_block_titles">
+						FREE OF CHARGE
+					</p>
+					<p class="features_block_text">
+						Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+					</p>
 				</div>
 			</div>
 		</div>
@@ -210,132 +239,285 @@
 </section>
 
 
-<!---------------------------------------------- TECHNOLOGIES ----------------------------------------->
+<!--------------------------------------- PRISING --------------------------------------->
 
-
-<section class="technologies none" id="technologies">
+<section class="prising" id="prising">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-10 col-lg-8 mx-auto">
-				<div class="technologies_container mx-auto">
-					<div class="technologies_items technologies_items_1 animated zoomIn">
-						<img src="img/technologies/html.png" alt="">
-						<span>
-							HTNL5+CSS3
-						</span>
-						<p>
-							Modern layout using <br> Jade + Sass preprocessors
-						</p>
-					</div>
-					<div class="technologies_items technologies_items_2 animated zoomIn">
-						<img src="img/technologies/smartphone.png" alt="">
-						<span>
-							BOOTSTRAP
-						</span>
-						<p>
-							Adaptive layout using <br> bootstrap framework
-						</p>
-					</div>
-					<div class="technologies_items technologies_items_3 animated zoomIn">
-						<img src="img/technologies/cros.png" alt="">
-						<span>
-							COMPATIBILITY
-						</span>
-						<p>
-                            IE9+, Microsoft edge, Firefox, <br>
-                            Chrome, Opera...
-					</div>
-					<div class="technologies_items technologies_items_4 animated zoomIn">
-						<img src="img/technologies/val.png" alt="">
-						<span>
-							VALIDITY
-						</span>
-						<p>
-                             Adaptive layout using <br> bootstrap framework
-						</p>
-					</div>
-					<div class="technologies_items technologies_items_5 animated zoomIn">
-						<img src="img/technologies/diana.png" alt="">
-						<span>
-							PIXEL PERFECT
-						</span>
-						<p>
-							Using Pixel Perfect <br> (exact layout on the layout)
-						</p>
-					</div>
-					<div class="technologies_items technologies_items_6 animated zoomIn">
-						<img src="img/technologies/html-coding.png" alt="">
-						<span>
-							NET CODE
-						</span>
-						<p>
-							Clean, commented code, <br> understandable to any programmer.
-						</p>
-					</div>
-					
+			<div class="col-10 col-md-2 mx-auto ">
+				<p class="prising_title">OUR PRICING</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-10 col-md-8 mx-auto ">
+				<p class="prising_subtitle">Pick the best plan for you.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-10 col-md-6 mx-auto">
+				<p class="prising_middle_text">Lorem ipsum Do commodo in proident enim in dolor cupidatat <br>
+				 adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum <br>
+				 Consectetur ut in in eu do.
+				</p>
+				<div class="prising_title_line"></div>
+			</div>
+		</div>
+		<div class="row pt-4 pb-5">
+			<div class="col-10 col-md-5 col-lg-3 mx-auto d-flex  flex-column prising_hover">
+				<div class="prising_item prising_item_top">
+					<h3>Starter</h3>
+					<div class="prising_line"></div>
+					<div class="prise_number"><span>$</span>4.99</div>
+					<div class="per_month">Per month</div>
+					<div class="billed">Billed Annually</div>
+				</div>
+				<div class="prising_item prising_item_bottom">
+					<p>3GB <span>Storage</span></p>
+					<div class="prising_item_line"></div>
+					<p>10GB <span>Bandwidth</span></p>
+					<div class="prising_item_line"></div>
+					<p>5 <span>Databases</span></p>
+					<div class="prising_item_line"></div>
+					<p>30 <span>Email Accounts</span></p>
+					<button class="get_started">Get Started</button>
+				</div>
+			</div>
+
+			<div class="col-10 col-md-5 col-lg-3 mx-auto d-flex flex-column prising_hover">
+				<div class="prising_item prising_item_top">
+					<h3>Standard</h3>
+					<div class="prising_line"></div>
+					<div class="prise_number"><span>$</span>9.99</div>
+					<div class="per_month">Per month</div>
+					<div class="billed">Billed Annually</div>
+				</div>
+				<div class="prising_item prising_item_bottom">
+					<p>5GB <span>Storage</span></p>
+					<div class="prising_item_line"></div>
+					<p>15GB <span>Bandwidth</span></p>
+					<div class="prising_item_line"></div>
+					<p>7 <span>Databases</span></p>
+					<div class="prising_item_line"></div>
+					<p>40 <span>Email Accounts</span></p>
+					<button class="get_started">Get Started</button>
+				</div>
+			</div>
+
+			<div class="col-10 col-md-5 col-lg-3 mx-auto d-flex flex-column prising_hover">
+				<div class="prising_item prising_item_top">
+					<h3>Premium</h3>
+					<div class="prising_line"></div>
+					<div class="prise_number"><span>$</span>19.99</div>
+					<div class="per_month">Per month</div>
+					<div class="billed">Billed Annually</div>
+				</div>
+				<div class="prising_item prising_item_bottom">
+					<p>10GB <span>Storage</span></p>
+					<div class="prising_item_line"></div>
+					<p>30GB <span>Bandwidth</span></p>
+					<div class="prising_item_line"></div>
+					<p>15 <span>Databases</span></p>
+					<div class="prising_item_line"></div>
+					<p>60 <span>Email Accounts</span></p>
+					<button class="get_started">Get Started</button>
+				</div>
+			</div>
+
+			<div class="col-10 col-md-5 col-lg-3 mx-auto d-flex flex-column prising_hover">
+				<div class="prising_item prising_item_top">
+					<h3>Ultimate</h3>
+					<div class="prising_line"></div>
+					<div class="prise_number"><span>$</span>29.99</div>
+					<div class="per_month">Per month</div>
+					<div class="billed">Billed Annually</div>
+				</div>
+				<div class="prising_item prising_item_bottom">
+					<p>20GB <span>Storage</span></p>
+					<div class="prising_item_line"></div>
+					<p>40GB <span>Bandwidth</span></p>
+					<div class="prising_item_line"></div>
+					<p>25 <span>Databases</span></p>
+					<div class="prising_item_line"></div>
+					<p>100 <span>Email Accounts</span></p>
+					<button class="get_started">Get Started</button>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
 
+<!---------------------------------------------- HEAR ---------------------------------------------->
 
-<section class="contact none" id="contact">
-	<div class="container-fluid">
-		<div class="col-10 offset-1 col-md-5 mx-auto">
-			<p class="contact_title">
-				Contact
+<section class="hear" id="hear">
+	<div class="container">
+		<div class="row">
+			<div class="col-10 col-md-4 mx-auto">
+				<p class="hear_title">
+					Hear What Are Clients Say.
+				</p>
+				<div class="hear_line"></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-10 offset-1 col-md-9 mx-auto">
+				<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+				  <ol class="carousel-indicators">
+				    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				  </ol>
+				  <div class="carousel-inner">
+				    <div class="carousel-item active">
+				      <img src="img/avatars/avatar-1.jpg" class="d-block mx-auto w-2" style="border-radius:50%; width: 64px; " alt="...">
+				      <p class="slide_p">
+				      	STEVE JOBS
+				      </p>
+				      <span class="slide_span">
+						CEO, Apple
+				      </span>
+				      <p class="slide_text"> 
+				      	"Your work is going to fill a large part of your life, and the only way 
+				      	to be truly satisfied is to do what you believe is great work. And the 
+				      	only way to do great work is to love what you do. If you haven't found 
+				      	it yet, keep looking. Don't settle. As with all matters of the heart, 
+				      	you'll know when you find it."
+				      </p>
+				    </div>
+				    <div class="carousel-item">
+				      <img src="img/avatars/avatar-2.jpg" class="d-block mx-auto w-2" style="border-radius:50%; width: 64px; " alt="...">
+				      <p class="slide_p">
+				      	JOHN DOE
+				      </p>
+				      <span class="slide_span">
+				      	CEO, ABC Corp.
+				      </span>
+				      <p class="slide_text">
+				      	"This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+				      	velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
+				      	nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio 
+				      	sit amet nibh vulputate cursus a sit amet mauris."
+				      </p>
+				    </div>
+				  </div>
+				  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Previous</span>
+				  </a>
+				  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Next</span>
+				  </a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--------------------------------------------- FAQ --------------------------------------------->
+
+<section class="faq" id="faq">
+	<div class="container">
+	<div class="row">
+		<div class="col-10 col-md-3 mx-auto">
+			<p class="faq_title">
+				FAQ
 			</p>
 		</div>
-		<div class="row">
-			<div class="col-lg-3 offset-lg-2 col-10 offset-1 col-md-8 offset-md-2 p-0">
-				<ul>
-					<li><a class="contact_link_1 animated fadeInLeft" href="https://wa.me/994515130696">
-						<img src="img/contact/whatsapp.png" alt="">
-						<div class="circle"></div>
-						<span>
-							+994(50) 513 06 96
-						</span>
-					</a></li>
-					<li><a class="contact_link_2 animated fadeInLeft" href="https://www.instagram.com/alixan.96/">
-						<img src="img/contact/instagram (5).png" alt="instagram">
-						<div class="circle"></div>
-						<span>
-							@alixan.96
-						</span>
-					</a></li>
-					<li><a class="contact_link_3 animated fadeInLeft" href="mailto:alikhan-gusejjnv@list.ru">
-						<img src="img/contact/mail.png" alt="mail">
-						<div class="circle"></div>
-						<span>
-							alikhan-gusejjnv@list.ru
-						</span>
-					</a></li>
-					<li><a class="contact_link_4 animated fadeInLeft" href="https://vk.com/96alikhan">
-						<img src="img/contact/vk (1).png" alt="vk">
-						<div class="circle"></div>
-						<span>
-							#96alikhan
-						</span>
-					</a></li>
-					<li><a class="contact_link_5 animated fadeInLeft" href="https://www.facebook.com/alikhan.gusejjnv?ref=bookmarks">
-						<img src="img/contact/facebook.png" alt="vk">
-						<div class="circle"></div>
-						<span>
-							Алихан Гусейнов
-						</span>
-					</a></li>
-				</ul>
-			</div>
-			<div class="col-10 offset-1 col-md-8 offset-md-2 col-lg-3 contact_order">
-				<input class="animated  contact_animated_1 fadeInRight" type="text" placeholder="name" color="red" class="name">
-				<input class="animated  contact_animated_2 fadeInRight" type="text" placeholder="e-mail" class="mail">
-				<button class="animated  contact_animated_3 fadeInRight">ORDER</button>
-			</div>
+	</div>
+	<div class="row">
+		<div class="col-10 col-md-7 mx-auto">
+			<p class="faq_subtitle">
+				Questions and Answers.
+			</p>
 		</div>
 	</div>
+	<div class="row">
+		<div class="col-10 col-md-8 mx-auto">
+			<p class="faq_title_text">
+				Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.
+			</p>
+			<div class="faq_line"></div>
+		</div>
+	</div>
+	<div class="row faq_block">
+		<div class="col-10 col-md-4 mx-auto faq_item p-0">
+			<p class="faq_block_title">
+				What are the security features?
+			</p>
+			<p class="faq_block_text">
+				Lorem ipsum Id in magna ad culpa dolor eu aute non amet aute ea in consectetur in quis nostrud anim proident dolore in sed et mollit voluptate culpa irure consequat laborum ea sint in mollit adipisicing cupidatat.
+			</p>
+		</div>
+		<div class="col-10 col-md-4 mx-auto faq_item p-0">
+			<p class="faq_block_title">
+				How can I update my user profile?
+			</p>
+			<p class="faq_block_text">
+				Lorem ipsum Id in magna ad culpa dolor eu aute non amet aute ea in consectetur in quis nostrud anim proident dolore in sed et mollit voluptate culpa irure consequat laborum ea sint in mollit adipisicing cupidatat.
+			</p>
+		</div>
+	</div>
+	<div class="row faq_block">
+		<div class="col-10 col-md-4 mx-auto faq_item p-0">
+			<p class="faq_block_title">
+				What features are not included in the free version?
+			</p>
+			<p class="faq_block_text">
+				Lorem ipsum Id in magna ad culpa dolor eu aute non amet aute ea in consectetur in quis nostrud anim proident dolore in sed et mollit voluptate culpa irure consequat laborum ea sint in mollit adipisicing cupidatat.
+			</p>
+		</div>
+		<div class="col-10 col-md-4 mx-auto faq_item p-0">
+			<p class="faq_block_title">
+				Can I upgrade my account from Starter to Premium?
+			</p>
+			<p class="faq_block_text">
+				Lorem ipsum Id in magna ad culpa dolor eu aute non amet aute ea in consectetur in quis nostrud anim proident dolore in sed et mollit voluptate culpa irure consequat laborum ea sint in mollit adipisicing cupidatat.
+			</p>
+		</div>
+	</div>
+	<div class="row faq_block">
+		<div class="col-10 col-md-4 mx-auto faq_item p-0">
+			<p class="faq_block_title">
+				Where can I found all my uploads?
+			</p>
+			<p class="faq_block_text">
+				Lorem ipsum Id in magna ad culpa dolor eu aute non amet aute ea in consectetur in quis nostrud anim proident dolore in sed et mollit voluptate culpa irure consequat laborum ea sint in mollit adipisicing cupidatat.
+			</p>
+		</div>
+		<div class="col-10 col-md-4 mx-auto faq_item p-0">
+			<p class="faq_block_title">
+				How long can I use the free trial version?
+			</p>
+			<p class="faq_block_text">
+				Lorem ipsum Id in magna ad culpa dolor eu aute non amet aute ea in consectetur in quis nostrud anim proident dolore in sed et mollit voluptate culpa irure consequat laborum ea sint in mollit adipisicing cupidatat.
+			</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-8 col-md-8 mx-auto">
+			<div class="faq_line_gray"></div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-10 col-md-7 mx-auto">
+			<p class="faq_subtitle_bottom">
+				Styleshout Recommends Dreamhost.
+			</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-10 col-md-8 mx-auto">
+			<p class="faq_title_text_bottom">
+				Looking for an awesome and reliable webhosting? Try <span>DreamHost. <br> </span> Get <span>$50 off</span> when you sign up with the promocode <span>styleshout.</span>
+			</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-10 col-md-3 mx-auto">
+			<button class="sing_up" >Sing Up Now</button>
+		</div>
+	</div>
+	</div>
 </section>
-
 
 
 
@@ -349,6 +531,9 @@
 <script src="js/js.js"></script>
 <script src="library/bootstrap.min.js"></script>
 <script src="library/owlcarousel/owl.carousel.min.js"></script>
+
+
+
 
 
 </body>
