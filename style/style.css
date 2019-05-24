@@ -76,7 +76,7 @@ section{
 	border-bottom: 2px solid transparent;
 	height: 5vh;
 	color: #aeaeae;
-	font-size: 2vh;
+	font-size: 10px;
 	letter-spacing: .5px;
 	font-family: "raleway-heavy", sans-serif;
 	font-weight: 700;
@@ -121,7 +121,7 @@ button.play_button{
 	margin-top: 15vh;
 }
 .home h1{
-	font-size: 4vh;
+	font-size: 20px;
     color: rgba(255, 255, 255, 0.6);
 	text-align: center;
 	margin-top: 5vh;
@@ -129,7 +129,7 @@ button.play_button{
 }
 .home p{
 	color: #fff;
-	font-size: 9vh;
+	font-size: 41px;
 	text-align: center;
 	font-family: 'Merriweather', serif;
 
@@ -139,7 +139,7 @@ button.play_button{
 	border: 3px solid #fff;
 	height: 10vh;
 	border-radius: 30px;
-	font-size: 3vh;
+	font-size: 15px;
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: 600;
@@ -153,14 +153,14 @@ button.play_button{
 
 .process h2.process_title{
 	color: rgba(56, 66, 78, 0.5);
-	font-size: 3vh;
+	font-size: 15px;
 	font-weight: 700;
 	text-align:center;
 	text-transform: uppercase;
 	margin-top: 20vh;
 }
 .process p.process_subtitle{
-	font-size: 8vh;
+	font-size: 40px;
 	font-family: 'Merriweather', serif;
 	color: #000;
 	text-align:center;
@@ -196,14 +196,14 @@ button.play_button{
 	margin-left: auto;
 	margin-right: auto;
 	font-weight: 600;
-	font-size: 4vh;
+	font-size: 20px;
 	color: #fff;
 }
 p.process_item-title{
 	text-align: center;
 	color: #05bca9;
 	font-family: 'Raleway', sans-serif;
-	font-size: 	3vh;
+	font-size: 	15px;
 	font-weight: 550;
 	margin-top: 3vh;
 }
@@ -211,7 +211,7 @@ p.process_item-subtitle{
 	text-align: center;
 	color: #737373;
 	font-family: 'Raleway', sans-serif;
-	font-size: 	2.5vh;
+	font-size: 	14px;
 	font-weight: 550;
 	margin-top: 1vh;
 	display: block;
@@ -239,7 +239,7 @@ p.process_item-subtitle{
 	height: auto;
 }
 .features .features_title{
-	font-size: 3vh;
+	font-size: 15px;
 	font-weight: 700;
 	color: #888888;
 	text-transform: uppercase;
@@ -248,7 +248,7 @@ p.process_item-subtitle{
 	padding-top: 20vh;
 }
 .features .features_subtitle{
-	font-size: 8vh;
+	font-size: 40px;
 	font-family: 'Merriweather', serif;
 	color: #fff;
 	text-align: center;
@@ -257,7 +257,7 @@ p.process_item-subtitle{
 	text-align: center;
 	font-family: serif;
 	color: #999;
-	font-size: 3vh;
+	font-size: 15px;
 	font-weight: 500;
 	margin-top: 1vh;
 }
@@ -275,7 +275,6 @@ p.process_item-subtitle{
 	width: 95%;
 	margin-left: auto;
 	margin-right: auto;
-	
 }
 .features_block img{
 	display: block;
@@ -285,16 +284,16 @@ p.process_item-subtitle{
 }
 .features .features_block .features_block_titles{
 	color: #05bca9;
-	font-size: 3vh;
+	font-size: 15px;
 	font-weight: 700;
 	text-align: center;
 	margin-top: 4vh;
 }
 .features .features_block .features_block_text{
 	color: #fff;
-	font-size: 3.2vh;
+	font-size: 16px;
 	text-align: center;
-	line-height: 5vh;
+	line-height: 25px;
 	font-family: serif;
 }
 
@@ -306,7 +305,7 @@ p.process_item-subtitle{
 	height: auto;
 }
 .prising .prising_title{
-	font-size: 2.8vh;
+	font-size: 14px;
 	font-weight: 600;
 	color: #91969d;
 	text-align: center;
@@ -314,14 +313,14 @@ p.process_item-subtitle{
 	margin-bottom: 0;
 }
 .prising .prising_subtitle{
-	font-size: 8vh;
+	font-size: 40px;
 	font-weight: 600;
 	color: #252525;
 	text-align: center;
 	font-family: 'Merriweather', serif;
 }
 .prising .prising_middle_text{
-	font-size: 3vh;
+	font-size: 15px;
 	color: #91969d;
 	text-align: center;
 }
@@ -369,7 +368,7 @@ p.process_item-subtitle{
 }
 .prising h3{
 	margin-top: 3vh;
-	font-size: 4.2vh;
+	font-size: 21px;
 }
 .prising_line{
 	width: 30%;
@@ -381,7 +380,7 @@ p.process_item-subtitle{
 	margin-top: 3vh;
 }
 .prise_number{
-	font-size: 7vh;
+	font-size: 35px;
 	font-family: "raleway-bold", sans-serif;
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -394,20 +393,20 @@ p.process_item-subtitle{
 	margin-top: 2vh;
 }
 .prise_number span{
-	font-size: 4vh;
+	font-size: 20px;
 }
 .per_month{
-	font-size: 3vh;
+	font-size: 20px;
 	font-family: "raleway-bold", sans-serif;
 }
 .billed{
 	color: #a7afb9;
 	font-family: "raleway-bold", serif;
 	margin-top: 1vh;
-	font-size: 3.2vh;
+	font-size: 16px;
 }
 .prising_item p{
-	font-size: 2.5vh;
+	font-size: 12px;
 	font-weight: 600;
 	color: #000;
 	margin-top: 1vh;
@@ -428,7 +427,7 @@ button.get_started{
 	height: 8vh;
 	background-color: #d8d8d8;
 	width: 60%;
-	font-size: 2.8vh;
+	font-size: 11px;
 	font-weight: 600;
 	margin-left: auto;
 	margin-right: auto;
@@ -449,7 +448,7 @@ button.get_started:hover{
 }
 .hear .hear_title{
 	text-align: center;
-	font-size: 4vh;
+	font-size: 20px;
 	color: #252525;
 	font-family: 'Merriweather', serif;
 	margin-top: 15vh;
@@ -468,14 +467,14 @@ button.get_started:hover{
 .hear .carousel p.slide_p{
 	color: #353f49;
 	font-weight: 600;
-	font-size: 3vh;
+	font-size: 15px;
 	text-align: center;
 	margin-top: 1vh;
 }
 .hear .carousel span.slide_span{
 	color: #58687b;
 	font-weight: 600;
-	font-size: 2.5vh;
+	font-size: 12px;
 	margin-top: 1vh;
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -489,11 +488,11 @@ button.get_started:hover{
 	height: 40vh;
 	color: #8f8f8f;
 	font-weight: 600;
-	font-size: 4vh;
+	font-size: 20px;
 	text-align: center;
 	margin-top: 1vh;
 	font-family: "raleway-bold", sans-serif;
-	line-height: 8vh;
+	line-height: 40px;
 }
 .hear ol.carousel-indicators{
 	padding-top: 35vh;
@@ -523,7 +522,7 @@ button.get_started:hover{
 	padding-bottom: 15vh;
 }
 .faq p.faq_title{
-	font-size: 3vh;
+	font-size: 15px;
 	text-align: center;
 	color: #888888;
 	font-weight: 600;
@@ -533,14 +532,14 @@ button.get_started:hover{
 	margin-bottom: 0vh;
 }
 .faq p.faq_subtitle{
-	font-size: 8vh;
+	font-size: 40px;
 	text-align: center;
 	font-family: 'Merriweather', serif;
 	color: #252525;
 	font-weight: 600;
 }
 .faq p.faq_title_text{
-	font-size: 3.5vh;
+	font-size: 17px;
 	text-align: center;
 	font-family: serif;
 	letter-spacing: 2px;
@@ -561,13 +560,13 @@ button.get_started:hover{
 }
 p.faq_block_title{
 	color: #252525;
-	font-size: 3.5vh;
+	font-size: 17px;
 	font-weight: bold;
 
 }
 p.faq_block_text{
 	color: #737386;
-	font-size: 3vh;
+	font-size: 15px;
 }
 .faq_line_gray{
 	background-color: #aeaeae;
@@ -577,7 +576,7 @@ p.faq_block_text{
 	opacity: .1;
 }
 .faq p.faq_subtitle_bottom{
-	font-size: 5vh;
+	font-size: 25px;
 	text-align: center;
 	font-family: 'Merriweather', sans-serif;
 	color: #252525;
@@ -585,7 +584,7 @@ p.faq_block_text{
 	margin-top: 5vh;
 }
 .faq p.faq_title_text_bottom{
-	font-size: 3vh;
+	font-size: 15px;
 	font-family: 'Merriweather', serif;
 	text-align: center;
 	font-family: serif;
@@ -605,7 +604,7 @@ p.faq_block_text{
 	margin-right: auto;
 	height: 10vh;
 	border-radius: 30px;
-	font-size: 3vh;
+	font-size: 15px;
 	font-weight: bold;
 	margin-top: 5vh;
 }
@@ -620,14 +619,14 @@ p.faq_block_text{
 	height: auto;
 }
 .get_started_title{
-	font-size: 5vh;
+	font-size: 15px;
 	color: #fff;
 	text-align: center;
 	font-weight: bold;
 	margin-top: 13vh;
 }
 .get_started_subtitle{
-	font-size: 3vh;
+	font-size: 15px;
 	color: #fff;
 	text-align: center;
 	font-weight: bold;
@@ -641,7 +640,7 @@ p.faq_block_text{
 	border: none;
 	border-radius: 6vh;
 	height: 10vh;
-	font-size: 3vh;
+	font-size: 15px;
 	font-weight: bold;
 	margin-bottom: 10vh;
 }
@@ -670,16 +669,16 @@ p.faq_block_text{
 }
 .lhunder p{
 	margin: 0;
-	font-size: 3vh;
+	font-size: 15px;
 	margin-left: 20px;
 }
 .lhunder_text{
 	color: #325166;
-	font-size: 2.2vh;
+	font-size: 11px;
 }
 .footer h3{
 	color: #fff;
-	font-size: 3vh;
+	font-size: 15px;
 	font-weight: bold;
 }
 .footer_line{
@@ -693,12 +692,12 @@ p.faq_block_text{
 	color: #465166;
 	font-weight: bold;
 	font-family: "raleway-bold", sans-serif;
-	line-height: 5vh;
+	line-height: 25px;
 }
 .footer li{
 	color: #465166;
 	font-family: "raleway-bold", sans-serif;
-	line-height: 5vh;
+	line-height: 20px;
 }
 .footer input{
 	background-color: #232933;
@@ -732,7 +731,7 @@ p.faq_block_text{
 	justify-content: center;
 	-ms-align-items: center;
 	align-items: center;
-	font-size: 2.5vh;
+	font-size: 11px;
 	color: #465166;
 	height: 12vh;
 	margin: 0;
