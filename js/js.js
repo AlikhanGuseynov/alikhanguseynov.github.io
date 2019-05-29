@@ -1,38 +1,25 @@
-$(window).scroll(function(event) {
-	var home_height = $(".home").height();
-	var window_scroll = $(window).scrollTop();
-	if( window_scroll >= 100 ){
-		$(".header .row").css({
-			animationName: 'header_on',
-		});
-	}
-	if( window_scroll < 100 ){
-		$(".header .row").css({
-			animationName: 'header_off',
-		});
-	}	
-	if( window_scroll > home_height-home_height/2 ){
-		$(".header .scrollTop").fadeIn('1500', function() {
-		});	
-	}
-	if( window_scroll < home_height-home_height/2 ){
-		$(".header .scrollTop").fadeOut('1500', function() {
-		});	
-	}
+$(".project img").hover(function() {
+	$(this).css({
+		animationName: 'project_on'
+	});
+}, function() {
+	$(this).css({
+		animationName: 'project_off'
+	});
 });
 
 
-$('button.scrollTop').click(function() {
-  $('html, body').animate({scrollTop: 0},500);
-  return false;
-});
+$("header li").click(function(event) {
+	$("section").addClass("d-none");
+	$("section").removeClass("d-block");
+	var link_a = $(this).html() ;
+	console.log(link_a);
+	var link_href = document.getElementById(link_a);
+	link_href.classList.remove("d-none");
+	link_href.classList.add("d-block");
+	var i = $(this).index();
+	$("body").animate({
+	backgroundPositionY: 100 - (i*25) + "%",
+	},1000);
 
-$(document).ready(function(){
-    $('.header a').click( function(){ // ловим клик по ссылке с классом go_to
-	var scroll_el = $(this).attr('href'); // возьмем содержимое атрибута href, должен быть селектором, т.е. например начинаться с # или .
-        if ($(scroll_el).length != 0) { // проверим существование элемента чтобы избежать ошибки
-	    $('html, body').animate({ scrollTop: $(scroll_el).offset().top }, 500); // анимируем скроолинг к элементу scroll_el
-        }
-	    return false; // выключаем стандартное действие
-    });
 });

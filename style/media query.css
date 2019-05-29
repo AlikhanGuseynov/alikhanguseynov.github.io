@@ -1,3 +1,51 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 2000px ) { 
+
+/*---------------------------------- HEADER ----------------------------------*/
+
+.header .nav_menu li{
+	font-size: 20px;
+}
+
+
+/*----------------------------------- HOME -----------------------------------*/
+
+.home h1{
+	font-size: 100px;
+}
+.home input{
+	font-size: 30px;
+}
+.home button.order{
+	font-size: 20px;
+	height: 54px;
+	border-radius: 27px;
+}
+
+
+/*------------------------------ ABOUT ------------------------------*/
+
+.about h2{
+	font-size: 70px;
+}
+.about img{
+	width: 50px;
+	margin-top: 5vh;
+}
+.about p.about_subtitle{
+	font-size: 32px;
+	margin-top: 50px;
+}
+.about p.about_text{
+	font-size: 20px;
+	margin-top: 50px;
+}
+
+.project img{
+	width: 350px	;
+	margin:0; 
+}
+
+
+
 
 }
