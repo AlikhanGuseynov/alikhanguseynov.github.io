@@ -11,9 +11,6 @@ ul, li{
 .row a{
 	text-decoration: none;
 }
-.bsr{
-	border: 1px solid red;
-}
 .bsb{
 	border: 1px solid black;
 }
@@ -36,7 +33,6 @@ section{
 	position: relative;
 	z-index: 1;
 	overflow: hidden;
-	border: 1px solid red;
 }
 
 
@@ -148,7 +144,6 @@ section.home{
 	font-weight: bold;
 	text-transform: uppercase;
 }
-
 .home button.order:hover{
 	background-color: #1DC1D3;
 }
@@ -183,7 +178,6 @@ section.about{
 }
 .about p.about_text{
 	font-size: 15px;
-	/*color: #585858;*/
 	color: #f0f0f0;
 	font-weight: 500;
 	margin-top: 3vh;
@@ -203,7 +197,7 @@ section.project{
 
 .project p.project_title{
 	text-align: center;
-	font-size: 100px;
+	font-size: 80px;
 	color: #fff;
 	font-family: 'Josefin Sans', sans-serif;
 	padding-top: 7vh;
@@ -276,7 +270,6 @@ section.technologies{
 	flex-wrap: wrap;
 	justify-content: center;
 }
-
 .technologies .technologies-block__item{
 	background-color: rgba(69,216,232,.5);
 	padding: 0;
@@ -338,7 +331,8 @@ section.contact .contact_title{
 	color: #01a6ef;
 }
 .contact ul span{
-	margin-left: 15px;		
+	margin-left: 15px;
+	font-size: 16px		
 }
 .contact ul a{
 	display: -webkit-flex;
@@ -406,19 +400,18 @@ section.contact .contact_title{
 .contact .contact_order button.order {
 	border: 2px solid #45d8e8;
 	height: 40px;
-	width: 100%	;
+	width: 70%	;
+	margin-right: auto;
+	margin-left: auto;
 	border-radius: 30px;
 	color: #fff;
 	font-size: 20px;
 }
-
 .contact .contact_order button.order:hover {
 	background-color: #45d8e8;
 	color: #000;
 	font-weight: 600;
 }
-
-
 
 
 /*------------------------------------------- ANIMATED -------------------------------------------*/
