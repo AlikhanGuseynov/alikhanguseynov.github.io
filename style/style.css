@@ -11,6 +11,9 @@ ul, li{
 .row a{
 	text-decoration: none;
 }
+.bsr{
+	border: 1px solid red;
+}
 .bsb{
 	border: 1px solid black;
 }
@@ -149,14 +152,11 @@ section.home{
 }
 
 
-
 /*------------------------------ ABOUT ------------------------------*/
-
 section.about{
 	width: 100%;
 	height: 100vh;
-/*	background-image: url(../img/about/about.jpg);
-*/	background-repeat: no-repeat;
+	background-repeat: no-repeat;
 	background-size: cover;
 }
 .about h2{
@@ -190,11 +190,9 @@ section.about{
 section.project{
 	width: 100%;
 	height: 100vh;
-/*	background-image: url(../img/project/project.jpg);
-*/	-webkit-background-size: cover;
+	-webkit-background-size: cover;
 	background-size: cover;
 }
-
 .project p.project_title{
 	text-align: center;
 	font-size: 80px;
@@ -209,7 +207,7 @@ section.project{
 .project img{
 	display: block;
 	width: 270px;
-	margin-left: auto;
+	margin-left: 0;
 	margin-right: auto;
 	box-shadow: 0 0 25px 5px transparent;
 	border-radius: 0px;
@@ -244,8 +242,7 @@ section.project{
 /*------------------------------ TECHNOLOGIES ------------------------------*/
 
 section.technologies{
-/*	background-image: url(../img/technologies/technologies.jpg);
-*/	background-repeat: no-repeat;
+	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100vh;
 	width: 100%;
@@ -315,7 +312,6 @@ section.technologies{
 section.contact{
 	width: 100%;
 	height: 100vh;
-	/*background-color: #161616;*/
 }
 section.contact .contact_title{
 	font-size: 70px;
@@ -328,7 +324,6 @@ section.contact .contact_title{
 	color: 	grey;
 }
 .contact ul li:hover i{
-	color: #01a6ef;
 }
 .contact ul span{
 	margin-left: 15px;
