@@ -1,0 +1,59 @@
+@media only screen and (max-width: 992px) {
+	/*<!---------------------------------------- LAST WORKS ---------------------------------------->*/
+.works .works-title{
+	font-size: 18px;
+}
+/*<!-------------------------------------------- RED BLOCK -------------------------------------------->*/
+section.red_block .row .red_block-title{
+	font-size: 16px;
+}
+section.red_block .row button.red_block-button-get{
+	font-size: 13px;
+	padding: 0px 20px;
+}
+/*<!------------------------------------------- LOGOS BLOCK ------------------------------------------->*/
+section.logos_block#logos_block{
+	padding-bottom: 10px;
+} 
+section.logos_block .logos_block_items{
+	padding-top: 10px;
+}
+section.logos_block .logos_block_items img{
+	width: 15%;
+	padding-top: 10px;
+}
+section.logos_block p.logos_block-text{
+	font-size: 13px;
+	margin: 0;
+}
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+	/*<!---------------------------------------- LAST WORKS ---------------------------------------->*/
+.works .works-title{
+	
+}
+/*<!-------------------------------------------- RED BLOCK -------------------------------------------->*/
+section.red_block .row .red_block-title{
+
+}
+section.red_block .row button.red_block-button-get{
+
+}
+/*<!------------------------------------------- LOGOS BLOCK ------------------------------------------->*/
+section.logos_block#logos_block{
+
+} 
+section.logos_block .logos_block_items{
+
+}
+section.logos_block .logos_block_items img{
+
+}
+section.logos_block p.logos_block-text{
+
+}
+}
