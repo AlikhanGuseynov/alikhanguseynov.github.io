@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>new_portfolio...</title>
+	<title>Startup</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="library/bootstrap.min.css">
 	<link rel="stylesheet" href="style/media query.css">
 	<link rel="stylesheet" href="style/style.css">
-	<!-- ШРИФТЫ	 -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<!-- ШРИФТЫ	 -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300i&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
@@ -18,26 +18,31 @@
 <!------------------------------------- HEADER ------------------------------------->
 <header class="header " id="header">
 	<div class="continer-fluid">
-		<div class="row p-0 pro m-0 pt-4bsr d-flex align-items-center">
+		<div class="row p-0 pro m-0 pt-4 d-flex align-items-center">
 			<div class="col-5  col-md-2 offset-1">
 				<div class="logo">Startup</div>
 			</div>
 			<div class="col-lg-6  offset-lg-2 col-xl-5 offset-xl-3 d-none d-lg-block">
 				<ul class="nav-menu">
-					<li><a href="home">home</a></li>
-					<li><a href="services">services</a></li>
-					<li><a href="about">about</a></li>
-					<li><a href="works">works</a></li>
-					<li><a href="blog">blog</a></li>
-					<li><a href="clients">clients</a></li>
-					<li><a href="contact">contact</a></li>
+					<li><a href="#home">home</a></li>
+					<li><a href="#services">services</a></li>
+					<li><a href="#about">about</a></li>
+					<li><a href="#works">works</a></li>
 				</ul>
 			</div>
-			<div class="col-2 d-lg-none ml-auto">
-				<div class="burger">
+			<div id="burger" class="col-2 d-lg-none ml-auto">
+				<div class="burger position-fixed">
 					<div class="burger_line"></div>
 					<div class="burger_line"></div>
 				</div>
+			</div>
+			<div class="col-12 ml-auto">
+				<ul  id="nav-menu_hidden" class="nav-menu_hidden">
+					<li><a href="#home">home</a></li>
+					<li><a href="#services">services</a></li>
+					<li><a href="#about">about</a></li>
+					<li><a href="#works">works</a></li>
+				</ul>				
 			</div>
 		</div>
 		<div class="row m-0">
@@ -131,7 +136,7 @@
 <section class="about" id="about">
 	<div class="container">
 		<div class="row">
-			<div class="col-3 mx-auto">
+			<div class="col-5 col-sm-3 mx-auto">
 				<p class="about_title">
 					about as
 				</p>
@@ -166,7 +171,7 @@
 			</div>
 		</div>
 		<div class="row mt-5 d-flex justify-content-around">
-			<div class="col-10 offset-1 col-sm-5 offset-sm-0 col-md-3 offset-md-0">
+			<div class="col-10 col-sm-5 offset-sm-0 col-md-3 offset-md-0">
 				<img src="img/about/Layer_12.png" alt="" class="about_block_img">
 				<p class="about_block_img_name">
 					Md. Khalil Uddin
@@ -175,7 +180,7 @@
 					Head of Ideas
 				</p>
 			</div>
-			<div class="col-10 offset-1 col-sm-5 offset-sm-0 col-md-3 offset-md-0">
+			<div class="col-10 col-sm-5 offset-sm-0 col-md-3 offset-md-0">
 				<img src="img/about/Layer_13.png" alt="" class="about_block_img">
 				<p class="about_block_img_name">
 					Rubel Miah
@@ -184,7 +189,7 @@
 					Lead WordPress Developer
 				</p>
 			</div>
-			<div class="col-10 offset-1 col-sm-5 offset-sm-0 col-md-3 offset-md-0">
+			<div class="col-10 col-sm-5 offset-sm-0 col-md-3 offset-md-0">
 				<img src="img/about/Layer_15.png" alt="" class="about_block_img">
 				<p class="about_block_img_name">
 					Shamim Mia
@@ -193,7 +198,7 @@
 					Sr. Web Developer
 				</p>
 			</div>
-			<div class="col-10 offset-1 col-sm-5 offset-sm-0 col-md-3 offset-md-0">
+			<div class="col-10 col-sm-5 offset-sm-0 col-md-3 offset-md-0">
 				<img src="img/about/Layer_16.png" alt="" class="about_block_img">
 				<p class="about_block_img_name">
 					John Doe
@@ -220,55 +225,55 @@
 			</div>
 		</div>
 		<div class="row mt-5 d-flex justify-content-center">
-			<div class="col-10 offset-1 offset-sm-0 col-md-5 col-lg-4 works-block p-0">
+			<div class="col-10 col-sm-6 offset-sm-0 col-md-5 col-lg-4 works-block p-0">
 				<div class="works-block_cover">
 					<button class="works_view">view</button>
 				</div>
 				<img src="img/works/Layer_18.png" alt="" class="works-block-img">
 			</div>
-			<div class="col-10 offset-1 offset-sm-0 col-md-5 col-lg-4 works-block p-0">
+			<div class="col-10 col-sm-6 offset-sm-0 col-md-5 col-lg-4 works-block p-0">
 				<div class="works-block_cover">
 					<button class="works_view">view</button>
 				</div>
 				<img src="img/works/Layer_19.png" alt="" class="works-block-img">
 			</div>
-			<div class="col-10 offset-1 offset-sm-0 col-md-5 col-lg-4 works-block p-0">
+			<div class="col-10 col-sm-6 offset-sm-0 col-md-5 col-lg-4 works-block p-0">
 				<div class="works-block_cover">
 					<button class="works_view">view</button>
 				</div>
 				<img src="img/works/Layer_20.png" alt="" class="works-block-img">
 			</div>
-			<div class="col-10 offset-1 offset-sm-0 col-md-5 col-lg-4 works-block p-0">
+			<div class="col-10 col-sm-6 offset-sm-0 col-md-5 col-lg-4 works-block p-0">
 				<div class="works-block_cover">
 					<button class="works_view">view</button>
 				</div>
 				<img src="img/works/Layer_21.png" alt="" class="works-block-img">
 			</div>
-			<div class="col-10 offset-1 offset-sm-0 col-md-5 col-lg-4 works-block p-0">
+			<div class="col-10 col-sm-6 offset-sm-0 col-md-5 col-lg-4 works-block p-0">
 				<div class="works-block_cover">
 					<button class="works_view">view</button>
 				</div>
 				<img src="img/works/Layer_22.png" alt="" class="works-block-img">
 			</div>
-			<div class="col-10 offset-1 offset-sm-0 col-md-5 col-lg-4 works-block p-0">
+			<div class="col-10 col-sm-6 offset-sm-0 col-md-5 col-lg-4 works-block p-0">
 				<div class="works-block_cover">
 					<button class="works_view">view</button>
 				</div>
 				<img src="img/works/Layer_23.png" alt="" class="works-block-img">
 			</div>
-			<div class="col-10 offset-1 offset-sm-0 col-md-5 col-lg-4 works-block p-0">
+			<div class="col-10 col-sm-6 offset-sm-0 col-md-5 col-lg-4 works-block p-0">
 				<div class="works-block_cover">
 					<button class="works_view">view</button>
 				</div>
 				<img src="img/works/Layer_24.png" alt="" class="works-block-img">
 			</div>
-			<div class="col-10 offset-1 offset-sm-0 col-md-5 col-lg-4 works-block p-0">
+			<div class="col-10 col-sm-6 offset-sm-0 col-md-5 col-lg-4 works-block p-0">
 				<div class="works-block_cover">
 					<button class="works_view">view</button>
 				</div>
 				<img src="img/works/Layer_25.png" alt="" class="works-block-img">
 			</div>
-			<div class="col-10 offset-1 offset-sm-0 col-md-5 col-lg-4 works-block p-0">
+			<div class="col-10 col-sm-6 offset-sm-0 col-md-5 col-lg-4 works-block p-0">
 				<div class="works-block_cover">
 					<button class="works_view">view</button>
 				</div>
