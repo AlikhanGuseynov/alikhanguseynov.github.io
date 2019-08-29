@@ -52,14 +52,25 @@ slide_number--;
 }
 $(".years_slider p.slide_number").html(slide_number);
 }
-
-
-
-
-
 ////////////////
 $('.multiple-items').slick({
   infinite: true,
   slidesToShow: 2,
   slidesToScroll: 1,
+});
+
+
+
+// кнопка заказа звонка
+
+$(".btn").click(function(event) {
+  $(".block_form").css({
+    display: 'flex',
+    backgroundColor: 'rgba(0, 0, 0, 0.7)'
+  });
+});
+$(".form .btn, button.close_cross").click(function(event) {
+  $(".block_form").css({
+    display: 'none',
+  });
 });

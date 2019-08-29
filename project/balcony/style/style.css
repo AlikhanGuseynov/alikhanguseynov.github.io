@@ -93,18 +93,6 @@ header.header{
 img.logo{
 	width: 227px;
 }
-/*.logo_word{
-	height: 53px;
-	margin-left: 15px;
-	flex-direction: column;
-	justify-content: space-around;
-}*/
-/*p.logo_subtitle{
-	font-size: 11px;
-	line-height: 10px;
-	color: #8F8F8F;
-	margin: 0;
-}*/
 .phone_number_block{
 	flex-direction: column;
 	justify-content: space-around;
@@ -112,9 +100,9 @@ img.logo{
 }
 p.phone_number{
 	font-family: 'Gotham Pro Black';
-	font-size: 22px;
+	font-size: 19px;
 	font-weight: 800;
-	line-height: 38px;
+	line-height: 20px;
 	color: #404040;
 }
 p.operation_mode{
@@ -271,14 +259,14 @@ p.years_title span{
 
 .years_slider{
 	width: 483px;
-	height: 430px;
+	height: 480px;
 	float: left;
 	flex-direction: column;
 	margin-top: 47px;
 }
 .slider_for img{
 	width: 482.66px;
-	height: 312px;
+	height: 312px ;
 	border-radius: 4px;
 }
 .slider_for{
@@ -291,7 +279,7 @@ p.years_title span{
 }
 .slider_nav{
 	width: 483px;
-	height: 300px;
+	height: 350px;
 }
 .slider_for img{
 	/*margin-left: auto;*/
@@ -335,7 +323,7 @@ button.slick-next{
 	justify-content: center;
 	justify-content: flex-end;
 	height: 42px;
-	margin-top: -32px;
+	margin-top: -35px;
 }
 p.slide_number{
 	font-size: 36px;
@@ -742,8 +730,7 @@ section.spare{
 	height: 100%;
 }
 .spare_container_item{
-	width: 310px;
-	/*border: 1px solid red;*/
+	width: auto;
 }
 p.spare_container_title{
 	margin:0; 
@@ -761,7 +748,6 @@ p.spare_container_text{
 	line-height: 21px;
 	color: #6C6C6C;
 }
-
 /*---------------------------- STEP ----------------------------*/
 section.step{
 	background-image: url(../img/шагов.png);
@@ -1004,4 +990,66 @@ a.footer_mail{
 .mail_block img{
 	height: 20px;
 	margin-left: 15px;
+}
+
+
+/*--------FEED_BACK--------*/
+
+.block_form{
+	display: none;
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	z-index: 100;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+}
+.form{
+	width: 260px;
+	height: 300px;
+	border-radius: 15px;
+	padding-top: 10px;
+	background-color: #fff;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: space-around;
+}
+.form_add{
+	box-shadow: 3px 3px 7px rgba(92, 105, 161, 0.45);
+	border: 2px solid #c3ddea;
+}
+.form_add:hover{
+	box-shadow: 7px 7px 10px rgba(92, 105, 161, 0.45);
+}
+button.close_cross{
+	display: block;
+	background-image: url(../img/close-cross.png);
+	-webkit-background-size: 50%;
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: 2px solid #c3ddea;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	position: relative;
+	top: 40px;
+	left: 100px;
+}
+button.close_cross:hover{
+	box-shadow: 3px 3px 7px rgba(92, 105, 161, 0.45);
+}
+.form button.present_input_button p{
+	font-size: 16px !important;
 }

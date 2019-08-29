@@ -1569,6 +1569,11 @@ a.footer_mail{
 .container{
 	width: 360px;
 }
+/*--------FEED_BACK--------*/
+.form .input_item img{
+	width: 22px;
+	height: 22px;
+}
 /*-------------------------- DEGREE --------------------------*/
 section.degree{
 	height: auto;
@@ -2006,55 +2011,7 @@ img.map_block_img{
 	width: 360px;
 	height: 147px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media only screen and (min-width: 1440px ){ 
 .section{
 	width: 1440px;
