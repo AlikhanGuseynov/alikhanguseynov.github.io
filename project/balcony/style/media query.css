@@ -625,6 +625,7 @@ section.years{
 .slider_nav{
 	width: 250px;
 	height: 150px;
+	padding-bottom: 50px;
 }
 .slider_nav button{
 	width: 20px;
@@ -1055,7 +1056,7 @@ p.phone_number{
 	font-size: 13px;
 }
 p.operation_mode{
-	font-size: 8px;
+	font-size: 7px;
 }
 .header_button_call{
 	width: 100px;
@@ -1152,7 +1153,7 @@ p.years_title{
 }
 .slider_nav{
 	width: 170px;
-	height: 60px;
+	height: 150px;
 }
 .slider_nav button{
 	width: 15px;
@@ -1571,14 +1572,15 @@ a.footer_mail{
 /*-------------------------- DEGREE --------------------------*/
 section.degree{
 	height: auto;
-	background-position-x: -120px;
+	background-position-x: -200px;
+	background-position-y: -80px;
 }
 h1{
 	font-size: 20px;
 	line-height: 20px;
 }
 .degree_main{
-	padding-top: 50px;
+	padding-top: 70px;
 }
 p.one_day{
 	font-size: 11px;
@@ -1639,6 +1641,7 @@ button.present_input_button p{
 /*------------------------- 2014 Years -------------------------*/
 section.years{
 	height: 700px;
+	padding-bottom: 20px;
 }
 p.years_title{
 	font-size: 16px;
@@ -1677,6 +1680,8 @@ p.slide_number{
 }
 p.slides_amount{
 	font-size: 10px;
+	width: 18px;
+	height: 18px;
 }
 /*-------------------------*/
 .years_main{
