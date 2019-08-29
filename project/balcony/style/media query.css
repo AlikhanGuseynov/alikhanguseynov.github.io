@@ -1584,6 +1584,7 @@ h1{
 	font-size: 20px;
 	line-height: 20px;
 }
+
 .degree_main{
 	padding-top: 70px;
 }
@@ -1625,10 +1626,9 @@ p.get_electrical{
 .input_item{
 	width: 173px;
 	height: 41px;
-	
 	margin: 10px 0px;
 }
-.input_item img{
+.degree .input_item img{
 	width: 25px;
 	height: 25px;
 }
@@ -1645,7 +1645,7 @@ button.present_input_button p{
 }
 /*------------------------- 2014 Years -------------------------*/
 section.years{
-	height: 700px;
+	height: 750px;
 	padding-bottom: 20px;
 }
 p.years_title{
