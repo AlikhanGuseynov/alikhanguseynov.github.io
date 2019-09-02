@@ -83,11 +83,6 @@ $('.up_slider_drag').slick({
     },
     ]
 });
-
-
-
-
-
 $(".div_item li").click(function(event) {
  var btn_class = $(this).attr('class');
  $(".up_slider_box").css({
@@ -95,56 +90,14 @@ $(".div_item li").click(function(event) {
  });
 $("." + btn_class + "_block").addClass('display_flex')
 });
-
-
-
-$(".years_item_btn_2, .years_item_btn_5").click(function(event) {
-   $(".up_slider_box ").css({
-   // height: '450px',
-   color: 'red',
- });
-});
-
-
-
-
-
 $("button.close_slider").click(function(event) {
   $(".up_slider_box .display_flex").removeClass(' ');
   $('.up_slider_box').css({
     display: 'none',
   });
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // кнопка заказа звонка
-$(".btn").click(function(event) {
+$(".btn_form").click(function(event) {
   $(".block_form").css({
     display: 'flex',
     backgroundColor: 'rgba(0, 0, 0, 0.7)'

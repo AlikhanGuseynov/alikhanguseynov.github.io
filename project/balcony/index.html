@@ -6,7 +6,7 @@
 	<link rel="shortcut icon" href="img/group.png" type='image/x-icon'>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style/style.css">
-	<link rel="stylesheet" href="style/media query.css">
+	<link rel="stylesheet" href="style/media_query.css">
 	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 	<!-- ШРИФТЫ	 -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
@@ -15,27 +15,26 @@
 
 
 	<!-- /*--------FEED_BACK--------*/ -->
-<div class="block_form d-flex">
-	<button class="close_cross">
-		
-	</button>
-	<div class="form d-flex">
-		<div class="input_item form_add">
-			<img src="img/user.png" alt="user">
-			<input type="text" placeholder="Имя">
-		</div>
-		<div class="input_item form_add">
-			<img src="img/phone-symbol-of-an-auricular-inside-a-circle.png" alt="user">
-			<input type="text" placeholder="Телефон">
-		</div>
-		<button class="present_input_button btn d-flex form_add">
-			<p>ОСТАВИТЬ ЗАЯВКУ</p>
+<form action="php_form/mail.php" method="POST">
+	<div class="block_form d-flex">
+		<button class="close_cross">
 		</button>
+		<div class="form d-flex">
+			<div class="input_item form_add">
+				<img src="img/user.png" alt="user">
+				<input type="text" name="user_name" placeholder="Имя">
+			</div>
+			<div class="input_item form_add">
+				<img src="img/phone-symbol-of-an-auricular-inside-a-circle.png" alt="user">
+				<input type="text" name="user_phone" placeholder="Телефон">
+			</div>
+			<button type="submit" class="present_input_button btn d-flex form_add">
+				<p>ОСТАВИТЬ ЗАЯВКУ</p>
+			</button>
+		</div>
 	</div>
-</div>
-
+</form>
 <!-- HEADER -->
-
 <header class="header section" id="header">
 	<div class="header_container container d-flex">
 		<img src="img/logo.png" alt="logo" class="logo">
@@ -45,7 +44,7 @@
 				<p class="phone_number m-0">+375 (29) 752-78-51</p>
 				<p class="operation_mode m-0">Работаем ежедневно с 09.00 до 21.00</p>
 			</div>
-			<button class="header_button_call btn d-flex">
+			<button class="header_button_call btn btn_form d-flex">
 				<img src="img/phone-call-button.png" alt="phone-call-button.png" class="header_button_call_img">
 				<p class="header_button_call_text">ЗАКАЗАТЬ ЗВОНОК</p>
 			</button>
@@ -88,20 +87,22 @@
 					<p>монтаж светильников <br> и розетки</p>
 				</div>
 			</div>
-			<div class="present_inputs d-flex">
-				<div class="input_item">
-					<img src="img/user.png" alt="user">
-					<input type="text" placeholder="Имя">
+			<form action="php_form/mail.php" method="POST">
+				<div class="present_inputs d-flex">
+					<div class="input_item">
+						<img src="img/user.png" alt="user">
+						<input type="text" name="user_name" placeholder="Имя">
+					</div>
+					<div class="input_item">
+						<img src="img/phone-symbol-of-an-auricular-inside-a-circle.png" alt="user">
+						<input type="text" name="user_phone" placeholder="Телефон">
+					</div>
+					<button class="present_input_button btn d-flex">
+						<p>ПОЛУЧИТЬ ПОДАРОК</p>
+						<img src="img/present.png" alt="">
+					</button>
 				</div>
-				<div class="input_item">
-					<img src="img/phone-symbol-of-an-auricular-inside-a-circle.png" alt="user">
-					<input type="text" placeholder="Телефон">
-				</div>
-				<button class="present_input_button btn d-flex">
-					<p>ПОЛУЧИТЬ ПОДАРОК</p>
-					<img src="img/present.png" alt="">
-				</button>
-			</div>
+			</form>
 		</div>
 	</div>
 </section>
@@ -366,30 +367,32 @@
 			Получите проводку электричества в <span>подарок:</span>
 		</p>
 		<div class="wiring_main d-flex">
-			<div class="wiring_check d-flex">
-				<p class="wiring_check_title">
-					При заказе ремонта под ключ балкона или лоджии
-					<br> (остекление, утепление и отделка)
-					<br> получи <span>БЕСПЛАТНЫЙ ПОДАРОК</span>
-				</p>
-				<p class="wiring_check_subtitle">
-					 Оставьте заявку для получения
-				</p>
-				<div class="wiring_check_input d-flex">
-					<div class="input_item">
-						<img src="img/user.png" alt="user">
-						<input type="text" placeholder="Имя">
-					</div>
-					<div class="input_item">
-						<img src="img/phone-symbol-of-an-auricular-inside-a-circle.png" alt="user">
-						<input type="text" placeholder="Телефон">
-					</div>
+			<form action="php_form/mail.php" method="POST">
+				<div class="wiring_check d-flex">
+					<p class="wiring_check_title">
+						При заказе ремонта под ключ балкона или лоджии
+						<br> (остекление, утепление и отделка)
+						<br> получи <span>БЕСПЛАТНЫЙ ПОДАРОК</span>
+					</p>
+					<p class="wiring_check_subtitle">
+						 Оставьте заявку для получения
+					</p>
+						<div class="wiring_check_input d-flex">
+							<div class="input_item">
+								<img src="img/user.png" alt="user">
+								<input type="text" name="user_name" placeholder="Имя">
+							</div>
+							<div class="input_item">
+								<img src="img/phone-symbol-of-an-auricular-inside-a-circle.png" alt="user">
+								<input type="text" name="user_phone" placeholder="Телефон">
+							</div>
+						</div>
+						<button class="present_input_button btn d-flex">
+							<p>ПОЛУЧИТЬ ПОДАРОК</p>
+							<img src="img/present.png" alt="">
+						</button>
 				</div>
-				<button class="present_input_button btn d-flex">
-					<p>ПОЛУЧИТЬ ПОДАРОК</p>
-					<img src="img/present.png" alt="">
-				</button>
-			</div>
+			</form>
 			<div class="wring_main_right d-flex">
 				<div class="wring_main_right_item">
 					<img src="img/groupLump.png" alt="">
@@ -436,7 +439,7 @@
 				<br> и 3D визуализация вашего
 				<br> будущего интерьера в <span>ПОДАРОК!</span>
 			</p>
-			<button class="d3_main_button btn d-flex">
+			<button class="d3_main_button btn btn_form d-flex">
 				<p>ПОЛУЧИТЬ СКИДКУ</p>
 			</button>
 		</div>
@@ -498,7 +501,7 @@
 					- Вы сбережете нервные клетки себе
 					  и участникам строительного процесса
 				</p>
-				<button class="idea_button btn d-flex">
+				<button class="idea_button btn btn_form d-flex">
 					ПОДРОБНЕЕ
 				</button>
 			</div>
@@ -600,7 +603,7 @@
 				</p>
 			</div>
 		</div>
-		<button class="step_button btn d-flex">
+		<button class="step_button btn btn_form d-flex">
 			Оставить заявку
 		</button>
 	</div>
@@ -616,19 +619,21 @@
 		<p class="calc_text">
 			Менеджеры компании “УютБалкон” перезвонят и помогут рассчитать стоимость балкона
 		</p>
-		<div class="calc_input d-flex">
-			<div class="input_item">
-				<img src="img/user.png" alt="user">
-				<input type="text" placeholder="Имя">
+		<form action="php_form/mail.php" method="POST">
+			<div class="calc_input d-flex">
+				<div class="input_item">
+					<img src="img/user.png" alt="user">
+					<input type="text" name="user_name" placeholder="Имя">
+				</div>
+				<div class="input_item">
+					<img src="img/phone-symbol-of-an-auricular-inside-a-circle.png" alt="user">
+					<input type="text" name="user_phone" placeholder="Телефон">
+				</div>
+				<button class="calc_button btn d-flex">
+					РАССЧИТАТЬ СТОИМОСТЬ
+				</button>
 			</div>
-			<div class="input_item">
-				<img src="img/phone-symbol-of-an-auricular-inside-a-circle.png" alt="user">
-				<input type="text" placeholder="Телефон">
-			</div>
-			<button class="calc_button btn d-flex">
-				РАССЧИТАТЬ СТОИМОСТЬ
-			</button>
-		</div>
+		</form>
 	</div>
 	<img class="calc_right_img" src="img/kisspng-scientific-calculator.png" alt="">
 </section>
@@ -684,8 +689,8 @@
 				<p class="join">
 					Присоединяйтесь:
 				</p>
-				<a href=""><img src="img/vk.png" alt=""></a>
-				<a href=""><img src="img/twitter.png" alt=""></a>
+				<a href="https://vk.com/uyut.balcon"><img src="img/vk.png" alt=""></a>
+				<a href="https://www.facebook.com/uyut.balkon"><img src="img/facebook.png" alt=""></a>
 				<a href=""><img src="img/insagram.png" alt=""></a>
 			</div>
 			<div class="mail_block d-flex">
