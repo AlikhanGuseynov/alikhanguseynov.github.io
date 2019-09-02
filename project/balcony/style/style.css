@@ -229,13 +229,14 @@ button.present_input_button p{
 
 /*------------------------- 2014 Years -------------------------*/
 section.years{
-	background-image: url(../img/Rectangle4.png);
+	background-image: url(../img/Rectangle4.jpg);
 	height: 630px;
 	-webkit-background-size: cover;
 	background-size: cover;
 	padding-bottom: 30px;
 	position: relative;
 	z-index: 0;
+	justify-content: center;
 }
 p.years_title{
 	font-size: 24px;
@@ -379,12 +380,21 @@ img.years_item_img{
 	width: 60px;
 	height: 60px;
 }
+.div_item li{
+	padding: 10px;
+	border-radius: 15px;
+	cursor: pointer;
+}
+.div_item li:hover{
+	background-color: #d2e5f1 ;
+
+}
 ul.years_items{
 	height: 100%;
 	justify-content: space-around;
 	padding-left: 10px;
 }
-li.years_item{
+.div_item li{
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -434,7 +444,7 @@ p.wiring_title span{
 	z-index: 1;
 }	
 .wiring_check{
-	background-image: url(../img/wiring_check.png);
+	background-image: url(../img/wiring_check.jpg);
 	-webkit-background-size: cover;
 	background-size: cover;
 	width: 624px;
@@ -494,9 +504,10 @@ p.wiring_check_subtitle{
 	color: #6C6C6C;
 }
 img.right_side_img{
+	width: 400px;
 	position: absolute;
 	right: 0%;
-	margin-top: -180px;
+	margin-top: -120px;
 	z-index: 0;
 }
 /*---------------------------- d3 ----------------------------*/
@@ -750,7 +761,7 @@ p.spare_container_text{
 }
 /*---------------------------- STEP ----------------------------*/
 section.step{
-	background-image: url(../img/шагов.png);
+	background-image: url(../img/шагов.jpg);
 	background-position: center;
 	padding-bottom: 43px;
 	-webkit-background-size: cover;
@@ -925,7 +936,7 @@ p.map_title span{
 	color: #FF4F50;
 }
 .map_block{
-	background-image: url(../img/black_map.png);
+	background-image: url(../img/black_map.jpg);
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -1053,3 +1064,81 @@ button.close_cross:hover{
 .form button.present_input_button p{
 	font-size: 16px !important;
 }
+
+
+/*------------------------- UP_SLIDER_BOX -------------------------*/
+
+/*бесящие поправки(((((((((((((((((*/
+
+.up_slider_box{
+	display: none;
+	height: 500px;
+	position: absolute;
+	background-color: #f1f1f1;
+	z-index: 20;
+	border-radius: 50px;
+	margin-top: 70px;
+}
+.up_slider_drag .draggable{
+	/*оба слайда*/
+	width: 500px;
+	height: 150px;	
+	margin-left: 50px;
+}
+.up_slider_box .slick-slide{
+	/*один слайд*/
+	width: 240px;
+	height: 150px;	
+}
+.up_slider_box .slick-slide img{
+	/*повторить верхнюю*/
+	width: 240px;
+	height: 150px;	
+	margin-left: 5px;
+}
+button.up_slider_btn{
+	width: 30px;
+	height: 30px;
+	border: none;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	margin-top: 170px;	
+	margin-left: 50px;
+}
+button.up_slider_btn_next{
+	margin-left: 85px;
+}
+p.up_slider_text{
+	margin-left: 15px;
+	width: 500px;
+	padding: 0px;
+}
+.years_item_slider_block{
+	display: none;
+	-ms-align-items: center;
+	align-items: center;
+	height: 100%;
+	justify-content: space-around;
+}
+.display_flex{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+button.close_slider{
+	background-image: url(../img/close-cross.png);
+	width: 35px;
+	height: 35px;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: none;
+	float: right;
+	margin-right: 25px;
+	margin-top: 25px;
+}
+
+
