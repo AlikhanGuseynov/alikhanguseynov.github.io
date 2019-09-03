@@ -636,7 +636,7 @@ p.years_title{
 }
 /*------------------------- 2014 Years -------------------------*/
 section.years{
-	height: 460px;
+	height: 420px;
 }
 .years_slider{
 	width: 250px;
@@ -681,7 +681,7 @@ p.slides_amount{
 }
 .years_main{
 	width: 250px;
-	margin-left: 12px;
+	margin-left: 20px;
 }
 p.years_main_title{
 	font-size: 10px;
@@ -693,7 +693,7 @@ p.years_main_title{
 	margin: 0px;
 }
 section .years_main_check{
-	width: 270px;
+	width: 250px;
 	height: 220px;
 }
 li.years_item p{
@@ -706,13 +706,11 @@ img.years_item_img{
 }
 p.years_item_text{
 	margin-left: 10px;
-	font-size: 12px;
 }
 /*---------- ПОПРАКА, ВПЛЫВАЮЩИЙ СЛАЙДЕР ----------*/
 .up_slider_box{
-	height: 380px !important;
+	height: 320px !important;
 	margin-top: 80px !important;
-	z-index: 95;
 }
 .years_item_slider_block{
 	-webkit-flex-direction: column-reverse;
@@ -752,6 +750,7 @@ p.up_slider_text{
 	margin: 0px;
 	margin-left: 50px;
 	font-size: 11px;
+	color: red;
 	margin-bottom: 15px;
 }
 button.close_slider{

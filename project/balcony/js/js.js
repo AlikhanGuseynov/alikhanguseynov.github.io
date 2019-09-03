@@ -83,6 +83,8 @@ $('.up_slider_drag').slick({
     },
     ]
 });
+
+// ВСПЛЫВАЮШИЙ СЛАЙДЕР
 $(".div_item li").click(function(event) {
  var btn_class = $(this).attr('class');
  $(".up_slider_box").css({
@@ -90,12 +92,14 @@ $(".div_item li").click(function(event) {
  });
 $("." + btn_class + "_block").addClass('display_flex')
 });
+
 $("button.close_slider").click(function(event) {
-  $(".up_slider_box .display_flex").removeClass(' ');
+  $(".up_slider_box .display_flex").removeClass('display_flex');
   $('.up_slider_box').css({
     display: 'none',
   });
 });
+
 // кнопка заказа звонка
 $(".btn_form").click(function(event) {
   $(".block_form").css({
@@ -108,3 +112,5 @@ $(".form .btn, button.close_cross").click(function(event) {
     display: 'none',
   });
 });
+
+
