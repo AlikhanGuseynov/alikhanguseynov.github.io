@@ -33,6 +33,35 @@ $(".lenght_fance").attr({
 
 // Перелистывание страницы
 var a=1;
+// PREV
+$("button.btn_prev").click(function(event) {
+  $(".block_"+a).css({
+  display: 'none',
+});
+  a = a-1;
+$(".block_"+a).css({
+  display: 'block',
+});
+if (a==1) {
+  $(".btn_prev").css({
+    display: 'none',
+  });
+};
+if (a!==1) {
+  $(".btn_next").css({
+    display: '',
+  });
+};
+if (a!==10) {
+  $(".btn_send").css({
+    display: 'none',
+  });
+};
+
+});
+
+
+// NEXT
 $("button.btn_next").click(function(event) {
 $(".block_"+a).css({
   display: 'none',
@@ -41,7 +70,7 @@ $(".block_"+a).css({
 $(".block_"+a).css({
   display: 'block',
 });
-// появление кнопки
+// PREV
 if (a==10) {
   $(".btn_next").css({
     display: 'none',
@@ -54,13 +83,14 @@ if (a==10) {
     display: "flex",
   });
 };
-// прогресс бар
-$(".progress_bar_second").css({
-  width: "calc(600px/11*"+ a +")"
-});
-if (a==10) {
-  $(".progress_bar_second").css({
-    width: "calc(600px/11*11)",
+if (a!==1) {
+  $(".btn_prev").css({
+    display: '',
+  });
+};
+if (a!==10) {
+  $(".btn_send").css({
+    display: 'none',
   });
 };
 // показатель рассчета
@@ -109,23 +139,30 @@ if (a==10) {
   $("p.calc_percent span").html("100")
   $("p.discount span").html("100")
 }
+});
+
+// изменение цвета кнопки при нажатии
+
+
+$(".block_3 .border_btn").click(function(event) {
+  $(".block_3_border_btn").removeClass('border_btn_active');
+  $(this).addClass('border_btn_active');
+});
 
 
 
 
+$(".block_6 .border_btn").click(function(event) {
+  $(".block_6 .border_btn").removeClass('border_btn_active');
+  $(this).addClass('border_btn_active');
+});
 
+$(".block_8 .border_btn").click(function(event) {
+  $(".block_8 .border_btn").removeClass('border_btn_active');
+  $(this).addClass('border_btn_active');
+});
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+$(".block_9 .border_btn").click(function(event) {
+  $(".block_9 .border_btn").removeClass('border_btn_active');
+  $(this).addClass('border_btn_active');
 });

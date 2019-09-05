@@ -4,6 +4,7 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: 'Futura PT Medium';
+	width: auto;
 }
 ul, li{
 	text-decoration: none;
@@ -60,6 +61,7 @@ input{
 section{
 	 /*width: 1440px; */
 	 /*height: 696px; */
+	 height: 100vh;
 }
 .container{
 	width: 1140px;
@@ -74,6 +76,11 @@ section{
 }
 .btn p{
 	font-size: 15px;
+}
+.container_top_bottom_center{
+	-ms-align-items: center;
+	align-items: center;
+	height: auto;
 }
 /*---------------------- HEADER ----------------------*/
 header.header{
@@ -112,7 +119,8 @@ p.header_phone{
 /*---------------------- HOME ----------------------*/
 section.home{
 	background-size: cover;
-	background-position: center;
+	background-position: cover;
+	background-repeat: no-repeat;
 }
 .home_bg{
 	background-image: url(../img/home_bg.jpg);
@@ -121,11 +129,8 @@ section.home{
 	background-image: url(../img/quiz_bg.jpg);
 }
 /* изчузнут*/
-.home_container{
-	display: ;
-}
 .quiz_container{
-	display: none;
+	display: block;
 }
 /*до сюда исчезнет*/
 p.home_title{
@@ -141,7 +146,6 @@ p.home_title span{
 }
 p.home_subtitle{
 	font-size: 19px;
-	line-height: 23px;
 	color: #3C3C3C;
 	font-weight: bold;
 	margin-top: 44px;
@@ -227,7 +231,7 @@ p.discount{
 .progress_bar_item{
 	display: flex;
 	width: 29px;
-	height: 28px;
+	height: 29px;
 	background-color: #F0F0F0;
 	border-radius: 50%;
 	font-size: 13px;
@@ -295,8 +299,8 @@ button.btn_next{
 	height: 41px;
 	-ms-align-items: center;
 	align-items: center;
-	margin-left: auto;
-	margin-right: 80px;
+	/*margin-left: auto;*/
+	/*margin-right: 80px;*/
 	position: relative;
 	font-size: 15px;
 	color: #fff;
@@ -308,11 +312,35 @@ button.btn_next p{
 img.btn_next_img{
 	margin-left: 10px;
 }
+button.btn_prev{
+	width: 121px;
+	height: 41px;
+	-ms-align-items: center;
+	align-items: center;
+	/*margin-left: auto;*/
+	/*margin-right: 80px;*/
+	position: relative;
+	font-size: 15px;
+	color: #fff;
+	font-weight: 700;
+}
+button.btn_prev p{
+	margin-left: 0px;
+}
+img.btn_prev_img{
+	margin-right: 18px;
+}
+.next_prev{
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: space-around;
+	margin-top: 30px;
+}
 
-/* fade */
-.block, .block_2, .block_3, .block_4, .block_5, .block_6, .block_7, .block_8, .block_9, .block_10, .btn_send{
+
+/* fadeOut */
+.homecontainer, .quiz_container, .block, .block_, .block_2, .block_3, .block_4, .block_5, .block_6, .block_7, .block_8, .block_9, .block_10, .btn_send{
 	display: none;
-	
 }
 
 /* ВЫСОТА ЗАБОРА block_3 */
@@ -336,11 +364,10 @@ button.border_btn{
 	margin-top: 60px;
 	font-size: 22px;
 }
-
-
 .block_3_label{
 	margin-left: 33px;
 }
+
 
 /* Block4 */
 .block_4_item{
@@ -351,7 +378,7 @@ button.border_btn{
 	margin-top: 26px;
 }
 /* Block6 */
-.block_6_answer, .block_8_answer, .block_9_answer{
+.block_answer{
 	margin-top: 59px;
 	-webkit-flex-direction: column;
 	-moz-flex-direction: column;
@@ -419,14 +446,17 @@ button.btn_send{
 	-ms-align-items: center;
 	align-items: center;
 	justify-content: center;
-	margin-left: auto;
-	margin-right: 80px;
-	position: relative;
 	font-size: 15px;
 	color: #fff;
 	font-weight: 600;
 }
 
+
+
+.border_btn_active{
+	background: linear-gradient(180deg, #51A0FF 0%, #1E5190 100%) !important;
+	color: #fff;
+}
 
 
 

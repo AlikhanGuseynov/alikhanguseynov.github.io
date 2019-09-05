@@ -5,8 +5,8 @@
 	<title>МонтажЗабор</title>
 	<link rel='shortcut icon' type='image/x-icon' href='img/logo.jpg'/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style/media_query.css">
 	<link rel="stylesheet" href="style/style.css">
+	<link rel="stylesheet" href="style/media_query.css">
 	<link rel="stylesheet" href="library/animate.css">
 	<!-- ШРИФТЫ	 -->
 
@@ -18,7 +18,7 @@
 <header class="header " id="header">
 	<div class="header_container container d-flex align-center">
 		<div class="header_left d-flex align-center">
-			<img src="img/logo.jpg" alt="logo">
+			<img src="img/logo.jpg" alt="logo" class="logo">
 			<p class="logo_text">
 					Установка любых видов заборов 
 					“под ключ” в Минске и области
@@ -35,7 +35,11 @@
 	</div>
 </header>
 <!-- /*---------------------- HOME ----------------------*/ -->
+
+<div class="container_top_bottom_center d-flex">
+	
 <!-- //этот блок исчезает -->
+
 <div class="home_container container"> 
 	<p class="home_title">
 		Пройдите тест за <span>2 минуты</span>
@@ -80,7 +84,6 @@
 	<div class="quiz_container animated fadeIn container">
 			<div class="quiz_main_block d-flex">
 				<div class="quiz_main_left_block">
-					
 					<p class="calc_percent">
 							Расчет пройден на <span> 9 </span> %
 					</p>
@@ -104,6 +107,8 @@
 							<div class="progress_bar_item">10</div>
 						</div>
 					</div>
+
+					<!-- BLOCK 1 -->
 					<div class="quiz_changing_block block_1 center">
 						<p class="question">
 								1. Какой тип забора вы хотите?
@@ -154,6 +159,8 @@
 							</div>
 						</div>
 					</div>
+
+					<!-- BLOCK 2 -->
 					<div class="quiz_changing_block block_2 center animated fadeIn">
 						<p class="question">
 							2. Какой длины будет забор? 
@@ -167,9 +174,9 @@
 								</div>
 							</label>
 						</div>
-
-
 					</div>
+
+					<!-- BLOCK 3 -->
 					<div class="quiz_changing_block block_3 center animated fadeIn">
 						<p class="question">
 							3. Какой высоты будет забор? 
@@ -206,10 +213,7 @@
 						</div>
 					</div>
 
-
-
-
-
+					<!-- BLOCK 4 -->
 					<div class="quiz_changing_block block_4 center animated fadeIn">
 						<p class="question">
 							4. Будут ли у Вас ворота? 
@@ -249,7 +253,6 @@
 							</div>
 						</div>
 					</div>
-
 
 					<!-- BLOCK 5 -->
 					<div class="quiz_changing_block block_5 center animated fadeIn">
@@ -295,14 +298,13 @@
 						</div>
 					</div>
 
-
-					<!-- BLOCK 5 -->
+					<!-- BLOCK 6 -->
 					<div class="quiz_changing_block block_6 center animated fadeIn">
 						<p class="question">
 							6.  Вам потребуется автоматический привод для ворот?
 						</p>
 						<div class="quiz_changing_block_items  d-flex">
-						<div class="block_6_answer d-flex">
+						<div class="block_6_answer block_answer d-flex">
 							<button class="border_btn">
 								<p>
 									Да
@@ -317,14 +319,12 @@
 						</div>
 					</div>
 
-
 					<!-- BLOCK 7 -->
 					<div class="quiz_changing_block block_7 center animated fadeIn">
 						<p class="question">
 							7. Где находится участок который нужно оградить?
 						</p>
 						<div class="quiz_changing_block_items  d-flex">
-
 
 							<div class="address d-flex">
 								<img src="img/loupe.png" alt="" class="address_loupe">
@@ -334,14 +334,14 @@
 
 						</div>
 					</div>
-					<!-- BLOCK 8 -->
 
+					<!-- BLOCK 8 -->
 					<div class="quiz_changing_block block_8 center animated fadeIn">
 						<p class="question">
 							8. Вам нужен демонтаж старого забора?
 						</p>
 						<div class="quiz_changing_block_items  d-flex">
-						<div class="block_8_answer d-flex">
+						<div class="block_8_answer block_answer d-flex">
 							<button class="border_btn">
 								<p>
 									Да
@@ -357,13 +357,12 @@
 					</div>
 
 					<!-- BLOCK 9 -->
-
 					<div class="quiz_changing_block block_9 center animated fadeIn">
 						<p class="question">
 							9. Вам нужен фундамент под забор?
 						</p>
 						<div class="quiz_changing_block_items  d-flex">
-						<div class="block_9_answer d-flex">
+						<div class="block_9_answer block_answer d-flex">
 							<button class="border_btn">
 								<p>
 									Да
@@ -379,7 +378,6 @@
 					</div>
 
 					<!-- BLOCK 10 -->
-
 					<div class="quiz_changing_block block_10 center animated fadeIn">
 						<p class="question">
 							10. Оставьте Ваш номер телефона, для подтверждения скидки 100р.
@@ -401,16 +399,19 @@
 					</div>
 
 					<!-- КНОПКА ---ОТПРАВКИ--- ФОРМЫ -->
-					<button class="btn  btn_send d-flex">
-						<p>Отправить заявку</p>
-					</button>
-
-					<!-- КНОПКА ---NEXT--- ФОРМЫ -->
-
-					<button class="btn btn_next d-flex">
-						<p>Далее</p>
-						<img src="img/next_btn.png" alt="" class="btn_next_img">
-					</button>
+					<div class="next_prev d-flex">
+						<button class="btn btn_prev d-flex">
+							<img src="img/prev_btn.png" alt="" class="btn_prev_img">
+							<p>Назад</p>
+						</button>
+						<button class="btn btn_next d-flex">
+							<p>Далее</p>
+							<img src="img/next_btn.png" alt="" class="btn_next_img">
+						</button>
+						<button class="btn  btn_send d-flex">
+							<p>Отправить заявку</p>
+						</button>
+					</div>
 				</div>
 
 
@@ -464,29 +465,14 @@
 		</div>
 
 
+</div>
 
 </section>
 
-<!-- /*---------------------- QUIZ ----------------------*/ -->
-<!-- 
-<section class="quiz">
-	<div class="container">
-		<div class="quiz_main_block d-flex">
-			<div class="quiz_main_left_block">
-'lkadb'
-			</div>
-			<div class="quiz_main_right_block">
-
-			</div>
-		</div>
-	</div>
-</section>
-	 -->
-	
-	
 	
 
 <script src="library/jQuery.js"></script>
 <script src="js/js.js"></script>
+<script src="js/matches.js"></script>
 <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </body>
