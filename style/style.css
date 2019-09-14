@@ -85,7 +85,7 @@ section{
 .container_top_bottom_center{
 	-ms-align-items: center;
 	align-items: center;
-	height: 100vh;
+	height: calc(100vh - 88px);
 }
 /*---------------------- HEADER ----------------------*/
 header.header{
@@ -124,7 +124,7 @@ p.header_phone{
 /*---------------------- HOME ----------------------*/
 section.home{
 	background-size: cover;
-	background-position: cover;
+	background-position: center;
 	background-repeat: no-repeat;
 }
 .home_bg{
@@ -304,8 +304,6 @@ button.btn_next{
 	height: 41px;
 	-ms-align-items: center;
 	align-items: center;
-	/*margin-left: auto;*/
-	/*margin-right: 80px;*/
 	position: relative;
 	font-size: 15px;
 	color: #fff;
@@ -336,10 +334,11 @@ img.btn_prev_img{
 	margin-right: 18px;
 }
 .next_prev{
+	width: 600px;
 	-ms-align-items: center;
 	align-items: center;
 	justify-content: space-around;
-	margin-top: 30px;
+	margin-top: 20px;
 }
 
 
@@ -558,6 +557,7 @@ label.swing_label{
 }
 label.lenght_fance_label{
 	margin-top: 70px;
+	margin-left: 15px;
 }
 .swing_btns{
 	margin-left: -30px;
