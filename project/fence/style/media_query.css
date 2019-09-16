@@ -1,0 +1,373 @@
+/*@media only screen and (min-width: 1140px) and (max-width: 1440px){
+section{
+	width: 1140px; 
+	height: 696px; 
+}
+.container{
+	width: 1040px;
+}
+.quiz_main_block{
+	width: 1000px ;
+}
+}
+*/@media only screen and (min-width: 1440px){
+section{
+	width: 100%; 
+	height: 100%; 
+}
+.container{
+	width: 1440px;
+}
+.quiz_main_block{
+	width: 1240px ;
+}
+}
+
+
+/*---------------------- 1140px ----------------------*/
+@media only screen and (max-width: 1140px) {
+.section{
+	width: auto;
+}
+.container{
+	width: 1024px;
+}
+.quiz_main_block{
+	width: 1024px;
+}
+}
+
+/*---------------------- 1024px ----------------------*/
+@media only screen and (max-width: 1024px) {
+.section{
+	width: auto;
+}
+.container{
+	width: 970px;
+}
+.quiz_main_block{
+	width: 970px;
+}
+}
+
+/*---------------------- 990px ----------------------*/
+@media only screen and (max-width: 990px) {
+.section{
+	width: auto;
+	height: auto;
+}
+.container{
+	width: 720px;
+	height: auto;
+}
+.quiz_main_block{
+	width: 720px;
+	height: auto;
+}
+/* отступ заголовка первой страницы */
+p.home_title{
+	padding-top: 10px;
+}
+/* вопросы */
+.quiz_changing_block{
+	width: 450px;
+	height: auto;
+}
+.quiz_main_left_block{
+	width: 450px;
+	height: auto;
+}
+.next_prev{
+	width: 450px;
+}
+.progress_bar{
+	width: 420px;
+	margin-top: 25px;
+}
+.progress_bar_item{
+	width: 20px;
+	height: 20px;
+}
+p.question{
+	font-size: 20px;
+}
+.block_item{
+	width: 185px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+button.btn_next{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+button.btn_prev{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.block_answer{
+	margin-left: 25px;
+}
+.address{
+	margin-left: auto;
+	margin-right: auto;
+}
+.block_10_form{
+	margin-left: auto;
+	margin-right: auto;
+}
+.block_3_bottom {
+	padding-left: 20px;
+}
+
+}
+
+/*---------------------- 720px ----------------------*/
+@media only screen and (max-width: 720px) {
+.section{
+	width: auto;
+	height: auto;
+}
+.container{
+	width: 540px;
+	height: auto;
+}
+/*---------------------- HEADER ----------------------*/
+header.header{
+	height: 75px;
+}
+img.logo{
+	width: 90px;
+	height: 67px;
+}
+p.logo_text{
+	width: 130px;	
+	font-size: 10px;
+	line-height: 12px;
+}
+p.work_time{
+	font-size: 10px;
+}
+p.header_phone{
+	font-size: 25px;
+}
+
+/*---------------------- HOME ----------------------*/
+section.home{
+	background-position: center;
+}
+p.home_title{
+	font-size: 21px;
+	width: 350px;
+	line-height: 25px;
+}
+p.home_subtitle{
+	font-size: 19px;
+	color: #ffa318;
+}
+.get_present{
+	width: 100%;
+	margin-top: 26px;
+	justify-content: space-between;
+}
+.get_present_item{
+	background-color: #fff;
+	border-radius: 15px;
+	width: 150px;
+	padding: 5px;
+}
+.get_present_item p{
+	text-align: center;
+	font-size: 14px;
+	line-height: 17px;
+}
+button.home_btn{
+	width: 300px;
+	height: 50px;
+	color: #fff;
+	margin-left: auto;
+	margin-right: auto;
+}
+p.header_button_text{
+	font-size: 15px;
+}
+p.header_button_subtext{
+	font-size: 10px;
+}
+/* отключение - связаться с мастером */
+.quiz_main_right_block{
+	display: none;
+}
+
+.quiz_main_block{
+	width: auto;
+	height: 521px;
+	background-color: transparent;
+}
+.quiz_main_left_block{
+	width: 100% ;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+/*---------------------- 540 ----------------------*/
+@media only screen and (max-width: 540px) {
+.section{
+	width: auto;
+	height: auto;
+}
+.container{
+	width: 440px;
+	height: auto;
+}
+.container_top_bottom_center{
+	background-color: transparent;
+}
+
+/*---------------------- 540px ----------------------*/
+@media only screen and (max-width: 540px) {
+.section{
+	width: auto;
+	height: auto;
+}
+.container{
+	width: 440px;
+	height: auto;
+}/*---------------------- HEADER ----------------------*/
+header.header{
+	height: 60px;
+}
+img.logo{
+	width: 70px;
+	height: 52px;
+}
+p.logo_text{
+	width: 100px;	
+	font-size: 8px;
+	line-height: 9px;
+}
+p.work_time{
+	font-size: 8px;
+}
+p.header_phone{
+	font-size: 20px;
+}
+/*---------------------- HOME ----------------------*/
+p.home_title{
+	padding-top: 50px;
+}
+p.home_subtitle{
+	color: #000;
+}
+.get_present{
+	width: 100%;
+}
+.get_present_item{
+	width: 120px;
+}
+.get_present_item p{
+	font-size: 12px;
+	line-height: 15px;
+}
+.get_present_item img{
+	width: 35px;
+}
+/* ВЫСОТА ЗАБОРА block_3 */
+.block_3_bottom{
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.block_item{
+	width: 180px;
+	/*background-color: red;*/
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+/*---------------------- 440px ----------------------*/
+@media only screen and (max-width: 440px) {
+.section{
+	width: auto;
+	height: auto;
+}
+.container{
+	width: 360px;
+	height: auto;
+}
+/*---------------------- HOME ----------------------*/
+p.home_title{
+	padding-top: 20px;
+}
+.get_present{
+	width: 100%;
+}
+.get_present_item{
+	width: 90px;
+}
+.get_present_item p{
+	font-size: 11px;
+	line-height: 11px;
+}
+.get_present_item img{
+	width: 30px;
+	height: 30px;
+}
+/* шкала прогресса */
+.progress_bar{
+	width: 320px;
+	margin-top: 20px;
+}
+.next_prev{
+	width: 360px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.progress_bar_item{
+	width: 20px;
+	height: 20px;
+}
+.progress_bar_second{
+	width: calc(320px/11*1);
+}
+/* ВЫСОТА ЗАБОРА block_3 */
+.quiz_changing_block{
+	width: 360px;
+}
+.quiz_changing_block_items{
+	width: 360px;
+	/*flex-direction: column;*/
+	-ms-align-items: center;
+	align-items: center;
+}
+p.question{
+	width: 250px;
+	font-size: 18px;
+	margin-left: auto;
+	margin-right: auto;
+}
+button.btn_prev{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+}
+
+.block_3_bottom{
+	width: 320px;
+	font-size: 20px;
+}
+
+
+.block_item{
+	width: 135px;
+}
+
+
+
+
+
+}

@@ -1,0 +1,77 @@
+body{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	background-color: #aea;
+}
+ul, li{
+	text-decoration: none;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.bsr{
+	border: 1px solid red;
+}
+button{
+	outline:none;
+	background-color: transparent;
+	border: none;
+	border-radius: 5px;
+	color: #000;
+	background-color: #fff;
+	cursor: pointer;
+}
+.d_flex{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.container{
+	width: 500px;
+	height: 500px;
+	background-color: #bebebe;
+}
+.men{
+	width: 30px;
+	height: 30px;
+	background-color: #fff;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	border: 1px solid #000;
+}
+table{
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+td{
+	width: 70px;
+	height: 70px;
+	border: 1px solid #000;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: 25px;
+	cursor: pointer;
+}
+.active{
+	background-color: red;
+	color: #fff;
+}
+.player{
+	width: 40px;
+	height: 25px;
+}
+.active_td{
+	background-color: #aaea;
+}
