@@ -1,0 +1,109 @@
+body{
+	box-sizing: border-box;
+}
+ul, li{
+	text-decoration: none;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.bsr{
+	border: 1px solid red;
+}
+button{
+	outline:none;
+	background-color: transparent;
+}
+/*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+
+.rotate_box{
+	width: 700px;
+	background-color: #1E052E;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+.circle{
+	border: 2px solid #aeaeae;
+
+}
+.circle_1{
+	width: 300px;
+	height: 300px ;
+	background-color: transparent;
+	position: absolute;
+	left: 200px ;
+	top: 50px;
+	border-radius: 50%;
+}
+.circle_2{
+	width: 200px;
+	height: 200px;
+	background-color: transparent;
+	position: absolute;
+	left: 250px;
+	top: 100px ;
+	border-radius: 50%;
+}
+.circle_3{
+	width: 100px;
+	height: 100px;
+	background-color: transparent;
+	position: absolute;
+	left: 300px;
+	top: 150px;
+	border-radius: 50%;
+}
+.ball{
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -15px;
+	background-size: 40px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: transparent;
+}
+
+.ball_1{
+	border: 2px solid red;
+	transform:rotate(0deg);
+	transform-origin: 15px 165px 0;
+	animation-name:rot;
+	animation-iteration-count: infinite;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+}
+.ball_2{
+	border: 2px solid green;
+	transform:rotate(0deg);
+	transform-origin: 15px 115px 0px;
+	animation-name:rot;
+	animation-iteration-count: infinite;
+	animation-duration: 4s;
+	animation-timing-function: linear;
+}
+.ball_3{
+	border: 2px solid white;
+	transform:rotate(0deg);
+	transform-origin: 15px 65px 0px;
+	animation-name:rot;
+	animation-iteration-count: infinite;
+	animation-duration: 3s;
+	animation-timing-function: linear;
+}
+
+@keyframes rot{
+	from{
+
+	transform:rotate(0deg);
+	}
+	to{
+	transform:rotate(360deg);
+	}
+}

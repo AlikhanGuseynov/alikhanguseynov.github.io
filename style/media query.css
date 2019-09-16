@@ -1,0 +1,406 @@
+@media only screen and (min-width: 2000px ) { 
+/*---------------------------------- HEADER ----------------------------------*/
+.header .nav_menu li{
+	font-size: 20px;
+}
+/*----------------------------------- HOME -----------------------------------*/
+.home h1{
+	font-size: 100px;
+}
+.home input{
+	font-size: 30px;
+}
+.home button.order{
+	font-size: 20px;
+	height: 54px;
+	border-radius: 27px;
+}
+/*------------------------------ ABOUT ------------------------------*/
+.about h2{
+	font-size: 70px;
+}
+.about img{
+	width: 50px;
+	margin-top: 5vh;
+}
+.about p.about_subtitle{
+	font-size: 32px;
+	margin-top: 50px;
+}
+.about p.about_text{
+	font-size: 20px;
+	margin-top: 50px;
+}
+/*------------------------------ PROJECT ------------------------------*/
+.project img{
+	width: 75%;
+	margin-top: 7vh;
+}
+/*------------------------------ TECHNOLOGIES ------------------------------*/
+.technologies .technologies-title{
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-size: 60px;
+}
+.technologies .technologies-block__item{
+	width: 400px;
+	height: 320px;
+	margin: 40px;
+}
+.technologies .technologies-block__item img{
+	width: 70px;
+}
+.technologies .technologies-block__item p.technologies-block__title{
+	font-size: 22px;
+}
+.technologies .technologies-block__item p.technologies_text{
+	font-size: 21px;
+}
+/*-------------------------------------------- CONTACT --------------------------------------------*/
+section.contact .contact_title{
+	font-size: 80px;
+}
+.contact ul li i{
+	font-size: 40px;
+	color: 	grey;
+}
+.contact .circle{
+	width: 10px;	
+	height: 10px;	
+	margin-left: 20px;
+}
+.contact ul li:hover .circle{
+	margin-left: 40px;	
+}
+.contact ul span{
+	margin-left: 15px;
+	font-size: 22px		
+}
+.contact ul{
+	height: 70vh;	
+}
+.contact .contact_order{
+	height: 70vh;
+}
+.contact .contact_order input{
+	border-bottom: 2px solid #45d8e8;
+}
+.contact .contact_order input::-webkit-input-placeholder {
+    color: #aeaeae;
+    font-size: 25px;
+} 
+.contact .contact_order input::-moz-placeholder {
+    color: #aeaeae;
+    font-size: 25px;
+}
+.contact .contact_order button.order {
+	height: 60px;
+	font-size: 25px;
+	width: 60%;
+}
+}
+/*END OF 1024px /////////////////////////////////////////////////////*/
+
+
+/*BEGIN OF 990px //////////////////////////////////////////////////////*/
+}
+@media only screen and (max-width: 1024px ) { 
+/*------------------------------ HEADER ------------------------------*/
+.header .nav_menu li{
+	font-size: 14px;
+}
+/*------------------------------ HOME ------------------------------*/
+.home h1{
+	font-size: 50px;
+}
+.home input::-webkit-input-placeholder {
+    color: #aeaeae;
+	font-size: 15px;
+} 
+.home input::-moz-placeholder {
+    color: #aeaeae;
+	font-size: 15px;
+}
+.home button.order{
+	font-size: 12px;
+}
+/*------------------------------ ABOUT ------------------------------*/
+section.about{
+	height: auto;
+}
+.about h2{
+	font-size: 40px;
+}
+.about img{
+	width: 25px;
+	margin-top: 5vh;
+}
+.about p.about_subtitle{
+	font-size: 18px;
+}
+.about p.about_text{
+	font-size: 11px;
+}
+/*------------------------------ PROJECT ------------------------------*/
+.project p.project_title{
+	font-size: 60px;
+}
+.project img{
+	width: 80%;
+	margin-top: 7vh;
+}
+/*------------------------------ TECHNOLOGIES ------------------------------*/
+section.technologies {
+	height: auto;
+	margin-bottom: 20px;
+}
+.technologies .technologies-title{
+	padding-top: 50px;
+	padding-bottom: 20px;
+	font-size: 35px;
+}
+.technologies .technologies-block__item{
+	width: 220px;
+	height: 190px;
+}
+.technologies .technologies-block__item p.technologies-block__title{
+	font-size: 15px;
+}
+.technologies .technologies-block__item p.technologies_text{
+	font-size: 13px;
+}
+/*-------------------------------------------- CONTACT --------------------------------------------*/
+section.contact .contact_title{
+	font-size: 50px;
+	margin-top: 40px;
+}
+.contact ul li i{
+	font-size: 	30px;
+}
+.contact ul span{
+	margin-left: 15px;
+	font-size: 14px		
+}
+.contact ul{
+	height: 60vh;
+}
+.contact .contact_order{
+	height: 60vh;
+}
+.contact .contact_order input::-webkit-input-placeholder {
+    font-size: 15px;
+} 
+.contact .contact_order input::-moz-placeholder {
+    font-size: 15px;
+}
+.contact .contact_order button.order {
+	border: 1px solid #45d8e8;
+	height: 30px;
+	width: 70%	;
+	font-size: 15px;
+}
+}
+/*END OF 1024px /////////////////////////////////////////////////////*/
+
+
+/*BEGIN OF 990px //////////////////////////////////////////////////////*/
+@media only screen and (max-width: 990px ) { 
+/*------------------------------ HOME ------------------------------*/
+.home h1{
+	font-size: 39px;
+}
+.home input{
+	width: 100%;
+	font-size: 20px;
+}
+.home button.order{
+	color: #fff;
+	width: 100%;
+	border-radius: 25px;
+	margin-top: 10vh;
+	height: 40px;
+	font-size: 18px;
+}
+/*------------------------------ ABOUT ------------------------------*/
+section.about h2{
+	font-size: 30px;
+	padding-top: 10vh;
+}
+.about img{
+	width: 28px;
+}.about .about_block{
+	padding-left: 0;
+}
+.about p.about_subtitle{
+	font-size: 18px;
+}
+.about p.about_text{
+	font-size: 13px;
+	margin-top: 3vh;
+	margin-bottom: 4vh;
+	width: 100%;
+}
+/*------------------------------ PROJECT ------------------------------*/
+section.project {
+	height: auto;
+	padding-bottom: 15vh;	
+}
+.project img{
+	width: 100%;
+	margin-top: 7vh;
+}
+/*------------------------------ TECHNOLOGIES ------------------------------*/
+section.technologies{
+	height: auto;
+	margin-bottom: 50px;
+}
+}
+/*END OF 960/////////////////////////////////////////////////////*/
+
+
+/*BEGIN OF 768px //////////////////////////////////////////////////////*/
+@media only screen and (max-width: 767px ) { 
+.home h1{
+	text-align: center;
+}
+.home input{
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.home button.order{
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+/*------------------------------ ABOUT ------------------------------*/
+section.about{
+	height: auto;
+	padding-bottom: 20px;
+}
+.about img{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.about p.about_subtitle{
+	font-size: 22px;
+	text-align: center;
+}
+.about p.about_text{
+	font-size: 15px;
+	width: 100%;
+	text-align: center;
+}
+/*------------------------------ PROJECT ------------------------------*/
+section.project{
+	width: 100%;
+}
+.project img{
+	margin-left: 0;
+	width: 100%;
+}
+.project p.project_title{
+	margin-bottom: 0;
+	font-size: 60px;
+}
+/*------------------------------ TECHNOLOGIES ------------------------------*/
+section.technologies{
+	height: auto;
+	padding-bottom: 20px;
+}
+/*-------------------------------------------- CONTACT --------------------------------------------*/
+section.contact{
+	height: auto;
+}
+.contact ul {
+	margin-left: auto;
+	margin-right: auto;
+}
+.contact .contact_order button.order {
+	width: 100%;
+	height: 45px;
+	font-size: 20px;
+}
+}
+/*END OF 768px //////////////////////////////////////////////////////// */
+
+
+/*BEGIN OF 660px //////////////////////////////////////////////////////*/
+@media only screen and (max-width: 660px ) { 
+/*-------------------------------------------- CONTACT --------------------------------------------*/
+.contact ul{
+	padding-left: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+.contact .contact_order input{
+	/*padding-left: 0;*/
+}
+
+}
+/*END OF 660px //////////////////////////////////////////////////////// */
+
+
+/*BEGIN OF 576px //////////////////////////////////////////////////////*/
+@media only screen and (max-width: 576px ) { 
+/*------------------------------ ABOUT ------------------------------*/
+.about p.about_subtitle{
+	font-size: 20px;
+	margin-top: 3vh;
+}
+.about p.about_text{
+	font-size: 14px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+}
+/*END OF 576px //////////////////////////////////////////////////////// */
+
+/*BEGIN OF 576px //////////////////////////////////////////////////////*/
+@media only screen and (max-width: 425px ) { 
+/*------------------------------ HOME ------------------------------*/
+.home h1{
+	font-size: 30px;
+}
+.home button.order{
+	font-size: 15px;
+}	
+/*------------------------------ ABOUT ------------------------------*/
+section.about{
+	height: auto;
+}
+.about p.about_subtitle{
+	font-size: 19px;
+}
+.about p.about_text{
+	font-size: 13px;
+}
+/*------------------------------ TECHNOLOGIES ------------------------------*/
+
+section.technologies{
+	height: auto;
+	padding-bottom: 20px;
+}
+.technologies .technologies-title{
+	font-size: 25px;
+	padding-bottom: 20px;
+}
+.technologies .technologies-block__item{
+	height: 200px;
+}
+/*-------------------------------------------- CONTACT --------------------------------------------*/
+section.contact{
+	height: auto;
+}
+
+section.contact .contact_title{
+	font-size: 50px;
+}
+
+
+
+}
