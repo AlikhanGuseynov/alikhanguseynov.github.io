@@ -11,8 +11,6 @@ ul, li{
 a{
 	text-decoration: none;
 }
-
-
 button{
 
 	width: 100px;
@@ -25,7 +23,6 @@ button{
 button:active{
 	background-color: #ededed;
 }
-
 input{
 	border: none;
 	width: 500px;
@@ -34,4 +31,23 @@ input{
 	font-size: 20px;
 	padding-left: 15px;
 	outline: none;
+}
+.box{
+	margin-top: 50px;
+	margin-left: 50px;
+}
+#table{
+	width: 80%;
+	margin-top: 10px;
+	border-radius: 5px;
+	margin-left: 50px;
+	background-color: #fff;
+	height: 150px;
+	color: #000;
+}
+
+.item{
+	width: 50px;
+	height: 20px;
+	background-color: red;
 }

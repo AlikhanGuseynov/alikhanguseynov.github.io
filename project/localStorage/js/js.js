@@ -13,6 +13,25 @@ document.getElementById("get").addEventListener("click", function get(){
 
 	localStorage.setItem("key_" + a, value)
 
+	let table = document.getElementById("table");
+
+	// var loc_key = localStorage.getItem("key_" + a)
+
+	// var newString = table.insertAdjacentHTML('<div class="item">two</div>')   
+	// newString.classList.add("item");
+	
+let div = document.createElement('div');
+
+div.idName = "item";
+
+	let div_item = document.getElementsByClassName("item")[0];
+
+console.log(div_item)
+
+// document.table.append(div_item)
+
+
+
 })
 
 
