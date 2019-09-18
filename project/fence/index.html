@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Монтаж_Забор</title>
+	<link rel='shortcut icon' type='image/x-icon' href='favicon.ico'/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style/style.css">
+	<link rel="stylesheet" href="style/media_query.css">
+	<link rel="stylesheet" href="style/fonts/fonts.css">
+	<link rel="stylesheet" href="library/animate.css">
+	<!-- ШРИФТЫ	 -->
+
+</head>
+<body>
+<section class="home home_bg">
+<!-- /*---------------------- HEADER ----------------------*/ -->
+<header class="header " id="header">
+	<div class="header_container container d-flex align-center">
+		<div class="header_left d-flex align-center">
+			<img src="img/logo.jpg" alt="logo" class="logo">
+			<p class="logo_text">
+					Установка любых видов заборов 
+					“под ключ” в Минске и области
+			</p>
+		</div>
+		<div class="header_right d-flex f-column">
+			<p class="work_time">
+					Прием заявок с пн. по вс.с 09.00 - 22.00
+			</p>
+			<a href="tel:+375255193308"class="header_phone">
+					+375()519-33-08
+			</a>
+		</div>
+	</div>
+</header>
+<!-- ВСПЛЫВАЮЩЕЕ ОКНО -->
+<div class="form_container">
+	<form action="php_form/mail.php" class="main_form d-flex" method="POST">
+		<button class="main_form_img"  onclick="closeForm()">
+			<!-- close button -->
+		</button>
+		<p class="form_title">
+			Оставьте ваш номер и наш менеджер свяжеться с вами
+		</p>
+		<div class="main_form_input d-flex">
+			<img src="img/avatar.png" alt="" class="block_10_input_img">
+			<input name="main_form_name" type="text" placeholder="Имя" required autofocus >
+		</div>	
+		<div class="main_form_input d-flex">
+			<img src="img/phone_call.png" alt="" class="block_10_input_img">
+			<input name="main_form_number" type="tel" placeholder="Номер" required autofocus >
+		</div>
+		<button type="submit" class="btn main_form_btn">
+			Связаться с мастером
+		</button>
+	</form>
+</div>
+
+<!-- /*---------------------- HOME ----------------------*/ -->
+
+<div class="container_top_bottom_center d-flex">
+	
+<!-- //этот блок исчезает -->
+
+<div class="home_container container"> 
+	<p class="home_title">
+		Пройдите тест за <span>2 минуты</span>
+		и получите скидку 120 р
+		и <span>расчет стоимости</span> забора 
+	</p>
+	<p class="home_subtitle">
+		Пройдите тест из 9 вопросов и получите:
+	</p>
+	<div class="get_present d-flex">
+		<div class="get_present_item">
+			<img src="img/kalitka.png" alt="">
+				<p>
+					Калитку в подарок при заказе от 50 м.п.
+				</p>
+		</div>
+		<div class="get_present_item">
+			<img src="img/Vector.png" alt="">
+				<p>
+					Скидку 10 р за каждый отвеченный вопрос
+				</p>
+		</div>
+		<div class="get_present_item">
+			<img src="img/budget.png" alt="">
+				<p>
+					Расчет стоимости забора по вашим критериям
+				</p>
+		</div>
+	</div>
+	<button class="home_btn btn d-flex">
+		<img src="img/calc.png" alt="" class="calc_img">
+		<div class="home_btn_write">
+			<p class="header_button_text">
+					Пройти тест и получить скидку
+			</p>
+			<p class="header_button_subtext">
+					+ расчет стоимости забора
+			</p>
+		</div>
+	</button>
+</div>
+
+
+	<!-- этот контейнер появляется -->
+	<div class="quiz_container animated fadeIn container">
+			<div class="quiz_main_block d-flex">
+				<div class="quiz_main_left_block">
+					<p class="calc_percent">
+							Расчет пройден на <span> 9 </span> %
+					</p>
+					<p class="discount">
+							Скидка <span> 10 </span> p.
+					</p>
+					<div class="progress_bar center ">
+						<div class="progress_bar_second">
+							<!-- индикатор темного цвета -->
+						</div>
+						<div class="progress_bar_items d-flex align-center">
+							<div class="progress_bar_item">1</div>
+							<div class="progress_bar_item">2</div>
+							<div class="progress_bar_item">3</div>
+							<div class="progress_bar_item">4</div>
+							<div class="progress_bar_item">5</div>
+							<div class="progress_bar_item">6</div>
+							<div class="progress_bar_item">7</div>
+							<div class="progress_bar_item">8</div>
+							<div class="progress_bar_item">9</div>
+							<div class="progress_bar_item">10</div>
+						</div>
+					</div>
+
+					<!-- BLOCK 1 -->
+					<div class="quiz_changing_block block_1 center">
+						<p class="question">
+								1. Какой тип забора вы хотите?
+						</p>
+						<div class="quiz_changing_block_items d-flex">
+							<div class="block_1_item block_item">
+								<label for="Металлопрофиль"><img src="img/block_1_1.png" alt="" class="block_1_item_img"></label>
+								<label>
+									<input type="radio" name="block_1" value="Металлопрофиль" id="Металлопрофиль">
+									<p class="input_box_name">Металлопрофиль</p>
+								</label>
+								</form>
+							</div>
+							<div class="block_1_item block_item">
+								<label for="штакетник"><img src="img/block_1_2.png" alt="" class="block_1_item_img"></label>
+								<label>
+									<input type="radio" name="block_1" value="Металлический штакетник" id="штакетник">
+									<p class="input_box_name">Металлический штакетник</p>
+								</label>
+							</div>
+							<div class="block_1_item block_item">
+								<label for="Гиттер"><img src="img/block_1_3.png" alt="" class="block_1_item_img"></label>
+								<label>
+									<input type="radio" name="block_1" value="Сетка 3d Гиттер" id="Гиттер">
+									<p class="input_box_name">Сетка 3d Гиттер</p>
+								</label>
+							</div>
+							<div class="block_1_item block_item">
+								<label for="рабица"><img src="img/block_1_4.png" alt="" class="block_1_item_img"></label>
+								<label>
+									<input type="radio" name="block_1" value="Сетка рабица" id="рабица">
+									<p class="input_box_name">Сетка рабица</p>
+								</label>
+							</div>
+							<div class="block_1_item block_item">
+								<label for="жалюзи"><img src="img/block_1_5.png" alt="" class="block_1_item_img"></label>
+								<label>
+									<input type="radio" name="block_1" value="Забор жалюзи" id="жалюзи">
+									<p class="input_box_name">Забор жалюзи</p>
+								</label>
+							</div>
+							<div class="block_1_item block_item">
+								<label for="заборы"><img src="img/block_1_6.png" alt="" class="block_1_item_img"></label>
+								<label>
+									<input type="radio" name="block_1" value="Комбинированные заборы" id="заборы">
+									<p class="input_box_name">Комбинированные заборы</p>
+								</label>
+							</div>
+						</div>
+					</div>
+
+					<!-- BLOCK 2 -->
+					<div class="quiz_changing_block block_2 center animated fadeIn">
+						<p class="question">
+							2. Какой длины будет забор? 
+						</p>
+						<div class="quiz_changing_block_items_2 quiz_changing_block_items">
+							<label for="" class="lenght_fance_label swing_label d-flex">
+								<input type="number" name="block_2" id="input_number_2" class="lenght_fance" placeholder="80 м." value="">
+								<div class="swing_btns d-flex">	
+									<button class="swing_up" onclick="up_2(1)"></button>
+									<img src="img/Line_arrow.png" alt="line_arrow">
+									<button class="swing_down" onclick="up_2(-1)"></button>
+								</div>
+							</label>
+						</div>
+					</div>
+
+					<!-- BLOCK 3 -->
+					<div class="quiz_changing_block block_3 center animated fadeIn">
+						<p class="question">
+							3. Какой высоты будет забор? 
+						</p>
+						<div class="quiz_changing_block_items d-flex">
+							<button value="1.2" class="border_btn block_3_border_btn">
+								<p>1.2 м</p>
+							</button>
+							<button value="1.5" class="border_btn block_3_border_btn">
+								<p>1.5 м</p>
+							</button>
+							<button value="1.6" class="border_btn block_3_border_btn">
+								<p>1.6 м</p>
+							</button>
+							<button value="1.7" class="border_btn block_3_border_btn">
+								<p>1.7 м</p>
+							</button>
+							<button value="1.8" class="border_btn block_3_border_btn">
+								<p>1.8 м</p>
+							</button>
+							<button value="1.9" class="border_btn block_3_border_btn">
+								<p>1.9 м</p>
+							</button>
+						</div>
+						<div class="block_3_bottom d-flex">
+							<p>Размер под заказ:</p>
+							<label for="" class="swing_label block_3_label d-flex">
+								<input name="block_3" type="number" id="input_number_3" class="lenght_fance" placeholder="1.75 м" value=""; >
+								<div class="swing_btns d-flex">	
+									<button class="swing_up"  onclick="up_3(1)"></button>
+									<img src="img/Line_arrow.png" alt="line_arrow">
+									<button class="swing_down" onclick="up_3(-1)"></button>
+								</div>
+							</label>
+						</div>
+					</div>
+
+					<!-- BLOCK 4 -->
+					<div class="quiz_changing_block block_4 center animated fadeIn">
+						<p class="question">
+							4. Будут ли у Вас ворота? 
+						</p>
+						<div class="quiz_changing_block_items d-flex">
+							<div class="block_4_item block_item">
+								<label for="Откатные"><img src="img/block_4_1.png" alt="" class="block_1_item_img"></label>
+								<label>
+									<input type="radio" name="block_4" value="Откатные ворота" id="Откатные">
+									<p class="input_box_name">Откатные ворота</p>
+								</label>
+							</div>
+							<div class="block_4_item block_item">
+								<label for="Распашные"><img src="img/block_4_2.png" alt="" class="block_1_item_img"></label>
+								<label>
+									<input type="radio" name="block_4" value="Распашные ворота" id="Распашные">
+									<p class="input_box_name">Распашные ворота</p>
+								</label>
+							</div>
+							<div class="block_4_item block_item">
+								<label for="Нет"><img src="img/block_img_not.png" alt="" class="block_1_item_img"></label>
+								<label>
+									<input type="radio" name="block_4" value="Нет" id="Нет">
+									<p class="input_box_name">Нет</p>
+								</label>
+							</div>
+							<div class="block_4_item block_item">
+								<label for="думаю"><img src="img/block_img_thinking.png" alt="" class="block_1_item_img"></label>
+								<label>
+									<input type="radio" name="block_4" value="Еще думаю" id="думаю">
+									<p class="input_box_name">Еще думаю</p>
+								</label>
+							</div>
+						</div>
+					</div>
+					<!-- BLOCK 5 -->
+					<div class="quiz_changing_block block_5 center animated fadeIn">
+						<p class="question">
+							5. Будет ли у Вас калитка? 
+						</p>
+						<div class="quiz_changing_block_items d-flex">
+							<div class="block_5_item block_item">
+								<label for="Ворота"><img src="img/block_5_1.png" alt="" class="block_1_item_img"></label>
+								<label>
+									<input type="radio" name="block_5" value=" с калиткой" id="Ворота">
+									<p class="input_box_name">Ворота с калиткой</p>
+								</label>
+							</div>
+							<div class="block_5_item block_item">
+								<label for="Отдельная"><img src="img/block_5_2.png" alt="" class="block_1_item_img"></label>
+								<label>
+									<input type="radio" name="block_5" value="Отдельная калитка" id="Отдельная">
+									<p class="input_box_name">Отдельная калитка</p>
+								</label>
+							</div>
+							<div class="block_5_item block_item">
+								<label for="Нет_5"><img src="img/block_img_not.png" alt="" class="block_1_item_img"></label>
+								<label>
+									<input type="radio" name="block_5" value="Нет_5" id="Нет_5">
+									<p class="input_box_name">Нет</p>
+								</label>
+							</div>
+							<div class="block_5_item block_item">
+								<label for="Еще_думаю"><img src="img/block_img_thinking.png" alt="" class="block_1_item_img"></label>
+								<label>
+									<input type="radio" name="block_5" value="Еще думаю" id="Еще_думаю">
+									<p class="input_box_name">Еще думаю</p>
+								</label>
+							</div>
+						</div>
+					</div>
+
+					<!-- BLOCK 6 -->
+					<div class="quiz_changing_block block_6 center animated fadeIn">
+						<p class="question">
+							6.  Вам потребуется автоматический привод для ворот?
+						</p>
+						<div class="quiz_changing_block_items  d-flex">
+						<div class="block_6_answer block_answer d-flex">
+							<button value="Да" class="border_btn">
+								<p>
+									Да
+								</p>
+							</button>
+							<button value="Нет" class="border_btn">
+								<p>
+									Нет
+								</p>
+							</button>
+						</div>
+						</div>
+					</div>
+
+					<!-- BLOCK 7 -->
+					<div class="quiz_changing_block block_7 center animated fadeIn">
+						<p class="question">
+							7. Где находится участок который нужно оградить?
+						</p>
+						<div class="quiz_changing_block_items  d-flex">
+
+							<div class="address d-flex">
+								<img src="img/loupe.png" alt="" class="address_loupe">
+								<input name="block_7" type="text" class="adress_input" placeholder="Адрес">
+							</div>
+
+
+						</div>
+					</div>
+
+					<!-- BLOCK 8 -->
+					<div class="quiz_changing_block block_8 center animated fadeIn">
+						<p class="question">
+							8. Вам нужен демонтаж старого забора?
+						</p>
+						<div class="quiz_changing_block_items  d-flex">
+						<div class="block_8_answer block_answer d-flex">
+							<button value="Да" class="border_btn">
+								<p>
+									Да
+								</p>
+							</button>
+							<button value="Нет" class="border_btn">
+								<p>
+									Нет
+								</p>
+							</button>
+						</div>
+						</div>
+					</div>
+
+					<!-- BLOCK 9 -->
+					<div class="quiz_changing_block block_9 center animated fadeIn">
+						<p class="question">
+							9. Вам нужен фундамент под забор?
+						</p>
+						<div class="quiz_changing_block_items  d-flex">
+						<div class="block_9_answer block_answer d-flex">
+							<button value="Да" class="border_btn">
+								<p>
+									Да
+								</p>
+							</button>
+							<button value="Нет" class="border_btn">
+								<p>
+									Нет
+								</p>
+							</button>
+						</div>
+						</div>
+					</div>
+
+					<!-- BLOCK 10 -->
+					<div class="quiz_changing_block block_10 center animated fadeIn">
+						<p class="question">
+							10. Оставьте Ваш номер телефона, для подтверждения скидки 100р.
+						</p>
+						<div class="quiz_changing_block_items  d-flex">
+
+							<form action="php_form/mail.php" class="block_10_form d-flex">
+								<div class="block_10_input">
+									<img src="img/avatar.png" alt="" class="block_10_input_img">
+									<input name="block_10_1" type="text" placeholder="Имя" required autofocus >
+								</div>	
+								<div class="block_10_input">
+									<img src="img/phone_call.png" alt="" class="block_10_input_img">
+									<input name="block_10_2" type="text" placeholder="Номер" required autofocus >
+								</div>	
+							</form>
+						
+						</div>
+					</div>
+
+					<!-- КНОПКА ---ОТПРАВКИ--- ФОРМЫ -->
+					<div class="next_prev d-flex">
+						<button class="btn btn_prev center d-flex">
+							<img src="img/prev_btn.png" alt="" class="btn_prev_img">
+							<p>Назад</p>
+						</button>
+						<button class="btn btn_next center d-flex">
+							<p>Далее</p>
+							<img src="img/next_btn.png" alt="" class="btn_next_img">
+						</button>
+						<!-- FORM -->
+						<form class="" action="php_form/mail.php" method="POST">	
+							<button class="btn center  btn_send d-flex">
+								<p>Отправить заявку</p>
+								<input name="send_box" class="send_box" value="send_box">
+							</button>	
+						</form>
+
+					</div>
+				</div>
+
+
+				<div class="quiz_main_right_block d-flex f-column align-center">
+					<img src="img/master_photo.png" alt="" class="master_photo center">
+					<p class="master_name">
+							Андрей - мастер
+					</p>
+					<p class="master_experianse"></p>
+							опыт 8 лет, 421 закрытых обьектов
+					</p>
+					<div class="master_line">
+					</div>
+					<p class="master_text">
+							“ Установка забора - это одна из первых
+							задач, к которой приступает владелец
+							коттеджа, приусадебного участка или
+							загородной дачи. Хороший забор является 
+							лицом Вашего дома, это символ защищенности,
+							надежности и даже уровня достатка. “
+					</p>
+					<button class="call_master_btn btn" onclick="connect()">
+							<p class="call_master_btn_text">
+									Связаться с мастером
+							</p> 
+					</button>
+				</div>
+			</div>
+		</div>
+
+
+</div>
+
+</section>
+
+	
+
+<script src="library/jQuery.js"></script>
+<script src="js/js.js"></script>
+<script src="js/matches.js"></script>
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
+
+
+<!-- <!— Yandex.Metrika counter —> -->
+<script type="text/javascript" >
+(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+ym(55374517, "init", {
+clickmap:true,
+trackLinks:true,
+accurateTrackBounce:true,
+webvisor:true
+});
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/55374517" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- <!— /Yandex.Metrika counter —> -->
+
+</body>
+
+
+
+</html>
