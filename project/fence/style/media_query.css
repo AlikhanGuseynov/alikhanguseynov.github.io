@@ -346,7 +346,7 @@ p.home_title{
 	width: 260px;
 }
 .home_container {
-	height: calc(100vh - 75px);
+	height: calc(100vh - 110px);
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
