@@ -385,7 +385,7 @@ p.header_button_text{
 }
 button.home_btn{
 	margin-top: 0;
-	margin-bottom: 25px;
+	/*margin-bottom: 25px;*/
 }
 .get_present_item{
 	width: 110px;
