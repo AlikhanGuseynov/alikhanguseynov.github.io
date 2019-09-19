@@ -1,35 +1,22 @@
 document.getElementById("clear").addEventListener("click", function clear(){
 	localStorage.clear()
 })
-
-
-
+	var table = document.getElementById("table")
 	var a = 0 ;
-
+	let qwer = {
+	};
+console.log(value)
 document.getElementById("get").addEventListener("click", function get(){
-	let key = document.getElementById("key").value;
-	let value = document.getElementById("value").value;
 	a++;
-
-	localStorage.setItem("key_" + a, value)
-
-	let table = document.getElementById("table");
-
-	// var loc_key = localStorage.getItem("key_" + a)
-
-	// var newString = table.insertAdjacentHTML('<div class="item">two</div>')   
-	// newString.classList.add("item");
-	
-let div = document.createElement('div');
-
-div.idName = "item";
-
-	let div_item = document.getElementsByClassName("item")[0];
-
-console.log(div_item)
-
-// document.table.append(div_item)
-
+	var value = document.getElementById("value").value;
+	qwer["item_" + a] = value; // создает ключь со значением value
+	let qwerObj = JSON.stringify(qwer); // преобразует объект в строку
+	localStorage.setItem("key", qwerObj ); // прердает значение qwerObj в localStorage
+	let getItem = localStorage.getItem("key"); // получает занчение key из localStorage 
+	let parseItems = JSON.parse(getItem); // преобразует строку в объект
+	var eachItems =  Object.values(parseItems); // получает все значения объекта
+	table.innerHTML = eachItems; // передает в значения объекта в id="table"
+	console.log(eachItems[a-1]);
 
 
 })
