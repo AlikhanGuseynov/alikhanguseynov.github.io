@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>anime</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../style/media_query.css">
+	<link rel="stylesheet" href="../library/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="../style/media_query.css">
+	<!-- ШРИФТЫ	 -->
+	<link rel="stylesheet" type="text/css" href="../style/fonts/fonts.css">
+
+</head>
+<body>
+
+<section class="reading" id="reading">
+	<div class="container">
+		<div class="row pt-5">
+			<div class="col-12">
+				<p class="title">
+					Название
+				</p>
+			</div>
+		</div>
+		<div class="row nav_arrow_row">
+			<div class="col-12">
+				<div class="nav_arrow d-flex justify-content-center align-items-center">
+					  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+					    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					    <span class="arrow_text">Предыдушая страница</span>
+					  </a>
+						<p class="chapter">
+							<< Глава1 >>
+						</p>
+					  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+					    <span class="arrow_text">следующая страница</span>
+					    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					  </a>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12 mt-3 pb-3">
+				<div class="line">
+					<!-- линия между главой и изоюражением -->
+				</div>
+			</div>
+		</div>
+		<div class="row slider_row mt-4">
+			<div class="col-8 mx-auto">
+				<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="false">
+				  <div class="carousel-inner">
+				    <div class="carousel-item active">
+				      <img src="../img/00.jpg" class="d-block w-100" alt="...">
+				    </div>
+				    <div class="carousel-item">
+				      <img src="../img/00.jpg" class="d-block w-100" alt="...">
+				    </div>
+				  </div>
+				</div>
+			</div>
+		</div>
+		<div class="row nan_arrow_row">
+			<div class="col-12 mt-5">
+				<div class="nav_arrow d-flex justify-content-center align-items-center">
+					  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+					    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					    <span class="arrow_text">Предыдушая страница</span>
+					  </a>
+						<a class="go_top d-flex align-items-center" href="#reading">
+							<img src="../img/top_arrow.png" alt="">
+							<p class="p-0 m-0">
+								вернуться в начало страницы
+							</p>
+							<img src="../img/top_arrow.png" alt="">
+						</a>
+					  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+					    <span class="arrow_text">следующая страница</span>
+					    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					  </a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+<script src="../library/jQuery.js"></script>
+<script src="../js/js.js"></script>
+<script src="../library/bootstrap.min.js"></script>
+
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>

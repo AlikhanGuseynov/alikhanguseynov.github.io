@@ -1,0 +1,98 @@
+body{
+	box-sizing: border-box;
+    font-family: "Montserrat";
+    color: #fff;
+    background-color: #323232;
+}
+.row ul, .row li{
+	text-decoration: none;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.row a{
+	text-decoration: none;
+}
+.bsr{
+	border: 1px solid red;
+}
+input{
+	outline: none;
+	background-color: transparent;
+	border: none;
+}
+.row button{
+	outline:none;
+	background-color: transparent;
+}
+.d_flex{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.align_center{
+	-ms-align-items: center;
+	align-items: center;
+}
+.center{
+	margin-left: auto;
+	margin-right: auto;
+}
+/*----------------------------------------------------------------------*/
+
+.manga_nav_row{
+	margin-top: 40px;
+}
+p.title{
+	font-size: 30px;
+	font-weight: 500;
+}
+span.carousel-control-prev-icon{
+	background-image: url(../img/prev_arrow.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 30px;
+	height: 30px;
+}
+span.carousel-control-next-icon{
+	background-image: url(../img/next_arrow.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 30px;
+	height: 30px;
+}
+a.carousel-control-prev, a.carousel-control-next{
+	width: 300px;
+	white-space: nowrap !important;
+}
+span.arrow_text{
+	padding: 0 15px;
+	font-size: 16px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+p.chapter{
+	text-align: center;
+	font-family: "Montserrat - Semi Bold";
+	font-size: 20px;
+	font-weight: 400;
+	margin-top: 16px;
+}
+.line{
+	height: 3px;
+	border-radius: 2px;
+	background-color: #ffa500;
+}
+a.go_top{
+	font-size: 18px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #fff;
+	border: none;
+	padding-bottom: 100px;
+}
+a.go_top img{
+	padding: 0 15px;
+}

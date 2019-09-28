@@ -1,0 +1,131 @@
+body{
+	box-sizing: border-box;
+    font-family: "Montserrat";
+    color: #fff;
+    background-color: #323232;
+}
+.row ul, .row li{
+	text-decoration: none;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.row a{
+	text-decoration: none;
+}
+.bsr{
+	border: 1px solid red;
+}
+input{
+	outline: none;
+	background-color: transparent;
+	border: none;
+}
+.row button{
+	outline:none;
+	background-color: transparent;
+}
+.d_flex{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.align_center{
+	-ms-align-items: center;
+	align-items: center;
+}
+.center{
+	margin-left: auto;
+	margin-right: auto;
+}
+/*----------------------------------------------------------------------*/
+
+
+p.title{
+	font-size: 30px;
+	font-weight: 700;
+}
+img.manga_cover{
+	width: 322px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.reading_amount{
+	margin-top: 25px;
+}
+.start_reading{
+	display: block;
+	width: 322px;
+	height: 250px;
+	border-radius: 5px;
+	background-color: #373737;
+	margin-top: 20px;
+	justify-content: space-evenly;
+	-webkit-justify-content: space-evenly ;
+}
+p.start_reading_title{
+	font-size: 20px;
+	font-weight: 500;
+	color: #fff;
+}
+button.start_reading_button{
+	width: 250px;
+	height: 40px;
+	border-radius: 20px;
+	background-color: #ffa500;
+	border: none;
+}
+button.start_reading_button p{
+	color: #fff;
+	font-size: 20px;
+	font-weight: 500;
+	text-align: center;
+	
+} 
+.button_line{
+	width: 40px;
+	height: 3px;
+	background-color: #ffa500;
+	position: absolute;
+}
+.button_left_line{
+	margin-left: -40px;
+	margin-top: -18px;
+}
+.button_right_line{
+	right: 30px;
+	margin-top: -16px;
+}
+
+/*------------------ description_right_side ------------------*/
+
+.description_right{
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 500
+}
+.chapters_block{
+	border-radius: 5px;
+	background-color: #373737;
+	width: 100%;
+	padding-bottom: 40px;
+	flex-wrap: wrap;
+}
+a.manga_chapter{
+	display: block;
+	background-color: transparent;
+	color: #ffffff;
+	font-size: 18px;
+	width: 100px;
+	padding-top: 30px;
+	text-align: center;
+	/*margin-left: auto;*/
+	/*margin-right: auto;*/
+	cursor: pointer;
+}
+a.manga_chapter:hover{
+	color: #ffa500 !important;
+}
