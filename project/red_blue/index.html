@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	
+
+
+
+
+
+<table onclick="step(), check( 'blue', 'red' )" >
+	<tr>
+		<td id="0" class="box" onclick="progress(this.id)"></td>
+		<td id="1" class="box" onclick="progress(this.id)"></td>
+		<td id="2" class="box" onclick="progress(this.id)"></td>
+	</tr>
+	<tr>
+		<td id="3" class="box" onclick="progress(this.id)"></td>
+		<td id="4" class="box" onclick="progress(this.id)"></td>
+		<td id="5" class="box" onclick="progress(this.id)"></td>
+	</tr>
+	<tr>
+		<td id="6" class="box" onclick="progress(this.id)"></td>
+		<td id="7" class="box" onclick="progress(this.id)"></td> 
+		<td id="8" class="box" onclick="progress(this.id)"></td>
+	</tr>
+</table>
+
+<div class="btn_block">
+	<button value="blue" id="blue" class="blue_men men" onclick="add_color('blue'), change_color('blue')"> blue </button>
+	<button value="red" id="red" class="red_men men" onclick="add_color('red'), change_color('red')"> red </button>
+</div>
+
+
+<button id="clear" onclick='clear_all()'>CLEAR</button>
+
+
+
+
+
+<script src="js.js"></script>
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>
