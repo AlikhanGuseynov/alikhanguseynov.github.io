@@ -1,0 +1,23 @@
+
+<div class="container">
+  <form (submit)="addStr(addstr.value)">  
+      <label for="addstr">Добавление новой возможности</label>
+    <input type="text" id="addstr" #addstr placeholder="Введите..." class="form-control">
+    <br>
+    <button type="submit" class="btn btn-outline-success">ADD</button>
+  </form>
+
+  <br>
+
+  <div class="alert alert-warning">
+      <ul>
+        <li *ngFor="let arr_item of arr">
+          <input type="checkbox" (click)="check(this)" >
+            <span [ngStyle]="{'text-decoration': ( state == true) ? 'line-through' : 'none' }">
+              {{arr_item}}
+            </span>          
+          <button class="btn btn-sm" (click)="deleteStr(arr_item)">x</button>
+        </li>
+      </ul>
+  </div>
+</div>
