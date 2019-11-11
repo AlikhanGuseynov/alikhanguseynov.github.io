@@ -3,13 +3,15 @@
 <head>
 	<meta charset="UTF-8">
 	<title>new_portfolio</title>
-	<link rel="stylesheet" href="../fonts/fonts.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="../library/bootstrap.min.css">
+	<link rel="stylesheet" href="../library/slick/slick.css">
+	<link rel="stylesheet" href="../library/slick/slick-theme.css">
 	<link rel="stylesheet" href="../style/media_query.css">
 	<link rel="stylesheet" href="../style/style.css">
 	<link rel="stylesheet" href="../date/bootstrap-datepicker.css">
 	<!-- ШРИФТЫ	 -->
+	<link rel="stylesheet" href="../fonts/fonts.css">
 </head>
 <body>
 
@@ -60,12 +62,12 @@
 	<div class="event_header">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-3 offset-md-8">
+				<div class="col-md-3 ml-auto">
 					<a class="link_buy d-flex justify-content-center align-items-center" href="">Купить за 2 370 ₽</a>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-2 offset-md-2">
+				<div class="col-md-2">
 					<div class="event_header_botton_box d-flex flex-column pt-3">
 						<a class="ml-3" href="">Святые места Александрова</a>
 						<span class="ml-3">28 Сентября | <a href="">Подробнее</a></span>
@@ -76,14 +78,266 @@
 	</div>
 </header>
 
+<section class="event_about">
+	<div class="container">
+		<h1 class="event_about_title">«ОБИТЕЛЬ ИВАНА ГРОЗНОГО»</h1>
+		<div class="row">
+			<div class="col-md-12 p-0">
+				<p class="event_about_text">
+					<span>А</span>лександров – город, ранее известный как Александровская слобода. Его история связана с именем царя Ивана Грозного, 
+					который в 1564 году, фактически перенеся столицу: вел дела политические, управлял опричниной, привез в Александров 
+					семью, когда в Москве свирепствовала эпидемия чумы. 
+				</p>
+				<br>
+				<p class="event_about_text">
+					Именно тут была открыта первая русская типография, где трудились ученики Ивана Федорова. Здесь проходил смотр невест, 
+					на котором царь избрал своей супругой Марфу Собакину. Исход монарха из Александрова связан с трагической гибелью 
+					царевича Ивана – эта драматическая сцена изображена на картине Репина «Иван Грозный убивает своего сына». 
+					Действительно ли царевич погиб от отцовской руки? Какие еще исторические события происходили в Александрове? Можно 
+					будет узнать во время экскурсии.
+				</p>
+			</div>
+		</div>
+		<div class="row d-flex justify-content-between">
+			<div class="col-md- d-flex ">
+				<div class="date_container d-flex justify-content-center">
+					<div class="rom_num">XIV</div>
+					<div class="d-flex flex-column">
+						<p class="date_container_up_row">Век</p>
+						<p class="date_container_down_row">основания</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md- d-flex justify-content-center">
+				<div class="date_container d-flex justify-content-center">
+					<div class="rom_num">59 328</div>
+					<div class="d-flex flex-column">
+						<p class="date_container_up_row">Век</p>
+						<p class="date_container_down_row">основания</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md- d-flex justify-content-end">
+				<div class="date_container d-flex justify-content-center">
+					<div class="rom_num">26 км<sup>2</sup> </div>
+					<div class="d-flex flex-column">
+						<p class="date_container_up_row">Век</p>
+						<p class="date_container_down_row">основания</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<a href="" class="prev_excursions mt-5 mb-5 d-flex align-items-center justify-content-center">
+			Назад к экскурсиям
+		</a>
+	</div>
+</section>
+<section class="section_event_map">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-12 col-md-6 event_map">
+				<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A83e049cc351cf5b28b14b813a130cc1ff6b335bf722f0402e6e716791fce6d73&amp;source=constructor" width="824" height="465" frameborder="0"></iframe>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="event_ticket">
+	<h2 class="event_about_title">
+		«ОБИТЕЛЬ ИВАНА ГРОЗНОГО»
+	</h2>
+	<div class="container">
+		<div class="row mt-5">
+			<div class="col-md-4">
+				<img src="../img/event_ticket_img.jpg" alt="" class="event_ticket_img">
+			</div>
+			<div class="col-md-7 ml-auto event_ticket_text ">
+				<p class="">
+					Иссушенным солнцем москвичам и гостям столицы самое время укрыться в прохладных музейных залах, презрев драйв, спорт и даже купание в прогревшихся под конец сезона водоемах.
+				</p>
+				<!-- <br> -->
+				<p class="event_ticket_info event_ticket_price"> Стоимость: <span>2.500 руб.</span></p>
+				<p class="event_ticket_info event_ticket_date">Дата: <span>01.03.2019</span></p>
+				<p class="event_ticket_info event_ticket_departure">Отправление:<span> Рижский вокзал в 18.34</span></p>
+				<a class="event_buy_link mt-3 d-flex align-items-center justify-content-center">Купить</a>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="upcoming_trips">
+	<div class="container pb-5">
+		<h2 class="upcoming_trips_title section_title">Ближайшие поездки</h2>
+		<div class="row mt-5">
+			<div class="col-12">
+				<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner ">
+						<div class="carousel-item active">
+							<div class="carousel_item_block">
+								<img src="../img/carousel/carousel_img_1.jpg" alt="" class="carousel_img">
+								<div>
+									<p class="carousel_date">
+										28 сентября
+									</p>
+									<p class="carousel_text">
+										Иссушенным солнцем москвичам и гостям столицы самое время укрыться в прохладных музейных залах, презрев драйв, спорт и даже купание в прогревшихся под конец сезона водоемах.
+									</p>
+									<a href="" class="carousel_link">Подробнее</a>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item ">
+							<div class="carousel_item_block">
+								<img src="../img/carousel/carousel_img_1.jpg" alt="" class="carousel_img">
+								<div>
+									<p class="carousel_date">
+										28 сентября
+									</p>
+									<p class="carousel_text">
+										Иссушенным солнцем москвичам и гостям столицы самое время укрыться в прохладных музейных залах, презрев драйв, спорт и даже купание в прогревшихся под конец сезона водоемах.
+									</p>
+									<a href="" class="carousel_link">Подробнее</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+				</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="comment">
+	<h3 class="comment_title">
+		Отзывы
+	</h3>
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="multiple-items">
+					<div class="d-flex ">
+						<div class="d-flex flex-column align-items-start mr-4">
+							<img src="../img/commentator_img_1.png" alt="" class="commentator_img">
+							<p class="commentator_name">Сергей </p>
+							<p class="commentator_age">27 Лет </p>
+							<div class="rating">
+								<p class="rating_text">Оценка тура</p>
+								<img src="../img/rating_stars.png" alt="" class="rating_stars">
+							</div>
+						</div>
+						<div class="coment_box">
+							<p class="coment_title">
+								По-другому взгянул на личность 
+								Ивана Грозного
+							</p>
+							<p class="coment_text">
+								Как жаль, что раньше даже не слышала об этом месте. Каюсь, стыдно... А ведь это совсем 
+								недалеко от моей родной Электростали. Моё знакомство с Александровской слободой 
+								совпало с праздником - Иванов день. Само мероприятие, на мой взгляд, интересно детям - 
+								различные мастер-классы, театрализованные представления, угощения. Ну а я в восторге от 
+								экскурсии! Замечательный гид, молодая девушка Анна Сергеевна настолько умело рассказала об 
+								истории России 16 в.! Экскурсия проводится по нескольким объектам - музей, царская трапезная, 
+								сенник спальный, подвалы. Всё настолько пропитано духом старины. Экскурсовод сказала, 
+								что на всё это смотрели глаза Ивана Грозного. 
+							</p>
+						</div>					
+					</div>
+					<div class="d-flex ">
+						<div class="d-flex 	flex-column align-items-start mr-4">
+							<img src="../img/commentator_img_1.png" alt="" class="commentator_img">
+							<p class="commentator_name">Сергей </p>
+							<p class="commentator_age">27 Лет </p>
+							<div class="rating">
+								<p class="rating_text">Оценка тура</p>
+								<img src="../img/rating_stars.png" alt="" class="rating_stars">
+							</div>
+						</div>
+						<div class="coment_box">
+							<p class="coment_title">
+								По-другому взгянул на личность 
+								Ивана Грозного
+							</p>
+							<p class="coment_text">
+								Как жаль, что раньше даже не слышала об этом месте. Каюсь, стыдно... А ведь это совсем 
+								недалеко от моей родной Электростали. Моё знакомство с Александровской слободой 
+								совпало с праздником - Иванов день. Само мероприятие, на мой взгляд, интересно детям - 
+								различные мастер-классы, театрализованные представления, угощения. Ну а я в восторге от 
+								экскурсии! Замечательный гид, молодая девушка Анна Сергеевна настолько умело рассказала об 
+								истории России 16 в.! Экскурсия проводится по нескольким объектам - музей, царская трапезная, 
+								сенник спальный, подвалы. Всё настолько пропитано духом старины. Экскурсовод сказала, 
+								что на всё это смотрели глаза Ивана Грозного. 
+							</p>
+						</div>					
+					</div>
+					<div class="d-flex coment_box">
+						<div class="d-flex 	flex-column align-items-start mr-4">
+							<img src="../img/commentator_img_1.png" alt="" class="commentator_img">
+							<p class="commentator_name">Сергей </p>
+							<p class="commentator_age">27 Лет </p>
+							<div class="rating">
+								<p class="rating_text">Оценка тура</p>
+								<img src="../img/rating_stars.png" alt="" class="rating_stars">
+							</div>
+						</div>
+						<div>
+							<p class="coment_title">
+								По-другому взгянул на личность 
+								Ивана Грозного
+							</p>
+							<p class="coment_text">
+								Как жаль, что раньше даже не слышала об этом месте. Каюсь, стыдно... А ведь это совсем 
+								недалеко от моей родной Электростали. Моё знакомство с Александровской слободой 
+								совпало с праздником - Иванов день. Само мероприятие, на мой взгляд, интересно детям - 
+								различные мастер-классы, театрализованные представления, угощения. Ну а я в восторге от 
+								экскурсии! Замечательный гид, молодая девушка Анна Сергеевна настолько умело рассказала об 
+								истории России 16 в.! Экскурсия проводится по нескольким объектам - музей, царская трапезная, 
+								сенник спальный, подвалы. Всё настолько пропитано духом старины. Экскурсовод сказала, 
+								что на всё это смотрели глаза Ивана Грозного. 
+							</p>
+						</div>					
+					</div>
+					<div class="d-flex coment_box">
+						<div class="d-flex 	flex-column align-items-start mr-4">
+							<img src="../img/commentator_img_1.png" alt="" class="commentator_img">
+							<p class="commentator_name">Сергей </p>
+							<p class="commentator_age">27 Лет </p>
+							<div class="rating">
+								<p class="rating_text">Оценка тура</p>
+								<img src="../img/rating_stars.png" alt="" class="rating_stars">
+							</div>
+						</div>
+						<div>
+							<p class="coment_title">
+								По-другому взгянул на личность 
+								Ивана Грозного
+							</p>
+							<p class="coment_text">
+								Как жаль, что раньше даже не слышала об этом месте. Каюсь, стыдно... А ведь это совсем 
+								недалеко от моей родной Электростали. Моё знакомство с Александровской слободой 
+								совпало с праздником - Иванов день. Само мероприятие, на мой взгляд, интересно детям - 
+								различные мастер-классы, театрализованные представления, угощения. Ну а я в восторге от 
+								экскурсии! Замечательный гид, молодая девушка Анна Сергеевна настолько умело рассказала об 
+								истории России 16 в.! Экскурсия проводится по нескольким объектам - музей, царская трапезная, 
+								сенник спальный, подвалы. Всё настолько пропитано духом старины. Экскурсовод сказала, 
+								что на всё это смотрели глаза Ивана Грозного. 
+							</p>
+						</div>					
+					</div>
 
 
+				</div>
+			</div>
 
-
-
-
-
-
+			
+		</div>
+	</div>
+</section>
 <footer class="footer" id="footer">
 	<div class="container">
 		<div class="row pt-5">
@@ -117,6 +371,9 @@
 
 
 <script src="../library/jQuery.js"></script>
+<script src="../library/slick/slick.min.js"></script>
+<script src="../js/js.js"></script>
+<script src="../library/bootstrap.min.js"></script>
 <script src="../date/bootstrap-datepicker.js"></script>
 <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </body>

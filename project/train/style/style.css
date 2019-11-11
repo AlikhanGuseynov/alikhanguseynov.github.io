@@ -422,6 +422,10 @@ a.link_buy{
 	background-image: linear-gradient(180deg, #00ab93 0%, #0262c6 100%);
 	font-size: 18px;
 	color: #ffffff;
+	opacity: .7;
+}
+a.link_buy:hover{
+	opacity: 1;
 }
 .event_header_botton_box{
 	width: 300px;
@@ -429,10 +433,149 @@ a.link_buy{
 	background-image: linear-gradient(180deg, #00ab93 0%, #0262c6 100%);
 	color: #fff;
 	font-size: 18px;
+	opacity: .7;
+	position: relative;
+	top: 406px;
+}
+.event_header_botton_box:hover{
+	opacity: 1;
 }
 .event_header_botton_box a{
 	color: #fff;
 }
 .event_header_botton_box:hover a{
 	text-decoration: underline;	
+}
+
+.event_about_title{
+	color: #00ab93;
+	font-size: 50px;
+	font-weight: 400;
+	text-align: center;
+	margin-top: 51px;
+	font-family: 'Helvetica Neue Cyr Light';
+}
+p.event_about_text{
+	color: #333333;
+	font-size: 18px;
+	letter-spacing: 1.26px;
+	font-family: 'Helvetica Neue Cyr Light';
+}
+p.event_about_text span{
+	font-family: 'Helvetica Neue Cyr Light';
+	color: #00ab93;
+	font-size: 36px;
+	line-height: 18px;
+	letter-spacing: 2.52px;
+}
+
+
+
+.date_container{
+	color: #00ab93;
+	font-family: 'Helvetica Neue Cyr Light';
+}
+.date_container_line{
+	color: #0262c6;
+}
+.rom_num{
+	font-size: 55px;
+	border-right: 2px solid #0262c6;
+	line-height: 45px;
+	padding-right: 11px;
+	margin-right: 12px;
+}
+p.date_container_up_row{
+	font-size: 30px;
+	text-transform: uppercase;
+	margin: 0;
+	line-height: 28px;
+}
+p.date_container_down_row{
+	font-size: 23px;
+	margin: 0;
+	line-height: 16px;
+}	
+.rom_num sup{
+	font-size: 30px;
+}
+a.prev_excursions{
+	display: block;
+	width: 270px;
+	height: 52px;
+	background-image: linear-gradient(180deg, #00ab93 0%, #0262c6 100%);
+	color: #fff;
+	font-size: 18px;
+	text-decoration: none;
+}
+.event_ticket .event_about_title{
+	margin-top: 140px;
+}
+.event_ticket p{
+	color: #777777;
+	font-size: 23px;
+	font-weight: 300;
+	line-height: 30px;
+}
+p.event_ticket_info{
+	padding: 0;
+	margin: 0px;
+}
+a.event_buy_link{
+	display: block;
+	width: 230px;
+	height: 45px;
+	background-image: linear-gradient(180deg, #00ab93 0%, #0262c6 100%);
+	font-size: 15px;
+	text-decoration: none;
+	color: #fff !important;
+	margin-bottom: 80px;
+}
+section.upcoming_trips{
+	box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.1);
+}
+h2.upcoming_trips_title{
+	color: #00ab93;
+}
+h3.comment_title{
+	color: #00ab93;
+	font-size: 50px;
+	font-weight: 400;
+	-ms-align-items: center;
+	text-align: center;
+	font-family: 'Helvetica Neue Cyr Light';
+	margin-top: 150px;
+}
+button.slick-arrow{
+	/*display: none;*/
+}
+
+p.commentator_name, p.commentator_age{
+	color: #00ab93;
+	font-size: 20px;
+	font-weight: 400;
+	padding: -0px;
+	margin: -0px;
+}
+p.rating_text{
+	color: #00ab93;
+	font-size: 14px;
+	font-weight: 400;
+	margin-top: 16px;
+}
+p.coment_title{
+	color: #00ab93;
+	font-size: 20px;
+	font-weight: 400;
+	font-family: "Helvetica Neue Cyr Light";
+}
+p.coment_text{
+color: #adadad;
+font-size: 16px;
+font-weight: 300;
+}
+.slick-dots li{
+	background-color: red
+	width: 2px;
+	height: 2px;
 }
