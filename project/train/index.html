@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>new_portfolio</title>
+	<link rel="stylesheet" href="fonts/fonts.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="library/bootstrap.min.css">
+	<link rel="stylesheet" href="style/media_query.css">
+	<link rel="stylesheet" href="style/style.css">
+	<link rel="stylesheet" href="library/owlcarousel/assets/owl.carousel.css">
+	<link rel="stylesheet" href="library/owlcarousel/assets/owl.theme.default.css">
+	<link rel="stylesheet" href="date/bootstrap-datepicker.css">
+	<!-- ШРИФТЫ	 -->
+</head>
+<body>
+
+
+<header class="header" id="header">
+	<div class="login_row d-flex align-items-center">
+		<div class="container">
+			<div class="row d-flex justify-content-between">
+				<div class="col-lg-2 col-lg-4 col-sm-5 d-flex">
+					<a href="tel:8(999)1234567">
+						8 (999) 123 45 67
+					</a>
+				</div>
+				<div class="col-lg-3 col-lg-5 col-sm-5 d-flex ">
+					<div class="login ml-auto">
+						<img src="img/login_img.png" alt="" class="login_img">
+						<a href="">Войти</a> | 
+						<a href=""> Регистрация</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="menu_row d-flex align-items-center">
+		<div class="container">
+			<div class="row  d-flex align-items-center">
+				<div class="col-md-2 col-5">
+					<img src="img/logo.png" alt="" class="logo_img">
+				</div>
+				<div class="col-md-9 ">
+					<nav class="">
+						<ul class="d-flex  justify-content-between align-items-center">
+							<li class=""><a class="" href="">Города</a></li>
+							<li><a href="">Экскурсии</a></li>
+							<li><a href="">События</a></li>
+							<li><a href="">Аудиогиды</a></li>
+							<li><a href="">Фотоотчеты</a></li>
+							<li><a href="">Новости</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="col-1 d-flex justify-content-end">
+					<a href="" class="basket"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<img src="img/header_bg.jpg" alt="" class="header_bg">
+</header>
+<section class="search_and_event p-0 m-0">
+	<h1 class="section_title">Поиск</h1>
+	<div class="container">
+		<div class="row">
+			<div class="col-12 mx-auto d-flex flex-row justify-content-between align-items-end">
+				<div class="search_block">
+					<div class="serach_item">
+						<p class="search_item_title">
+							Город
+						</p>
+						<select name="" id="">
+							<option value="">Москва</option>
+							<option value="">Санкт-Петербург</option>
+							<option value="">Новосибирск</option>
+							<option value="">Екатеринбург</option>
+							<option value="">Нижний Новгород</option>
+							<option value="">Казань</option>
+							<option value="">Челябинск</option>
+							<option value="">Омск</option>
+							<option value="">Самара</option>
+							<option value="">Ростов-на-Дону</option>
+							<option value="">Уфа</option>
+							<option value="">Красноярск</option>
+							<option value="">Воронеж</option>
+							<option value="">Пермь</option>
+							<option value="">Волгоград</option>
+						</select>
+					</div>
+				</div>
+				<div class="search_block">
+					<div class="serach_item">
+						<p class="search_item_title">
+							Город
+						</p>
+						<input data-provide="datepicker" placeholder="dd/mm/yyy">
+					</div>
+				</div>
+				<button class="search_block_btn btn">Смотреть</button>
+			</div>
+		</div>
+		<div class="row search_checbox">
+			<div class="col-10 d-flex">
+				<label for="" class="search_checbox_label_first">
+					<input type="checkbox">
+					<p class="search_checbox_text">Путеводитель</p>
+				</label>
+				<label for="" class="search_checbox_label_second">
+					<input type="checkbox">
+					<p class="search_checbox_text">Аудиогид</p>
+				</label>
+			</div>
+		</div>
+	</div>
+	<div class="container pb-5">
+		<h2 class="section_title">Интересные события</h2>
+		<div class="row mt-5">
+			<div class="col-12">
+				<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner ">
+						<div class="carousel-item active">
+							<div class="carousel_item_block">
+								<img src="img/carousel/carousel_img_1.jpg" alt="" class="carousel_img">
+								<div>
+									<p class="carousel_date">
+										28 сентября
+									</p>
+									<p class="carousel_text">
+										Иссушенным солнцем москвичам и гостям столицы самое время укрыться в прохладных музейных залах, презрев драйв, спорт и даже купание в прогревшихся под конец сезона водоемах.
+									</p>
+									<a href="" class="carousel_link">Подробнее</a>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item ">
+							<div class="carousel_item_block">
+								<img src="img/carousel/carousel_img_1.jpg" alt="" class="carousel_img">
+								<div>
+									<p class="carousel_date">
+										28 сентября
+									</p>
+									<p class="carousel_text">
+										Иссушенным солнцем москвичам и гостям столицы самое время укрыться в прохладных музейных залах, презрев драйв, спорт и даже купание в прогревшихся под конец сезона водоемах.
+									</p>
+									<a href="" class="carousel_link">Подробнее</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+				</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="audiogid">
+	<div class="container">
+		<div class="row">
+			<div class="col-10 offset-1 offset-md-0 col-md-6">
+				<img src="img/banner_logo.png" alt="" class="banner_logo">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-10 offset-1 col-md-8 offset-md-0">
+				<p class="audiogid_text">
+					аудиогиды «говорящие экспрессы»,
+					<br> знакомые маршруты и новые впечатления
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="reason">
+	<h2 class="reason_title">
+		Причины ехать
+	</h2>
+	<div class="container">
+		<div class="row reason_img_row d-flex">
+			<div class="col-12 d-flex flex-wrap p-0 justify-content-between">
+				<div class="reason_item reason_item_1">
+					<p class="reason_item_text">
+						Чехов
+«К истокам доброты»
+					</p>
+				</div>
+			
+				<div class="reason_item reason_item_2">
+					<p class="reason_item_text">
+						Обнинск
+«От «хламура» до пернатых»
+					</p>
+				</div>
+			
+				<div class="reason_item reason_item_3">
+					<p class="reason_item_text">
+						Обнинск
+«Атомный след и загадочные усадьбы»
+					</p>
+				</div>
+			
+				<div class="reason_item reason_item_4">
+					<p class="reason_item_text">
+						Калуга
+«От Калуги до Вселенной»
+					</p>
+				</div>
+			
+				<div class="reason_item reason_item_5">
+					<p class="reason_item_text">
+						Экскурсии по Рязани
+«Касимовское ханство Рязанское государство»
+					</p>
+				</div>
+			
+				<div class="reason_item reason_item_6">
+					<p class="reason_item_text">
+						Александров
+«Обитель Ивана Грозного»
+					</p>
+				</div>
+			
+				<div class="reason_item reason_item_7">
+					<p class="reason_item_text">
+						Истра
+«Стиль Фаберже»
+					</p>
+				</div>
+			
+				<div class="reason_item reason_item_8">
+					<p class="reason_item_text">
+						Экскурсии по Рязани
+А в Рязани блины с глазами! Приглашаем на Масленицу!
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="schedule">
+	<h3 class="schedule_title">РАСПИСАНИЕ ЭЛектропоездов</h3>
+	<div class="container schedule_form">
+		<div class="row d-flex align-items-end">
+			<div class="col-md-5 schedule_from p-0">
+				<p class="schedule_title">
+					Откуда:
+				</p>
+				<select name="" id="">
+					<option value="">Москва</option>
+					<option value="">Санкт-Петербург</option>
+					<option value="">Новосибирск</option>
+					<option value="">Екатеринбург</option>
+					<option value="">Нижний Новгород</option>
+					<option value="">Казань</option>
+					<option value="">Челябинск</option>
+					<option value="">Омск</option>
+					<option value="">Самара</option>
+					<option value="">Ростов-на-Дону</option>
+					<option value="">Уфа</option>
+					<option value="">Красноярск</option>
+					<option value="">Воронеж</option>
+					<option value="">Пермь</option>
+					<option value="">Волгоград</option>
+				</select>
+			</div>
+			<div class="col-md-2 d-flex justify-content-center p-0">
+				<button class="change_button">
+					<!-- change_button -->
+				</button>
+			</div>
+			<div class="col-md-5 schedule_to p-0">
+				<p class="schedule_title">
+					Куда:
+				</p>
+				<select name="" id="">
+					<option value="">Москва</option>
+					<option value="">Санкт-Петербург</option>
+					<option value="">Новосибирск</option>
+					<option value="">Екатеринбург</option>
+					<option value="">Нижний Новгород</option>
+					<option value="">Казань</option>
+					<option value="">Челябинск</option>
+					<option value="">Омск</option>
+					<option value="">Самара</option>
+					<option value="">Ростов-на-Дону</option>
+					<option value="">Уфа</option>
+					<option value="">Красноярск</option>
+					<option value="">Воронеж</option>
+					<option value="">Пермь</option>
+					<option value="">Волгоград</option>
+				</select>
+			</div>
+		</div>
+		<div class="row d-flex align-items-end">
+			<div class="col-md-5 schedule_date p-0">
+				<p class="schedule_title">
+					Дата:
+				</p>
+				<input data-provide="datepicker" placeholder="dd/mm/yyy">
+			</div>
+			<div class="col-md-5 offset-md-2 p-0">
+				<a href="other_pages/schedule.html" class="schedule_find d-flex align-items-center justify-content-center">
+					Найти билеты
+				</a>
+			</div>
+
+		</div>
+	</div>
+</section>
+<section class="map">
+	<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A9ab42c19b3fdc8d6facb5260b55552bae68a0ec59e12bb2a2d35231d7d4fd684&amp;source=constructor" width="100%" height="720" frameborder="0"></iframe>
+</section>
+<footer class="footer" id="footer">
+	<div class="container">
+		<div class="row pt-5">
+			<div class="footer_logo">
+				<img src="img/footer_logo.png" alt="">
+			</div>
+		</div>
+		<div class="row mt-5">
+			<div class="col-md-4">
+				<a href="">О компании</a>
+				<a href="">Новости</a>
+			</div>
+			<div class="col-md-3 offset-md-2">
+				<p>Курсы валют</p>
+				<p>USD <span>65.05</span></p>
+				<p>EUR <span>72.37</span></p>
+			</div>
+			<div class="col-md-3">
+				<p>Подписка на новости</p>
+				<div class="d-flex align-items-center">
+					<input type="text" placeholder="E-mail" class="footer_input">
+					<button class="mail_send" name="mail"></button>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+
+
+
+
+
+<script src="library/jQuery.js"></script>
+<script src="js/matches.js"></script>
+<script src="js/js.js"></script>
+<script src="library/bootstrap.min.js"></script>
+<script src="library/owlcarousel/owl.carousel.min.js"></script>
+<script src="date/bootstrap-datepicker.js"></script>
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>

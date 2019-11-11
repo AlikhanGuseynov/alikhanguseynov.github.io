@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>new_portfolio</title>
+	<link rel="stylesheet" href="../fonts/fonts.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../library/bootstrap.min.css">
+	<link rel="stylesheet" href="../style/media_query.css">
+	<link rel="stylesheet" href="../style/style.css">
+	<link rel="stylesheet" href="../date/bootstrap-datepicker.css">
+	<!-- ШРИФТЫ	 -->
+</head>
+<body>
+
+
+<header class="header" id="header">
+	<div class="login_row d-flex align-items-center">
+		<div class="container">
+			<div class="row d-flex justify-content-between">
+				<div class="col-lg-2 col-lg-4 col-sm-5 d-flex">
+					<a href="tel:8(999)1234567">
+						8 (999) 123 45 67
+					</a>
+				</div>
+				<div class="col-lg-3 col-lg-5 col-sm-5 d-flex ">
+					<div class="login ml-auto">
+						<img src="../img/login_img.png" alt="" class="login_img">
+						<a href="">Войти</a> | 
+						<a href=""> Регистрация</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="menu_row d-flex align-items-center">
+		<div class="container">
+			<div class="row  d-flex align-items-center">
+				<div class="col-md-2 col-5">
+					<img src="../img/logo.png" alt="" class="logo_img">
+				</div>
+				<div class="col-md-9 ">
+					<nav class="">
+						<ul class="d-flex  justify-content-between align-items-center">
+							<li class=""><a class="" href="">Города</a></li>
+							<li><a href="">Экскурсии</a></li>
+							<li><a href="">События</a></li>
+							<li><a href="">Аудиогиды</a></li>
+							<li><a href="">Фотоотчеты</a></li>
+							<li><a href="">Новости</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="col-1 d-flex justify-content-end">
+					<a href="" class="basket"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<img src="../img/header_bg.jpg" alt="" class="header_bg">
+</header>
+<section class="schedule">
+	<h3 class="schedule_title">РАСПИСАНИЕ ЭЛектропоездов</h3>
+	<div class="container schedule_form">
+		<div class="row d-flex align-items-end">
+			<div class="col-md-5 schedule_from p-0">
+				<p class="schedule_title">
+					Откуда:
+				</p>
+				<select name="" id="">
+					<option value="">Москва</option>
+					<option value="">Санкт-Петербург</option>
+					<option value="">Новосибирск</option>
+					<option value="">Екатеринбург</option>
+					<option value="">Нижний Новгород</option>
+					<option value="">Казань</option>
+					<option value="">Челябинск</option>
+					<option value="">Омск</option>
+					<option value="">Самара</option>
+					<option value="">Ростов-на-Дону</option>
+					<option value="">Уфа</option>
+					<option value="">Красноярск</option>
+					<option value="">Воронеж</option>
+					<option value="">Пермь</option>
+					<option value="">Волгоград</option>
+				</select>
+			</div>
+			<div class="col-md-2 d-flex justify-content-center p-0">
+				<button class="change_button">
+					<!-- change_button -->
+				</button>
+			</div>
+			<div class="col-md-5 schedule_to p-0">
+				<p class="schedule_title">
+					Куда:
+				</p>
+				<select name="" id="">
+					<option value="">Москва</option>
+					<option value="">Санкт-Петербург</option>
+					<option value="">Новосибирск</option>
+					<option value="">Екатеринбург</option>
+					<option value="">Нижний Новгород</option>
+					<option value="">Казань</option>
+					<option value="">Челябинск</option>
+					<option value="">Омск</option>
+					<option value="">Самара</option>
+					<option value="">Ростов-на-Дону</option>
+					<option value="">Уфа</option>
+					<option value="">Красноярск</option>
+					<option value="">Воронеж</option>
+					<option value="">Пермь</option>
+					<option value="">Волгоград</option>
+				</select>
+			</div>
+		</div>
+		<div class="row d-flex align-items-end">
+			<div class="col-md-5 schedule_date p-0">
+				<p class="schedule_title">
+					Дата:
+				</p>
+				<input data-provide="datepicker" placeholder="dd/mm/yyy">
+			</div>
+			<div class="col-md-5 offset-md-2 p-0">
+				<button class="schedule_find">
+					Найти билеты
+				</button>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row direction_row">
+			<div class="col-12">
+				<p class="direction_title">Расписание электричек 
+					<span class="direction_from">Москва Рижская</span>
+					→
+					<span class="direction_to">Истра,</span>
+					<span class="direction_date">12 октября 2019</span>
+				</p>
+			</div>
+		</div>
+		<div class="schedule_table">
+			<table class="table table-borderless">
+			  <thead>
+			    <tr>
+			      <th scope="col">Отпр.</th>
+			      <th scope="col">Приб.</th>
+			      <th scope="col">В пути</th>
+			      <th scope="col">Режим движения</th>
+			      <th scope="col">Маршрут электрички</th>
+			      <th scope="col">Цена</th>
+			    </tr>
+			  </thead>
+			  <tbody>
+			    <tr>
+			      <td class="time time_from">11:17</td>
+			      <td class="time time_to">12:31</td>
+			      <td>1 ч 14 м</td>
+			      <td>по выходным</td>
+			      <td>Москва Рижская → Шаховская</td>
+			      <td>161 руб.</td>
+			    </tr>
+			    <tr>
+			      <td class="time time_from">11:17</td>
+			      <td class="time time_to">12:31</td>
+			      <td>1 ч 14 м</td>
+			      <td>по выходным</td>
+			      <td>Москва Рижская → Шаховская</td>
+			      <td>161 руб.</td>
+			    </tr>
+			    <tr>
+			      <td class="time time_from">11:17</td>
+			      <td class="time time_to">12:31</td>
+			      <td>1 ч 14 м</td>
+			      <td>по выходным</td>
+			      <td>Москва Рижская → Шаховская</td>
+			      <td>161 руб.</td>
+			    </tr>
+			  </tbody>
+			</table>
+		</div>
+	</div>
+</section>
+
+
+
+
+
+<footer class="footer" id="footer">
+	<div class="container">
+		<div class="row pt-5">
+			<div class="footer_logo">
+				<img src="../img/footer_logo.png" alt="">
+			</div>
+		</div>
+		<div class="row mt-5">
+			<div class="col-md-4">
+				<a href="">О компании</a>
+				<a href="">Новости</a>
+			</div>
+			<div class="col-md-3 offset-md-2">
+				<p>Курсы валют</p>
+				<p>USD <span>65.05</span></p>
+				<p>EUR <span>72.37</span></p>
+			</div>
+			<div class="col-md-3">
+				<p>Подписка на новости</p>
+				<div class="d-flex align-items-center">
+					<input type="text" placeholder="E-mail" class="footer_input">
+					<button class="mail_send" name="mail"></button>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+
+
+
+<script src="../library/jQuery.js"></script>
+<script src="../date/bootstrap-datepicker.js"></script>
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
