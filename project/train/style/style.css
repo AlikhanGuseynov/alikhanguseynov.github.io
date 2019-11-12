@@ -19,8 +19,36 @@ body{
 .custom_container{
 	width: 100%;
 }
-/* LOGIN_ROW */
+/*----------- NAV -----------*/
+.nav {
+ position: relative;
+ margin: 20px 0;
+}
+.nav ul {
+ margin: 0;
+ padding: 0;
+}
+.nav li {
+ margin: 0 5px 10px 0;
+ padding: 0;
+ list-style: none;
+ display: inline-block;
+}
+.nav a {
+ padding: 3px 12px;
+ text-decoration: none;
+ color: #00ab93;
+ line-height: 100%;
+}
+.nav a:hover {
+ color: #000;
+}
+.nav .current a {
+ color: #00ab93;
+ border-radius: 5px;
+}
 
+/* LOGIN_ROW */
 .login_row{
 	height: 40px;
 	background-color: #f2f2f2;
@@ -37,7 +65,6 @@ img.login_img{
 .menu_row{
 	height: 92px;
 }	
-
 .header nav ul a{
 	color: #00ab93;
 	font-size: 20px;
@@ -49,6 +76,8 @@ img.login_img{
 a.basket{
 	display: block;
 	background-image: url(../img/basket.png);
+	-webkit-background-size: cover;
+	background-size: cover;
 	width: 28px;
 	height: 30px;
 }
@@ -122,7 +151,8 @@ button.search_block_btn{
 	align-items: center;
 }
 p.search_checbox_text{
-	color: #919faf;
+	/*color: #919faf;*/
+	color: #fff;
 	font-size: 21px;
 	font-weight: 400;
 	margin: 0;
@@ -179,14 +209,12 @@ section.audiogid{
 	-webkit-background-size: cover;
 	background-size: cover;
 	box-shadow: 0 0 46px rgba(0, 0, 0, 0.38);
-
 }
 img.banner_logo{
 	padding-top: 70%;
 }
 p.audiogid_text{
 	width: 847px;
-	height: 203px;
 	color: #ed1c24;
 	font-size: 34px;
 	line-height: 42px;
@@ -248,8 +276,6 @@ h2.reason_title{
 	background-image: url(../img/reason_img_8.jpg);
 }
 p.reason_item_text{
-	width: 267px;
-	height: 76px;
 	color: #ffffff;
 	font-size: 20px;
 	font-weight: 400;
@@ -305,6 +331,15 @@ button.change_button{
 	border: none;
 	padding: 0;
 }
+.choice_row{
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+	-ms-align-items: flex-end;
+	align-items: flex-end;
+}
 a.schedule_find{
 	width: 332px;
 	height: 66px;
@@ -351,8 +386,9 @@ footer.footer{
 	background-color: #0262c6;
 	background-image: url(../img/footer_train.png);
 	background-position: center bottom;
-	/*background-position-y: -10px ;*/
 	background-repeat: no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
 	height: 50vh;
 }
 

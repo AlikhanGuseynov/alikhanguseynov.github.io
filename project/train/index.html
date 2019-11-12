@@ -5,9 +5,9 @@
 	<title>new_portfolio</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="library/bootstrap.min.css">
-	<link rel="stylesheet" href="style/media_query.css">
 	<link rel="stylesheet" href="style/style.css">
 	<link rel="stylesheet" href="date/bootstrap-datepicker.css">
+	<link rel="stylesheet" href="style/media_query.css">
 	<!-- ШРИФТЫ	 -->
 	<link rel="stylesheet" href="fonts/fonts.css">
 </head>
@@ -17,17 +17,17 @@
 <header class="header" id="header">
 	<div class="login_row d-flex align-items-center">
 		<div class="container">
-			<div class="row d-flex justify-content-between">
-				<div class="col-lg-2 col-lg-4 col-sm-5 d-flex">
+			<div class="row contact d-flex justify-content-between align-items-center">
+				<div class="col-lg-2 col-lg-4 col-4 col-sm-5 d-flex">
 					<a href="tel:8(999)1234567">
 						8 (999) 123 45 67
 					</a>
 				</div>
-				<div class="col-lg-3 col-lg-5 col-sm-5 d-flex ">
-					<div class="login ml-auto">
+				<div class="col-lg-3 col-lg-5 col-sm-5 d-flex col-8">
+					<div class="login ml-auo">
 						<img src="img/login_img.png" alt="" class="login_img">
 						<a href="">Войти</a> | 
-						<a href=""> Регистрация</a>
+						<a href="">Регистрация</a>
 					</div>
 				</div>
 			</div>
@@ -36,18 +36,19 @@
 	<div class="menu_row d-flex align-items-center">
 		<div class="container">
 			<div class="row  d-flex align-items-center">
-				<div class="col-md-2 col-5">
+				<div class="col-md-2 col-2">
 					<img src="img/logo.png" alt="" class="logo_img">
 				</div>
-				<div class="col-md-9 ">
-					<nav class="">
-						<ul class="d-flex  justify-content-between align-items-center">
-							<li class=""><a class="" href="">Города</a></li>
-							<li><a href="">Экскурсии</a></li>
-							<li><a href="">События</a></li>
-							<li><a href="">Аудиогиды</a></li>
-							<li><a href="">Фотоотчеты</a></li>
-							<li><a href="">Новости</a></li>
+				<div class="col-md-9 col-sm-9">
+					<nav class="nav">
+						<ul>
+							<li class="current"><a href="#"></a></li>
+							<li><a href="#">Города</a></li>
+							<li><a href="#">Экскурсии</a></li>
+							<li><a href="#">События</a></li>
+							<li><a href="#">Аудиогиды</a></li>
+							<li><a href="#">Фотоотчеты</a></li>
+							<li><a href="#">Новости</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -63,7 +64,7 @@
 	<h1 class="section_title">Поиск</h1>
 	<div class="container">
 		<div class="row">
-			<div class="col-12 mx-auto d-flex flex-row justify-content-between align-items-end">
+			<div class="col-12 mx-auto choice_row d-flex  justify-content-between">
 				<div class="search_block">
 					<div class="serach_item">
 						<p class="search_item_title">
@@ -91,7 +92,7 @@
 				<div class="search_block">
 					<div class="serach_item">
 						<p class="search_item_title">
-							Город
+							Дата
 						</p>
 						<input data-provide="datepicker" placeholder="dd/mm/yyy">
 					</div>
@@ -101,11 +102,11 @@
 		</div>
 		<div class="row search_checbox">
 			<div class="col-10 d-flex">
-				<label for="" class="search_checbox_label_first">
+				<label class="search_checbox_label_first">
 					<input type="checkbox">
 					<p class="search_checbox_text">Путеводитель</p>
 				</label>
-				<label for="" class="search_checbox_label_second">
+				<label class="search_checbox_label_second">
 					<input type="checkbox">
 					<p class="search_checbox_text">Аудиогид</p>
 				</label>
@@ -183,7 +184,7 @@
 	</h2>
 	<div class="container">
 		<div class="row reason_img_row d-flex">
-			<div class="col-12 d-flex flex-wrap p-0 justify-content-between">
+			<div class="col-12 d-flex flex-wrap p-0 justify-content-around">
 				<div class="reason_item reason_item_1">
 					<p class="reason_item_text">
 						Чехов
@@ -298,13 +299,13 @@
 			</div>
 		</div>
 		<div class="row d-flex align-items-end">
-			<div class="col-md-5 schedule_date p-0">
+			<div class="col-md-5 col-12 mx-auto schedule_date p-0">
 				<p class="schedule_title">
 					Дата:
 				</p>
 				<input data-provide="datepicker" placeholder="dd/mm/yyy">
 			</div>
-			<div class="col-md-5 offset-md-2 p-0">
+			<div class="col-md-5 offset-md-2 p-0 schedule_button">
 				<a href="other_pages/schedule.html" class="schedule_find d-flex align-items-center justify-content-center">
 					Найти билеты
 				</a>

@@ -1,3 +1,354 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 2000px ) { 
 
+}
+
+
+@media only screen and (max-width: 1124px ) { 
+.schedule select, .schedule input{
+	width: 350px;
+	height: 54px;
+}
+.schedule_to,
+.schedule_from, 
+.schedule_date,
+.schedule_button{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	-ms-align-items: center;
+	align-items: center;
+}
+footer.footer{
+	height: 300px;
+}
+}
+
+
+@media only screen and (max-width: 990px ) { 
+img.logo_img{
+		width: 100px;
+		height: 50px;
+	}
+.header nav ul a{
+	font-size: 15px;
+}
+a.basket{
+	width: 20px;
+	height: 22px;
+}
+.section_title{
+	font-size: 70px;
+	padding-top: 40px;
+}
+.search_block input, .search_block select{
+	width: 250px;
+	height: 27px;
+}
+button.search_block_btn{
+	width: 150px;
+	height: 40px;
+	font-size: 25px;
+	line-height: 25px;
+}
+section.search_and_event{
+	height: 900px;
+	background-position-y: 0px, -180px ;
+}
+h2.section_title{
+	font-size: 50px;
+	margin-top: 70px;
+}
+img.carousel_img{
+	width: 300px;
+	height: 205px;
+}
+p.carousel_text{
+	font-size: 13px;
+}
+img.banner_logo{
+	width: 370px;
+}
+p.audiogid_text{
+	width: 550px;
+	font-size: 25px;
+	line-height: 35px;
+	font-weight: bold;
+}
+h2.reason_title{
+	font-size: 50px;
+}
+h3.schedule_title{
+	font-size: 50px;
+}
+.schedule select, .schedule input{
+	width: 250px;
+	height: 40px;
+}
+a.schedule_find{
+	width: 250px;
+	height: 50px;
+}
+}
+
+
+@media only screen and (max-width: 770px ) { 
+img.logo_img{
+		width: 70px;
+		height: 35px;
+	}
+.header nav ul a{
+	font-size: 12px;
+}
+a.basket{
+	width: 18px;
+	height: 20px;
+	margin-left: -15px;
+}
+.section_title{
+	font-size: 50px;
+	padding-top: 20px;
+}
+.choice_row{
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	-ms-align-items: center;
+	align-items: center;
+}
+.search_block input, .search_block select{
+	width: 250px;
+	height: 27px;
+}
+button.search_block_btn{
+	margin-top: 50px;
+}
+section.search_and_event{
+	height: 900px;
+	background-position-y: 0px, -100px ;
+}
+h2.section_title{
+	font-size: 50px;
+	margin-top: 70px;
+}
+.search_checbox{
+	margin-top: 40px;
+}
+img.carousel_img{
+	width: 200px;
+	height: 135px;
+}
+p.carousel_text{
+	font-size: 10px;
+	margin-bottom: 0px;
+}
+p.carousel_date{
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+h2.section_title{
+	font-size: 40px;
+}
+span.carousel-control-next-iconб
+span.carousel-control-prev-icon{
+	width: 30px;
+	height: 60px;
+}
+section.audiogid{
+	height: 400px;
+}
+img.banner_logo{
+	padding-top: 50%;
+	width: 300px;
+}
+p.audiogid_text{
+	width: 450px;
+	font-size: 20px;
+	line-height: 35px;
+}
+h2.reason_title{
+	font-size: 50px;
+}
+h3.schedule_title{
+	font-size: 50px;
+}
+.schedule select, .schedule input{
+	width: 250px;
+	height: 40px;
+}
+a.schedule_find{
+	width: 250px;
+	height: 50px;
+	margin-top: 25px;
+}
+footer.footer{
+	height: 420px;
+}
+}
+@media only screen and (max-width: 600px ) { 
+
+.audiogid_text{
+	font-size: 25px;
+}
+ .nav {
+  position: relative;
+  min-height: 40px;
+  left: 0;
+  width: auto;
+  
+ } 
+ .nav ul {
+  width: auto;
+  padding: 5px 0px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: none;
+  background: #fff url(images/icon-menu.png) no-repeat 10px 11px;
+  border-radius: 5px;
+ }
+ .nav li {
+  display: none; /* скройте все элементы &lt;li&gt; */
+  margin: 0;
+}
+ .nav .current {
+	display: block;  показывайте только текущий элемент &lt;li&gt; 
+	background-image: url(../img/burger.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+	width: 36px;
+	height: 26px;
+ }
+ .nav a {
+  display: block;
+  padding: 5px 5px 5px 5px;
+  text-align: left;
+  font-size: 31px !important;
+  z-index: 500;
+  position: relative;
+ }
+ .nav .current a {
+  background: none;
+  /*color: #666;*/
+ }
+
+ /* при проведении мышью */
+ .nav ul:hover {
+  background-image: none;
+ }
+ .nav ul:hover li {
+  display: block;
+  margin: 0 0 5px;
+
+ }
+ .nav ul:hover .current {
+  background: url(images/icon-check.png) no-repeat 10px 7px;
+ }
+
+ /* по правой стороне */
+ .nav.right ul {
+  left: auto;
+  right: 0;
+ }
+
+ /*по центру */
+ .nav.center ul {
+  left: 50%;
+  margin-left: -90px;
+ }
+ .header .contact a{
+	font-size: 12px;
+}
+img.logo_img{
+	position: absolute;
+	top: 20px;
+	left: 290px;
+}
+a.basket{
+	position: absolute;
+	top: -115px;
+	left: 350px;
+}
+span.carousel-control-next-icon,
+span.carousel-control-prev-icon{
+	width: 15px;
+	height: 30px;
+}
+img.carousel_img{
+	width: 142px;
+	height: 97px;
+}
+p.carousel_date{
+	font-size: 7px;
+	font-weight: 400;
+	padding: 0;
+	margin-bottom: 0;
+}
+p.carousel_text{
+	font-size: 8px;
+	font-family: 'Helvetica Neue Cyr Light';
+}
+a.carousel_link{
+	font-size: 7px;
+	font-family: 'Helvetica Neue Cyr Light';
+	position: relative;
+	top: -10px;
+}
+section.search_and_event{
+	height: 800px;
+}
+h2.section_title{
+	font-size: 28px;
+}
+section.audiogid{
+	background-image: url(../img/shutterstock_1062037361.jpg);
+	background-position-x: -100px;
+}
+img.banner_logo{
+	margin-top: 40%;
+	margin-left: -30px;
+	width: 263px;
+}
+p.audiogid_text{
+	line-height: 17px;
+	margin-left: -30px;
+	font-size: 14px !important;
+}
+h2.reason_title{
+	font-size: 30px;
+	font-family: 'Helvetica Neue Cyr Light';
+}
+.reason_item{
+	width: 160px;
+	height: 160px;
+}
+p.reason_item_text{
+	font-size: 12px;
+	line-height: 15px;
+}
+h3.schedule_title{
+	padding-top: 50px;
+	margin-bottom: 0;
+	font-size: 22px;
+}
+.schedule_form{
+	margin-top: 30px;
+}
+p.schedule_title{
+	text-align: start
+}
+}
+button.change_button{
+	width: 52px;
+	height: 47px;
+	margin-top: 10px;
+}
 }
