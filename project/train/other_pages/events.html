@@ -7,9 +7,9 @@
 	<link rel="stylesheet" href="../library/bootstrap.min.css">
 	<link rel="stylesheet" href="../library/slick/slick.css">
 	<link rel="stylesheet" href="../library/slick/slick-theme.css">
-	<link rel="stylesheet" href="../style/media_query.css">
 	<link rel="stylesheet" href="../style/style.css">
 	<link rel="stylesheet" href="../date/bootstrap-datepicker.css">
+	<link rel="stylesheet" href="../style/media_query.css">
 	<!-- ШРИФТЫ	 -->
 	<link rel="stylesheet" href="../fonts/fonts.css">
 </head>
@@ -19,17 +19,17 @@
 <header class="header" id="header">
 	<div class="login_row d-flex align-items-center">
 		<div class="container">
-			<div class="row d-flex justify-content-between">
-				<div class="col-lg-2 col-lg-4 col-sm-5 d-flex">
+			<div class="row contact d-flex justify-content-between align-items-center">
+				<div class="col-lg-2 col-lg-4 col-4 col-sm-5 d-flex">
 					<a href="tel:8(999)1234567">
 						8 (999) 123 45 67
 					</a>
 				</div>
-				<div class="col-lg-3 col-lg-5 col-sm-5 d-flex ">
-					<div class="login ml-auto">
+				<div class="col-lg-3 col-lg-5 col-sm-5 d-flex col-8">
+					<div class="login ml-md-auto">
 						<img src="../img/login_img.png" alt="" class="login_img">
 						<a href="">Войти</a> | 
-						<a href=""> Регистрация</a>
+						<a href="">Регистрация</a>
 					</div>
 				</div>
 			</div>
@@ -38,57 +38,42 @@
 	<div class="menu_row d-flex align-items-center">
 		<div class="container">
 			<div class="row  d-flex align-items-center">
-				<div class="col-md-2 col-5">
+				<div class="col-md-2 col-2 offset-10 offset-sm-0">
 					<img src="../img/logo.png" alt="" class="logo_img">
 				</div>
-				<div class="col-md-9 ">
-					<nav class="">
-						<ul class="d-flex  justify-content-between align-items-center">
-							<li class=""><a class="" href="">Города</a></li>
-							<li><a href="">Экскурсии</a></li>
-							<li><a href="">События</a></li>
-							<li><a href="">Аудиогиды</a></li>
-							<li><a href="">Фотоотчеты</a></li>
-							<li><a href="">Новости</a></li>
+				<div class="col-md-9 col-sm-9">
+					<nav class="nav">
+						<ul>
+							<li class="current"><a href="#"></a></li>
+							<li><a href="#">Города</a></li>
+							<li><a href="#">Экскурсии</a></li>
+							<li><a href="#">События</a></li>
+							<li><a href="#">Аудиогиды</a></li>
+							<li><a href="#">Фотоотчеты</a></li>
+							<li><a href="#">Новости</a></li>
 						</ul>
 					</nav>
 				</div>
-				<div class="col-1 d-flex justify-content-end">
+				<div class="col-1 d-flex justify-content-end  ml-auto">
 					<a href="" class="basket"></a>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="event_header">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-3 ml-auto">
-					<a class="link_buy d-flex justify-content-center align-items-center" href="">Купить за 2 370 ₽</a>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-2">
-					<div class="event_header_botton_box d-flex flex-column pt-3">
-						<a class="ml-3" href="">Святые места Александрова</a>
-						<span class="ml-3">28 Сентября | <a href="">Подробнее</a></span>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+	<img src="../img/header_bg.jpg" alt="" class="header_bg">
 </header>
 
 <section class="event_about">
-	<div class="container">
+	<div class="container p-0 ">
 		<h1 class="event_about_title">«ОБИТЕЛЬ ИВАНА ГРОЗНОГО»</h1>
 		<div class="row">
-			<div class="col-md-12 p-0">
+			<div class="col-md-12 offset-md-0 col-10 offset-1 p-0">
 				<p class="event_about_text">
 					<span>А</span>лександров – город, ранее известный как Александровская слобода. Его история связана с именем царя Ивана Грозного, 
 					который в 1564 году, фактически перенеся столицу: вел дела политические, управлял опричниной, привез в Александров 
 					семью, когда в Москве свирепствовала эпидемия чумы. 
 				</p>
-				<br>
+				<!-- <br> -->
 				<p class="event_about_text">
 					Именно тут была открыта первая русская типография, где трудились ученики Ивана Федорова. Здесь проходил смотр невест, 
 					на котором царь избрал своей супругой Марфу Собакину. Исход монарха из Александрова связан с трагической гибелью 
@@ -98,31 +83,33 @@
 				</p>
 			</div>
 		</div>
-		<div class="row d-flex justify-content-between">
-			<div class="col-md- d-flex ">
-				<div class="date_container d-flex justify-content-center">
-					<div class="rom_num">XIV</div>
-					<div class="d-flex flex-column">
-						<p class="date_container_up_row">Век</p>
-						<p class="date_container_down_row">основания</p>
+		<div class="row">
+			<div class="col-11 mx-auto d-flex justify-content-between">
+				<div class="col-md- d-flex ">
+					<div class="date_container d-flex justify-content-center">
+						<div class="rom_num">XIV</div>
+						<div class="d-flex flex-column">
+							<p class="date_container_up_row">Век</p>
+							<p class="date_container_down_row">основания</p>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col-md- d-flex justify-content-center">
-				<div class="date_container d-flex justify-content-center">
-					<div class="rom_num">59 328</div>
-					<div class="d-flex flex-column">
-						<p class="date_container_up_row">Век</p>
-						<p class="date_container_down_row">основания</p>
+				<div class="col-md- d-flex justify-content-center">
+					<div class="date_container d-flex justify-content-center">
+						<div class="rom_num">59 328</div>
+						<div class="d-flex flex-column">
+							<p class="date_container_up_row">Век</p>
+							<p class="date_container_down_row">основания</p>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col-md- d-flex justify-content-end">
-				<div class="date_container d-flex justify-content-center">
-					<div class="rom_num">26 км<sup>2</sup> </div>
-					<div class="d-flex flex-column">
-						<p class="date_container_up_row">Век</p>
-						<p class="date_container_down_row">основания</p>
+				<div class="col-md- d-flex justify-content-end">
+					<div class="date_container d-flex justify-content-center">
+						<div class="rom_num">26 км<sup>2</sup> </div>
+						<div class="d-flex flex-column">
+							<p class="date_container_up_row">Век</p>
+							<p class="date_container_down_row">основания</p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -135,7 +122,7 @@
 <section class="section_event_map">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-12 col-md-6 event_map">
+			<div class="col-12 col-md-6 event_map p-0">
 				<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A83e049cc351cf5b28b14b813a130cc1ff6b335bf722f0402e6e716791fce6d73&amp;source=constructor" width="824" height="465" frameborder="0"></iframe>
 			</div>
 		</div>
@@ -148,10 +135,10 @@
 	</h2>
 	<div class="container">
 		<div class="row mt-5">
-			<div class="col-md-4">
+			<div class="col-4">
 				<img src="../img/event_ticket_img.jpg" alt="" class="event_ticket_img">
 			</div>
-			<div class="col-md-7 ml-auto event_ticket_text ">
+			<div class="col-7 ml-auto event_ticket_text ">
 				<p class="">
 					Иссушенным солнцем москвичам и гостям столицы самое время укрыться в прохладных музейных залах, презрев драйв, спорт и даже купание в прогревшихся под конец сезона водоемах.
 				</p>
@@ -240,12 +227,7 @@
 								Как жаль, что раньше даже не слышала об этом месте. Каюсь, стыдно... А ведь это совсем 
 								недалеко от моей родной Электростали. Моё знакомство с Александровской слободой 
 								совпало с праздником - Иванов день. Само мероприятие, на мой взгляд, интересно детям - 
-								различные мастер-классы, театрализованные представления, угощения. Ну а я в восторге от 
-								экскурсии! Замечательный гид, молодая девушка Анна Сергеевна настолько умело рассказала об 
-								истории России 16 в.! Экскурсия проводится по нескольким объектам - музей, царская трапезная, 
-								сенник спальный, подвалы. Всё настолько пропитано духом старины. Экскурсовод сказала, 
-								что на всё это смотрели глаза Ивана Грозного. 
-							</p>
+								различные мастер-классы, театрализованные представления, угощения.
 						</div>					
 					</div>
 					<div class="d-flex ">
@@ -267,11 +249,29 @@
 								Как жаль, что раньше даже не слышала об этом месте. Каюсь, стыдно... А ведь это совсем 
 								недалеко от моей родной Электростали. Моё знакомство с Александровской слободой 
 								совпало с праздником - Иванов день. Само мероприятие, на мой взгляд, интересно детям - 
-								различные мастер-классы, театрализованные представления, угощения. Ну а я в восторге от 
-								экскурсии! Замечательный гид, молодая девушка Анна Сергеевна настолько умело рассказала об 
-								истории России 16 в.! Экскурсия проводится по нескольким объектам - музей, царская трапезная, 
-								сенник спальный, подвалы. Всё настолько пропитано духом старины. Экскурсовод сказала, 
-								что на всё это смотрели глаза Ивана Грозного. 
+								различные мастер-классы, театрализованные представления, угощения.
+						</div>					
+					</div>
+					<div class="d-flex coment_box">
+						<div class="d-flex 	flex-column align-items-start mr-4">
+							<img src="../img/commentator_img_1.png" alt="" class="commentator_img">
+							<p class="commentator_name">Сергей </p>
+							<p class="commentator_age">27 Лет </p>
+							<div class="rating">
+								<p class="rating_text">Оценка тура</p>
+								<img src="../img/rating_stars.png" alt="" class="rating_stars">
+							</div>
+						</div>
+						<div>
+							<p class="coment_title">
+								По-другому взгянул на личность 
+								Ивана Грозного
+							</p>
+							<p class="coment_text">
+								Как жаль, что раньше даже не слышала об этом месте. Каюсь, стыдно... А ведь это совсем 
+								недалеко от моей родной Электростали. Моё знакомство с Александровской слободой 
+								совпало с праздником - Иванов день. Само мероприятие, на мой взгляд, интересно детям - 
+								различные мастер-классы, театрализованные представления, угощения.
 							</p>
 						</div>					
 					</div>
@@ -294,38 +294,7 @@
 								Как жаль, что раньше даже не слышала об этом месте. Каюсь, стыдно... А ведь это совсем 
 								недалеко от моей родной Электростали. Моё знакомство с Александровской слободой 
 								совпало с праздником - Иванов день. Само мероприятие, на мой взгляд, интересно детям - 
-								различные мастер-классы, театрализованные представления, угощения. Ну а я в восторге от 
-								экскурсии! Замечательный гид, молодая девушка Анна Сергеевна настолько умело рассказала об 
-								истории России 16 в.! Экскурсия проводится по нескольким объектам - музей, царская трапезная, 
-								сенник спальный, подвалы. Всё настолько пропитано духом старины. Экскурсовод сказала, 
-								что на всё это смотрели глаза Ивана Грозного. 
-							</p>
-						</div>					
-					</div>
-					<div class="d-flex coment_box">
-						<div class="d-flex 	flex-column align-items-start mr-4">
-							<img src="../img/commentator_img_1.png" alt="" class="commentator_img">
-							<p class="commentator_name">Сергей </p>
-							<p class="commentator_age">27 Лет </p>
-							<div class="rating">
-								<p class="rating_text">Оценка тура</p>
-								<img src="../img/rating_stars.png" alt="" class="rating_stars">
-							</div>
-						</div>
-						<div>
-							<p class="coment_title">
-								По-другому взгянул на личность 
-								Ивана Грозного
-							</p>
-							<p class="coment_text">
-								Как жаль, что раньше даже не слышала об этом месте. Каюсь, стыдно... А ведь это совсем 
-								недалеко от моей родной Электростали. Моё знакомство с Александровской слободой 
-								совпало с праздником - Иванов день. Само мероприятие, на мой взгляд, интересно детям - 
-								различные мастер-классы, театрализованные представления, угощения. Ну а я в восторге от 
-								экскурсии! Замечательный гид, молодая девушка Анна Сергеевна настолько умело рассказала об 
-								истории России 16 в.! Экскурсия проводится по нескольким объектам - музей, царская трапезная, 
-								сенник спальный, подвалы. Всё настолько пропитано духом старины. Экскурсовод сказала, 
-								что на всё это смотрели глаза Ивана Грозного. 
+								различные мастер-классы, театрализованные представления, угощения.
 							</p>
 						</div>					
 					</div>
@@ -345,7 +314,7 @@
 				<img src="../img/footer_logo.png" alt="">
 			</div>
 		</div>
-		<div class="row mt-5">
+		<div class="row mt-3">
 			<div class="col-md-4">
 				<a href="">О компании</a>
 				<a href="">Новости</a>

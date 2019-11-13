@@ -6,28 +6,26 @@
 	<link rel="stylesheet" href="../fonts/fonts.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="../library/bootstrap.min.css">
-	<link rel="stylesheet" href="../style/media_query.css">
 	<link rel="stylesheet" href="../style/style.css">
 	<link rel="stylesheet" href="../date/bootstrap-datepicker.css">
+	<link rel="stylesheet" href="../style/media_query.css">
 	<!-- ШРИФТЫ	 -->
 </head>
 <body>
-
-
 <header class="header" id="header">
 	<div class="login_row d-flex align-items-center">
 		<div class="container">
-			<div class="row d-flex justify-content-between">
-				<div class="col-lg-2 col-lg-4 col-sm-5 d-flex">
+			<div class="row contact d-flex justify-content-between align-items-center">
+				<div class="col-lg-2 col-lg-4 col-4 col-sm-5 d-flex">
 					<a href="tel:8(999)1234567">
 						8 (999) 123 45 67
 					</a>
 				</div>
-				<div class="col-lg-3 col-lg-5 col-sm-5 d-flex ">
-					<div class="login ml-auto">
+				<div class="col-lg-3 col-lg-5 col-sm-5 d-flex col-8">
+					<div class="login ml-md-auto">
 						<img src="../img/login_img.png" alt="" class="login_img">
 						<a href="">Войти</a> | 
-						<a href=""> Регистрация</a>
+						<a href="">Регистрация</a>
 					</div>
 				</div>
 			</div>
@@ -36,22 +34,23 @@
 	<div class="menu_row d-flex align-items-center">
 		<div class="container">
 			<div class="row  d-flex align-items-center">
-				<div class="col-md-2 col-5">
+				<div class="col-md-2 col-2 offset-10 offset-sm-0">
 					<img src="../img/logo.png" alt="" class="logo_img">
 				</div>
-				<div class="col-md-9 ">
-					<nav class="">
-						<ul class="d-flex  justify-content-between align-items-center">
-							<li class=""><a class="" href="">Города</a></li>
-							<li><a href="">Экскурсии</a></li>
-							<li><a href="">События</a></li>
-							<li><a href="">Аудиогиды</a></li>
-							<li><a href="">Фотоотчеты</a></li>
-							<li><a href="">Новости</a></li>
+				<div class="col-md-9 col-sm-9">
+					<nav class="nav">
+						<ul>
+							<li class="current"><a href="#"></a></li>
+							<li><a href="#">Города</a></li>
+							<li><a href="#">Экскурсии</a></li>
+							<li><a href="#">События</a></li>
+							<li><a href="#">Аудиогиды</a></li>
+							<li><a href="#">Фотоотчеты</a></li>
+							<li><a href="#">Новости</a></li>
 						</ul>
 					</nav>
 				</div>
-				<div class="col-1 d-flex justify-content-end">
+				<div class="col-1 d-flex justify-content-end  ml-auto">
 					<a href="" class="basket"></a>
 				</div>
 			</div>
@@ -63,11 +62,11 @@
 	<h3 class="schedule_title">РАСПИСАНИЕ ЭЛектропоездов</h3>
 	<div class="container schedule_form">
 		<div class="row d-flex align-items-end">
-			<div class="col-md-5 schedule_from p-0">
+			<div class="col-md-5 offset-md-0 schedule_from col-sm-6 offset-sm-3 col-8 offset-2  p-0">
 				<p class="schedule_title">
 					Откуда:
 				</p>
-				<select name="" id="">
+				<select name="" id="" class="">
 					<option value="">Москва</option>
 					<option value="">Санкт-Петербург</option>
 					<option value="">Новосибирск</option>
@@ -90,7 +89,7 @@
 					<!-- change_button -->
 				</button>
 			</div>
-			<div class="col-md-5 schedule_to p-0">
+			<div class="col-md-5 offset-md-0 schedule_to col-sm-6 offset-sm-3 col-8 offset-2  p-0">
 				<p class="schedule_title">
 					Куда:
 				</p>
@@ -114,13 +113,13 @@
 			</div>
 		</div>
 		<div class="row d-flex align-items-end">
-			<div class="col-md-5 schedule_date p-0">
+			<div class="col-md-5 offset-md-0 schedule_date col-sm-6 offset-sm-3 col-8 offset-2 p-0">
 				<p class="schedule_title">
 					Дата:
 				</p>
 				<input data-provide="datepicker" placeholder="dd/mm/yyy">
 			</div>
-			<div class="col-md-5 offset-md-2 p-0">
+			<div class="col-md-5 offset-md-0 schedule_date col-sm-6 offset-sm-3 col-8 offset-2 p-0">
 				<button class="schedule_find">
 					Найти билеты
 				</button>
@@ -144,9 +143,9 @@
 			    <tr>
 			      <th scope="col">Отпр.</th>
 			      <th scope="col">Приб.</th>
-			      <th scope="col">В пути</th>
-			      <th scope="col">Режим движения</th>
-			      <th scope="col">Маршрут электрички</th>
+			      <th scope="col" class="d-none d-sm-table-cell">В пути</th>
+			      <th scope="col" class="d-none d-sm-table-cell">Режим движения</th>
+			      <th scope="col" class="d-none d-sm-table-cell">Маршрут электрички</th>
 			      <th scope="col">Цена</th>
 			    </tr>
 			  </thead>
@@ -154,25 +153,25 @@
 			    <tr>
 			      <td class="time time_from">11:17</td>
 			      <td class="time time_to">12:31</td>
-			      <td>1 ч 14 м</td>
-			      <td>по выходным</td>
-			      <td>Москва Рижская → Шаховская</td>
+			      <td class="d-none d-sm-table-cell">1 ч 14 м</td>
+			      <td class="d-none d-sm-table-cell">по выходным</td>
+			      <td class="d-none d-sm-table-cell">Москва Рижская → Шаховская</td>
 			      <td>161 руб.</td>
 			    </tr>
 			    <tr>
 			      <td class="time time_from">11:17</td>
 			      <td class="time time_to">12:31</td>
-			      <td>1 ч 14 м</td>
-			      <td>по выходным</td>
-			      <td>Москва Рижская → Шаховская</td>
+			      <td class="d-none d-sm-table-cell">1 ч 14 м</td>
+			      <td class="d-none d-sm-table-cell">по выходным</td>
+			      <td class="d-none d-sm-table-cell">Москва Рижская → Шаховская</td>
 			      <td>161 руб.</td>
 			    </tr>
 			    <tr>
 			      <td class="time time_from">11:17</td>
 			      <td class="time time_to">12:31</td>
-			      <td>1 ч 14 м</td>
-			      <td>по выходным</td>
-			      <td>Москва Рижская → Шаховская</td>
+			      <td class="d-none d-sm-table-cell">1 ч 14 м</td>
+			      <td class="d-none d-sm-table-cell">по выходным</td>
+			      <td class="d-none d-sm-table-cell">Москва Рижская → Шаховская</td>
 			      <td>161 руб.</td>
 			    </tr>
 			  </tbody>
@@ -180,11 +179,6 @@
 		</div>
 	</div>
 </section>
-
-
-
-
-
 <footer class="footer" id="footer">
 	<div class="container">
 		<div class="row pt-5">
@@ -193,16 +187,16 @@
 			</div>
 		</div>
 		<div class="row mt-5">
-			<div class="col-md-4">
+			<div class="col-md-4 col-6">
 				<a href="">О компании</a>
 				<a href="">Новости</a>
 			</div>
-			<div class="col-md-3 offset-md-2">
+			<div class="col-md-3 offset-md-2 col-6">
 				<p>Курсы валют</p>
 				<p>USD <span>65.05</span></p>
 				<p>EUR <span>72.37</span></p>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 ">
 				<p>Подписка на новости</p>
 				<div class="d-flex align-items-center">
 					<input type="text" placeholder="E-mail" class="footer_input">
