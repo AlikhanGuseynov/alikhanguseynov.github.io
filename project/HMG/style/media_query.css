@@ -1,6 +1,56 @@
-@media only screen and (max-width: 992px) {
-	
-	
+@media only screen and (max-width: 1024px) {
+.container{
+	width: 990px;
+	border: 1px solid red;
+	overflow: hidden;
+}
+.title{
+	font-size: 29px;
+	line-height: 42px;
+}
+.subtitle{
+	line-height: 23px;
+	font-size: 15px;
+}
+img.home_img{
+	margin-left: 50px;
+	width: 380px;
+}
+.home_btn{
+	width: 350px;
+	height: 50px;
+}
+
+/*------------------- WHY -------------------*/
+/*------------------- WHY -------------------*/
+/*------------------- WHY -------------------*/
+section.why{
+	padding-bottom: 70px;
+	padding-top: 80px;
+}
+.why_items{
+	margin-top: 70px;
+}
+/*----------------- GUEST -----------------*/
+/*----------------- GUEST -----------------*/
+/*----------------- GUEST -----------------*/
+section.guest{
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 

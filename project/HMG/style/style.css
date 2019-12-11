@@ -1,7 +1,7 @@
 body{
 	box-sizing: border-box;
 	font-family: Montserrat;
-	font-size: 18px;
+	font-size: 16px;
 	letter-spacing: 0.05em;
 	color: #333333;
 }
@@ -47,7 +47,7 @@ button{
 	color: #333;
 }
 .subtitle{
-	font-size: 18px;
+	font-size: 16px;
 	color: #333333;
 	line-height: 23px;
 }
@@ -58,19 +58,19 @@ button{
 	background: #FF6F60;
 	border-radius: 5px;
 	font-family: Montserrat;
-	font-size: 18px;
+	font-size: 16px;
 	letter-spacing: 0.05em;
 }
 /*--------------------- HOME ---------------------*/
 header{
 	position: fixed;
-	width: 99%;
+	/*width: 99%;*/
 	background-color: #fff;
 	z-index: 100;
 }
 .header_row{
 	width: 100%;
-	height: 120px;
+	height: 80px;
 	justify-content: space-between;
 	align-items: center;
 }
@@ -91,6 +91,7 @@ ul.nav_menu a:hover{
 	border: 2px solid #FF6F60;
 	justify-content: center;
 	align-items: center;
+	cursor: pointer;
 }
 a.contact_number{
 	color: #000;
@@ -126,16 +127,17 @@ img.home_img{
 
 
 /*---------------------- WHY ----------------------*/
-
+/*---------------------- WHY ----------------------*/
+/*---------------------- WHY ----------------------*/
 section.why{
 	padding-bottom: 95px;
+	padding-top: 121px;
 }
 h2.why_title{
 	width: 600px;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 121px;
 }
 .why_items{
 	justify-content: space-around;
@@ -180,7 +182,9 @@ h2.guest_title{
 	background: #FF6F60;
 	border: 2px solid #FF6F60;
 	box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.25);
-	color: #fff;
+}
+.guest-slider-nav .guest_item:hover p{
+	color: #fff
 }
 .guest_item:hover img.guest_img_color{
 	display: none;
@@ -224,9 +228,6 @@ p.guest_item_subtitle{
 .guest button.slick-next:before{
 	content: "";
 }
-.pos_ab{
-}
-
 
 .guest-slider-for button.slick-next{
 	background-image: url(../img/right-arrow.png);
@@ -255,10 +256,11 @@ p.guest_item_subtitle{
 	box-shadow: 20px 24px 64px rgba(0, 0, 0, 0.1);
 	border-radius: 5px;
 	position: absolute;
-	display: none;
 	margin-top: -200px;
 	margin-left: 78px;
 	z-index: 50;
+	display: block;
+	visibility: hidden;
 }
 .pop_up_comntainer{
 	width: 873px;
@@ -278,7 +280,7 @@ p.guest_item_subtitle{
 	align-items: center;
 	margin-top: -40px;
 	color: #fff !important;
-	font-size: 18px;
+	font-size: 16px;
     color: #333333;
     line-height: 23px;
 }
@@ -416,12 +418,14 @@ p.result-slider_item_subtitle{
 section.review{
 	padding-top: 70px;
 	padding-bottom: 70px;
+	overflow-x: hidden;
 }
 p.review_title{
 	text-align: center;
 }
 p.review_item_text{
 	width: 550px;
+	margin-top: 15px;
 }
 .review-slider{
 	margin-top: 90px;
@@ -449,6 +453,7 @@ p.review_item_text{
 	background-size: cover;
 	width: 67px;
 	height: 67px;
+	z-index: 90;
 }
 .review-slider button.slick-next{
 	background-image: url(../img/next_arr.png);
@@ -457,6 +462,7 @@ p.review_item_text{
 	background-size: cover;
 	width: 67px;
 	height: 67px;
+	z-index: 90;
 }
 .review-slider .slick-dots li button:before{
 	background-color: red;
@@ -466,7 +472,9 @@ p.review_item_text{
 	height: 15px;
 }
 .review-slider ul.slick-dots{
-	margin-top: 55px !important;
+	/*margin-top: 55px !important;*/
+	position: relative;
+	top: 20px
 }
 .review-slider .slick-dots li {
     margin: 0 15px;
@@ -505,12 +513,16 @@ form{
 	justify-content: space-around;
 	font-family: Montserrat;
 	margin-top: 50px;
+	width: 873px;
+	margin-left: auto;
+	margin-right: auto;
+	
 }
 form input{
 	border: 3px solid #FF6F60;
 	box-sizing: border-box;
 	padding-left: 20px;
-	font-size: 18px;
+	font-size: 16px;
 	letter-spacing: 0.05em;
 	outline: none;
 	color: #FF6F60;
@@ -519,13 +531,13 @@ form input{
 form input::-webkit-input-placeholder {
 	color: #FF6F60;
 	font-family: Montserrat;
-	font-size: 18px;
+	font-size: 16px;
 	letter-spacing: 0.05em;
 } 
 form input::-moz-placeholder {
 	color: #FF6F60;
 	font-family: Montserrat;
-	font-size: 18px;
+	font-size: 16px;
 	letter-spacing: 0.05em;
 }
 form button{
@@ -533,7 +545,7 @@ form button{
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: 500;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 23px;
 	color: #fff;
 	letter-spacing: 0.05em;

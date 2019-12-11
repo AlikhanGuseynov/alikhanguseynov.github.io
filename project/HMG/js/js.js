@@ -6,7 +6,7 @@ $(document).ready(function(){
 	  slidesToScroll: 1,
   });
   $('.review-slider').slick({
-  	  infinite: true,
+	  infinite: true,
 	  slidesToShow: 1,
 	  slidesToScroll: 1,
     dots: true,
@@ -17,20 +17,30 @@ $(document).ready(function(){
    $('.guest-slider-for').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
-    // arrows: false,
     fade: true,
     asNavFor: '.guest-slider-nav',
     nextArrow: '<button class="slick-next" aria-label="Next" type="button" onclick="slide_next()">  </button>'
-
   });
+
   $('.guest-slider-nav').slick({
-    slidesToShow: 5,
     slidesToScroll: 1,
     asNavFor: '.guest-slider-for',
-    // dots: true,
-    // centerMode: true,
-    focusOnSelect: true,
-    // nextArrow: '<button class="slick-next" aria-label="Next" type="button" onclick="slide_next()">  </button>'
+    infinite: false,
+    slidesToShow: 5,  
+    responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+      }
+    }
+  ] 
   });
 });
 	
@@ -132,14 +142,13 @@ $(document).ready(function () {
 //------------------- Animation For POP UP
 $(".guest_item").click(function(){
   $('.pop_up').css({
-    "display": 'block',
+    'visibility': 'visible'
   });
 });
 $(".close").click(function(){
   $('.pop_up').css({
-    "display": 'none',
+    'visibility': 'hidden '
   });
-  
 })
 
 
