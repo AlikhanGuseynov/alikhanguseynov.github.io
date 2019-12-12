@@ -1,7 +1,6 @@
 @media only screen and (max-width: 1024px) {
 .container{
 	width: 990px;
-	border: 1px solid red;
 	overflow: hidden;
 }
 .title{
@@ -174,7 +173,6 @@ section.guest{
 	-ms-flex-direction: column;
 	-o-flex-direction: column;
 	flex-direction: column;
-	border: 1px solid red ;
 }
 .review button.slick-next{
 	background-image: url(../img/next_arr.png);
