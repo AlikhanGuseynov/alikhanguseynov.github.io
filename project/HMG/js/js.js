@@ -13,87 +13,73 @@ $(document).ready(function(){
   });
 });
 
-$(document).ready(function(){
-   $('.guest-slider-for').slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    fade: true,
-    asNavFor: '.guest-slider-nav',
-    nextArrow: '<button class="slick-next" aria-label="Next" type="button" onclick="slide_next()">  </button>'
-  });
+// $(document).ready(function(){
+//    $('.guest-slider-for').slick({
+//     slidesToShow: 1,
+//     slidesToScroll: 1,
+//     fade: true,
+//     asNavFor: '.guest-slider-nav',
+//     nextArrow: '<button class="slick-next" aria-label="Next" type="button" onclick="slide_next()">  </button>'
+//   });
 
-  $('.guest-slider-nav').slick({
-    slidesToScroll: 1,
-    asNavFor: '.guest-slider-for',
-    infinite: false,
-    slidesToShow: 5,  
-    responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-      }
-    }
-  ] 
-  });
-});
+//   $('.guest-slider-nav').slick({
+//     slidesToScroll: 1,
+//     asNavFor: '.guest-slider-for',
+//     infinite: false,
+//     // slidesToShow: 5,   
+//   });
+// });
 	
 
 
-//------------------- Animation For CIRCLE
-function circle(){
-	   $('.circle_1').circleProgress({
-      value: 0.40,
-      size: 208,
-      fill: {
-        gradient: ["#FF6F60"]
-      },
-      startAngle: 3.1,
-      thickness: 5,
-      lineCap: 'round',
-  });
-	   $('.circle_2').circleProgress({
-      value: 0.65,
-      size: 208,
-      fill: {
-        gradient: ["#FF6F60"]
-      },
-      startAngle: 3.1,
-      thickness: 5,
-      lineCap: 'round'
+// //------------------- Animation For CIRCLE
+// function circle(){
+// 	   $('.circle_1').circleProgress({
+//       value: 0.40,
+//       size: 208,
+//       fill: {
+//         gradient: ["#FF6F60"]
+//       },
+//       startAngle: 3.1,
+//       thickness: 5,
+//       lineCap: 'round',
+//   });
+// 	   $('.circle_2').circleProgress({
+//       value: 0.65,
+//       size: 208,
+//       fill: {
+//         gradient: ["#FF6F60"]
+//       },
+//       startAngle: 3.1,
+//       thickness: 5,
+//       lineCap: 'round'
 
-  });
-	   $('.circle_3').circleProgress({
-      value: 0.45,
-      size: 208,
-      fill: {
-        gradient: ["#FF6F60"]
-      },
-      startAngle: 3.1,
-      thickness: 5,
-      lineCap: 'round'
+//   });
+// 	   $('.circle_3').circleProgress({
+//       value: 0.45,
+//       size: 208,
+//       fill: {
+//         gradient: ["#FF6F60"]
+//       },
+//       startAngle: 3.1,
+//       thickness: 5,
+//       lineCap: 'round'
 
-  });
-	   $('.circle_4').circleProgress({
-      value: 1,
-      size: 150,
-      fill: {
-        gradient: ["#FFB7AF"]
-      },
-      startAngle: 3.1,
-      thickness: 5,
-      lineCap: 'round',
-      reverse: true,
-      animation: { duration: 2400, easing: "circleProgressEasing" }
+//   });
+// 	   $('.circle_4').circleProgress({
+//       value: 1,
+//       size: 150,
+//       fill: {
+//         gradient: ["#FFB7AF"]
+//       },
+//       startAngle: 3.1,
+//       thickness: 5,
+//       lineCap: 'round',
+//       reverse: true,
+//       animation: { duration: 2400, easing: "circleProgressEasing" }
 
-  });
-};
+//   });
+// };
 
 
 

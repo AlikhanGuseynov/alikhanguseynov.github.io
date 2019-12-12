@@ -63,8 +63,8 @@ button{
 }
 /*--------------------- HOME ---------------------*/
 header{
-	position: fixed;
-	/*width: 99%;*/
+	/*position: fixed;*/
+	width: 99%;
 	background-color: #fff;
 	z-index: 100;
 }
@@ -379,6 +379,7 @@ a.media_link_www{
 	align-items: center;
 	width: 310px;
 	text-align: center;
+	border:1px solid red;
 }
 .benefits__inner{
 	margin-top: -100px;
@@ -414,6 +415,8 @@ p.result-slider_item_subtitle{
 	margin-top: 80px;
 }
 /*--------------------------- REVIEW ---------------------------*/
+/*--------------------------- REVIEW ---------------------------*/
+/*--------------------------- REVIEW ---------------------------*/
 
 section.review{
 	padding-top: 70px;
@@ -440,12 +443,12 @@ p.review_item_text{
 	position: relative;
 	top: -184px
 }
-.review button.slick-next{
+/*.review button.slick-next{
 	background-image: url(../img/Arrow.png);
 }
 .review button.slick-prev{
 	background-image: url(../img/Arrow.png);
-}
+}*/
 .review-slider button.slick-prev{
 	background-image: url(../img/prev_arr.png);
 	background-repeat: no-repeat;

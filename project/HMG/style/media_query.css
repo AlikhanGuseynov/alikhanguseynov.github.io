@@ -38,47 +38,169 @@ section.guest{
 	padding-top: 50px;
 	padding-bottom: 100px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
+.guest-slider-nav button.slick-next{
+	margin-right: 50px;
+}
+.result-slider_items{
+	justify-content: space-around;
+	margin-top: 40px;
+}
+.result-slider_item{
+	width: 240px;
+}
+.result-slider button.slick-prev{
+	margin-left: 20px;
+}
+.result-slider button.slick-next{
+	margin-right: 20px;
 }
 
 
+/*--------------------------- REVIEW ---------------------------*/
+/*--------------------------- REVIEW ---------------------------*/
+/*--------------------------- REVIEW ---------------------------*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 992px) {
-
-
+.review button.slick-next{
+	background-image: url(../img/next_arr.png);
+	margin-right: 40px;
 }
+.review button.slick-prev{
+	background-image: url(../img/prev_arr.png);
+	margin-left: 40px;
+}
+
+/*------------------------- PARTNER -------------------------*/
+/*------------------------- PARTNER -------------------------*/
+/*------------------------- PARTNER -------------------------*/
+section.partner{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+img.logos_box_item{
+	margin: 0 ;
+}
+/*------------------------- FOOTER -------------------------*/
+/*------------------------- FOOTER -------------------------*/
+/*------------------------- FOOTER -------------------------*/
+p.footer_text{
+	width: 460px;
+}
+}
+
+
+/*@media only screen and (max-width: 990px) {*/
+/*@media only screen and (max-width: 990px) {*/
+/*@media only screen and (max-width: 990px) {*/
+@media only screen and (max-width: 990px) {
+.container{
+	width: 750px;
+	overflow: hidden;
+}
+.title{
+	font-size: 25px;
+	line-height: 36px;
+}
+
+section.home{
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+.subtitle{
+	line-height: 18px;
+	font-size: 16px;
+}
+img.home_img{
+	margin-left: 0px;
+	width: 300px;
+}
+.home_btn{
+	width: 350px;
+	height: 50px;
+}
+p.home_subtitle{
+	width: 450px;
+	margin-top: 30px;
+}
+
+/*------------------- WHY -------------------*/
+/*------------------- WHY -------------------*/
+/*------------------- WHY -------------------*/
+section.why{
+	padding-bottom: 70px;
+	padding-top: 80px;
+}
+.why_items{
+	margin-top: 40px;
+}
+/*----------------- GUEST -----------------*/
+/*----------------- GUEST -----------------*/
+/*----------------- GUEST -----------------*/
+section.guest{
+	padding-top: 30px;
+	padding-bottom: 70px;
+}
+.guest-slider-nav button.slick-next{
+	margin-right: 50px;
+}
+.result-slider_items{
+	margin-top: 40px;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	align-items: center;
+}
+.result-slider_item{ 
+	margin: 15px;
+}
+.result-slider_item{
+	width: 240px;
+}
+.result-slider button.slick-prev{
+	margin-left: 80px;
+}
+.result-slider button.slick-next{
+	margin-right: 80px;
+}
+
+
+/*--------------------------- REVIEW ---------------------------*/
+/*--------------------------- REVIEW ---------------------------*/
+/*--------------------------- REVIEW ---------------------------*/
+.review_slide{
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	border: 1px solid red ;
+}
+.review button.slick-next{
+	background-image: url(../img/next_arr.png);
+	margin-right: 40px;
+}
+.review button.slick-prev{
+	background-image: url(../img/prev_arr.png);
+	margin-left: 40px;
+}
+
+/*------------------------- PARTNER -------------------------*/
+/*------------------------- PARTNER -------------------------*/
+/*------------------------- PARTNER -------------------------*/
+section.partner{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+img.logos_box_item{
+	margin: 0 ;
+}
+/*------------------------- FOOTER -------------------------*/
+/*------------------------- FOOTER -------------------------*/
+/*------------------------- FOOTER -------------------------*/
+p.footer_text{
+	width: 460px;
+}
+}
+
+
