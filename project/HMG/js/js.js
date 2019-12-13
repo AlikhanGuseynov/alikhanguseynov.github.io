@@ -136,6 +136,16 @@ $(".close").click(function(){
     'visibility': 'hidden '
   });
 })
+// крытие при нажатии вне окна
+$(document).mouseup(function (e){ // событие клика по веб-документу
+  var div = $(".pop_up"); // тут указываем ID элемента
+  if (!div.is(e.target) // если клик был не по нашему блоку
+      && div.has(e.target).length === 0) { // и не по его дочерним элементам
+    $('.pop_up').css({
+      'visibility': 'hidden '
+    });
+  }
+});
 
 
 //------------------- Animation For SCROLL
@@ -147,4 +157,50 @@ $(document).ready(function(){
         }
       return false; // выключаем стандартное действие
     });
+});
+
+$(".burger_menu").click(function(){
+  $('ul.nav_menu li').css({
+    'display': 'block'
+  });
+  $('nav ul.nav_menu').css({
+    'background-color': '#FF6F60'
+  });
+  $('.burger_menu').css({
+    'display': 'none'
+  });
+  $('.close_menu').css({
+    'display': 'block'
+  });
+});
+$(".close_menu").click(function(){
+  $('ul.nav_menu li').css({
+    'display': 'none'
+  });
+  $('nav ul.nav_menu').css({
+    'background-color': 'transparent'
+  });
+  $('.burger_menu').css({
+    'display': 'block'
+  });
+  $('.close_menu').css({
+    'display': 'none'
+  });
+})
+
+
+
+$(window).scroll(function(event) {
+  var window_scroll = $(window).scrollTop();
+  //
+  if (window_scroll > 50) {
+    $('header').css({
+      "background-color": '#FFEEEC',
+    });
+  }
+  if (window_scroll < 50) {
+    $('header').css({
+      "background-color": '#fff',
+    });
+  }
 });
