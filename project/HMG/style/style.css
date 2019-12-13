@@ -90,6 +90,9 @@ nav ul{
 ul.nav_menu a{
 	color: #333333;
 }
+section.d_block_750{
+	display: none !important;
+}
 ul.nav_menu a:hover{
 	color: #FF6F60;
 }
@@ -118,6 +121,7 @@ p.home_subtitle{
 }
 h1{
 	margin: 0;
+	width: 550px;
 }
 .home_btn{
 	color: #F2F2F2;
@@ -130,9 +134,8 @@ button.home_btn{
 	margin-top: 85px;
 }
 img.home_img{
-	margin-left: 220px;
+	margin-left: 150px;
 }
-
 
 /*---------------------- WHY ----------------------*/
 /*---------------------- WHY ----------------------*/

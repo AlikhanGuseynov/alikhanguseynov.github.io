@@ -249,6 +249,10 @@ form{
 section.d_none_750{
 	display: none !important;
 }
+
+section.d_block_750{
+	display: block !important;
+}
 .center{
 	margin-left: auto;
 	margin-right: auto;
@@ -560,8 +564,8 @@ button.home_btn{
 	margin-top: 65px;
 }
 p.home_subtitle{
-	width: 400px;
-	text-align: center;
+	width: 361px;
+	text-align: left;
 	margin-top: 30px;
 }
 .header_row{
@@ -573,6 +577,9 @@ p.home_subtitle{
 }
 a.contact_number{
 	font-size: 13px;
+}
+h1.title{
+	width: 361px;
 }
 /*------------------- WHY -------------------*/
 /*------------------- WHY -------------------*/
