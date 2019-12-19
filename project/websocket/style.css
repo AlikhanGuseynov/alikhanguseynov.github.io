@@ -1,0 +1,51 @@
+body{
+	box-sizing: border-box;
+}
+ul, li{
+	text-decoration: none;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.bsr{
+	border: 1px solid red;
+}
+button{
+	outline:none;
+	background-color: transparent;
+}
+
+
+ul{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	padding-left: 0;
+}
+label{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+}
+label button{
+	margin-right: 15px;
+}
+button.send{
+	margin-left: 15px;
+}
+
+p{
+	margin-bottom: 5px;
+	font-size: 15px;
+}
