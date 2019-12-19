@@ -75,16 +75,17 @@ function list(){
     let li = document.createElement("li");
       li.append(arr[i].text + '; ' + arr[i].index);
     //  label
-    let label = document.createElement('label');
-      label.setAttribute('id', arr[i].index);
+    let div = document.createElement('div');
+      div.setAttribute('id', arr[i].index);
+      div.classList.add('item');
     // button
     let button = document.createElement('button');
       button.classList.add('btn', 'btn-danger');
       button.setAttribute('onclick', 'doSend(' + arr[i].index + ')');
       button.append('remove');
-      label.append(button);
-      label.append(li);
-      ul.append(label);
+      div.append(button);
+      div.append(li);
+      ul.append(div);
   }
 }
 

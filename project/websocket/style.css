@@ -38,7 +38,7 @@ label{
 	display: flex;
 	align-items: center;
 }
-label button{
+ button{
 	margin-right: 15px;
 }
 button.send{
@@ -48,4 +48,16 @@ button.send{
 p{
 	margin-bottom: 5px;
 	font-size: 15px;
+}
+
+.bsr{
+	border: 1px solid red;
+}
+.item{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	margin: 5px;
 }
