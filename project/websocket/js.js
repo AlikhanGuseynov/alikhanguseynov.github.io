@@ -1,5 +1,7 @@
 let a = 0;
-let arr = [{ text: 'Lorem ipsum.', id: 0 }]
+let arr = [
+  // { text: 'Lorem ipsum.', id: 0 }
+]
 
 var wsUri = "wss://echo.websocket.org/";
 var output;
@@ -23,19 +25,18 @@ function onClose(evt){
 }
 function onMessage(evt){
   writeToScreen('<span style="color: blue;">RESPONSE: ' + evt.data +'</span>');
+  let isExist = false;
+  let index;
   for(let i=0; i < arr.length; i++){
     if( evt.data == arr[i].id ){
-      remove(i)
-      console.log(0)
+      isExist = true;
+      index=i;
+      break;
     }
-    if( !evt.data == arr[i].id){
-      push_item();
-      console.log(1)
-      return false
-    }
-  console.log('evt.data:', evt.data, ";  arr[i].id:", arr[i].id)
   }
+  (isExist) ? remove(index) : push_item()
 }
+
 function onError(evt){
   writeToScreen('<span style="color: red;">ERROR:</span> ' + evt.data);
 }
@@ -60,6 +61,7 @@ function send_add(){
 }
 function send_remove(asd){
   websocket.send(asd);
+  writeToScreen("SENT: " + asd )
 }
 function remove(i){
   arr.splice(i, 1);
@@ -70,7 +72,8 @@ function push_item(){
   let input = document.getElementById('input').value || 0;
   let item = { text: input, id: a };
   arr.push(item);
-  list()
+  list();
+  document.getElementById('input').value = '';
 }
 function test(){
   // console.log(arr)
@@ -113,7 +116,7 @@ function list(){
 document.onkeyup = function (e) {
     e = e || window.event;
     if (e.keyCode === 13) {
-         send_to();
+         send_add();
     }
     return false;
 }
