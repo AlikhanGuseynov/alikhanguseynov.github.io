@@ -246,7 +246,7 @@ p.guest_item_subtitle{
 	float: right;
 	margin-top: 30px;
 	position: relative !important;
-	/*top: 0px !important;*/
+	margin-right: 25px;
 }
 .guest button.slick-next:before{
 	content: "";
@@ -432,6 +432,8 @@ p.result-slider_item_subtitle{
 	width: 29px;
 	height: 43px;
 	margin-top: 80px;
+	left: 0;
+	z-index: 50;
 }
 .result-slider button.slick-next{
 	background-image: url(../img/next_arr.png);
@@ -441,6 +443,17 @@ p.result-slider_item_subtitle{
 	width: 29px;
 	height: 43px;
 	margin-top: 80px;
+	right: 0;
+	z-index: 50;
+}
+
+.result-slider button.slick-prev:before{
+	content: ''
+
+}
+.result-slider button.slick-next:before{
+	content: ''
+
 }
 /*--------------------------- REVIEW ---------------------------*/
 /*--------------------------- REVIEW ---------------------------*/
@@ -482,18 +495,24 @@ p.review_item_text{
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
-	width: 67px;
-	height: 67px;
+	width: 35px;
+	height: 35px;
 	z-index: 90;
+	left: 30px;
+	top: 100px;
+
 }
 .review-slider button.slick-next{
 	background-image: url(../img/next_arr.png);
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
-	width: 67px;
-	height: 67px;
+	width: 35px;
+	height: 35px;
 	z-index: 90;
+	right: 30px;
+	top: 100px;
+
 }
 .review button.slick-next:before{
 	content: ''

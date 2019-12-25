@@ -1,5 +1,5 @@
 
-var mql = window.matchMedia('all and (max-width: 4600px)');
+var mql = window.matchMedia('all and (max-width: 460px)');
 if (mql.matches) {
 	$(document).ready(function(){
    $('.guest-slider-for').slick({

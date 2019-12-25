@@ -1,9 +1,11 @@
 //------------------- Animation For SLIDER
 $(document).ready(function(){
   $('.result-slider').slick({
-  	  infinite: true,
+	  infinite: true,
 	  slidesToShow: 1,
 	  slidesToScroll: 1,
+    nextArrow: '<button type="button" class="slick-next"> </button>',
+    prevArrow: '<button type="button" class="slick-prev"> </button>'
   });
   $('.review-slider').slick({
 	  infinite: true,
