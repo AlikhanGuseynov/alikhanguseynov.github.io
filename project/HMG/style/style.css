@@ -32,7 +32,10 @@ button{
 	width: 1150px;
 	margin-left: auto;
 	margin-right: auto;
-	overflow: hidden;
+	overflow: hidden !important;
+}
+section{
+	overflow: hidden !important;
 
 }
 .slick-track{
@@ -47,6 +50,13 @@ button{
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
+}
+.f_direction_row{
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
 }
 .title{
 	font-weight: bold;
@@ -70,6 +80,9 @@ button{
 	letter-spacing: 0.05em;
 }
 /*--------------------- HOME ---------------------*/
+.review-slider, .result-slider, .guest-slider-nav, .guest-slider-for{
+	overflow: hidden !important;
+} 
 header{
 	position: fixed;
 	width: 100%;
@@ -107,6 +120,12 @@ ul.nav_menu a:hover{
 a.contact_number{
 	color: #000;
 }
+.slick-list{
+	overflow-x: hidden !important;
+}
+.draggable{
+	overflow-x: hidden !important;
+}
 /*---------------------- HOME ----------------------*/
 .home_container{
 	/*padding-top: 150px;*/
@@ -116,7 +135,16 @@ section.home{
 	padding-bottom: 80px;
 }
 p.home_subtitle{
-	width: 500px;
+	width: 406px;
+	margin-left: 30px;
+}
+.new_item{
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+	align-items: center;
 	margin-top: 30px;
 }
 h1{
@@ -246,7 +274,7 @@ p.guest_item_subtitle{
 	float: right;
 	margin-top: 30px;
 	position: relative !important;
-	margin-right: 25px;
+	/*margin-right: 105px;*/
 }
 .guest button.slick-next:before{
 	content: "";
@@ -431,8 +459,8 @@ p.result-slider_item_subtitle{
 	background-repeat: no-repeat;
 	width: 29px;
 	height: 43px;
-	margin-top: 80px;
-	left: 0;
+	margin-top: 40px;
+	left: -30px;
 	z-index: 50;
 }
 .result-slider button.slick-next{
@@ -442,8 +470,8 @@ p.result-slider_item_subtitle{
 	background-repeat: no-repeat;
 	width: 29px;
 	height: 43px;
-	margin-top: 80px;
-	right: 0;
+	margin-top: 40px;
+	right: -30px;
 	z-index: 50;
 }
 
@@ -479,17 +507,23 @@ p.review_item_text{
 }
 .review_slide_logo{
 	margin-right: 60px;
+	width: 150px;
+	height: 90px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.review_slide_logo img{
+	width: 128px;
 }
 .circle_4{
 	position: relative;
 	top: -184px
 }
-/*.review button.slick-next{
-	background-image: url(../img/Arrow.png);
-}
-.review button.slick-prev{
-	background-image: url(../img/Arrow.png);
-}*/
 .review-slider button.slick-prev{
 	background-image: url(../img/prev_arr.png);
 	background-repeat: no-repeat;
@@ -551,7 +585,65 @@ p.partner_title{
 img.logos_box_item{
 	margin: 0 15px;
 }
-
+.logos_box_item{
+	width: auto;
+	height: auto;
+}
+.logos_box_item_1{
+	background-image: url(../img/Logo1.png);
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 280px;
+	height: 100px;
+}
+.logos_box_item_1:hover{
+	background-image: url(../img/Logo1.1.png);
+}
+.logos_box_item_2{
+	background-image: url(../img/Logo2.png);
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 382px;
+	height: 100px;
+}
+.logos_box_item_2:hover{
+	background-image: url(../img/Logo2.1.png);
+}
+.logos_box_item_3{
+	background-image: url(../img/Logo3.png);
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 200px;
+	height: 100px;
+}
+.logos_box_item_3:hover{
+	background-image: url(../img/Logo3.1.png);
+}
+.logos_box_item_4{
+	background-image: url(../img/Logo4.png);
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 322px;
+	height: 100px;
+}
+.logos_box_item_4:hover{
+	background-image: url(../img/Logo4.1.png);
+}
+.logos_box_item_5{
+	background-image: url(../img/Logo5.png);
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 322px;
+	height: 100px;
+}
+.logos_box_item_5:hover{
+	background-image: url(../img/Logo5.1.jpg);
+}
 /*------------------------ CONSULTATION ------------------------*/
 section.consultation{
 	padding-bottom: 115px;
@@ -604,6 +696,7 @@ form button{
 	line-height: 23px;
 	color: #fff;
 	letter-spacing: 0.05em;
+	cursor: pointer;
 }
 
 /*------------------------- FOOTER -------------------------*/

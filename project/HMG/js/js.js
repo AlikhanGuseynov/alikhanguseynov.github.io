@@ -1,19 +1,19 @@
-//------------------- Animation For SLIDER
-$(document).ready(function(){
-  $('.result-slider').slick({
-	  infinite: true,
-	  slidesToShow: 1,
-	  slidesToScroll: 1,
-    nextArrow: '<button type="button" class="slick-next"> </button>',
-    prevArrow: '<button type="button" class="slick-prev"> </button>'
-  });
-  $('.review-slider').slick({
-	  infinite: true,
-	  slidesToShow: 1,
-	  slidesToScroll: 1,
-    dots: true,
-  });
-});
+// //------------------- Animation For SLIDER
+// $(document).ready(function(){
+//   $('.result-slider').slick({
+// 	  infinite: true,
+// 	  slidesToShow: 1,
+// 	  slidesToScroll: 1,
+//     nextArrow: '<button type="button" class="slick-next"> </button>',
+//     prevArrow: '<button type="button" class="slick-prev"> </button>'
+//   });
+//   $('.review-slider').slick({
+// 	  infinite: true,
+// 	  slidesToShow: 1,
+// 	  slidesToScroll: 1,
+//     dots: true,
+//   });
+// });
 
 // $(document).ready(function(){
 //    $('.guest-slider-for').slick({
@@ -105,7 +105,6 @@ $(window).scroll(function(event) {
 
 //------------------- Animation For NUMBER
 $(document).ready(function () {
-
     var show = true;
     var countbox = ".benefits__inner";
     $(window).on("scroll load resize", function () {
@@ -138,7 +137,7 @@ $(".close").click(function(){
     'visibility': 'hidden '
   });
 })
-// крытие при нажатии вне окна
+// закрытие при нажатии вне окна для слайдера
 $(document).mouseup(function (e){ // событие клика по веб-документу
   var div = $(".pop_up"); // тут указываем ID элемента
   if (!div.is(e.target) // если клик был не по нашему блоку
@@ -146,6 +145,29 @@ $(document).mouseup(function (e){ // событие клика по веб-до�
     $('.pop_up').css({
       'visibility': 'hidden '
     });
+  }
+});
+
+// закрытие при нажатии вне окна для меню
+$(document).mouseup(function (e){ // событие клика по веб-документу
+  var div = $("nav"); // тут указываем ID элемента
+  if (!div.is(e.target) // если клик был не по нашему блоку
+      && div.has(e.target).length === 0) { // и не по его дочерним элементам
+      
+  $('ul.nav_menu li').css({
+    'display': 'none'
+  });
+  $('nav ul.nav_menu').css({
+    'background-color': 'transparent'
+  });
+  $('.burger_menu').css({
+    'display': 'block'
+  });
+  $('.close_menu').css({
+    'display': 'none'
+  });
+    
+      
   }
 });
 
@@ -158,6 +180,34 @@ $(document).ready(function(){
       $('html, body').animate({ scrollTop: $(scroll_el).offset().top }, 500); // анимируем скроолинг к элементу scroll_el
         }
       return false; // выключаем стандартное действие
+    });
+});
+//------------------- Animation For MENU
+$(document).ready(function(){
+    $('.why_menu_item').click( function(){ // ловим клик по ссылке с классом go_to
+  var scroll_el = $(this).attr('href'); // возьмем содержимое атрибута href, должен быть селектором, т.е. например начинаться с # или .
+        if ($(scroll_el).length != 0) { // проверим существование элемента чтобы избежать ошибки
+      $('html, body').animate({ scrollTop: $(scroll_el).offset().top }, 500); // анимируем скроолинг к элементу scroll_el
+        }
+      return false;
+    });
+});
+$(document).ready(function(){
+    $('.guest_menu_item').click( function(){ // ловим клик по ссылке с классом go_to
+  var scroll_el = $(this).attr('href'); // возьмем содержимое атрибута href, должен быть селектором, т.е. например начинаться с # или .
+        if ($(scroll_el).length != 0) { // проверим существование элемента чтобы избежать ошибки
+      $('html, body').animate({ scrollTop: $(scroll_el).offset().top }, 500); // анимируем скроолинг к элементу scroll_el
+        }
+      return false;
+    });
+});
+$(document).ready(function(){
+    $('.partner_menu_item').click( function(){ // ловим клик по ссылке с классом go_to
+  var scroll_el = $(this).attr('href'); // возьмем содержимое атрибута href, должен быть селектором, т.е. например начинаться с # или .
+        if ($(scroll_el).length != 0) { // проверим существование элемента чтобы избежать ошибки
+      $('html, body').animate({ scrollTop: $(scroll_el).offset().top }, 500); // анимируем скроолинг к элементу scroll_el
+        }
+      return false;
     });
 });
 

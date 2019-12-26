@@ -182,7 +182,8 @@ section.guest{
 	-ms-flex-direction: column;
 	-o-flex-direction: column;
 	flex-direction: column;
-	align-items: center
+	align-items: center;
+	justify-content: center !important;
 }
 .review_item{
 	margin-top: 50px;
@@ -429,7 +430,8 @@ h2.guest_title{
 	-ms-flex-direction: column;
 	-o-flex-direction: column;
 	flex-direction: column;
-	align-items: center
+	align-items: center;
+	justify-content: center !important;
 }
 .review_item{
 	margin-top: 50px;
@@ -657,13 +659,14 @@ h2.guest_title{
 	-ms-flex-direction: column;
 	-o-flex-direction: column;
 	flex-direction: column;
-	align-items: center
+	align-items: center;
+	justify-content: center !important;
 }
 .review-slider{
 	margin-top: 45px;
 }
 .review_item{
-	margin-top: 50px;
+	margin-top: 18px;
 }
 p.review_title{
 	text-align: left;
@@ -768,6 +771,9 @@ img.footer_logo{
 	overflow: hidden;
 }
 section.d_none_750{
+	display: none !important;
+}
+.d_block_none_750{
 	display: none !important;
 }
 .center{
@@ -892,7 +898,8 @@ h2.guest_title{
 	-ms-flex-direction: column;
 	-o-flex-direction: column;
 	flex-direction: column;
-	align-items: center
+	align-items: center;
+	justify-content: center !important;
 }
 .review-slider{
 	margin-top: 45px;
@@ -900,17 +907,25 @@ h2.guest_title{
 .review_slide_logo{
 	margin-right: 0;	
 }
+.review_slide_logo img{
+	margin-top: 10px;
+}
+.review_slide_logo img.like_logo{
+	margin-top: 10px;
+	height: 80px;
+	width: auto;
+}
 .review_item{
 	width: 330px;	
-	margin-top: 50px;
+	margin-top: 18px;
 }
 p.review_title{
 	text-align: left;
 	font-size: 18px;
 }
 p.review_subtitle{
-	width: 340px;	
-	text-align: left;
+	/*width: 340px;	*/
+	text-align: center;
 	font-size: 18px;
 }
 p.review_item_text{
@@ -927,6 +942,9 @@ p.review_item_text{
 	background-repeat: no-repeat;
 	-webkit-background-size: 100%;
 	background-size: 100%;
+	right: -60px ;
+	/*qwe*/
+
 }
 .review button.slick-prev{
 	margin-left: 60px;
@@ -937,6 +955,9 @@ p.review_item_text{
 	background-repeat: no-repeat;
 	-webkit-background-size: 100%;
 	background-size: 100%;
+	left: -60px  ;
+	/*qwe*/
+
 }
 p.review_subtitle{
 	margin-top: 0px;
@@ -1004,6 +1025,12 @@ p.footer_text{
 	height: 50px;
 }
 
+.container_for_slider{
+	width: 460px;
+}
+.guest-slider-nav button.slick-next{
+	right: 90px;
+}
 
 }
 

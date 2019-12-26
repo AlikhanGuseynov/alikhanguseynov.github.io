@@ -14,7 +14,7 @@ if (mql.matches) {
     slidesToScroll: 1,
     asNavFor: '.guest-slider-for',
     infinite: true,
-    slidesToShow: 1 
+    slidesToShow: 2 
   });
 });
 }
@@ -97,7 +97,7 @@ if (mql.matches) {
 
 var mql = window.matchMedia('all and (max-width: 2000px)');
 if (mql.matches) {
-	$(document).ready(function(){
+  $(document).ready(function(){
    $('.guest-slider-for').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -115,6 +115,38 @@ if (mql.matches) {
 });
 }
 
+
+
+var mql = window.matchMedia('all and (max-width: 560px)');
+if (mql.matches) {
+$(document).ready(function(){
+  $('.review-slider').slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: false,
+  });
+});
+}
+
+var mql = window.matchMedia('all and (max-width: 2000px)');
+if (mql.matches) {
+$(document).ready(function(){
+  $('.result-slider').slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    nextArrow: '<button type="button" class="slick-next"> </button>',
+    prevArrow: '<button type="button" class="slick-prev"> </button>'
+  });
+  $('.review-slider').slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: true,
+  });
+});
+}
 
 	//------------------- Animation For CIRCLE
 	
