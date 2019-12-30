@@ -17,6 +17,26 @@ if (mql.matches) {
     slidesToShow: 2 
   });
 });
+
+  // закрытие при нажатии вне окна для меню
+$(document).mouseup(function (e){ // событие клика по веб-документу
+  var div = $("nav"); // тут указываем ID элемента
+  if (!div.is(e.target) // если клик был не по нашему блоку
+      && div.has(e.target).length === 0) { // и не по его дочерним элементам
+  $('ul.nav_menu li').css({
+    'display': 'none'
+  });
+  $('nav ul.nav_menu').css({
+    'background-color': 'transparent'
+  });
+  $('.burger_menu').css({
+    'display': 'block'
+  });
+  $('.close_menu').css({
+    'display': 'none'
+  });
+  }
+});
 }
 var mql = window.matchMedia('all and (max-width: 540px)');
 if (mql.matches) {

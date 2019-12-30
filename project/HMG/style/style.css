@@ -87,7 +87,7 @@ header{
 	position: fixed;
 	width: 100%;
 	background-color: #fff;
-	z-index: 100;
+	z-index: 400;
 }
 .header_row{
 	width: 100%;
@@ -250,7 +250,7 @@ img.guest_img{
 	margin-left: 21px;
 }
 p.guest_item_title{
-	height: 48px;
+	height: 50px;
 	margin-top: 31px;
 	padding-left: 15px;
 }
@@ -595,7 +595,7 @@ img.logos_box_item{
 	background-size: 100%;
 	background-repeat: no-repeat;
 	width: 280px;
-	height: 100px;
+	height: 70px;
 }
 .logos_box_item_1:hover{
 	background-image: url(../img/Logo1.1.png);
@@ -606,7 +606,7 @@ img.logos_box_item{
 	background-size: 100%;
 	background-repeat: no-repeat;
 	width: 382px;
-	height: 100px;
+	height: 70px;
 }
 .logos_box_item_2:hover{
 	background-image: url(../img/Logo2.1.png);
@@ -617,7 +617,7 @@ img.logos_box_item{
 	background-size: 100%;
 	background-repeat: no-repeat;
 	width: 200px;
-	height: 100px;
+	height: 80px;
 }
 .logos_box_item_3:hover{
 	background-image: url(../img/Logo3.1.png);
@@ -628,7 +628,7 @@ img.logos_box_item{
 	background-size: 100%;
 	background-repeat: no-repeat;
 	width: 322px;
-	height: 100px;
+	height: 60px;
 }
 .logos_box_item_4:hover{
 	background-image: url(../img/Logo4.1.png);
