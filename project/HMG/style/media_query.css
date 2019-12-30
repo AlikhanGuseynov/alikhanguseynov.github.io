@@ -346,6 +346,9 @@ section.d_none_750{
 section.d_block_750{
 	display: block !important;
 }
+h1.title{
+	width: 500px;
+}
 .center{
 	margin-left: auto;
 	margin-right: auto;
@@ -417,6 +420,7 @@ nav ul.nav_menu{
 	justify-content: flex-start;
 	position: absolute;
 	top: 10px;
+	left: 25px;
 	z-index: 
 }
 ul.nav_menu a{
@@ -1019,7 +1023,7 @@ section.d_none_750{
 	height: auto;
 }
 section.home{
-	padding-top: 146px;
+	padding-top: 100px;
 	padding-bottom: 50px;
 }
 p.home_subtitle{

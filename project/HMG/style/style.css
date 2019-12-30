@@ -274,7 +274,7 @@ p.guest_item_subtitle{
 	float: right;
 	margin-top: 30px;
 	position: relative !important;
-	/*margin-right: 105px;*/
+	margin-right: 25px;
 }
 .guest button.slick-next:before{
 	content: "";
@@ -459,8 +459,8 @@ p.result-slider_item_subtitle{
 	background-repeat: no-repeat;
 	width: 29px;
 	height: 43px;
-	margin-top: 40px;
-	left: -30px;
+	margin-top: 57px;
+	left: 0px;
 	z-index: 50;
 }
 .result-slider button.slick-next{
@@ -470,8 +470,8 @@ p.result-slider_item_subtitle{
 	background-repeat: no-repeat;
 	width: 29px;
 	height: 43px;
-	margin-top: 40px;
-	right: -30px;
+	margin-top: 57px;
+	right: 0px;
 	z-index: 50;
 }
 
@@ -583,7 +583,7 @@ p.partner_title{
 	margin-top: 70px;
 }
 img.logos_box_item{
-	margin: 0 15px;
+	margin: 0 25px;
 }
 .logos_box_item{
 	width: auto;
@@ -595,7 +595,7 @@ img.logos_box_item{
 	background-size: 100%;
 	background-repeat: no-repeat;
 	width: 280px;
-	height: 70px;
+	height: 100px;
 }
 .logos_box_item_1:hover{
 	background-image: url(../img/Logo1.1.png);
@@ -606,7 +606,7 @@ img.logos_box_item{
 	background-size: 100%;
 	background-repeat: no-repeat;
 	width: 382px;
-	height: 70px;
+	height: 100px;
 }
 .logos_box_item_2:hover{
 	background-image: url(../img/Logo2.1.png);
@@ -628,7 +628,7 @@ img.logos_box_item{
 	background-size: 100%;
 	background-repeat: no-repeat;
 	width: 322px;
-	height: 60px;
+	height: 100px;
 }
 .logos_box_item_4:hover{
 	background-image: url(../img/Logo4.1.png);
