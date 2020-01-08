@@ -93,8 +93,8 @@ $(window).scroll(function(event) {
   let top = window.screen.height;
   let end = circle_top - top;
   //
-  console.log(end)
-  console.log(window_scroll)
+  // console.log(end)
+  // console.log(window_scroll)
   //
   if (window_scroll > end && compleated) {
   circle();

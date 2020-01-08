@@ -1107,10 +1107,10 @@ h2.guest_title{
 /*--------------------------- RESULT ---------------------------*/
 
 .result-slider button.slick-prev{
-	margin-left: 40px;
+	margin-left: 20px;
 }
 .result-slider button.slick-next{
-	margin-right: 40px;
+	margin-right: 20px;
 }
 
 .result-slider button.slick-prev:before{
@@ -1293,16 +1293,18 @@ p.footer_text{
 
 /*POPUP1*/
 .pop_up{
-	width: 425px;
+	width: 330px;
 	height: auto;
 	margin-top: -150px;
 	margin-left: 0px;
 	padding-bottom: 25px;
-	margin-left: 0;
-	left: 5px;
+	margin-left: 0px;
+	padding-left: 0px;
+	left: 0px;
+	overflow: hidden;
 }
 .pop_up_comntainer{
-	width: 357px;
+	width: 300px;
 	padding-top: 0px;
 }
 .pop_up .guest_item{
@@ -1336,16 +1338,29 @@ p.pop_up_form_subtitle{
 	margin-top: 33px;
 }
 .pop_up form{
-	width: 358px;
+	width: 330px;
 	-webkit-flex-direction: column;
 	-moz-flex-direction: column;
 	-ms-flex-direction: column;
 	-o-flex-direction: column;
 	flex-direction: column;
+	margin-left: 0;
+	margin-right: 0;
+}
+p.guest-slider-for_text_1{
+	width: 300px;
+}
+p.guest-slider-for_text_2{
+	width: 300px;
 }
 .pop_up form .form_item{
-	width: 357px;
+	width: 300px;
 	height: 50px;
+}
+
+p.pop_up_form_title{
+	width: 300px;
+	padding: 0;
 }
 .pop_up button.close{
 	margin-right: 320px;
@@ -1354,13 +1369,13 @@ p.pop_up_form_subtitle{
 	position: relative;
 }
 .pop_up form button{
-	width: 357px;
+	width: 300px;
 	height: 50px !important;
 }
 .guest-slider-for button.slick-next{
 	float: right;
-	margin-top: -630px;
-	margin-right: 270px;
+	margin-top: -653px;
+	margin-right: 250px;
 }
 .pop_up img.seo_img{
 	margin-top: 135px;
@@ -1373,3 +1388,57 @@ p.pop_up_form_subtitle{
 }
 }
 
+@media only screen and (max-width: 420px) {
+	.pop_up{
+		margin-left: 45px;
+	}
+	p.review_item_text{
+		width: 300px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.logos_box_item_5{
+		margin-top: 0;
+	}
+	p.consultation_title{
+		width: 300px;
+	}
+	.form_item{
+		width: 300px;
+	}
+	p.footer_text{
+		width: 300px;
+		font-size: 17px;
+	}
+	.contact_footer{
+		width: 300px;
+	}
+	img.footer_logo{
+		margin-left: 15px;
+	}
+}
+@media only screen and (max-width: 400px) {
+	.pop_up{
+		margin-left: 25px;
+	}
+}
+@media only screen and (max-width: 360px) {
+	.pop_up{
+		margin-left: 10px;
+	}
+}
+@media only screen and (max-width: 350px) {
+	.pop_up{
+		width: 320px;
+		margin-left: 5px;
+		padding-left: 10px;
+	}
+	.pop_up form{
+		width: 310px;
+	}
+}
+
+
+.pop_up{
+	z-index: 500;
+}

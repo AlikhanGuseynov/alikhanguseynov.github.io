@@ -292,8 +292,8 @@ p.guest_item_subtitle{
 	float: right;
 	margin-top: -200px;
 	position: relative !important;
-	/*border:1px solid #fff;*/
-	margin-left: -20px;
+	margin-left: -50px;
+	right: 0;
 }
 .guest-slider-for button.slick-prev{
 	display: none !important;
