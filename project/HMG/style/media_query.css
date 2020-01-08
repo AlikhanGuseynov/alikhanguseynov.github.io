@@ -415,13 +415,13 @@ nav ul.nav_menu{
 	flex-direction: column;
 	background-color: transparent;
 	width: 210px;
-	height: 260px;
+	/*height: 260px;*/
+	height: 80px;
 	border-radius: 6px;
 	justify-content: flex-start;
 	position: absolute;
 	top: 10px;
 	left: 25px;
-	z-index: 
 }
 ul.nav_menu a{
 	color: #fff;
@@ -436,12 +436,13 @@ ul.nav_menu li{
 	background-repeat: no-repeat;
 	-webkit-background-size: 100%;
 	background-size: 100%;
+	background-position: center;
 	width: 30px;
 	height: 30px;
-	margin-bottom: 58px;
+	/*margin-bottom: 58px;*/
 	margin-top: 15px;
 	margin-left: 15px;
-	display: block;
+	/*display: block;*/
 }
 .close_menu{
 	background-image: url(../img/heaader_close.png);
@@ -673,6 +674,18 @@ section.d_none_750{
 .center{
 	margin-left: auto;
 	margin-right: auto;
+}
+nav ul.nav_menu{
+	z-index: 100;
+	position: absolute;
+}
+.pop_up{
+	z-index: 300;
+	position: absolute;
+}
+.guest_item{
+	position: relative;
+	z-index: 280;
 }
 .title{
 	font-size: 18px;
@@ -1296,12 +1309,11 @@ p.footer_text{
 	width: 330px;
 	height: auto;
 	margin-top: -150px;
-	margin-left: 0px;
 	padding-bottom: 25px;
-	margin-left: 0px;
-	padding-left: 0px;
+	margin-left: 60px;
 	left: 0px;
 	overflow: hidden;
+	padding-left: 15px;
 }
 .pop_up_comntainer{
 	width: 300px;
@@ -1419,18 +1431,18 @@ p.pop_up_form_title{
 }
 @media only screen and (max-width: 400px) {
 	.pop_up{
-		margin-left: 25px;
+		margin-left: 15px;
 	}
 }
 @media only screen and (max-width: 360px) {
 	.pop_up{
-		margin-left: 10px;
+		margin-left: 5px;
 	}
 }
 @media only screen and (max-width: 350px) {
 	.pop_up{
 		width: 320px;
-		margin-left: 5px;
+		margin-left: 10px;
 		padding-left: 10px;
 	}
 	.pop_up form{
@@ -1439,6 +1451,4 @@ p.pop_up_form_title{
 }
 
 
-.pop_up{
-	z-index: 500;
-}
+

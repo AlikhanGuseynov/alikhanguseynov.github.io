@@ -190,12 +190,14 @@ $(document).ready(function(){
     });
 });
 
+
 $(".burger_menu").click(function(){
   $('ul.nav_menu li').css({
     'display': 'block'
   });
   $('nav ul.nav_menu').css({
-    'background-color': '#FF6F60'
+    'background-color': '#FF6F60',
+    'height': '260px'
   });
   $('.burger_menu').css({
     'display': 'none'
@@ -209,7 +211,8 @@ $(".close_menu").click(function(){
     'display': 'none'
   });
   $('nav ul.nav_menu').css({
-    'background-color': 'transparent'
+    'background-color': 'transparent',
+    'height': '40px',
   });
   $('.burger_menu').css({
     'display': 'block'
@@ -217,6 +220,10 @@ $(".close_menu").click(function(){
   $('.close_menu').css({
     'display': 'none'
   });
+
+
+
+
 })
 
 
