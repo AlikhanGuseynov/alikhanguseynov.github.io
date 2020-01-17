@@ -60,9 +60,7 @@ header{
 }
 .title_project{
 	text-align: center;
-	
 }
-
 .title_project{
 	color: #000;
 	font-size: 20px;
@@ -74,18 +72,15 @@ header{
 	font-size: 30px;
 	font-weight: 700;
 }
-
-
 footer{
 	margin-top: 100px;
 	padding-top: 100px;
-	padding-bottom: 65px;	
+	padding-bottom: 120px;	
 	background-image: url(../img/footer_bg.jpg);
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
-
 a{
 	color: 	#fff;
 	text-decoration: none;
@@ -94,35 +89,22 @@ a:hover{
 	color: #fff;
 	text-decoration: none;
 }
-
-
-.we_media{
-
-}
-
-
-{
+.footer_left{
 	color: #fefefe;
-font-family: Rubik;
-font-size: 20px;
-font-weight: 400;
+	font-family: Rubik;
+	font-weight: 400;
 }
-
-{
-	/* Style for "+7 (812) 6" */
-width: 169px;
-height: 49px;
-color: #fefefe;
-font-family: Rubik;
-font-size: 20px;
-font-weight: 400;
-line-height: 30px;
+.right_link{
+	width: 169px;
+	height: 49px;
+	color: #fefefe;
+	font-family: Rubik;
+	font-weight: 400;
+	line-height: 30px;
 }
-
 .mail{
 	text-decoration: underline;
 }
-
 .carousel-indicators{
 	align-items: center;
 	height: 28px;
