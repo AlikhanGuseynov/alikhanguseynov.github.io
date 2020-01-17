@@ -1,0 +1,165 @@
+body{
+	box-sizing: border-box;
+	color: #fff;
+	font-family: Rubik;
+}
+ul, li{
+	text-decoration: none;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.bsr{
+	border: 1px solid red;
+}
+button{
+	outline:none;
+	background-color: transparent;
+}
+
+
+header{
+	background-image: url(../img/top_bg.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 140px;
+	background-repeat: no-repeat;
+}
+
+.logo{
+	padding-top: 60px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 700;
+}
+.title{
+	margin-top: 140px;
+	text-align: center;
+	color: #fefefe;
+	font-size: 100px;
+	font-weight: 700;
+}
+.button_row{
+	padding-top: 130px;
+}
+.btn{
+	width: 286px;
+	height: 64px;
+	background-color: #fdd835;
+	justify-content: space-between;
+	font-size: 12px;
+	color: #000;
+	text-transform: uppercase;
+	color: #323232;
+	font-family: Rubik;
+	font-size: 16px;
+	font-weight: 700;
+}
+.title_project{
+	text-align: center;
+	
+}
+
+.title_project{
+	color: #000;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 5px;
+	padding-bottom: 60px;
+	color: #323232;
+	font-family: Rubik;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+
+footer{
+	margin-top: 100px;
+	padding-top: 100px;
+	padding-bottom: 65px;	
+	background-image: url(../img/footer_bg.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+a{
+	color: 	#fff;
+	text-decoration: none;
+}
+a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+
+.we_media{
+
+}
+
+
+{
+	color: #fefefe;
+font-family: Rubik;
+font-size: 20px;
+font-weight: 400;
+}
+
+{
+	/* Style for "+7 (812) 6" */
+width: 169px;
+height: 49px;
+color: #fefefe;
+font-family: Rubik;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+}
+
+.mail{
+	text-decoration: underline;
+}
+
+.carousel-indicators{
+	align-items: center;
+	height: 28px;
+	top: 350px;
+}
+.carousel-indicators li.active{
+	width: 12px;
+	height: 12px;
+	border: 2px solid #fdd835;
+	background-color: #ffffff;
+	border-radius: 50%;
+}
+.carousel-indicators li{
+	width: 8px;
+	height: 8px;
+	background-color: #fdd835;
+	opacity: 0.5;
+	border-radius: 50%;
+}
+.carousel-control-prev-icon{
+	background-image: url(../img/prev.png) !important;
+	-webkit-background-size: cover;
+	background-size: cover;
+	width: 50px;
+	height: 50px;
+	margin-left: -150px;
+	background-color: transparent;
+	position: absolute;
+}
+
+.carousel-control-next-icon{
+	background-image: url(../img/next.png) !important;
+	-webkit-background-size: cover;
+	background-size: cover;
+	width: 50px;
+	height: 50px;
+	margin-left: 123px;
+	background-color: transparent;
+	position: absolute;
+}
