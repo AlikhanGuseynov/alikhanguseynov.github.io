@@ -180,7 +180,7 @@ img.home_img{
 	width: 97vw;
 	height: 100vh;
 	background: rgba(255, 255, 255, 0.4);
-	z-index: 500;
+	/*z-index: 500;*/
 }
 .home_pop{
 	background: #FF6F60;
