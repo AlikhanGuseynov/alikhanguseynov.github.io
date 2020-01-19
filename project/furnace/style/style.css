@@ -53,8 +53,6 @@ header{
 	width: 286px;
 	height: 64px;
 	background-color: #fdd835;
-	background: rgb(253,216,53);
-	background: linear-gradient(0deg, rgba(253,216,53,1) 89%, rgba(255,255,255,1) 100%);
 	justify-content: space-between;
 	font-size: 12px;
 	color: #000;
@@ -63,6 +61,11 @@ header{
 	font-family: Rubik;
 	font-size: 16px;
 	font-weight: 700;
+	border-radius: 5px;
+}
+.btn:hover{
+	box-shadow: 0 0 5px rgba(253, 216, 53, 0.6);
+	background-color: #fdd835;
 }
 .title_project{
 	text-align: center;
@@ -89,8 +92,9 @@ footer{
 	padding-bottom: 120px;	
 	background-image: url(../img/footer_bg.jpg);
 	background-repeat: no-repeat;
-	-webkit-background-size: cover;
-	background-size: cover;
+	-webkit-background-size: cover ;
+	background-size: cover ;
+	background-position: center;
 	font-family: Rubik;
 }
 a{
@@ -114,11 +118,18 @@ a:hover{
 	font-weight: 400;
 	line-height: 30px;
 }
+.footer_right{
+	color: #fefefe;
+	font-family: Rubik;
+	font-size: 20px;
+	font-weight: 400;
+}
 .we_media{
-	margin-bottom: 6px;
+	margin-bottom: -5px;
 }
 .right_link_title{
-	margin-bottom: 6px;
+	margin-bottom: -5px;
+
 }
 .mail{
 	text-decoration: underline;
