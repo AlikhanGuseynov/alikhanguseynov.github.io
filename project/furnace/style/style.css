@@ -1,7 +1,10 @@
+*{
+
+}
 body{
 	box-sizing: border-box;
 	color: #fff;
-	font-family: Rubik;
+	font-family: 'Rubik';
 }
 ul, li{
 	text-decoration: none;
@@ -36,11 +39,12 @@ header{
 	font-weight: 700;
 }
 .title{
-	margin-top: 140px;
-	text-align: center;
 	color: #fefefe;
+	font-family: Rubik;
 	font-size: 100px;
+	text-align: center;
 	font-weight: 700;
+	margin-top: 120px;
 }
 .button_row{
 	padding-top: 130px;
@@ -49,6 +53,8 @@ header{
 	width: 286px;
 	height: 64px;
 	background-color: #fdd835;
+	background: rgb(253,216,53);
+	background: linear-gradient(0deg, rgba(253,216,53,1) 89%, rgba(255,255,255,1) 100%);
 	justify-content: space-between;
 	font-size: 12px;
 	color: #000;
@@ -60,6 +66,11 @@ header{
 }
 .title_project{
 	text-align: center;
+	color: #323232;
+	font-family: Rubik;
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
 }
 .title_project{
 	color: #000;
@@ -80,6 +91,7 @@ footer{
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
+	font-family: Rubik;
 }
 a{
 	color: 	#fff;
@@ -101,6 +113,12 @@ a:hover{
 	font-family: Rubik;
 	font-weight: 400;
 	line-height: 30px;
+}
+.we_media{
+	margin-bottom: 6px;
+}
+.right_link_title{
+	margin-bottom: 6px;
 }
 .mail{
 	text-decoration: underline;
@@ -125,23 +143,30 @@ a:hover{
 	border-radius: 50%;
 }
 .carousel-control-prev-icon{
-	background-image: url(../img/prev.png) !important;
-	-webkit-background-size: cover;
-	background-size: cover;
+	background-image: url(../img/arrow-point-to-right.svg) !important;
+	transform: rotate(180deg);
+	-webkit-background-size: 40%;
+	background-size: 40%;
+	background-position: center;
 	width: 50px;
 	height: 50px;
-	margin-left: -150px;
+	margin-left: -123px;
 	background-color: transparent;
 	position: absolute;
+	border-radius: 50%;
+	box-shadow: 0 0 25px rgba(50, 50, 50, 0.2);
 }
 
 .carousel-control-next-icon{
-	background-image: url(../img/next.png) !important;
-	-webkit-background-size: cover;
-	background-size: cover;
+	background-image: url(../img/arrow-point-to-right.svg) !important;
+	-webkit-background-size: 40%;
+	background-size: 40%;
+	background-position: center;
 	width: 50px;
 	height: 50px;
 	margin-left: 123px;
 	background-color: transparent;
 	position: absolute;
+	border-radius: 50%;
+	box-shadow: 0 0 25px rgba(50, 50, 50, 0.2);
 }
