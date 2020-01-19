@@ -168,16 +168,10 @@ $(document).ready(function(){
 });
 }
 
-
-
-
-
-
 	//------------------- Animation For CIRCLE
 	
 var mql = window.matchMedia('all and (max-width: 2000px)');
 if (mql.matches) {
-
 function circle(){
 	   $('.circle_1').circleProgress({
       value: 0.40,

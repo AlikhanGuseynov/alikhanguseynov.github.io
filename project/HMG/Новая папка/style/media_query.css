@@ -1,37 +1,4 @@
-@media only screen and (max-width: 1224px) {
-
-/*POPUP1*/
-.pop_up{
-	width: 800px;
-	height: 550px;
-	margin-top: -150px;
-	margin-left: 120px;
-
-}
-.pop_up_comntainer{
-	width: 700px;
-	margin-left: auto;
-	margin-right: auto;
-	padding-top: 60px;
-}
-p.pop_up_form_title{
-	margin-top: 0;
-}
-.pop_up form{
-	width: 700px;
-	/*margin-top: -100px;*/
-	align-items: center
-}
-.pop_up form button{
-	height: 45px;
-}
-.guest-slider-for button.slick-next{
-	float: right;
-	margin-top: -200px;
-	margin-right: 25px;
-}
-}
-@media only screen and (max-width: 1224px) {
+@media only screen and (max-width: 1024px) {
 .container{
 	width: 990px;
 	overflow: hidden;
@@ -162,7 +129,6 @@ p.pop_up_form_title{
 .title{
 	font-size: 25px;
 	line-height: 36px;
-	width: 500px;
 }
 .subtitle{
 	line-height: 18px;
@@ -185,7 +151,7 @@ img.home_img{
 	height: 50px;
 }
 p.home_subtitle{
-	width: 400px;
+	width: 450px;
 	margin-top: 30px;
 }
 nav ul{
@@ -368,7 +334,7 @@ img.seo_img{
 /*@media only screen and (max-width: 750px) {*/
 /*@media only screen and (max-width: 750px) {*/
 /*@media only screen and (max-width: 750px) {*/
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 750px) {
 .container{
 	width: 540px;
 	overflow: hidden;
@@ -698,9 +664,6 @@ img.seo_img{
 /*@media only screen and (max-width: 540px) {*/
 /*@media only screen and (max-width: 540px) {*/
 @media only screen and (max-width: 540px) {
-	.title{
-		margin-left: 30px;
-	}
 .container{
 	width: 460px;
 	overflow: hidden;
@@ -1046,10 +1009,6 @@ p.pop_up_form_subtitle{
 /*@media only screen and (max-width: 460px) {*/
 /*@media only screen and (max-width: 460px) {*/
 @media only screen and (max-width: 460px) {
-.home_pop_box{
-	width: 271px;
-	margin: 50px 36px;
-}
 .container{
 	width: 330px;
 	overflow: hidden;
@@ -1067,7 +1026,6 @@ section.d_none_750{
 .title{
 	font-size: 18px;
 	line-height: 26px;
-	margin-left: 0;
 }
 .subtitle{
 	line-height: 23px;
@@ -1194,7 +1152,7 @@ h2.guest_title{
 	margin-right: 0;	
 }
 .review_slide_logo img{
-	margin-top: -20px;
+	margin-top: 10px;
 	float: left;
 	width: 125px;
 	height: 58px;
@@ -1273,7 +1231,8 @@ p.partner_title{
 	width: 266px;
 	margin-left: auto;
 	margin-right: auto;
-	padding-bottom: 30px;-2}
+	padding-bottom: 30px;
+}
 .logos_box_item{
 	margin-top: 25px;
 }
@@ -1489,7 +1448,6 @@ p.pop_up_form_title{
 	.pop_up form{
 		width: 310px;
 	}
-
 }
 
 
