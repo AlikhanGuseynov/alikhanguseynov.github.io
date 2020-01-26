@@ -23,71 +23,103 @@ button{
 
 
 header{
-	background-image: url(../img/top_bg.png);
+	background-image: url(Фон.png);
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center;
-	padding-bottom: 140px;
+	padding-bottom: 100px;
 	background-repeat: no-repeat;
 }
 
 .logo{
-	padding-top: 60px;
-	text-align: center;
-	text-transform: uppercase;
-	font-size: 20px;
-	font-weight: 700;
+	color: #ffffff;
+font-family: "Rubik - Black";
+font-size: 20px;
+font-weight: 400;
+text-transform: uppercase;
+text-align: center;
 }
-.title{
-	color: #fefefe;
+.nav{
+	justify-content: space-between;
+	color: #ffffff;
 	font-family: Rubik;
-	font-size: 100px;
-	text-align: center;
+	font-size: 18px;
+	font-weight: 500;
+}
+h1{
+	color: #ffffff;
+	font-family: Rubik;
+	font-size: 50px;
 	font-weight: 700;
-	margin-top: 120px;
+	text-align: center;
+	margin-top: 60px;
 }
-.button_row{
-	padding-top: 130px;
+
+
+.call{
+	color: #323232;
+font-family: Rubik;
+font-size: 18px;
+font-weight: 700;
+width: 279px;
+height: 60px;
+background-color: #fdd835;
+border-radius: 5px;
+display: -webkit-flex;
+display: -moz-flex;
+display: -ms-flex;
+display: -o-flex;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 60px;
 }
-.btn{
-	width: 286px;
-	height: 64px;
-	background-color: #fdd835;
+
+
+
+.man_text{
+color: #323232;
+font-family: Rubik;
+font-size: 18px;
+font-weight: 500;
+line-height: 18px;
+}
+.f_title{
+color: #323232;
+font-family: Rubik;
+font-size: 24px;
+font-weight: 700;
+line-height: 18px;
+}
+.f_text{
+color: #323232;
+font-family: Rubik;
+font-size: 18px;
+font-weight: 500;
+line-height: 18px;
+}
+
+img.asd{
+	width: 100%;
+}
+
+.block{
+	width: 100%;
+	height: 220px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-size: 12px;
-	color: #000 !important;
-	text-transform: uppercase;
-	color: #323232;
-	font-family: Rubik;
-	font-size: 16px;
-	font-weight: 700;
-	border-radius: 5px;
 }
-.btn:hover{
-	box-shadow: 0 0 5px rgba(253, 216, 53, 0.6);
-	background-color: #fdd835;
+
+.main img{
+	width: 92%;
+
 }
-.title_project{
-	text-align: center;
-	color: #323232;
-	font-family: Rubik;
-	font-size: 30px;
-	font-weight: 700;
-	text-transform: uppercase;
-}
-.title_project{
-	color: #000;
-	font-size: 20px;
-	text-align: center;
-	margin-top: 5px;
-	padding-bottom: 60px;
-	color: #323232;
-	font-family: Rubik;
-	font-size: 30px;
-	font-weight: 700;
-}
+
 footer{
 	margin-top: 100px;
 	padding-top: 100px;
